@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IPO 투자 대시보드</title>
+  <meta name="description" content="공모주 일정, 예측, 결과 분석 대시보드" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+</head>
+<body>
+<div class="app">
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__logo">
+          <div class="header__logo-mark">IPO</div>
+          <span class="header__title">공모주 대시보드</span>
+        </div>
+        <span class="header__updated" id="lastUpdated">데이터 로딩 중...</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation Tabs -->
+  <nav class="tabs">
+    <button class="tab-btn active" data-tab="ipo">공모주 현황</button>
+    <button class="tab-btn" data-tab="predictions">예측</button>
+    <button class="tab-btn" data-tab="results">상장 결과</button>
+    <button class="tab-btn" data-tab="accuracy">정확도</button>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main">
+    <div class="container">
+
+      <!-- ===== Tab: 공모주 현황 ===== -->
+      <section class="tab-panel active" id="tab-ipo">
+
+        <!-- Stats -->
+        <div class="stats-grid" id="ipoStats">
+          <div class="stat-card">
+            <div class="stat-card__label">총 수집</div>
+            <div class="stat-card__value" id="stat-total">—</div>
+            <div class="stat-card__sub">DART 증권신고서 기준</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card__label">청약중</div>
+            <div class="stat-card__value" id="stat-subscribing">—</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card__label">청약 예정</div>
+            <div class="stat-card__value" id="stat-upcoming">—</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card__label">상장 예정</div>
+            <div class="stat-card__value" id="stat-listing">—</div>
+          </div>
+        </div>
+
+        <!-- IPO List Table -->
+        <div class="section">
+          <div class="section__header">
+            <h2 class="section__title">공모주 목록</h2>
+            <span class="section__count" id="ipoCount">0건</span>
+          </div>
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>기업명</th>
+                  <th>시장</th>
+                  <th>접수일</th>
+                  <th class="text-right">공모가(원)</th>
+                  <th>청약기간</th>
+                  <th>상장예정일</th>
+                  <th>상태</th>
+                </tr>
+              </thead>
+              <tbody id="ipoTableBody">
+                <tr>
+                  <td colspan="7">
+                    <div class="empty-state">
+                      <div class="empty-state__icon">📂</div>
+                      <div class="empty-state__text">데이터를 불러오는 중입니다...</div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Tab: 예측 ===== -->
+      <section class="tab-panel" id="tab-predictions">
+        <div class="section">
+          <div class="section__header">
+            <h2 class="section__title">Gemini AI 예측</h2>
+            <span class="section__count" id="predCount">0건</span>
+          </div>
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>기업명</th>
+                  <th class="text-right">예측 종가(원)</th>
+                  <th class="text-right">예측 고가(원)</th>
+                  <th class="text-right">예측 상승률</th>
+                  <th>신뢰도</th>
+                  <th>예측 근거</th>
+                  <th>예측일</th>
+                </tr>
+              </thead>
+              <tbody id="predTableBody">
+                <tr>
+                  <td colspan="7">
+                    <div class="empty-state">
+                      <div class="empty-state__icon">🤖</div>
+                      <div class="empty-state__text">아직 예측 데이터가 없습니다.</div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Tab: 상장 결과 ===== -->
+      <section class="tab-panel" id="tab-results">
+        <div class="section">
+          <div class="section__header">
+            <h2 class="section__title">실제 상장 결과</h2>
+            <span class="section__count" id="resultCount">0건</span>
+          </div>
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>기업명</th>
+                  <th>종목코드</th>
+                  <th>상장일</th>
+                  <th class="text-right">확정공모가</th>
+                  <th class="text-right">시가</th>
+                  <th class="text-right">고가</th>
+                  <th class="text-right">종가</th>
+                  <th class="text-right">수익률</th>
+                </tr>
+              </thead>
+              <tbody id="resultTableBody">
+                <tr>
+                  <td colspan="8">
+                    <div class="empty-state">
+                      <div class="empty-state__icon">📊</div>
+                      <div class="empty-state__text">아직 상장 결과 데이터가 없습니다.</div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Tab: 정확도 ===== -->
+      <section class="tab-panel" id="tab-accuracy">
+        <div class="section">
+          <div class="section__header">
+            <h2 class="section__title">예측 정확도 로그</h2>
+            <span class="section__count" id="accCount">0건</span>
+          </div>
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>날짜</th>
+                  <th class="text-right">총 예측</th>
+                  <th class="text-right">평가 완료</th>
+                  <th class="text-right">오차 10% 이내</th>
+                  <th class="text-right">오차 20% 이내</th>
+                  <th class="text-right">평균 오차율</th>
+                  <th class="text-right">정확도 점수</th>
+                </tr>
+              </thead>
+              <tbody id="accTableBody">
+                <tr>
+                  <td colspan="7">
+                    <div class="empty-state">
+                      <div class="empty-state__icon">🎯</div>
+                      <div class="empty-state__text">아직 정확도 데이터가 없습니다.</div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+    </div><!-- /container -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      데이터 출처: <a href="https://opendart.fss.or.kr" target="_blank" rel="noopener">DART OpenAPI</a>
+      &nbsp;·&nbsp;
+      주가: <a href="https://apiportal.koreainvestment.com" target="_blank" rel="noopener">한국투자증권 KIS</a>
+      &nbsp;·&nbsp;
+      AI 예측: Google Gemini
+    </div>
+  </footer>
+
+</div><!-- /app -->
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+# =============================================
+# IPO Investment Dashboard — .gitignore
+# =============================================
+
+# API 키 및 비밀값
+.env.local
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 가상환경
+.venv/
+venv/
+env/
+ENV/
+
+# 에디터
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 로그
+*.log
+logs/

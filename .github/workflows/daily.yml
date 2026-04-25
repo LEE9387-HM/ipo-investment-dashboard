@@ -1,0 +1,59 @@
+name: Daily IPO Data Collection
+
+on:
+  schedule:
+    # 매일 오전 8시 KST (전일 23:00 UTC)
+    - cron: "0 23 * * *"
+  workflow_dispatch: # 수동 실행 허용
+
+jobs:
+  collect-and-analyze:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run collect.py
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+        run: python scripts/collect.py
+
+      - name: Run analyze.py
+        env:
+          KIS_APP_KEY:    ${{ secrets.KIS_APP_KEY }}
+          KIS_APP_SECRET: ${{ secrets.KIS_APP_SECRET }}
+          KIS_ENVIRONMENT: real
+        run: python scripts/analyze.py
+
+      - name: Run predict.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/predict.py
+
+      - name: Run notify.py (daily)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/notify.py daily
+
+      - name: Commit and push data changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "chore(data): daily update $(date -u +'%Y-%m-%d')"
+          git push
