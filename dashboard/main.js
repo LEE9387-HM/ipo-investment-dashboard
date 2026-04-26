@@ -168,24 +168,67 @@ function confidenceLabel(conf) {
 }
 
 // ---------------------------------------------------------------------------
+// 렌더러 유틸
+// ---------------------------------------------------------------------------
+
+/**
+ * corp_code(있으면) 또는 corp_name 기준으로 중복 제거.
+ * 같은 회사의 여러 공시 중 rcept_dt가 가장 최근인 행을 남긴다.
+ * @param {Object[]} rows
+ * @returns {Object[]}
+ */
+function deduplicateRows(rows) {
+  const map = new Map();
+  for (const row of rows) {
+    const key = row.corp_code || row.corp_name;
+    const prev = map.get(key);
+    if (!prev || (row.rcept_dt || "") > (prev.rcept_dt || "")) {
+      map.set(key, row);
+    }
+  }
+  return Array.from(map.values());
+}
+
+/**
+ * IPO 정렬 키 생성.
+ * 그룹 순서: 청약중(0) → 청약예정(1) → 상장예정(2) → 청약종료(3) → 상장완료(4) → 기타(5)
+ * 그룹 0-2: listing_dt 오름차순 (가까운 날짜 우선)
+ * 그룹 4:   listing_dt 내림차순 (최근 상장 우선)
+ * @param {Object} r
+ * @returns {string}
+ */
+function ipoSortKey(r) {
+  const rank = {"청약중": 0, "청약예정": 1, "상장예정": 2, "청약종료": 3, "상장완료": 4}[r.status] ?? 5;
+  const lt = r.listing_dt || "99999999";
+  // 상장완료는 내림차순 → 날짜를 반전
+  const dateKey = rank === 4
+    ? String(99999999 - parseInt(lt, 10)).padStart(8, "0")
+    : lt;
+  return `${rank}${dateKey}`;
+}
+
+// ---------------------------------------------------------------------------
 // 렌더러
 // ---------------------------------------------------------------------------
 
 /** IPO 목록 탭 렌더링 */
 function renderIpoTable(rows) {
   const tbody = document.getElementById("ipoTableBody");
-  document.getElementById("ipoCount").textContent = `${rows.length}건`;
+
+  // 중복 제거 후 통계/정렬에 사용
+  const unique = deduplicateRows(rows);
+  document.getElementById("ipoCount").textContent = `${unique.length}건`;
 
   // Stats
-  document.getElementById("stat-total").textContent = rows.length;
+  document.getElementById("stat-total").textContent = unique.length;
   document.getElementById("stat-subscribing").textContent =
-    rows.filter(r => r.status === "청약중").length;
+    unique.filter(r => r.status === "청약중").length;
   document.getElementById("stat-upcoming").textContent =
-    rows.filter(r => r.status === "청약예정").length;
+    unique.filter(r => r.status === "청약예정").length;
   document.getElementById("stat-listing").textContent =
-    rows.filter(r => r.status === "상장예정").length;
+    unique.filter(r => r.status === "상장예정").length;
 
-  if (rows.length === 0) {
+  if (unique.length === 0) {
     tbody.innerHTML = `
       <tr><td colspan="7">
         <div class="empty-state">
@@ -197,9 +240,15 @@ function renderIpoTable(rows) {
     return;
   }
 
-  // 최신 순(접수일 내림차순) 정렬
-  const sorted = [...rows].sort((a, b) =>
-    (b.rcept_dt || "").localeCompare(a.rcept_dt || "")
+  // 상장 예정일 기준 스마트 정렬
+  const today = new Date().toISOString().slice(0, 10).replace(/-/g, ""); // YYYYMMDD
+  const in30  = (() => {
+    const d = new Date(); d.setDate(d.getDate() + 30);
+    return d.toISOString().slice(0, 10).replace(/-/g, "");
+  })();
+
+  const sorted = [...unique].sort((a, b) =>
+    ipoSortKey(a).localeCompare(ipoSortKey(b))
   );
 
   tbody.innerHTML = sorted.map(r => {
@@ -213,14 +262,19 @@ function renderIpoTable(rows) {
         ? `${formatDate(r.subscription_start_dt)} ~ ${formatDate(r.subscription_end_dt)}`
         : "—";
 
+    // 30일 이내 상장 예정 → 행 강조
+    const lt = r.listing_dt || "";
+    const isSoon = lt && lt >= today && lt <= in30;
+    const rowCls = isSoon ? ' style="background:rgba(99,179,237,0.06)"' : "";
+
     return `
-    <tr>
+    <tr${rowCls}>
       <td><strong>${r.corp_name || "—"}</strong></td>
       <td>${r.market || "—"}</td>
-      <td class="text-mono">${formatDate(r.rcept_dt)}</td>
+      <td class="text-mono">${formatDate(r.listing_dt)}</td>
       <td class="text-right text-mono">${price}</td>
       <td class="text-mono" style="font-size:0.75rem">${subPeriod}</td>
-      <td class="text-mono">${formatDate(r.listing_dt)}</td>
+      <td class="text-mono" style="font-size:0.75rem">${r.underwriter || "—"}</td>
       <td>${statusBadge(r.status)}</td>
     </tr>`;
   }).join("");

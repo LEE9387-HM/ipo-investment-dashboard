@@ -7,12 +7,19 @@ Usage:
 Required Environment Variables (.env.local):
     GEMINI_API_KEY: Google Gemini API 키
     발급: https://aistudio.google.com/apikey
+
+무료 티어 모델 (우선순위 순):
+    1. gemini-3-flash-preview  — 5 RPM / 20 RPD
+    2. gemini-2.5-flash        — 5 RPM / 20 RPD
+    3. gemini-2.5-flash-lite   — 10 RPM / 20 RPD
+    쿼터 초과 시 다음 모델로 자동 전환. 총 최대 42건/일.
 """
 
 import logging
 import os
 import sys
-from datetime import datetime
+import time
+from datetime import date, timedelta
 from pathlib import Path
 from typing import Optional
 
@@ -39,7 +46,14 @@ IPO_LIST_PATH = DATA_DIR / "ipo_list.csv"
 PREDICTIONS_PATH = DATA_DIR / "predictions.csv"
 
 GEMINI_API_KEY: str = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_MODEL = "gemini-2.0-flash"
+
+# (model_id, rpm_limit, max_per_run)
+# max_per_run = 14 → RPD 20에서 여유 버퍼 유지
+GEMINI_MODELS: list[tuple[str, int, int]] = [
+    ("gemini-3-flash-preview", 5,  14),
+    ("gemini-2.5-flash",       5,  14),
+    ("gemini-2.5-flash-lite",  10, 14),
+]
 
 # ---------------------------------------------------------------------------
 # 데이터 스키마
@@ -75,7 +89,8 @@ def init_gemini() -> bool:
         )
         return False
     _gemini_client = genai.Client(api_key=GEMINI_API_KEY)
-    logger.info("Gemini API 초기화 완료")
+    models_str = ", ".join(m[0] for m in GEMINI_MODELS)
+    logger.info(f"Gemini API 초기화 완료 (모델: {models_str})")
     return True
 
 
@@ -84,20 +99,11 @@ def init_gemini() -> bool:
 # ---------------------------------------------------------------------------
 
 def build_prediction_prompt(row: pd.Series) -> str:
-    """
-    공모주 정보를 기반으로 Gemini 예측 프롬프트를 생성합니다.
-
-    Args:
-        row: ipo_list DataFrame의 단일 행
-
-    Returns:
-        Gemini에 전달할 프롬프트 문자열
-    """
-    corp_name = row.get("corp_name", "")
-    price_low = row.get("offering_price_low", "N/A")
+    corp_name  = row.get("corp_name", "")
+    price_low  = row.get("offering_price_low", "N/A")
     price_high = row.get("offering_price_high", "N/A")
     price_final = row.get("offering_price_final", "N/A")
-    market = row.get("market", "N/A")
+    market     = row.get("market", "N/A")
     underwriter = row.get("underwriter", "N/A")
     listing_dt = row.get("listing_dt", "N/A")
     total_amount = row.get("total_amount", "N/A")
@@ -130,15 +136,6 @@ REASONING: [예측 근거를 2-3문장으로 요약, 한국어]
 
 
 def parse_gemini_response(text: str) -> dict:
-    """
-    Gemini 응답 텍스트를 파싱합니다.
-
-    Args:
-        text: Gemini 응답 문자열
-
-    Returns:
-        파싱된 예측 결과 dict
-    """
     result: dict = {
         "predicted_first_day_close": "",
         "predicted_first_day_high": "",
@@ -146,7 +143,6 @@ def parse_gemini_response(text: str) -> dict:
         "confidence": "",
         "reasoning": "",
     }
-
     for line in text.strip().splitlines():
         line = line.strip()
         if line.startswith("PREDICTED_CLOSE:"):
@@ -156,53 +152,55 @@ def parse_gemini_response(text: str) -> dict:
             val = line.split(":", 1)[1].strip().replace(",", "").replace("원", "")
             result["predicted_first_day_high"] = val
         elif line.startswith("UPSIDE_PCT:"):
-            val = line.split(":", 1)[1].strip().replace("%", "")
-            result["upside_pct"] = val
+            result["upside_pct"] = line.split(":", 1)[1].strip().replace("%", "")
         elif line.startswith("CONFIDENCE:"):
             result["confidence"] = line.split(":", 1)[1].strip()
         elif line.startswith("REASONING:"):
             result["reasoning"] = line.split(":", 1)[1].strip()
-
     return result
 
 
 # ---------------------------------------------------------------------------
-# 예측 실행
+# 예측 실행 (단일 모델)
 # ---------------------------------------------------------------------------
 
-def predict_ipo(row: pd.Series, client: genai.Client) -> Optional[dict]:
+def predict_ipo(row: pd.Series, model_id: str) -> Optional[dict]:
     """
-    단일 공모주에 대해 Gemini 예측을 실행합니다.
-
-    Args:
-        row:    ipo_list DataFrame의 단일 행
-        client: Gemini 클라이언트 인스턴스
-
-    Returns:
-        예측 결과 dict 또는 None (실패 시)
+    단일 모델로 IPO 예측을 실행합니다.
+    쿼터 초과(429/RESOURCE_EXHAUSTED) 시 예외를 re-raise하여
+    호출자가 다음 모델로 전환하도록 합니다.
     """
     prompt = build_prediction_prompt(row)
     try:
-        response = client.models.generate_content(model=GEMINI_MODEL, contents=prompt)
+        response = _gemini_client.models.generate_content(model=model_id, contents=prompt)
         parsed = parse_gemini_response(response.text)
-        parsed["rcept_no"] = str(row.get("rcept_no", ""))
-        parsed["corp_name"] = str(row.get("corp_name", ""))
-        parsed["predicted_at"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        parsed["rcept_no"]     = str(row.get("rcept_no", ""))
+        parsed["corp_name"]    = str(row.get("corp_name", ""))
+        parsed["predicted_at"] = date.today().strftime("%Y-%m-%d %H:%M:%S")
         logger.info(
-            f"{row.get('corp_name')} 예측 완료: "
+            f"[{model_id}] {row.get('corp_name')} 예측 완료: "
             f"종가 {parsed.get('predicted_first_day_close')}원, "
             f"상승률 {parsed.get('upside_pct')}%"
         )
         return parsed
     except Exception as exc:
-        logger.error(f"{row.get('corp_name')} 예측 실패: {exc}")
+        err = str(exc)
+        if "429" in err or "RESOURCE_EXHAUSTED" in err or "quota" in err.lower():
+            raise  # 호출자가 모델 전환 처리
+        logger.error(f"[{model_id}] {row.get('corp_name')} 예측 실패: {exc}")
         return None
 
 
+# ---------------------------------------------------------------------------
+# 예측 실행 (멀티 모델 폴백)
+# ---------------------------------------------------------------------------
+
 def run_predictions(ipo_df: pd.DataFrame) -> pd.DataFrame:
     """
-    예측 대상 IPO 목록에 대해 Gemini 예측을 실행합니다.
-    이미 예측된 항목(rcept_no 기준)은 건너뜁니다.
+    무료 티어 모델을 순서대로 사용하여 예측을 실행합니다.
+    - 모델별 최대 14건/일 (RPD 20 한도에서 버퍼 유지)
+    - 쿼터 초과 시 다음 우선순위 모델로 자동 전환
+    - 상장 예정일이 가까운 항목을 우선 예측
     """
     if PREDICTIONS_PATH.exists():
         pred_df = pd.read_csv(PREDICTIONS_PATH, dtype=str)
@@ -211,34 +209,66 @@ def run_predictions(ipo_df: pd.DataFrame) -> pd.DataFrame:
 
     existing_rcept_nos = set(pred_df["rcept_no"].tolist())
 
-    # 예측 대상: 청약예정 또는 청약중이면서 공모가 정보가 있는 항목
     targets = ipo_df[
         (ipo_df["status"].isin(["청약예정", "청약중", "상장예정"]))
         & (~ipo_df["rcept_no"].isin(existing_rcept_nos))
         & (
-            ipo_df["offering_price_final"].notna()
-            | ipo_df["offering_price_high"].notna()
+            ipo_df["offering_price_final"].notna() & (ipo_df["offering_price_final"] != "")
+            | ipo_df["offering_price_high"].notna() & (ipo_df["offering_price_high"] != "")
         )
-    ]
+    ].copy()
 
     if targets.empty:
         logger.info("예측 대상 신규 항목이 없습니다.")
         return pred_df
 
-    logger.info(f"예측 대상: {len(targets)}건")
+    # 상장 예정일이 가까운 순 정렬 (없으면 맨 뒤)
+    today_str = date.today().strftime("%Y%m%d")
+    targets["_sort_key"] = targets["listing_dt"].apply(
+        lambda x: x if x and x >= today_str else "99999999"
+    )
+    targets = targets.sort_values("_sort_key").drop(columns=["_sort_key"])
+
+    logger.info(f"예측 대상: {len(targets)}건 (모델별 최대 {GEMINI_MODELS[0][2]}건)")
 
     new_predictions: list[dict] = []
+    counts = [0] * len(GEMINI_MODELS)  # 모델별 이번 실행 카운트
 
     for _, row in targets.iterrows():
-        result = predict_ipo(row, _gemini_client)
-        if result:
-            new_predictions.append(result)
+        # 사용 가능한 모델 찾기
+        model_idx = next(
+            (i for i, (_, _, mx) in enumerate(GEMINI_MODELS) if counts[i] < mx),
+            None
+        )
+        if model_idx is None:
+            total = sum(counts)
+            logger.info(f"모든 모델 1일 할당량 소진 - 중단 (완료 {total}건, 잔여 {len(targets) - total}건은 내일 처리)")
+            break
+
+        model_id, rpm, _ = GEMINI_MODELS[model_idx]
+        # RPM 제한: 분당 요청수에 맞춰 딜레이 (여유 2초 추가)
+        sleep_sec = 60.0 / rpm + 2
+        time.sleep(sleep_sec)
+
+        try:
+            result = predict_ipo(row, model_id)
+            if result:
+                new_predictions.append(result)
+                counts[model_idx] += 1
+        except Exception:
+            # 쿼터 초과 → 이 모델은 더 이상 사용 불가로 처리
+            logger.warning(f"[{model_id}] 쿼터 소진 - 다음 모델로 전환")
+            counts[model_idx] = GEMINI_MODELS[model_idx][2]  # 한도로 표시
 
     if new_predictions:
         new_df = pd.DataFrame(new_predictions, columns=PREDICTIONS_COLUMNS)
         pred_df = pd.concat([pred_df, new_df], ignore_index=True)
         pred_df.to_csv(PREDICTIONS_PATH, index=False, encoding="utf-8-sig")
-        logger.info(f"predictions.csv 저장: 총 {len(pred_df)}건 (신규 {len(new_df)}건)")
+        model_summary = ", ".join(
+            f"{GEMINI_MODELS[i][0].split('-')[1]}:{counts[i]}건"
+            for i in range(len(GEMINI_MODELS)) if counts[i] > 0
+        )
+        logger.info(f"predictions.csv 저장: 총 {len(pred_df)}건 (신규 {len(new_df)}건 [{model_summary}])")
 
     return pred_df
 
