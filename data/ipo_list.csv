@@ -1,1 +1,1 @@
-corp_code,corp_name,stock_code,rcept_no,rcept_dt,report_nm,market,subscription_start_dt,subscription_end_dt,listing_dt,offering_price_low,offering_price_high,offering_price_final,total_shares,total_amount,underwriter,status,updated_at
+﻿corp_code,corp_name,stock_code,rcept_no,rcept_dt,report_nm,market,subscription_start_dt,subscription_end_dt,listing_dt,offering_price_low,offering_price_high,offering_price_final,total_shares,total_amount,underwriter,status,updated_at

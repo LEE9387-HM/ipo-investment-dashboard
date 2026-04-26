@@ -47,9 +47,8 @@ IPO_LIST_PATH = DATA_DIR / "ipo_list.csv"
 DART_BASE_URL = "https://opendart.fss.or.kr/api"
 DART_API_KEY: str = os.environ.get("DART_API_KEY", "")
 
-# 발행공시(A) 중 증권신고서(지분증권) = A003
-DISCLOSURE_TYPE = "A"
-DISCLOSURE_DETAIL_TYPE = "A003"
+# 증권신고서(지분증권) 키워드 필터 (pblntf_ty 파라미터 미지원으로 report_nm 필터링 방식 사용)
+IPO_REPORT_KEYWORDS = ["증권신고서(지분증권)", "[기재정정]증권신고서(지분증권)"]
 
 # ---------------------------------------------------------------------------
 # 데이터 스키마 정의
@@ -109,6 +108,7 @@ def fetch_disclosure_list(
 ) -> dict:
     """
     DART 공시 목록 API를 호출합니다.
+    pblntf_ty 파라미터는 DART API에서 지원하지 않아 전체 조회 후 report_nm으로 필터링합니다.
 
     Args:
         start_dt:   조회 시작일 (YYYYMMDD)
@@ -122,8 +122,6 @@ def fetch_disclosure_list(
     url = f"{DART_BASE_URL}/list.json"
     params: dict = {
         "crtfc_key": DART_API_KEY,
-        "pblntf_ty": DISCLOSURE_TYPE,
-        "pblntf_detail_ty": DISCLOSURE_DETAIL_TYPE,
         "bgn_de": start_dt,
         "end_de": end_dt,
         "page_no": page_no,
@@ -158,6 +156,10 @@ def parse_disclosure_list(data: dict) -> list[dict]:
     results: list[dict] = []
 
     for item in data.get("list", []):
+        # 증권신고서(지분증권) 관련 항목만 필터링
+        report_nm = item.get("report_nm", "")
+        if not any(kw in report_nm for kw in IPO_REPORT_KEYWORDS):
+            continue
         results.append(
             {
                 "corp_code": item.get("corp_code", ""),
@@ -245,9 +247,37 @@ def save_ipo_list(df: pd.DataFrame) -> None:
 # ---------------------------------------------------------------------------
 
 
+def collect_period(start_dt: str, end_dt: str) -> list[dict]:
+    """단일 기간(최대 88일)의 공시를 페이지네이션으로 수집합니다."""
+    all_items: list[dict] = []
+    page_no = 1
+    total_count = None
+
+    while True:
+        data = fetch_disclosure_list(start_dt, end_dt, page_no=page_no)
+
+        if data.get("status") != "000":
+            logger.warning(f"DART API 오류: {data.get('status')} {data.get('message')}")
+            break
+
+        if total_count is None:
+            total_count = int(data.get("total_count", 0))
+            logger.info(f"  기간 전체 공시: {total_count}건")
+
+        items = parse_disclosure_list(data)
+        all_items.extend(items)
+
+        if page_no * 100 >= total_count:
+            break
+        page_no += 1
+
+    return all_items
+
+
 def collect_recent_ipos(days_back: int = 180) -> list[dict]:
     """
     최근 N일간의 증권신고서(지분증권) 공시를 수집합니다.
+    DART API 90일 제한으로 인해 88일 단위로 분할 조회합니다.
 
     Args:
         days_back: 조회 시작 기준일 (오늘로부터 N일 전)
@@ -255,31 +285,21 @@ def collect_recent_ipos(days_back: int = 180) -> list[dict]:
     Returns:
         수집된 공모주 기본 정보 목록
     """
-    end_dt = datetime.now().strftime("%Y%m%d")
-    start_dt = (datetime.now() - timedelta(days=days_back)).strftime("%Y%m%d")
-
+    MAX_DAYS = 88
     all_items: list[dict] = []
-    page_no = 1
+    today = datetime.now()
+    cutoff = today - timedelta(days=days_back)
+    chunk_end = today
 
-    while True:
-        data = fetch_disclosure_list(start_dt, end_dt, page_no=page_no)
-        items = parse_disclosure_list(data)
-
-        if not items:
-            # 첫 페이지에서 빈 결과면 종료, 이후 페이지는 정상 종료로 간주
-            if page_no == 1:
-                logger.warning("수집된 항목이 없습니다. API 응답을 확인하세요.")
-            break
-
+    while chunk_end > cutoff:
+        chunk_start = max(chunk_end - timedelta(days=MAX_DAYS), cutoff)
+        start_str = chunk_start.strftime("%Y%m%d")
+        end_str = chunk_end.strftime("%Y%m%d")
+        logger.info(f"구간 조회: {start_str} ~ {end_str}")
+        items = collect_period(start_str, end_str)
         all_items.extend(items)
-
-        total_count = int(data.get("total_count", 0))
-        logger.info(f"수집 진행: {len(all_items)} / {total_count}건")
-
-        if len(all_items) >= total_count:
-            break
-
-        page_no += 1
+        logger.info(f"  IPO 수집: {len(items)}건 (누적: {len(all_items)}건)")
+        chunk_end = chunk_start - timedelta(days=1)
 
     logger.info(f"총 {len(all_items)}건 수집 완료")
     return all_items
