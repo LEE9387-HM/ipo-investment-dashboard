@@ -262,6 +262,16 @@ def ipo_card(row: pd.Series, pred_df: pd.DataFrame) -> str:
         if pts:
             lines.append(f"  📉 {pts[0]}")
 
+    # 커뮤니티 감성 최신 헤드라인 (1건)
+    community_news = detail.get("community_news", []) or []
+    if community_news:
+        top = community_news[0]
+        title = top.get("title", "").replace("<b>", "").replace("</b>", "")
+        source = top.get("source", "")
+        if title:
+            src_tag = f"[{source}] " if source else ""
+            lines.append(f"  💬 {src_tag}{title[:60]}{'…' if len(title) > 60 else ''}")
+
     reason_str = " · ".join(reasons) if reasons else "판단 근거 부족"
     lines.append(f"판단: {verdict}  <i>({reason_str})</i>")
 

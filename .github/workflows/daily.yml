@@ -41,7 +41,9 @@ jobs:
 
       - name: Run details.py
         env:
-          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+          DART_API_KEY:          ${{ secrets.DART_API_KEY }}
+          NAVER_CLIENT_ID:       ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET:   ${{ secrets.NAVER_CLIENT_SECRET }}
         run: python scripts/details.py
 
       - name: Run predict.py

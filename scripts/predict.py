@@ -208,6 +208,23 @@ def _uw_context_line(underwriter: str, uw_stats: dict) -> str:
     return "- 주관사 과거 실적: 집계 데이터 없음"
 
 
+def _community_sentiment_section(detail: dict) -> str:
+    """커뮤니티/블로그 뉴스 헤드라인을 프롬프트 섹션으로 변환합니다."""
+    items = detail.get("community_news", []) or []
+    if not items:
+        return ""
+    lines = ["## 커뮤니티·블로그 반응 (최신 순)"]
+    for item in items[:6]:
+        title = item.get("title", "").replace("<b>", "").replace("</b>", "")
+        source = item.get("source", "")
+        desc = item.get("description", "").replace("<b>", "").replace("</b>", "")
+        snippet = f"[{source}] {title}"
+        if desc:
+            snippet += f" — {desc[:80]}"
+        lines.append(f"- {snippet}")
+    return "\n".join(lines)
+
+
 def build_prediction_prompt(
     row: pd.Series,
     detail: dict,
@@ -242,9 +259,10 @@ def build_prediction_prompt(
         demand_lines.append(f"- 사업 개요: {business_summary[:200]}")
     demand_section = "\n".join(demand_lines) if demand_lines else "- 수요예측 상세 정보 미수집"
 
-    uw_line      = _uw_context_line(underwriter, uw_stats)
-    market_line  = f"- 시장 환경: {market_ctx}" if market_ctx else ""
-    context_section = "\n".join(filter(None, [market_line, uw_line])) or "- 컨텍스트 데이터 없음"
+    uw_line          = _uw_context_line(underwriter, uw_stats)
+    market_line      = f"- 시장 환경: {market_ctx}" if market_ctx else ""
+    context_section  = "\n".join(filter(None, [market_line, uw_line])) or "- 컨텍스트 데이터 없음"
+    community_section = _community_sentiment_section(detail)
 
     return f"""당신은 한국 공모주 전문 애널리스트입니다.
 다음 공모주의 상장일(첫 거래일) 주가를 분석하고 예측하세요.
@@ -264,7 +282,7 @@ def build_prediction_prompt(
 ## 시장·주관사 컨텍스트
 {context_section}
 
-## 분석 지시
+{community_section + chr(10) if community_section else ""}## 분석 지시
 Bull Case(청약 근거)와 Bear Case(보류 근거)를 각각 도출한 뒤 종합 판단하세요.
 
 반드시 아래 JSON 형식으로만 응답하세요 (코드블록·추가 텍스트 없이):

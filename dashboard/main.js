@@ -285,23 +285,21 @@ function renderIpoTable(rows) {
         ? `${formatDate(r.subscription_start_dt)} ~ ${formatDate(r.subscription_end_dt)}`
         : "—";
 
-    // 30일 이내 상장 예정 → 행 강조
     const lt = r.listing_dt || "";
     const isSoon = lt && lt >= today && lt <= in30;
-    const bgStyle = isSoon ? "background:rgba(99,179,237,0.06)" : "";
+    const bgStyle = isSoon ? "background:rgba(0,82,255,0.04)" : "";
 
-    // 행 데이터를 JSON으로 직렬화해 onclick에 전달
     const rowJson = JSON.stringify(r).replace(/"/g, "&quot;");
 
     return `
     <tr class="clickable" style="${bgStyle}" onclick="openDetail(JSON.parse(this.dataset.row))" data-row="${rowJson}">
       <td><strong>${r.corp_name || "—"}</strong></td>
-      <td>${r.market || "—"}</td>
-      <td class="text-mono">${formatDate(r.listing_dt)}</td>
-      <td class="text-right text-mono">${price}</td>
-      <td class="text-mono" style="font-size:0.75rem">${subPeriod}</td>
-      <td class="text-mono" style="font-size:0.75rem">${r.underwriter || "—"}</td>
-      <td>${statusBadge(computeStatus(r))}</td>
+      <td data-label="시장">${r.market || "—"}</td>
+      <td data-label="상장예정일" class="text-mono">${formatDate(r.listing_dt)}</td>
+      <td data-label="공모가" class="text-right text-mono">${price}</td>
+      <td data-label="청약기간" class="text-mono" style="font-size:0.75rem">${subPeriod}</td>
+      <td data-label="주관사" class="text-mono" style="font-size:0.75rem">${r.underwriter || "—"}</td>
+      <td data-label="상태">${statusBadge(computeStatus(r))}</td>
     </tr>`;
   }).join("");
 }
@@ -329,12 +327,12 @@ function renderPredTable(rows) {
     return `
     <tr>
       <td><strong>${r.corp_name || "—"}</strong></td>
-      <td class="text-right text-mono">${formatNumber(r.predicted_first_day_close)}</td>
-      <td class="text-right text-mono">${formatNumber(r.predicted_first_day_high)}</td>
-      <td class="text-right"><span class="${cls}">${upside}</span></td>
-      <td>${confidenceLabel(r.confidence)}</td>
-      <td style="max-width:300px;font-size:0.75rem;color:var(--color-text-secondary)">${r.reasoning || "—"}</td>
-      <td class="text-mono" style="font-size:0.75rem">${r.predicted_at || "—"}</td>
+      <td data-label="예측종가" class="text-right text-mono">${formatNumber(r.predicted_first_day_close)}</td>
+      <td data-label="예측고가" class="text-right text-mono">${formatNumber(r.predicted_first_day_high)}</td>
+      <td data-label="상승률" class="text-right"><span class="${cls}">${upside}</span></td>
+      <td data-label="신뢰도">${confidenceLabel(r.confidence)}</td>
+      <td data-label="근거" style="max-width:300px;font-size:0.75rem;color:var(--color-text-secondary)">${r.reasoning || "—"}</td>
+      <td data-label="예측일" class="text-mono" style="font-size:0.75rem">${r.predicted_at || "—"}</td>
     </tr>`;
   }).join("");
 }
@@ -371,13 +369,13 @@ function renderResultTable(rows) {
     return `
     <tr>
       <td><strong>${r.corp_name || "—"}</strong></td>
-      <td class="text-mono">${r.stock_code || "—"}</td>
-      <td class="text-mono">${formatDate(r.listing_dt)}</td>
-      <td class="text-right text-mono">${formatNumber(r.offering_price_final)}</td>
-      <td class="text-right text-mono">${formatNumber(r.first_day_open)}</td>
-      <td class="text-right text-mono">${formatNumber(r.first_day_high)}</td>
-      <td class="text-right text-mono">${formatNumber(r.first_day_close)}</td>
-      <td class="text-right"><span class="${cls}">${chg}</span></td>
+      <td data-label="종목코드" class="text-mono">${r.stock_code || "—"}</td>
+      <td data-label="상장일" class="text-mono">${formatDate(r.listing_dt)}</td>
+      <td data-label="공모가" class="text-right text-mono">${formatNumber(r.offering_price_final)}</td>
+      <td data-label="시가" class="text-right text-mono">${formatNumber(r.first_day_open)}</td>
+      <td data-label="고가" class="text-right text-mono">${formatNumber(r.first_day_high)}</td>
+      <td data-label="종가" class="text-right text-mono">${formatNumber(r.first_day_close)}</td>
+      <td data-label="수익률" class="text-right"><span class="${cls}">${chg}</span></td>
     </tr>`;
   }).join("");
 }
@@ -407,13 +405,13 @@ function renderAccTable(rows) {
     const scoreCls = isNaN(score) ? "" : score >= 80 ? "change--up" : score >= 60 ? "" : "change--down";
     return `
     <tr>
-      <td class="text-mono">${r.log_dt || "—"}</td>
-      <td class="text-right">${r.total_predictions || "—"}</td>
-      <td class="text-right">${r.evaluated || "—"}</td>
-      <td class="text-right">${r.within_10pct || "—"}</td>
-      <td class="text-right">${r.within_20pct || "—"}</td>
-      <td class="text-right text-mono">${r.mean_error_pct ? r.mean_error_pct + "%" : "—"}</td>
-      <td class="text-right"><span class="change ${scoreCls}">${r.accuracy_score ? r.accuracy_score + "/100" : "—"}</span></td>
+      <td class="text-mono"><strong>${r.log_dt || "—"}</strong></td>
+      <td data-label="총예측" class="text-right">${r.total_predictions || "—"}</td>
+      <td data-label="평가완료" class="text-right">${r.evaluated || "—"}</td>
+      <td data-label="10%이내" class="text-right">${r.within_10pct || "—"}</td>
+      <td data-label="20%이내" class="text-right">${r.within_20pct || "—"}</td>
+      <td data-label="평균오차" class="text-right text-mono">${r.mean_error_pct ? r.mean_error_pct + "%" : "—"}</td>
+      <td data-label="정확도" class="text-right"><span class="change ${scoreCls}">${r.accuracy_score ? r.accuracy_score + "/100" : "—"}</span></td>
     </tr>`;
   }).join("");
 }
@@ -529,14 +527,14 @@ async function openDetail(row) {
     if (resp.ok) {
       const d = await resp.json();
       fillForecastTab(d);
-      fillNewsTab(d.news || []);
+      fillNewsTab(d.news || [], d.community_news || []);
     } else {
       fillForecastTab(null, rcept_no);
-      fillNewsTab([]);
+      fillNewsTab([], []);
     }
   } catch (_) {
     fillForecastTab(null, rcept_no);
-    fillNewsTab([]);
+    fillNewsTab([], []);
   }
 }
 
@@ -570,17 +568,41 @@ function fillForecastTab(d, rcept_no = "") {
     : "";
 }
 
-function fillNewsTab(news) {
+function fillNewsTab(news, communityNews) {
   const el = document.getElementById("detailNews");
-  if (!news || news.length === 0) {
-    el.innerHTML = `<li style="color:var(--color-text-muted);font-size:var(--text-sm)">관련 뉴스가 없습니다.</li>`;
-    return;
+  let html = "";
+
+  if (communityNews && communityNews.length > 0) {
+    html += `<p class="community-section-title">커뮤니티 · 블로그</p>`;
+    html += communityNews.map(n => {
+      const date = n.pubDate ? new Date(n.pubDate).toLocaleDateString("ko-KR") : "";
+      const source = n.source || "";
+      const desc = n.description ? `<div class="news-desc">${n.description.replace(/<[^>]+>/g, "")}</div>` : "";
+      return `<li>
+        ${source ? `<span class="news-source">${source}</span>` : ""}
+        <a href="${n.link}" target="_blank" rel="noopener noreferrer">${n.title.replace(/<[^>]+>/g, "")}</a>
+        ${desc}
+        <span class="news-date">${date}</span>
+      </li>`;
+    }).join("");
   }
-  el.innerHTML = news.map(n => `
-    <li>
-      <a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>
-      <span class="news-date">${n.pubDate ? new Date(n.pubDate).toLocaleDateString("ko-KR") : ""}</span>
-    </li>`).join("");
+
+  if (news && news.length > 0) {
+    if (communityNews && communityNews.length > 0) {
+      html += `<p class="community-section-title" style="margin-top:var(--space-6)">언론 뉴스</p>`;
+    }
+    html += news.map(n => `
+      <li>
+        <a href="${n.link}" target="_blank" rel="noopener noreferrer">${n.title}</a>
+        <span class="news-date">${n.pubDate ? new Date(n.pubDate).toLocaleDateString("ko-KR") : ""}</span>
+      </li>`).join("");
+  }
+
+  if (!html) {
+    html = `<li style="color:var(--color-text-muted);font-size:var(--text-sm)">관련 뉴스가 없습니다.</li>`;
+  }
+
+  el.innerHTML = html;
 }
 
 function closeDetail() {

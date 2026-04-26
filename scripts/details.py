@@ -54,6 +54,10 @@ DART_API_KEY: str = os.environ.get("DART_API_KEY", "")
 DART_BASE_URL = "https://opendart.fss.or.kr/api"
 API_DELAY = 0.5
 
+NAVER_CLIENT_ID: str     = os.environ.get("NAVER_CLIENT_ID", "")
+NAVER_CLIENT_SECRET: str = os.environ.get("NAVER_CLIENT_SECRET", "")
+NAVER_SEARCH_BASE = "https://openapi.naver.com/v1/search"
+
 
 # ---------------------------------------------------------------------------
 # DART document 다운로드 (collect.py와 동일 로직)
@@ -203,6 +207,75 @@ def fetch_news(corp_name: str) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
+# 네이버 커뮤니티 뉴스 수집 (뉴스 + 블로그)
+# ---------------------------------------------------------------------------
+
+def fetch_community_news(corp_name: str) -> list[dict]:
+    """
+    네이버 검색 API로 뉴스·블로그 게시물을 수집합니다.
+    NAVER_CLIENT_ID / NAVER_CLIENT_SECRET 환경변수가 없으면 빈 리스트 반환.
+    """
+    if not NAVER_CLIENT_ID or not NAVER_CLIENT_SECRET:
+        return []
+
+    headers = {
+        "X-Naver-Client-Id":     NAVER_CLIENT_ID,
+        "X-Naver-Client-Secret": NAVER_CLIENT_SECRET,
+    }
+    items: list[dict] = []
+
+    # 뉴스 검색 (최대 5건)
+    try:
+        query = f"{corp_name} 공모주"
+        resp = requests.get(
+            f"{NAVER_SEARCH_BASE}/news.json",
+            headers=headers,
+            params={"query": query, "display": 5, "sort": "date"},
+            timeout=10,
+        )
+        if resp.status_code == 200:
+            for item in resp.json().get("items", []):
+                items.append({
+                    "title":       item.get("title", ""),
+                    "link":        item.get("originallink") or item.get("link", ""),
+                    "description": item.get("description", ""),
+                    "pubDate":     item.get("pubDate", ""),
+                    "source":      "뉴스",
+                })
+        else:
+            logger.debug(f"네이버 뉴스 실패 ({resp.status_code}): {corp_name}")
+    except Exception as exc:
+        logger.debug(f"네이버 뉴스 오류 ({corp_name}): {exc}")
+
+    time.sleep(0.2)
+
+    # 블로그 검색 (최대 3건)
+    try:
+        query_blog = f"{corp_name} 공모주 청약"
+        resp = requests.get(
+            f"{NAVER_SEARCH_BASE}/blog.json",
+            headers=headers,
+            params={"query": query_blog, "display": 3, "sort": "date"},
+            timeout=10,
+        )
+        if resp.status_code == 200:
+            for item in resp.json().get("items", []):
+                items.append({
+                    "title":       item.get("title", ""),
+                    "link":        item.get("link", ""),
+                    "description": item.get("description", ""),
+                    "pubDate":     item.get("postdate", ""),
+                    "source":      "블로그",
+                })
+        else:
+            logger.debug(f"네이버 블로그 실패 ({resp.status_code}): {corp_name}")
+    except Exception as exc:
+        logger.debug(f"네이버 블로그 오류 ({corp_name}): {exc}")
+
+    return items
+
+
+# ---------------------------------------------------------------------------
 # DART 공시 링크 생성
 # ---------------------------------------------------------------------------
 
@@ -242,7 +315,8 @@ def build_detail(row: pd.Series) -> Optional[dict]:
         "demand_forecast_period": "",
         "business_summary":       "",
         # 뉴스
-        "news":      [],
+        "news":           [],
+        "community_news": [],
         "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
     }
 
@@ -262,10 +336,16 @@ def build_detail(row: pd.Series) -> Optional[dict]:
     else:
         logger.warning(f"  {corp_name} 문서 없음")
 
-    # 뉴스
+    # 구글 뉴스
     detail["news"] = fetch_news(corp_name)
     time.sleep(0.3)
     logger.info(f"  뉴스 {len(detail['news'])}건")
+
+    # 네이버 커뮤니티 뉴스·블로그
+    detail["community_news"] = fetch_community_news(corp_name)
+    if detail["community_news"]:
+        logger.info(f"  커뮤니티 {len(detail['community_news'])}건")
+    time.sleep(0.3)
 
     return detail
 
