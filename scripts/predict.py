@@ -16,7 +16,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Optional
 
-import google.generativeai as genai
+from google import genai
 import pandas as pd
 from dotenv import load_dotenv
 
@@ -61,8 +61,12 @@ PREDICTIONS_COLUMNS: list[str] = [
 # Gemini API 초기화
 # ---------------------------------------------------------------------------
 
+_gemini_client: Optional[genai.Client] = None
+
+
 def init_gemini() -> bool:
     """Gemini API를 초기화합니다."""
+    global _gemini_client
     if not GEMINI_API_KEY:
         logger.error(
             "GEMINI_API_KEY가 설정되지 않았습니다.\n"
@@ -70,7 +74,7 @@ def init_gemini() -> bool:
             "  발급: https://aistudio.google.com/apikey"
         )
         return False
-    genai.configure(api_key=GEMINI_API_KEY)
+    _gemini_client = genai.Client(api_key=GEMINI_API_KEY)
     logger.info("Gemini API 초기화 완료")
     return True
 
@@ -166,20 +170,20 @@ def parse_gemini_response(text: str) -> dict:
 # 예측 실행
 # ---------------------------------------------------------------------------
 
-def predict_ipo(row: pd.Series, model: genai.GenerativeModel) -> Optional[dict]:
+def predict_ipo(row: pd.Series, client: genai.Client) -> Optional[dict]:
     """
     단일 공모주에 대해 Gemini 예측을 실행합니다.
 
     Args:
-        row:   ipo_list DataFrame의 단일 행
-        model: Gemini 모델 인스턴스
+        row:    ipo_list DataFrame의 단일 행
+        client: Gemini 클라이언트 인스턴스
 
     Returns:
         예측 결과 dict 또는 None (실패 시)
     """
     prompt = build_prediction_prompt(row)
     try:
-        response = model.generate_content(prompt)
+        response = client.models.generate_content(model=GEMINI_MODEL, contents=prompt)
         parsed = parse_gemini_response(response.text)
         parsed["rcept_no"] = str(row.get("rcept_no", ""))
         parsed["corp_name"] = str(row.get("corp_name", ""))
@@ -223,11 +227,10 @@ def run_predictions(ipo_df: pd.DataFrame) -> pd.DataFrame:
 
     logger.info(f"예측 대상: {len(targets)}건")
 
-    model = genai.GenerativeModel(GEMINI_MODEL)
     new_predictions: list[dict] = []
 
     for _, row in targets.iterrows():
-        result = predict_ipo(row, model)
+        result = predict_ipo(row, _gemini_client)
         if result:
             new_predictions.append(result)
 
