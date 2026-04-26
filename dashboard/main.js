@@ -182,11 +182,34 @@ function deduplicateRows(rows) {
   for (const row of rows) {
     const key = row.corp_code || row.corp_name;
     const prev = map.get(key);
-    if (!prev || (row.rcept_dt || "") > (prev.rcept_dt || "")) {
-      map.set(key, row);
-    }
+    if (!prev) { map.set(key, row); continue; }
+    // 청약일 있는 행 우선, 동순위면 최신 rcept_dt
+    const rowHasSub  = (row.subscription_start_dt  || "") !== "";
+    const prevHasSub = (prev.subscription_start_dt || "") !== "";
+    if (rowHasSub && !prevHasSub) { map.set(key, row); continue; }
+    if (!rowHasSub && prevHasSub) continue;
+    if ((row.rcept_dt || "") > (prev.rcept_dt || "")) map.set(key, row);
   }
   return Array.from(map.values());
+}
+
+/**
+ * CSV status가 stale할 수 있으므로 날짜로 직접 상태를 계산합니다.
+ * @param {Object} r
+ * @returns {string}
+ */
+function computeStatus(r) {
+  const today   = new Date().toISOString().slice(0, 10).replace(/-/g, "");
+  const lst     = (r.listing_dt              || "").trim();
+  const subS    = (r.subscription_start_dt   || "").trim();
+  const subE    = (r.subscription_end_dt     || "").trim();
+
+  if (lst && lst <= today)                    return "상장완료";
+  if (subS && subE && subS <= today && today <= subE) return "청약중";
+  if (subE && subE < today) return lst && lst > today ? "상장예정" : "청약종료";
+  if (subS && subS > today)                   return "청약예정";
+  if (lst  && lst > today)                    return "상장예정";
+  return "정보수집중";
 }
 
 /**
@@ -198,7 +221,7 @@ function deduplicateRows(rows) {
  * @returns {string}
  */
 function ipoSortKey(r) {
-  const rank = {"청약중": 0, "청약예정": 1, "상장예정": 2, "청약종료": 3, "상장완료": 4}[r.status] ?? 5;
+  const rank = {"청약중": 0, "청약예정": 1, "상장예정": 2, "청약종료": 3, "상장완료": 4}[computeStatus(r)] ?? 5;
   const lt = r.listing_dt || "99999999";
   // 상장완료는 내림차순 → 날짜를 반전
   const dateKey = rank === 4
@@ -222,11 +245,11 @@ function renderIpoTable(rows) {
   // Stats
   document.getElementById("stat-total").textContent = unique.length;
   document.getElementById("stat-subscribing").textContent =
-    unique.filter(r => r.status === "청약중").length;
+    unique.filter(r => computeStatus(r) === "청약중").length;
   document.getElementById("stat-upcoming").textContent =
-    unique.filter(r => r.status === "청약예정").length;
+    unique.filter(r => computeStatus(r) === "청약예정").length;
   document.getElementById("stat-listing").textContent =
-    unique.filter(r => r.status === "상장예정").length;
+    unique.filter(r => computeStatus(r) === "상장예정").length;
 
   if (unique.length === 0) {
     tbody.innerHTML = `
@@ -278,7 +301,7 @@ function renderIpoTable(rows) {
       <td class="text-right text-mono">${price}</td>
       <td class="text-mono" style="font-size:0.75rem">${subPeriod}</td>
       <td class="text-mono" style="font-size:0.75rem">${r.underwriter || "—"}</td>
-      <td>${statusBadge(r.status)}</td>
+      <td>${statusBadge(computeStatus(r))}</td>
     </tr>`;
   }).join("");
 }
@@ -469,7 +492,7 @@ async function openDetail(row) {
   document.getElementById("modalTitle").textContent = row.corp_name || "—";
   const metaParts = [
     row.market || "",
-    row.status ? `<span class="badge ${{"청약중":"badge--warning","청약예정":"badge--info","상장예정":"badge--info","상장완료":"badge--success"}[row.status] ?? "badge--neutral"}">${row.status}</span>` : "",
+    statusBadge(computeStatus(row)),
     row.stock_code ? `코드 ${row.stock_code}` : "",
   ].filter(Boolean);
   document.getElementById("modalMeta").innerHTML = metaParts.join(" · ");

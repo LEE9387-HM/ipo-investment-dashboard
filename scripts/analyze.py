@@ -184,14 +184,15 @@ def determine_status(row: pd.Series, today: str) -> str:
 
     if listing_dt and listing_dt <= today:
         return "상장완료"
-    if listing_dt and listing_dt > today:
-        return "상장예정"
-    if sub_end and sub_end < today:
-        return "청약종료"
-    if sub_start and sub_start <= today <= (sub_end or today):
+    # 청약 날짜 체크를 listing_dt보다 먼저: 상장예정이어도 현재 청약중일 수 있음
+    if sub_start and sub_end and sub_start <= today <= sub_end:
         return "청약중"
+    if sub_end and sub_end < today:
+        return "청약종료" if not (listing_dt and listing_dt > today) else "상장예정"
     if sub_start and sub_start > today:
         return "청약예정"
+    if listing_dt and listing_dt > today:
+        return "상장예정"
     return "정보수집중"
 
 

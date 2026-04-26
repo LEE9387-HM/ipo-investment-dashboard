@@ -34,7 +34,10 @@ from dotenv import load_dotenv
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s - %(message)s",
-    handlers=[logging.StreamHandler(sys.stdout)],
+    handlers=[logging.StreamHandler(
+        open(sys.stdout.fileno(), mode="w", encoding="utf-8", buffering=1, closefd=False)
+        if hasattr(sys.stdout, "fileno") else sys.stdout
+    )],
 )
 logger = logging.getLogger("details")
 
@@ -65,6 +68,11 @@ def fetch_document_text(rcept_no: str) -> Optional[str]:
             timeout=30,
         )
         if resp.status_code != 200:
+            return None
+        # DART가 오류일 때 ZIP 대신 XML 오류 응답을 반환하는 경우 처리
+        content_type = resp.headers.get("Content-Type", "")
+        if "xml" in content_type and not resp.content[:4] == b"PK\x03\x04":
+            logger.debug(f"DART 오류 응답 (ZIP 아님): {resp.text[:200]}")
             return None
         with zipfile.ZipFile(io.BytesIO(resp.content)) as zf:
             xml_names = [n for n in zf.namelist() if n.endswith(".xml")]
@@ -275,10 +283,25 @@ def run() -> int:
         logger.error("ipo_list.csv가 없습니다.")
         return 1
 
-    ipo_df = pd.read_csv(IPO_LIST_PATH, dtype=str)
-    targets = ipo_df[
-        ipo_df["status"].isin(["청약중", "청약예정", "상장예정"])
-    ].copy()
+    ipo_df = pd.read_csv(IPO_LIST_PATH, dtype=str).fillna("")
+    today = datetime.now().strftime("%Y%m%d")
+    in_30days = (datetime.now().replace(hour=0, minute=0, second=0) +
+                 __import__("datetime").timedelta(days=30)).strftime("%Y%m%d")
+
+    # status 컬럼 대신 날짜 기준으로 활성 종목 선별 (stale status 방지)
+    def _is_active(row: pd.Series) -> bool:
+        listing_dt = str(row.get("listing_dt", "")).strip()
+        sub_start  = str(row.get("subscription_start_dt", "")).strip()
+        sub_end    = str(row.get("subscription_end_dt", "")).strip()
+        if listing_dt and listing_dt <= today:
+            return False  # 이미 상장 완료
+        if sub_end and sub_end < today and not listing_dt:
+            return False  # 청약 종료, 상장일 미확인
+        if sub_start and sub_start > in_30days:
+            return False  # 30일 이후 청약 예정은 제외
+        return True
+
+    targets = ipo_df[ipo_df.apply(_is_active, axis=1)].copy()
 
     logger.info(f"처리 대상: {len(targets)}건")
 

@@ -328,9 +328,21 @@ def format_weekly_summary(ipo_df: pd.DataFrame, pred_df: pd.DataFrame, accuracy_
         f"<i>{display} 기준</i>",
     ]
 
-    # 현황 요약
+    # 현황 요약 — CSV status는 stale하므로 날짜로 직접 계산
+    def _dyn_status(row: pd.Series) -> str:
+        lst  = str(row.get("listing_dt", "") or "").strip()
+        ss   = str(row.get("subscription_start_dt", "") or "").strip()
+        se   = str(row.get("subscription_end_dt",   "") or "").strip()
+        if lst and lst <= today:                         return "상장완료"
+        if ss and se and ss <= today <= se:              return "청약중"
+        if se and se < today: return "상장예정" if (lst and lst > today) else "청약종료"
+        if ss and ss > today:                            return "청약예정"
+        if lst and lst > today:                          return "상장예정"
+        return "정보수집중"
+
+    status_counts = ipo_df.apply(_dyn_status, axis=1).value_counts()
     lines.append("\n<b>📋 현황</b>")
-    for status, cnt in ipo_df["status"].value_counts().items():
+    for status, cnt in status_counts.items():
         lines.append(f"  • {status}: {cnt}건")
 
     # 이번 주 청약 예정 (판단 카드)
@@ -373,11 +385,14 @@ def run(mode: str = "daily") -> int:
         return 1
 
     ipo_df  = pd.read_csv(IPO_LIST_PATH, dtype=str).fillna("")
-    # 동일 기업 중복 제거: corp_name 기준으로 최신 rcept_dt만 유지
+    # 동일 기업 중복 제거: 청약일 있는 행 우선, 없으면 최신 rcept_dt
     if "corp_name" in ipo_df.columns and "rcept_dt" in ipo_df.columns:
+        ipo_df = ipo_df.copy()
+        ipo_df["_has_sub"] = (ipo_df["subscription_start_dt"].fillna("") != "").astype(int)
         ipo_df = (
-            ipo_df.sort_values("rcept_dt", ascending=False)
+            ipo_df.sort_values(["_has_sub", "rcept_dt"], ascending=[False, False])
                   .drop_duplicates(subset=["corp_name"], keep="first")
+                  .drop(columns=["_has_sub"])
                   .reset_index(drop=True)
         )
     pred_df = pd.read_csv(PREDICTIONS_PATH, dtype=str).fillna("") if PREDICTIONS_PATH.exists() else pd.DataFrame(columns=["rcept_no"])
