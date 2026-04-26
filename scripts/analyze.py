@@ -37,9 +37,10 @@ load_dotenv(PROJECT_ROOT / ".env.local")
 
 DATA_DIR = PROJECT_ROOT / "data"
 
-IPO_LIST_PATH = DATA_DIR / "ipo_list.csv"
-RESULTS_PATH = DATA_DIR / "results.csv"
-ACCURACY_LOG_PATH = DATA_DIR / "accuracy_log.csv"
+IPO_LIST_PATH          = DATA_DIR / "ipo_list.csv"
+RESULTS_PATH           = DATA_DIR / "results.csv"
+ACCURACY_LOG_PATH      = DATA_DIR / "accuracy_log.csv"
+UNDERWRITER_STATS_PATH = DATA_DIR / "underwriter_stats.csv"
 
 # ---------------------------------------------------------------------------
 # 데이터 스키마
@@ -367,6 +368,58 @@ def calculate_accuracy(results_df: pd.DataFrame) -> None:
 
 
 # ---------------------------------------------------------------------------
+# 주관사 실적 통계
+# ---------------------------------------------------------------------------
+
+def compute_underwriter_stats(ipo_df: pd.DataFrame, results_df: pd.DataFrame) -> None:
+    """
+    주관사별 공모주 첫날 수익률 통계를 계산하여 underwriter_stats.csv에 저장합니다.
+    ipo_df(underwriter) + results_df(first_day_change_pct)를 rcept_no → corp_name 순으로 join.
+    """
+    if results_df.empty:
+        logger.info("상장 결과 데이터 없음 - 주관사 통계 건너뜀")
+        return
+
+    ipo_sub = ipo_df[["rcept_no", "corp_name", "underwriter"]].copy()
+    res_sub = results_df[["rcept_no", "corp_name", "first_day_change_pct"]].copy()
+
+    merged = pd.merge(res_sub, ipo_sub[["rcept_no", "underwriter"]], on="rcept_no", how="left")
+
+    # rcept_no join 실패 시 corp_name으로 보완
+    missing = merged["underwriter"].isna() | (merged["underwriter"] == "")
+    if missing.any():
+        name_map = (
+            ipo_df[["corp_name", "underwriter"]]
+            .drop_duplicates("corp_name")
+            .set_index("corp_name")["underwriter"]
+        )
+        merged.loc[missing, "underwriter"] = merged.loc[missing, "corp_name"].map(name_map)
+
+    merged["return_pct"] = pd.to_numeric(merged["first_day_change_pct"], errors="coerce")
+    valid = merged.dropna(subset=["return_pct", "underwriter"])
+    valid = valid[valid["underwriter"].str.strip() != ""]
+
+    if valid.empty:
+        logger.info("주관사-수익률 유효 데이터 없음 - 통계 건너뜀")
+        return
+
+    stats = (
+        valid.groupby("underwriter")["return_pct"]
+        .agg(count="count", mean_return_pct="mean", median_return_pct="median")
+        .reset_index()
+    )
+    stats["positive_pct"] = (
+        valid.groupby("underwriter")["return_pct"]
+        .apply(lambda x: round((x > 0).sum() / len(x) * 100, 1))
+        .values
+    )
+    stats["mean_return_pct"]   = stats["mean_return_pct"].round(2)
+    stats["median_return_pct"] = stats["median_return_pct"].round(2)
+    stats.to_csv(UNDERWRITER_STATS_PATH, index=False, encoding="utf-8-sig")
+    logger.info(f"주관사 통계 저장: {len(stats)}개 주관사 ({UNDERWRITER_STATS_PATH.name})")
+
+
+# ---------------------------------------------------------------------------
 # 진입점
 # ---------------------------------------------------------------------------
 
@@ -389,6 +442,7 @@ def run() -> int:
 
     results_df = collect_listing_results(ipo_df)
     calculate_accuracy(results_df)
+    compute_underwriter_stats(ipo_df, results_df)
 
     logger.info("=" * 50)
     logger.info("analyze.py 완료")

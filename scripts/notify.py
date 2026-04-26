@@ -92,8 +92,15 @@ def get_verdict(
 
     Returns:
         (verdict_emoji, reasons[])
-        verdict: 🟢 강력 추천 / 🟡 청약 검토 / ⚪ 중립 / 🔴 보류
+        verdict: 🟢 강력 추천 / 🟡 청약 검토 / ⚪ 중립 / 🔴 보류 / ⚫ 데이터 수집 전
     """
+    has_ai     = bool(upside_pct and str(upside_pct).strip())
+    has_demand = bool(competition_ratio and str(competition_ratio).strip())
+
+    # 핵심 데이터가 전혀 없으면 판단 불가 — "중립"과 명확히 구분
+    if not has_ai and not has_demand:
+        return "⚫ 데이터 수집 전", ["AI예측·수요예측 결과 미수집"]
+
     score = 0
     reasons: list[str] = []
 
@@ -197,14 +204,16 @@ def ipo_card(row: pd.Series, pred_df: pd.DataFrame) -> str:
 
     # AI 예측
     pred_row = pred_df[pred_df["rcept_no"] == rcept_no]
-    upside_pct = confidence = pred_close = ""
+    upside_pct = confidence = pred_close = bull_points = bear_points = ""
     if not pred_row.empty:
         p = pred_row.iloc[0]
-        upside_pct = p.get("upside_pct", "")
-        confidence = p.get("confidence", "")
-        pred_close = p.get("predicted_first_day_close", "")
+        upside_pct   = p.get("upside_pct", "")
+        confidence   = p.get("confidence", "")
+        pred_close   = p.get("predicted_first_day_close", "")
+        bull_points  = p.get("bull_points", "")
+        bear_points  = p.get("bear_points", "")
 
-    conf_label = {"1": "저신뢰", "2": "보통", "3": "고신뢰"}.get(confidence, "")
+    conf_label = {"1": "저신뢰", "2": "보통", "3": "고신뢰"}.get(str(confidence), "")
 
     # 수요예측 상세 (details JSON)
     detail = load_detail(rcept_no)
@@ -221,11 +230,14 @@ def ipo_card(row: pd.Series, pred_df: pd.DataFrame) -> str:
     if underwriter:
         lines.append(f"🏦 주관사: {underwriter}")
 
-    # 판단 지표 줄
+    # 핵심 지표
     indicators = []
     if upside_pct and pred_close:
         try:
-            indicators.append(f"🤖 예측 {int(pred_close):,}원 (+{float(upside_pct):.0f}%){' · ' + conf_label if conf_label else ''}")
+            indicators.append(
+                f"🤖 예측 {int(pred_close):,}원 (+{float(upside_pct):.0f}%)"
+                f"{' · ' + conf_label if conf_label else ''}"
+            )
         except (ValueError, TypeError):
             pass
     if competition_ratio:
@@ -239,6 +251,17 @@ def ipo_card(row: pd.Series, pred_df: pd.DataFrame) -> str:
         indicators.append("📊 수요예측 데이터 수집 전")
 
     lines.extend(indicators)
+
+    # Bull/Bear 근거 (AI 예측이 있을 때만 표시, 각 1건)
+    if bull_points:
+        pts = [p.strip() for p in bull_points.split("|") if p.strip()]
+        if pts:
+            lines.append(f"  📈 {pts[0]}")
+    if bear_points:
+        pts = [p.strip() for p in bear_points.split("|") if p.strip()]
+        if pts:
+            lines.append(f"  📉 {pts[0]}")
+
     reason_str = " · ".join(reasons) if reasons else "판단 근거 부족"
     lines.append(f"판단: {verdict}  <i>({reason_str})</i>")
 

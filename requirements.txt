@@ -12,3 +12,6 @@ python-dotenv>=1.0.0
 
 # AI 예측 (predict.py에서 사용)
 google-genai>=1.0.0
+
+# 시장 데이터 (predict.py 시장 컨텍스트)
+yfinance>=0.2.0
