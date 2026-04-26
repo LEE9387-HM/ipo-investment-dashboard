@@ -1,0 +1,23 @@
+{
+  "rcept_no": "20260409100012",
+  "corp_name": "뉴인텍",
+  "corp_code": "00105040",
+  "stock_code": "012340",
+  "market": "KOSDAQ",
+  "status": "상장예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260409100012",
+  "offering_price_low": "nan",
+  "offering_price_high": "nan",
+  "offering_price_final": "nan",
+  "subscription_start_dt": "nan",
+  "subscription_end_dt": "nan",
+  "listing_dt": "nan",
+  "underwriter": "nan",
+  "total_shares": "nan",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [],
+  "updated_at": "2026-04-26 22:12:52"
+}

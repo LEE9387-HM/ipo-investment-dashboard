@@ -265,10 +265,13 @@ function renderIpoTable(rows) {
     // 30일 이내 상장 예정 → 행 강조
     const lt = r.listing_dt || "";
     const isSoon = lt && lt >= today && lt <= in30;
-    const rowCls = isSoon ? ' style="background:rgba(99,179,237,0.06)"' : "";
+    const bgStyle = isSoon ? "background:rgba(99,179,237,0.06)" : "";
+
+    // 행 데이터를 JSON으로 직렬화해 onclick에 전달
+    const rowJson = JSON.stringify(r).replace(/"/g, "&quot;");
 
     return `
-    <tr${rowCls}>
+    <tr class="clickable" style="${bgStyle}" onclick="openDetail(JSON.parse(this.dataset.row))" data-row="${rowJson}">
       <td><strong>${r.corp_name || "—"}</strong></td>
       <td>${r.market || "—"}</td>
       <td class="text-mono">${formatDate(r.listing_dt)}</td>
@@ -418,6 +421,7 @@ function initTabs() {
 
 async function init() {
   initTabs();
+  initModal();
 
   const [ipoData, predData, resultData, accData] = await Promise.all([
     fetchCsv(CSV_FILES.ipo),
@@ -442,3 +446,140 @@ async function init() {
 }
 
 document.addEventListener("DOMContentLoaded", init);
+
+// ---------------------------------------------------------------------------
+// 상세 모달
+// ---------------------------------------------------------------------------
+
+function dt(label, value, mono = true) {
+  if (!value || value === "nan") return "";
+  return `<dt>${label}</dt><dd class="${mono ? "" : "text-normal"}">${value}</dd>`;
+}
+
+function formatDateRange(start, end) {
+  if (!start) return "—";
+  return end ? `${formatDate(start)} ~ ${formatDate(end)}` : formatDate(start);
+}
+
+async function openDetail(row) {
+  const rcept_no = row.rcept_no || "";
+  const backdrop = document.getElementById("detailBackdrop");
+
+  // 헤더 설정
+  document.getElementById("modalTitle").textContent = row.corp_name || "—";
+  const metaParts = [
+    row.market || "",
+    row.status ? `<span class="badge ${{"청약중":"badge--warning","청약예정":"badge--info","상장예정":"badge--info","상장완료":"badge--success"}[row.status] ?? "badge--neutral"}">${row.status}</span>` : "",
+    row.stock_code ? `코드 ${row.stock_code}` : "",
+  ].filter(Boolean);
+  document.getElementById("modalMeta").innerHTML = metaParts.join(" · ");
+
+  // 기업 개요 탭
+  const price = row.offering_price_final
+    ? `${formatNumber(row.offering_price_final)}원 (확정)`
+    : row.offering_price_high
+      ? `${formatNumber(row.offering_price_low)}원 ~ ${formatNumber(row.offering_price_high)}원 (희망)`
+      : "—";
+
+  document.getElementById("detailOverview").innerHTML = [
+    dt("시장",       row.market),
+    dt("공모가",     price, false),
+    dt("청약기간",   formatDateRange(row.subscription_start_dt, row.subscription_end_dt), false),
+    dt("상장예정일", row.listing_dt ? formatDate(row.listing_dt) : "—", false),
+    dt("주관사",     row.underwriter, false),
+    dt("공모주식수", row.total_shares ? `${Number(row.total_shares).toLocaleString("ko-KR")}주` : "—"),
+    dt("접수번호",   rcept_no),
+  ].filter(Boolean).join("");
+
+  // 초기 상태로 모달 탭 첫 번째 선택
+  document.querySelectorAll(".modal-tab").forEach((t, i) => t.classList.toggle("active", i === 0));
+  document.querySelectorAll(".modal-panel").forEach((p, i) => p.classList.toggle("active", i === 0));
+
+  // 모달 열기
+  backdrop.classList.add("open");
+  document.body.style.overflow = "hidden";
+
+  // 수요예측·뉴스 탭은 detail JSON 로드 후 채움
+  const detailUrl = `../data/details/${rcept_no}.json`;
+  try {
+    const resp = await fetch(detailUrl, { cache: "no-cache" });
+    if (resp.ok) {
+      const d = await resp.json();
+      fillForecastTab(d);
+      fillNewsTab(d.news || []);
+    } else {
+      fillForecastTab(null, rcept_no);
+      fillNewsTab([]);
+    }
+  } catch (_) {
+    fillForecastTab(null, rcept_no);
+    fillNewsTab([]);
+  }
+}
+
+function fillForecastTab(d, rcept_no = "") {
+  const el = document.getElementById("detailForecast");
+  const linkEl = document.getElementById("detailDartLink");
+
+  if (!d) {
+    el.innerHTML = `<dt style="grid-column:1/-1;color:var(--color-text-muted);font-size:var(--text-sm)">
+      수요예측 데이터가 아직 수집되지 않았습니다.<br>다음 daily 업데이트 후 표시됩니다.</dt>`;
+    linkEl.innerHTML = rcept_no
+      ? `<a href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=${rcept_no}" target="_blank" rel="noopener">DART 공시 원문 보기 →</a>`
+      : "";
+    return;
+  }
+
+  el.innerHTML = [
+    dt("경쟁률",        d.competition_ratio ? `${Number(d.competition_ratio).toLocaleString("ko-KR")} : 1` : ""),
+    dt("의무보유확약",  d.lock_up_ratio ? `${d.lock_up_ratio}%` : ""),
+    dt("수요예측 기간", d.demand_forecast_period
+        ? formatDateRange(d.demand_forecast_period.split("~")[0], d.demand_forecast_period.split("~")[1])
+        : ""),
+    dt("공모주식수",    d.total_shares_offered ? `${Number(d.total_shares_offered).toLocaleString("ko-KR")}주` : ""),
+    d.business_summary
+      ? `<dt>사업 개요</dt><dd class="text-normal" style="grid-column:1/-1;line-height:1.6;font-size:var(--text-sm);color:var(--color-text-secondary)">${d.business_summary}</dd>`
+      : "",
+  ].filter(Boolean).join("");
+
+  linkEl.innerHTML = d.dart_link
+    ? `<a href="${d.dart_link}" target="_blank" rel="noopener">DART 공시 원문 보기 →</a>`
+    : "";
+}
+
+function fillNewsTab(news) {
+  const el = document.getElementById("detailNews");
+  if (!news || news.length === 0) {
+    el.innerHTML = `<li style="color:var(--color-text-muted);font-size:var(--text-sm)">관련 뉴스가 없습니다.</li>`;
+    return;
+  }
+  el.innerHTML = news.map(n => `
+    <li>
+      <a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>
+      <span class="news-date">${n.pubDate ? new Date(n.pubDate).toLocaleDateString("ko-KR") : ""}</span>
+    </li>`).join("");
+}
+
+function closeDetail() {
+  document.getElementById("detailBackdrop").classList.remove("open");
+  document.body.style.overflow = "";
+}
+
+function initModal() {
+  document.getElementById("modalClose").addEventListener("click", closeDetail);
+  document.getElementById("detailBackdrop").addEventListener("click", e => {
+    if (e.target === e.currentTarget) closeDetail();
+  });
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape") closeDetail();
+  });
+
+  // 모달 내부 탭 전환
+  document.querySelectorAll(".modal-tab").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const target = btn.dataset.mtab;
+      document.querySelectorAll(".modal-tab").forEach(b => b.classList.toggle("active", b === btn));
+      document.querySelectorAll(".modal-panel").forEach(p => p.classList.toggle("active", p.id === `mtab-${target}`));
+    });
+  });
+}

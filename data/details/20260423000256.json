@@ -1,0 +1,51 @@
+{
+  "rcept_no": "20260423000256",
+  "corp_name": "스트라드비젼",
+  "corp_code": "01370517",
+  "stock_code": "nan",
+  "market": "기타",
+  "status": "상장예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423000256",
+  "offering_price_low": "12400",
+  "offering_price_high": "14800",
+  "offering_price_final": "nan",
+  "subscription_start_dt": "20260617",
+  "subscription_end_dt": "20260618",
+  "listing_dt": "nan",
+  "underwriter": "KB증권",
+  "total_shares": "nan",
+  "competition_ratio": "",
+  "lock_up_ratio": "1",
+  "demand_forecast_period": "",
+  "business_summary": "자도 양산형 기체의 시험비행과 FAA 평가 절차를 본격화하는 단계에 있어, 해당 시장은 제도 정비와 기술 검증이 동시에 진행되는 초기 국면에 있습니다.",
+  "news": [
+    {
+      "title": "스트라드비젼, 코스닥 상장 위한 증권신고서 제출 - 뉴스톱",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBrWkZtQUtWXzFIVmRzbFVldHA3aWhuXzVmRHRCbVV4RE0tLVZ0QnZNS3FYeTU1SG5RMW5ncUJBQUVPYTBjdWJUWlhKbTN5a0ttQWk5VXVrUUFfYXMxa2dZOHROX2FKVVRLM3BMMllXcw?oc=5",
+      "pubDate": "Sat, 11 Apr 2026 23:51:34 GMT"
+    },
+    {
+      "title": "앱티브·모빌아이보다 비싸다? 시각차 확대된다 - 더스탁(The Stock)",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9sRnRmTC0wYVhpbDNYTlZ4c1phaVNIWnVMaWJ1S2FUbExkLVp3cTZvVXlWLUljV19jdThDUGhRRjNENUZUT2VKNnhTblFBbUpHc3JSSlRJWHJJTE0zUlhvYlFsdWhMdS1aWnc?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 01:17:09 GMT"
+    },
+    {
+      "title": "[장외시황] 카나프테라퓨틱스, 공모주 청약 시작 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9RcEZfVFY1NlVEWmNzLTZlTTFSUDcxWlg4bU05blVzZzdocEtwQUxRdzYwZzlBQzE5ZWJtNDVBdEdjNHpab3pVN1I4YUY3SnQ3aEJVbQ?oc=5",
+      "pubDate": "Thu, 05 Mar 2026 08:00:00 GMT"
+    },
+    {
+      "title": "[장외시황] 케이뱅크, 공모주 청약 시작 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB2Umprd2lITWpYX0hkMmoxYVo1a1h0dXY1YW9zT3h2WVhGa0dYODlta3V4UHRqcnpnbmZVUmFJZE42ajdIdFhBWnMzTUd0anZqTlppMw?oc=5",
+      "pubDate": "Fri, 20 Feb 2026 08:00:00 GMT"
+    },
+    {
+      "title": "[장외시황] 인벤테라, 공모주 청약 시작 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1TMUtJWGRvWVdHcDg2ZjFuYnZYTkVtb3J1TDNJLWVVLXcyRlJTaFJqWFRKMUYwME8zZXRfQ2RKVEhkN1prVDFQUklpVDFsUGxzakdBYg?oc=5",
+      "pubDate": "Mon, 23 Mar 2026 07:00:00 GMT"
+    }
+  ],
+  "updated_at": "2026-04-26 22:13:27",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}

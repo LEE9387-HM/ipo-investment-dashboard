@@ -1,0 +1,51 @@
+{
+  "rcept_no": "20260422000437",
+  "corp_name": "센서뷰",
+  "corp_code": "01593668",
+  "stock_code": "321370",
+  "market": "KOSDAQ",
+  "status": "상장예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260422000437",
+  "offering_price_low": "nan",
+  "offering_price_high": "nan",
+  "offering_price_final": "nan",
+  "subscription_start_dt": "20260713",
+  "subscription_end_dt": "20260714",
+  "listing_dt": "nan",
+  "underwriter": "nan",
+  "total_shares": "nan",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "일정 등의 변화가 발생할 경우 당사의 방산 부문 매출 및 수익성에 부정적인 영향 을 미칠 수 있으므로 투자자께서는 이 점에 유의하시기 바랍니다.",
+  "news": [
+    {
+      "title": "센서뷰·미래에셋벤처투자 등 스페이스X株 상승...공모주 신청 기대 - gukjenews.com",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9mTHNnR1BUZWhnM05kYVViZkx1cmR1eUJoSEhyRWpsQmgxdTdNWXpCRlJnLWlTSUo2TFlMZGdLYUVONjhwMHgtM3lHSVliLTFWdlBjWTFNcFN2WmV3aEV3Y2ZpaVJpSzMxei1WQXl3?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "[상장 청사진 빛바랜 ‘센서뷰'②] 기업가치 고평가 논란도 여전 - 데일리한국",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3XzFvb1VYTUVvVjlwanhUb2loM2xBdERKdmxRX2lkZ2Y0UEZ1UVpyT2szbWJMZk9rTV9kYkdzLTdtUHRNQkcxR1dYS3pubFNsU0FKRFJXNlRhajhtNHBUQnhWQlRESVI3V05oR2xnWdIBc0FVX3lxTE5BbGZMYjMyWjF5eDVVQXlkdUp3dDBublZIdUhRRGo1VVV4dktQSlZKVy1McDlUQkNPN3UtejdXSENIUW81eXlXQ1NKQXlyQ1RXSWhEN3F6WWIwbjNDanlxLVlJZWZpMlpXSlZyZXVSMWRia3M?oc=5",
+      "pubDate": "Thu, 05 Mar 2026 08:00:00 GMT"
+    },
+    {
+      "title": "[공모주] 센서뷰 흥행 성공…총 경쟁률 1568 대 1 기록 - 라이센스뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9oY3RmXzcyNEg1aWpIRkN1ZlBab2VEYWY5NlRIVXk0TzRzeVVDcm5yemotVjRNc0JjUV9ySVRjRUZENTliUjNVbUJsNmtQZXhpa2tLbzE5SkJlQVJSSk12cmxVNDJIUGNnMkE?oc=5",
+      "pubDate": "Tue, 11 Jul 2023 07:00:00 GMT"
+    },
+    {
+      "title": "센서뷰, 프리IPO 밸류보다 낮은 가격 설정…전략 통할까? I 공모주 리포트 [Vault@Market] - 블로터",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rUFNxOTFBYmcyLVpKaFJ6aE1Mc1NzdlNrMmFsbU40SUhpMG9vSDNQY2dXZ0ZYa2t1dVFQQVdRNU9vVXI3N3ZMTEZZZEF2NDNJb0wwckxLaDV3SDZnU3loLUJpY1o4ZVo20gFsQVVfeXFMTnFIWmJaMEt4Q2d6SUlqN093NWc2YjNvQ0w3RVgyd09BN0Q2UUpUSEhDeVMtNFBwUTViZkVWakFYd0E5WUFCTEJJUlYtQlRibW93RENaalhxcGphdjVnYUdMamMwM1dwSDE3Q3lP?oc=5",
+      "pubDate": "Sun, 02 Jul 2023 07:00:00 GMT"
+    },
+    {
+      "title": "센서뷰, 상장 첫 날 공모가 대비 51% 상승 - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCMXM1cURuby1pb0ZlMUZaU3hQTzk1YnFBVFhGbHJNbV81bnlYeWRTVERrT05HZE1YUEdDMnBIRndXRURQRjJ3ZVIzc1NYUmt4?oc=5",
+      "pubDate": "Wed, 19 Jul 2023 07:00:00 GMT"
+    }
+  ],
+  "updated_at": "2026-04-26 22:13:43",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}

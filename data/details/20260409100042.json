@@ -1,0 +1,49 @@
+{
+  "rcept_no": "20260409100042",
+  "corp_name": "한화솔루션",
+  "corp_code": "00162461",
+  "stock_code": "009830",
+  "market": "KOSPI",
+  "status": "상장예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260409100042",
+  "offering_price_low": "nan",
+  "offering_price_high": "nan",
+  "offering_price_final": "nan",
+  "subscription_start_dt": "nan",
+  "subscription_end_dt": "nan",
+  "listing_dt": "nan",
+  "underwriter": "nan",
+  "total_shares": "nan",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "[공모주달력]매출 70배 뛴 피지컬 AI 마키나락스, 수요예측 주목 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE56Q3JZd1NIblFNcVd2ckZvZTQ4Njdtdkw1YzQwWURTcVhJMU15SVFsVHA5aGhJeUZNLVpJdlpjYXVPTVcxUTFIbWV0WnZxZlU?oc=5",
+      "pubDate": "Sat, 25 Apr 2026 23:01:46 GMT"
+    },
+    {
+      "title": "[공모주달력]IPO 숨 고르기…채비 수요예측 재개 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsdC1VclNKZzlGWnlURGVPWW9SMlNBX3ZHNDJwTndvWDZuNFh2dm90b01DOG9xUUw2aDhMeUVKY2xHMkRpMWF6SUdodWlJc1U?oc=5",
+      "pubDate": "Sun, 05 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "올해 마지막도 달린다…12월 공모주 시장 '후끈' [IPO 캘린더] - MTN 머니투데이방송",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3YW44dmIzaUhxNmcwWWdmOWtuOUk3Y1cySU5jUVNCV19GcWtQUzRsWnYzVHJZYUFwRHBxQ2hKZkFTTHdlTGY3Mm96ZktzY1BnN2M1ak5nTzRLYWR4SVJvaU5VM2Q?oc=5",
+      "pubDate": "Fri, 05 Dec 2025 08:00:00 GMT"
+    },
+    {
+      "title": "하나증권, 공모주 청약 고객 대상 이벤트 진행 - 한국면세뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzSG9PQVRRWGtGcklybDBlZkFtQlB3WE92ZjM0YnA1b0NyZmpTNE42akdpQ2w3aHN4Xzg0VFZzQWctOXgxdDZjandzeDhPN1haRm14aEpOUjFPaUZyWk9aSTlsZTFweE55UVE?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 05:45:31 GMT"
+    },
+    {
+      "title": "[공모주 탐구] 페스카로, 수주잔고 1000억 확보로 실적 가시성↑…주가 향방은? - 데일리인베스트",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBbzRDNWVoMjRLdllkaXMtV1dwMVpkTkt5Z0VqeG40NHJ0VW5NUGN4VHAyb3ctdXo2azRQc09Ud0M1X1JneE9NME1rT05MNl9oNi1USThNbGVxLWpseG01UG9oT3FsZVVuaVBB0gFvQVVfeXFMTk9kYUlSNGtoSDg4YXVEWjRHUjU2TXRFb0xubXZ3emczdW0zZzgxVjM3T0pEdXhRT19tT2xCM2E2XzhZT21CVUVUQzVidkRaTHE4Z00wVGRBNmZfQjlITFVQeVA4UjBINmxIODdPc0JN?oc=5",
+      "pubDate": "Wed, 03 Dec 2025 08:00:00 GMT"
+    }
+  ],
+  "updated_at": "2026-04-26 22:12:49"
+}

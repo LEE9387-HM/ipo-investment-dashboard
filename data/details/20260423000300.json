@@ -1,0 +1,36 @@
+{
+  "rcept_no": "20260423000300",
+  "corp_name": "피엠티",
+  "corp_code": "00654175",
+  "stock_code": "147760",
+  "market": "KOSDAQ",
+  "status": "상장예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423000300",
+  "offering_price_low": "nan",
+  "offering_price_high": "nan",
+  "offering_price_final": "nan",
+  "subscription_start_dt": "20260619",
+  "subscription_end_dt": "20260622",
+  "listing_dt": "nan",
+  "underwriter": "nan",
+  "total_shares": "nan",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "은 반도체 제조공정 중 웨이퍼 테스트 공정에서 필요로 하는 프로브카드를 제조 및 판매하는 사업으로, 반도체 제조업의 경기변동에 밀접한 영향을 받으며, 반도체 산업은 세계 경기 변동에 따라 호황과 불황을 주기적으로 반복해 오고 있습니다.",
+  "news": [
+    {
+      "title": "'일정 확인부터 청약까지'…토스뱅크, '공모주 청약 일정' 서비스 - biz.sbs.co.kr.",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBtMUpETlVFUC10WnBTblVGTU5nMlRPTjU1UjQ0X3hOWTRYYlV6MlVib2d2cjVqSi1IanpDSzlpZzFnVFRzak8xb3otdUN1MDExZzdR0gFYQVVfeXFMTWQ2R0VNT2toam1Va0o4VGNvY09RNUsyeDA1NnpZX3dLWHZsb1ZEaHBBVUxJeHY1QW0zNzByNVNHYlBneWhIZ0FYek9OemZCd1JYOG05akxaSw?oc=5",
+      "pubDate": "Mon, 10 Jul 2023 07:00:00 GMT"
+    },
+    {
+      "title": "[스타 장외주식] 신규 상장주 및 공모주 투자 전략 / `이엘피` 기업분석 - 한국경제TV",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9zaFRCLVdpcEEzdTktT2NjeDhkUks3WUtZQlhUM25wMUd0dndLT3FpdFFVU2hZVU44MGxnVE9SU0dTdDFVTURnQmRrS2s3NTl6UVJWYkpxQlRxa3VJcW9JbExIQU5nRTR6TUo5blIwYXNKM2dTblJn?oc=5",
+      "pubDate": "Wed, 29 Mar 2017 07:00:00 GMT"
+    }
+  ],
+  "updated_at": "2026-04-26 22:13:25",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}

@@ -1,0 +1,51 @@
+{
+  "rcept_no": "20260420000038",
+  "corp_name": "금호건설",
+  "corp_code": "00106313",
+  "stock_code": "002990",
+  "market": "KOSPI",
+  "status": "상장예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260420000038",
+  "offering_price_low": "nan",
+  "offering_price_high": "nan",
+  "offering_price_final": "nan",
+  "subscription_start_dt": "nan",
+  "subscription_end_dt": "nan",
+  "listing_dt": "nan",
+  "underwriter": "nan",
+  "total_shares": "nan",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "금호건설, '평택~시흥 고속도로 확장' 우협 선정 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9PQjA2U0lqUU02RUNraVk5OWo1YVNKOFdXOUtFS1VoZF9aVWxjeDlSYldPN29mZFlYX3ljOGthYlZHVW1qNHktQlNIaw?oc=5",
+      "pubDate": "Fri, 19 Dec 2025 08:00:00 GMT"
+    },
+    {
+      "title": "강원랜드 확 바뀐다…금호건설 1035억 리모델링 수주 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1FUlVZOE5QamwySThuNC1nc1FENXB3ZFh3d2toZDl6MjN0cVBuTDBzbThhdVBnTVdRTUdYcEtYN0dKT0Z2bHA1QjY2VQ?oc=5",
+      "pubDate": "Tue, 23 Dec 2025 08:00:00 GMT"
+    },
+    {
+      "title": "금호건설, 평택·오산에 신규 브랜드 '아테라' 짓는다 - 모바일한경",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVVN5RzJVWWV6OFBfRmxZZnZaTE55UU11VE1VemVmcm13WkZBY3p4YU1NLVlnbGtyNmlPZlNLeUxiTlFIWGRUMW95V3NEZGlsS2RuYWZ5cENrdDJwZW9VVFBpcHVSSEIxSGcxeVB0SkdQR29VaXg0RkJnb3ZjekYyU0NvY2xBSjg?oc=5",
+      "pubDate": "Fri, 19 Jul 2024 07:00:00 GMT"
+    },
+    {
+      "title": "[KHARN칸] GS건설, LH 주택개발 리츠 우선협상자 선정 - kharn.kr",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zcm51UWIzQTJwMXRqeTJDajFVNlFqQXlWcTk0Sk03Szl5QVN2NmtRdkJEeF9HWmRYdGVMUi1zcDJWb1p4eE8tSENOek5rak5tN1drWFhYVjBfQTg?oc=5",
+      "pubDate": "Fri, 10 Sep 2021 07:00:00 GMT"
+    },
+    {
+      "title": "금호건설 조완석 사장 \"V자 반등 확신\" - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE92RlhsYnhkZ0ltTmtsM240YmVTdWFGNTlmY05GUHhwU3RjMTFtcXFBZnJYalFuMlQ1ejYzMVNfbTk4dTVaNlVtcW5rY043aWNKMGNVdA?oc=5",
+      "pubDate": "Thu, 02 Jan 2025 08:00:00 GMT"
+    }
+  ],
+  "updated_at": "2026-04-26 22:13:56",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}

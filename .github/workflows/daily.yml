@@ -39,6 +39,11 @@ jobs:
           KIS_ENVIRONMENT: real
         run: python scripts/analyze.py
 
+      - name: Run details.py
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+        run: python scripts/details.py
+
       - name: Run predict.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

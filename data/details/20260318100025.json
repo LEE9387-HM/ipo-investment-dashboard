@@ -1,0 +1,44 @@
+{
+  "rcept_no": "20260318100025",
+  "corp_name": "SKC",
+  "corp_code": "00139889",
+  "stock_code": "011790",
+  "market": "KOSPI",
+  "status": "상장예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318100025",
+  "offering_price_low": "nan",
+  "offering_price_high": "nan",
+  "offering_price_final": "nan",
+  "subscription_start_dt": "nan",
+  "subscription_end_dt": "nan",
+  "listing_dt": "nan",
+  "underwriter": "nan",
+  "total_shares": "nan",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "SKC, 주주에 1조 손 벌린 이유 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBkVzV4M19pRUdsRDREU0MwejlORUx4cVVOY3kwRnFpeDRncXJjNlRxMkxQRGF1YzI1ZEZvZXAwd1hjY0l0bXBrYUhCUnJmY2c?oc=5",
+      "pubDate": "Fri, 27 Feb 2026 08:00:00 GMT"
+    },
+    {
+      "title": "증시 호황에…상장사, 앞다퉈 신주 발행 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NOFN5ZDBpcnY4LXBkblBWWHROQndBU3ZzOXRvTjhlZUhBbUlTWVRpY0h0MFlMajc2aDBaQzl5U2U5LWl3VmhvSHJjU3NfSHNPZ28zSWVkLTFZd9IBVEFVX3lxTFB6enpCOW1YcXViMUhqSjJRLV9sQW1qTUlaWXJNVy1aeGpTY29RWXRvRi1nTWI0ekVLWFd6MjlPUlcxeTV2Q0QtRmhiOG5KVXlFUVViVQ?oc=5",
+      "pubDate": "Thu, 12 Mar 2026 07:00:00 GMT"
+    },
+    {
+      "title": "빅테크가 꽂힌 유리기판…SKC, 수혜주 부각 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05TklJS2hkN1l2cHBDWkZWV3ZYd2FPN0pMZ3dxVkN5MmFNYllZVk00cHpXd0hteTROUGZvSU1QNDNqbUUtdEYtWGdRZ1hCZGVsaWlJdGFvR1pOUdIBVEFVX3lxTE9FbjU1LW5ueUFWRGd1MHJPVHg4a1NfdDNxcEZCTUg5U1MtZW5aankwVzVNbG5VOEZjeFhzbGVTOTQxZVFDUGVhNXBqUGRLeC1ocjR2ZQ?oc=5",
+      "pubDate": "Tue, 17 Dec 2024 08:00:00 GMT"
+    },
+    {
+      "title": "[공모주 현장답사] 메카로 \"반도체, 4차산업혁명 수혜...10년 갈것\" - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ZUi1VWVBIZTlYTUdqV3N2WHdzZjFHRHYyR3RBRk8telRZWTF4NWJ3WDJUWXMtYmRRWk5sS0V0dTRzN1dlTUZMMzFzaEhjOTdvZ1RRWl9YRmtITjg5dGdDZmdlaElFdnYzZVB2OVJXY2FRVXdzMm0wRHhhc9IBjwFBVV95cUxQQjBoMWlxai1VNVUxeFAzZFlhZzBvdUdkLWU5ZnRGLUxtWUY3bTJ4WGJiV1h4VVFEVGowejVJNUs3XzVUempLWUVKdHo4ZEMtcTVMTmo4cXFhU096TjJ2cFhTcUhUUGVqdUpjX0ptamtyU1BaYlUzN2p2WXdFUXQzYk9nZHA1c0p2MVNqT0Zwbw?oc=5",
+      "pubDate": "Wed, 06 Dec 2017 08:00:00 GMT"
+    }
+  ],
+  "updated_at": "2026-04-26 22:13:03"
+}

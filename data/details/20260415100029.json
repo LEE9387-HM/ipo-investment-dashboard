@@ -1,0 +1,49 @@
+{
+  "rcept_no": "20260415100029",
+  "corp_name": "클로봇",
+  "corp_code": "01784914",
+  "stock_code": "466100",
+  "market": "KOSDAQ",
+  "status": "상장예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260415100029",
+  "offering_price_low": "nan",
+  "offering_price_high": "nan",
+  "offering_price_final": "nan",
+  "subscription_start_dt": "nan",
+  "subscription_end_dt": "nan",
+  "listing_dt": "nan",
+  "underwriter": "nan",
+  "total_shares": "nan",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "공모주 청약 5조 몰린 클로봇, 침몰 이유 있나 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE91V1BQclBzYzZHYzRlTWVnMVVCdnJGVjl5amgwQlg4SGVILVJnNEpSVmM0bGJUc3FCbDQ0QW43RDRwT3BNS19ZeTJyZi1LcnBka3l2V2pLVWFNRE5kdE5ST29R?oc=5",
+      "pubDate": "Tue, 29 Oct 2024 07:00:00 GMT"
+    },
+    {
+      "title": "[공모주 탐구] 클로봇, 내년 물류·배송 부문 성장세 지속 전망…주가 고공행진? - 데일리인베스트",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE51SkNLRkc4d2VFcTEwYm1IdUMxaFh1NEZobl93N0o2dF9SclNPMnk5LU5iVUVONERBSzdya0NxT2ZWWVVDOXdDMUNsMjZfMU9VbE1jRG5kMHZ5dVg5aDlhTEtVVkVjNkEtTXY00gFvQVVfeXFMT0tuUmRHd0Vvb1huc0w5akJCOFRVcW40aGRtNHc0TlhodjA2aHN2MGNBWHNxcDJEdmtTbFM2cTRZcEJ2T1RxSHlQVnU5ZjV0QWdlS2Q3WmI3cVRaS0RtWUpENmhqWE54VmVFSWpqYnhJ?oc=5",
+      "pubDate": "Fri, 18 Oct 2024 07:00:00 GMT"
+    },
+    {
+      "title": "클로봇, 공모가 밴드상단 초과 1만3천원…\"기관 수요예측 최다\" - zdnet.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RSk5xLV96Y2FpVndBR19zdHlQN29tZnVZV1lkX3RYRk9ELS1kdnMtcUhzTVdONTVseTBRZ2ZzWm9IVjJuQWxBNUZMN0F6TmM3TGtDdkh3?oc=5",
+      "pubDate": "Tue, 15 Oct 2024 07:00:00 GMT"
+    },
+    {
+      "title": "'로봇 IPO' 씨메스 vs 클로봇, 얄궂은 외나무다리 청약 일정 - 시사저널e",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5jeHhadFpjbVN1ZTREb0NiSGg2cFB6ZVZCSTh0NThHYTdXMW9ONFRVcTQ0WEQxVUZ5QjRONDNHUkp6eGFybjJiS3l4S2hySV9mRklFZHhwYU81alFpZUhDQ2NCczZPb2YySjNTanQySk56QdIBdkFVX3lxTFBtWk1QRjZjeEdBWEJyZ2dBQ0MxQ0VwMEtTaFUxeG1NNHBvdUZoUzNlcDVIcDJWbmlDcWZQa0I0ZXZmZUFuTWtMWGtQekxtaVZuTUZmR2tMNFFqOGhTUTRSdWhYN18wTGYyZW4zaUZfV2FPRzVOb2c?oc=5",
+      "pubDate": "Tue, 15 Oct 2024 07:00:00 GMT"
+    },
+    {
+      "title": "클로봇, 일반 공모 실시… 10월 28일 상장 - FA저널",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1yT2xJc3hSOENrMTd1RmRMXzhtdGZYbDZ6YjU1WWY0X214WmJneF9lSGhJamxVOGdNSGh3X2Y3WmVqVi0zLVFRdktRVmVGSEFiUTFKRWZtYzJILTQzZlJmN0tfcEVjcEpTc2ZJ?oc=5",
+      "pubDate": "Wed, 16 Oct 2024 07:00:00 GMT"
+    }
+  ],
+  "updated_at": "2026-04-26 22:12:46"
+}

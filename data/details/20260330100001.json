@@ -1,0 +1,49 @@
+{
+  "rcept_no": "20260330100001",
+  "corp_name": "코스모로보틱스",
+  "corp_code": "01802928",
+  "stock_code": "nan",
+  "market": "기타",
+  "status": "상장예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260330100001",
+  "offering_price_low": "nan",
+  "offering_price_high": "nan",
+  "offering_price_final": "nan",
+  "subscription_start_dt": "nan",
+  "subscription_end_dt": "nan",
+  "listing_dt": "nan",
+  "underwriter": "nan",
+  "total_shares": "nan",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "웨어러블 로봇 개발·제조사 코스모로보틱스 일반 청약 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xTkhIMnliMW9JZ1JFRWYwa1ZULThxdHNUNkJYRTlLNFR2NWxyN1M4dEVGMTdSWHZScXRwcXNsZ1NqQzVQQkIyU2pKMkItVmtUelBkZdIBVEFVX3lxTE8xTkhIMnliMW9JZ1JFRWYwa1ZULThxdHNUNkJYRTlLNFR2NWxyN1M4dEVGMTdSWHZScXRwcXNsZ1NqQzVQQkIyU2pKMkItVmtUelBkZQ?oc=5",
+      "pubDate": "Sun, 26 Apr 2026 08:33:35 GMT"
+    },
+    {
+      "title": "[주간 IPO]코스모로보틱스 청약·채비 상장…5월 앞둔 공모주 시장 분주 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBoelE1c09qTmZvUVVhTUlhY3NhU1RwdVNHZkxrLURxSnE4ODRKTWlneklJNi0wQU5uQlYtVGNSR1hUakFYbVhOX1d5VXRrVmc?oc=5",
+      "pubDate": "Sat, 25 Apr 2026 00:01:03 GMT"
+    },
+    {
+      "title": "이번주 공모주 청약, 코스모로보틱스 1개사 - 데일리안",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4yaWQ5anFqVkE4cUtua2Y4ZmxCN2NBXzVRMnZSU0ZvZzduVTl6TU5YdlNwUDhodUNKNUY0c2ZoSm1HWGcwNjl1Q3cyaTNSbG1YcEhZaWFn0gGbAkFVX3lxTE9NMUZxZUpwRFNRMGEwZWt1RHVUSjJPRkJ6OHNlQ0tsTG9IdlRzc01hbHNOZHVoT2hQOWNTRWZUblNRWTJZcXNrMEl1SDRNUVpuWWhid0JvVHFobXlPWXgwQU5SWE9OazVmaXhzUjBoS1RwSmdldzZxakN3bG1YS2d2c2d0RHF6YmZxTUZySzVkMXlrZEZvYTJUT0tieHp4QUpwcHFCYWREbWRGV1dXWGhkdjZpZ1k2SzVZM3ItU01oU2pqanRRVzN1d1E1NTdHV211NTdDNkhBOFRsa1BUTFNvX1phR2RUVm5xZWN2NlRDQ2xTdVprQ0I2RFh0Z0RzSzM4WGFUdEpUd2s4NVY0VHZKS1RzV09mcjJoSDQ?oc=5",
+      "pubDate": "Sat, 25 Apr 2026 15:10:00 GMT"
+    },
+    {
+      "title": "이번주 공모주 청약, 코스모로보틱스 1개사 - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tdUNOb3doVzVKcmVhX2JnTlE0dGhaMGJIS1dsODI4LXBIUDdUWDJ5U2szeFdFV0F0MFJLWGduNEI0aTJlQ3Y0Z0J3ZDd0SGZYcTJHYXlrSXBZT2Q4MDdDVA?oc=5",
+      "pubDate": "Sat, 25 Apr 2026 15:11:00 GMT"
+    },
+    {
+      "title": "‘전기차 충전 1호’ 채비 상장, 코스모로보틱스 등 공모주 열기 ‘후끈’ - 파이낸셜투데이",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kYVJNeENBNDZ0QU9rLWl1bXZkZExSdk14Z25oOHQyRmxBZkdtdUd0emtxVUwtV2F2VDA4ZkhwaEdzenpwRkMyNW9waUU1ZjlPUXJsUnhpdHFTYW93NXcyd2V0Q1I4VTd3WEHSAW5BVV95cUxQcTJlM3NiaVJ2dmc5RW96T1Atd3NZM1BoT0g0cHVTVDZRdkRvR2FOX1pZX0pxeFRvd3laWDVnYl9nRXJDTGlBSVotQ2lqRXlmdm5pak1xaTh3S0FSdE5UNGM2elJETlJqMTBILXlEdw?oc=5",
+      "pubDate": "Sat, 25 Apr 2026 00:41:22 GMT"
+    }
+  ],
+  "updated_at": "2026-04-26 22:12:40"
+}

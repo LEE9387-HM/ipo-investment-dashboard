@@ -1,0 +1,49 @@
+{
+  "rcept_no": "20260402100016",
+  "corp_name": "폴레드",
+  "corp_code": "01565364",
+  "stock_code": "nan",
+  "market": "기타",
+  "status": "상장예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260402100016",
+  "offering_price_low": "nan",
+  "offering_price_high": "nan",
+  "offering_price_final": "nan",
+  "subscription_start_dt": "nan",
+  "subscription_end_dt": "nan",
+  "listing_dt": "nan",
+  "underwriter": "nan",
+  "total_shares": "nan",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "[공모주달력]출산율 낮아도 지갑은 열린다…폴레드 IPO 도전장 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9UaExRc1FaWV9LRzJnV1hkTkxYT0ozWU9haDM0NGZjcHo4a0RGdzQyT1o0MXhKNmJlMUJSQ0YyWGhyWjc3d2pveEJ5R1VST3gyS21NWg?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 23:01:32 GMT"
+    },
+    {
+      "title": "‘전기차 충전 1호’ 채비 상장, 코스모로보틱스 등 공모주 열기 ‘후끈’ - 파이낸셜투데이",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kYVJNeENBNDZ0QU9rLWl1bXZkZExSdk14Z25oOHQyRmxBZkdtdUd0emtxVUwtV2F2VDA4ZkhwaEdzenpwRkMyNW9waUU1ZjlPUXJsUnhpdHFTYW93NXcyd2V0Q1I4VTd3WEHSAW5BVV95cUxQcTJlM3NiaVJ2dmc5RW96T1Atd3NZM1BoT0g0cHVTVDZRdkRvR2FOX1pZX0pxeFRvd3laWDVnYl9nRXJDTGlBSVotQ2lqRXlmdm5pak1xaTh3S0FSdE5UNGM2elJETlJqMTBILXlEdw?oc=5",
+      "pubDate": "Sat, 25 Apr 2026 00:41:22 GMT"
+    },
+    {
+      "title": "'폴레드 공모주' 22일부터 수요예측...청약 일정과 예상 공모가 - gukjenews.com",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtR3YwNWtqT2ZLUGxlQzd0Xy1qNWpGUUxXLVlFX1lwWkJ5TTFtZ1BiVHdzQzVpa1dWNVhINnVIVUJ1TlQwc2NPa1NEV0hNWFNpellMN1dhSTNneDV6ODFZSjBzcDVmMHBYSFFNZlVR?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "육아용품·전기차 충전·로봇…다양한 섹터 공모주 잇달아 출격 - 뉴스톱",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9KZjVvNjJvYnozYnViRERMNTNxR1FxaElDQ0FyNzVkYkNZSU40R0g2UXFtTFE0R21rTmtycGZUWHY1UHJlcWlDWERiSFJZTXhxWHR4N25GT0hzWG5fUTR2SVo4SFU3aGgzVUNqT0FpYw?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 20:48:28 GMT"
+    },
+    {
+      "title": "[주간 IPO] 폴레드 수요예측 돌입…채비 상장·코스모 수요예측 마무리 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5KbGhTVUxLaWhKdkRrdnhBam9lVFlkdm1kcFRuQjRhLUlXckRYRmJabzFwRGFneUxDZmg1eTFQUjdHaXY0emZyQmFWWmpOd0RBcnhwMw?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 00:00:00 GMT"
+    }
+  ],
+  "updated_at": "2026-04-26 22:12:31"
+}

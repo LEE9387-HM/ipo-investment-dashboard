@@ -1,0 +1,49 @@
+{
+  "rcept_no": "20260420100015",
+  "corp_name": "휴림에이텍",
+  "corp_code": "00230814",
+  "stock_code": "078590",
+  "market": "KOSDAQ",
+  "status": "상장예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260420100015",
+  "offering_price_low": "nan",
+  "offering_price_high": "nan",
+  "offering_price_final": "nan",
+  "subscription_start_dt": "nan",
+  "subscription_end_dt": "nan",
+  "listing_dt": "nan",
+  "underwriter": "nan",
+  "total_shares": "nan",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "휴림에이텍 주가 21% 도약…장세의 '흐림' 속 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9uY0NDVW5yWWlLeHZsLXBFVUZJM2xMOGJsMmxNLVBLeGY1akx4TXJVRng2TGttUVY5eWVJS1REYWJJM3N1TkJCVndDS2ZNVlBKQjZUcjJydjlCNmR5LW1oLXZNZE03X0E3?oc=5",
+      "pubDate": "Thu, 19 Mar 2026 07:00:00 GMT"
+    },
+    {
+      "title": "[속보] 휴림에이텍, 2거래일 연속 상한가…중동 긴장 속 수급 쏠림 확대 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBaS2Facm4zeVpUekhpS2t5Wlg2WUpLSWF6VmRhTFBmMFdGb1NIbDBCdXg5RDctOExyd19kX3RZMXg1YXJ5WGZBRUZFRDB3QW1XOUplLU5vamQ4TWYtX3NUbWRmNG16VHpk?oc=5",
+      "pubDate": "Wed, 18 Mar 2026 07:00:00 GMT"
+    },
+    {
+      "title": "특징주, 휴림에이텍-자동차부품 테마 상승세에 5.76% ↑ - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE91VFowb3huMmJpODdxXzh4eTcwbmdrdExzM1lXYkc3VGtzb3hqVEhGMG01LVBzbmJBdDVxaTdYdnRWWGZ5eHFxSm1sazlyVzAy?oc=5",
+      "pubDate": "Tue, 13 Jan 2026 08:00:00 GMT"
+    },
+    {
+      "title": "[속보] 휴림에이텍, 장중 상한가 직행…로봇 사업 방향성 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tTTBNRmdOcmhETFBQV25iWW5aLUV2aXJ3N0ZxOGJjZEFoT3BrNjljNTlhSzVQS3ZVZVJMZVR2Tjdvc3E1RlZ5eG9acVpSMW43cmluZDBkQ2pOWURDQzlaMi1mY2pob3JM?oc=5",
+      "pubDate": "Tue, 17 Mar 2026 07:00:00 GMT"
+    },
+    {
+      "title": "휴림로봇 12% 상승·레인보우로보틱스도 도약 휴림에이텍 상한가 기록...로봇주 급등 신호 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MeFJxelFncy16NXpDT0ZRVVA5VFpSMUU3X0FjQ2NGUjY3VXpUTEpTZndIaWtHOWtTNE5nQkRUSENyX0luUk1hSkV6c1Y5MElGYXZsbEtvV1haNm01MnZhaENuMExzR3FG?oc=5",
+      "pubDate": "Wed, 18 Mar 2026 07:00:00 GMT"
+    }
+  ],
+  "updated_at": "2026-04-26 22:12:36"
+}

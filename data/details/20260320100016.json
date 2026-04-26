@@ -1,0 +1,49 @@
+{
+  "rcept_no": "20260320100016",
+  "corp_name": "에이텀",
+  "corp_code": "01444380",
+  "stock_code": "355690",
+  "market": "KOSDAQ",
+  "status": "상장예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320100016",
+  "offering_price_low": "nan",
+  "offering_price_high": "nan",
+  "offering_price_final": "nan",
+  "subscription_start_dt": "nan",
+  "subscription_end_dt": "nan",
+  "listing_dt": "nan",
+  "underwriter": "nan",
+  "total_shares": "nan",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "[공모주 캘린더] 11월 27~12월 1일 에이에스텍, 에이텀 등 상장 - 전국매일신문",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBMQ1pOSzVBSEM1YnVCbmZWU2JtRzhJYlo2YmN3U2IxbnFYSmVFYW9NSW9VMWJ4SlFYZlRtV2ljN3FOcWs2SlQ3cC1jdXphMjZIdENQd0lOUFpXdTZOTGtUM1JVcjdpREhSbFZPMA?oc=5",
+      "pubDate": "Mon, 27 Nov 2023 08:00:00 GMT"
+    },
+    {
+      "title": "청약할까말까 : 에이텀, 투자점수 49점…수익확률 20% - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BM280N1VXaU0zSnI4RkxWVHRnZFBmOFdkcVdSdTR6OXROMUc3RWxoWjdWd1JjNy04VG5vd3NxWHpOc01hazJ6bm5hcUZsVjdSZWtMcl9wSi03UdIBVEFVX3lxTFBtWTZBVGZTMjkwemNPMkJpNk5UZ2REZWNHeDhWaVhIQ052QVJBUUFxdW5EdkFTRFVGNUcyVWd0Q1ZBRDhvRHdXMEhWMVpkeEVfRGU5Yg?oc=5",
+      "pubDate": "Wed, 22 Nov 2023 08:00:00 GMT"
+    },
+    {
+      "title": "에이텀, 수요예측 후 공모가 확정…공모주 청약 진행 - 영남일보",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5EVVY4QUZSZlZuaDAwaGFHejA3TkhpZmIwdUYzTlJCSlJCczNtN2RHUlA3LUNFZEVhdkEzWHo3T1ZpSnMxSXowTjRKOExEYVQ0MzU5bUUyTEpKM3l5eVJTejBjSW0tUUxpVlJz?oc=5",
+      "pubDate": "Wed, 15 Nov 2023 08:00:00 GMT"
+    },
+    {
+      "title": "[IPO] 평판형 트랜스 제조사 에이텀, 청약 경쟁률 1622대 1 기록… 증거금 2.4조 - investnews.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrMmR3YmppY3FsQU1mTHA4dXBfYzI5aFB1eUx5aGUwaDExZ2tEVG1hd1BSZlkwU2owdUR6c09ERVItaDBOc0U1a05DVlZJcjEwb05fX21hUU9Db2lLUjc0OVB5TDh2UnZqLTB5aGZiTlJ5UQ?oc=5",
+      "pubDate": "Wed, 22 Nov 2023 08:00:00 GMT"
+    },
+    {
+      "title": "[증시새내기] 에이텀 \"독보적 기술력으로 국가대표 트랜스 기업 도약\" - 파이낸셜신문",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9teFlNRmMtdEtNeWRMVEJkNGI4cHFqVHFoVDUwY1pacFUxeUkyZ2ZmVThQeUVqcjM2SUZBRHhGQUxEUWtUdTdDamsxVWZ4c0JuQXA5R2hXbHJFVzFUeXI4ZllOdHlCOXlrZjdB?oc=5",
+      "pubDate": "Mon, 30 Oct 2023 07:00:00 GMT"
+    }
+  ],
+  "updated_at": "2026-04-26 22:13:00"
+}

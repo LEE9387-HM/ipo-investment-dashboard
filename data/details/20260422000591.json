@@ -1,0 +1,41 @@
+{
+  "rcept_no": "20260422000591",
+  "corp_name": "RF머트리얼즈",
+  "corp_code": "01343665",
+  "stock_code": "327260",
+  "market": "KOSDAQ",
+  "status": "상장예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260422000591",
+  "offering_price_low": "nan",
+  "offering_price_high": "nan",
+  "offering_price_final": "nan",
+  "subscription_start_dt": "20260623",
+  "subscription_end_dt": "20260624",
+  "listing_dt": "20260709",
+  "underwriter": "nan",
+  "total_shares": "nan",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "이 연기·축소·취소될 경우 RF시스템즈의 수주잔고, 매출 및 수익성에 부정적인 영향이 발생할 수 있으며, 최근 K-방산 수출 확대에 따른 성장세 역시 글로벌 지정학적 갈등 양상의 변화, 무기 수입국의 정치·경제적 불확실성 확대, 미국 및 유럽 등 해외 방산기업과의 경쟁 심화 등으로 제약을 받을 수 있습니다.",
+  "news": [
+    {
+      "title": "[공모주 탐구] 시지트로닉스, 특화반도체로 주가 고공행진 성공할까 - 데일리인베스트",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5PX29qRzk1UlJRN0NCVEdJWGhEdHNMRW9XRzUySERwQzNmV0VZWmpSUDZwU0hjdXlTaFgzaDYyQ1hXV3Z0dG9nR3BKdFRTUEpOQ0Z4WVd4VTQ4S21XUVk2d0ZYQ1F4ckw4YTRN0gFvQVVfeXFMTVdlVzRnbTFvTERUVmh3clFvLTQ1bHd1OXh4R3NtbmdqRHQxRjN1aUxXMHF1N245T1VuS096M19NWFZOYmExTjNoODZYSjF0Y2pibnV1ZUJkSi1aUzJaRnFET29qZ3M4eGhQSWk0RElN?oc=5",
+      "pubDate": "Wed, 19 Jul 2023 07:00:00 GMT"
+    },
+    {
+      "title": "[주린이의 공모주] 알짜 IPO 출격…유진테크·유투바이오·쏘닉스 등 공모 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9mbU05ZGVWdzh0LWwtQ2lqT0xndmoycjRRWTNPQ3JkWVU4bEdkazg1akstQzVuTHotenM2a1JCckc2TVRoMHc?oc=5",
+      "pubDate": "Tue, 24 Oct 2023 07:00:00 GMT"
+    },
+    {
+      "title": "레이크머티리얼즈 목표주가 분석! 소재 강자의 24000원 달성 전략 - 티스토리",
+      "link": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxQR1FmWGJSWFNiYk1vV0FDWXNNTnpBU3VYWUFMSV9abVFpU1h2UDVMMFlkcjVodDd6M09jU1c4cFZzNUhwbnlPSjRkdll3bkFKOFdfakJnYnE5RXROcjZfbFFkYTZBVVUtVS1jc05lOUVGXzNhLTNDbHJZU1JMeUEyZFNiYTZqMFI2OTllVlBKZG1uU0dtS1A3eUNvZV9BODNWb3JHNkdxVkQwbWRacEtPb0QwU2lKOGwzd3BXQ1RNd1hvdzVhNVVUSGJwdE9Xc3NJemZJYWJ2RmRlcnVST2lmSG9uZjUyT212WkZYN041NFRLMS1fNGdPUk5pQXhzNnNodkRCVjkyN2dTczBTemFEOFR2Zm9NV0UwcFAxSXBlcmJIUWpMc3J1aG9YdS1QbkE0dGk1WVZkdmNNck5Ua0RUekplMTJvdFJpMWlEbm0xeDFPRlJ2S0N3cWNJWHVFS25mVVpxWjlJMkFfRWhVd2V5MmtuY3BnWV8wZHlPSUZR?oc=5",
+      "pubDate": "Fri, 23 Jan 2026 08:00:00 GMT"
+    }
+  ],
+  "updated_at": "2026-04-26 22:13:40",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}

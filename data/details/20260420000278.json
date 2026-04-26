@@ -1,0 +1,51 @@
+{
+  "rcept_no": "20260420000278",
+  "corp_name": "루닛",
+  "corp_code": "01397620",
+  "stock_code": "328130",
+  "market": "KOSDAQ",
+  "status": "상장예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260420000278",
+  "offering_price_low": "nan",
+  "offering_price_high": "nan",
+  "offering_price_final": "nan",
+  "subscription_start_dt": "20260422",
+  "subscription_end_dt": "20260423",
+  "listing_dt": "nan",
+  "underwriter": "nan",
+  "total_shares": "nan",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "‘공모가 밴드 하단’ 채비, 20~21일 일반 청약 [이번주 증시캘린더] - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjd0lnREMzRkdCOWxPdHVZVHlnUV90Z0xYVGNVcUZEZFlSbjZpbXZXbHNyUWR4NXIyaFkxNTlabExEZzUwdG94ZGppU2ktcllOemRn0gFTQVVfeXFMUGN3SWdEQzNGR0I5bE90dVlUeWdRX3RnTFhUY1VxRkRkWVJuNmltdldsc3JRZHg1cjJoWTE1OVpsTERnNTB0b3hkamlTaS1yWU56ZGc?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 22:00:00 GMT"
+    },
+    {
+      "title": "증시 호황에…상장사, 앞다퉈 신주 발행 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NOFN5ZDBpcnY4LXBkblBWWHROQndBU3ZzOXRvTjhlZUhBbUlTWVRpY0h0MFlMajc2aDBaQzl5U2U5LWl3VmhvSHJjU3NfSHNPZ28zSWVkLTFZd9IBVEFVX3lxTFB6enpCOW1YcXViMUhqSjJRLV9sQW1qTUlaWXJNVy1aeGpTY29RWXRvRi1nTWI0ekVLWFd6MjlPUlcxeTV2Q0QtRmhiOG5KVXlFUVViVQ?oc=5",
+      "pubDate": "Thu, 12 Mar 2026 07:00:00 GMT"
+    },
+    {
+      "title": "제이피아이헬스, 공모가 2만원 확정 \"밴드 상단\" - 바이오스펙테이터",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBrVklDcldDTUVwckhGQThKRjVSaEpQcGNiVzJCU0VEVE0zSVpFVVZkZ3pCM3ZPZkZhMnllZ29xeE1WN2tsOUlsMkVYYXVoMkd3YUNJcnUwNA?oc=5",
+      "pubDate": "Fri, 08 Aug 2025 07:00:00 GMT"
+    },
+    {
+      "title": "AI 진단기업 루닛 21일 상장, 투자자들 유의할 점은 - 팜이데일리",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5QckhLdFVMM21VNE5US0hkb2NYaTRhY3B1U3hTRVZFZG9OUnd1ZnNMc3ZCUHI2aEJEcHk4Nk1tSURUaE1DRTd2Ql9DU3p5eGQtSnA3UUdMTEplNEdZTldQT0tVOVR5TDFtdmRLT2V3?oc=5",
+      "pubDate": "Tue, 19 Jul 2022 07:00:00 GMT"
+    },
+    {
+      "title": "[Hot 종목 체크] 루닛, 빅파마와의 추가 협업으로 매출 성장 전망…주가 향방은? - 데일리인베스트",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4wTlByTy1ZMGwzd1BPRjQyWlZoalBGb29aYzFwWXlSYmJZUjZnWE5hY2RuWDhkLV9ydVFVNm5NZldaZngxOHl6dURXTldtdGNiVDlLQnpRZ3dydTNkMENlaV9ERjltaWJzMXpr0gFvQVVfeXFMTVN1OHBpYlA1aVowODg5NkxkdHA3cTY3VUlzM05KTWo3d1RFWFBSV0ZseEJyMmZtM015eGFWd2ZkcktYWkpVUHZTdnJ6dUc4ZEt3T3d2RkxXR3ZDSm5sM3E4aENVQU5mdjVjUW5mZWM4?oc=5",
+      "pubDate": "Fri, 21 Mar 2025 07:00:00 GMT"
+    }
+  ],
+  "updated_at": "2026-04-26 22:13:51",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}

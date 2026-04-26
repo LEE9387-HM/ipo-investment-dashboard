@@ -216,6 +216,46 @@
 
 </div><!-- /app -->
 
+<!-- ===== 상세 모달 ===== -->
+<div class="modal-backdrop" id="detailBackdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal">
+    <div class="modal__header">
+      <div>
+        <h2 class="modal__title" id="modalTitle">—</h2>
+        <div class="modal__meta" id="modalMeta"></div>
+      </div>
+      <button class="modal__close" id="modalClose" aria-label="닫기">✕</button>
+    </div>
+
+    <!-- 모달 탭 -->
+    <div class="modal__tabs">
+      <button class="modal-tab active" data-mtab="overview">기업 개요</button>
+      <button class="modal-tab" data-mtab="forecast">수요예측</button>
+      <button class="modal-tab" data-mtab="news">뉴스</button>
+    </div>
+
+    <div class="modal__body">
+
+      <!-- 기업 개요 탭 -->
+      <div class="modal-panel active" id="mtab-overview">
+        <dl class="detail-grid" id="detailOverview"></dl>
+      </div>
+
+      <!-- 수요예측 탭 -->
+      <div class="modal-panel" id="mtab-forecast">
+        <dl class="detail-grid" id="detailForecast"></dl>
+        <div class="modal__dart-link" id="detailDartLink"></div>
+      </div>
+
+      <!-- 뉴스 탭 -->
+      <div class="modal-panel" id="mtab-news">
+        <ul class="news-list" id="detailNews"></ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+
 <script src="main.js"></script>
 </body>
 </html>

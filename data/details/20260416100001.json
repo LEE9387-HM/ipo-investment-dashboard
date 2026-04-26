@@ -1,0 +1,29 @@
+{
+  "rcept_no": "20260416100001",
+  "corp_name": "형지I&C",
+  "corp_code": "00142713",
+  "stock_code": "011080",
+  "market": "KOSDAQ",
+  "status": "상장예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260416100001",
+  "offering_price_low": "nan",
+  "offering_price_high": "nan",
+  "offering_price_final": "nan",
+  "subscription_start_dt": "nan",
+  "subscription_end_dt": "nan",
+  "listing_dt": "nan",
+  "underwriter": "nan",
+  "total_shares": "nan",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "형지I&C, 유상증자 결정…280만주 발행 계획 - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1pNGkyWHFhcllPZUZXRElsZWFVbVg3eG1oRUdQTS1HbjBCejV3ZG9QQkdKMW5lUHExMVRBaGVRNlZnd2pCMno5SzZfeXlDT3FYTjY0?oc=5",
+      "pubDate": "Tue, 03 Mar 2026 08:00:00 GMT"
+    }
+  ],
+  "updated_at": "2026-04-26 22:12:44"
+}

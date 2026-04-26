@@ -1,0 +1,49 @@
+{
+  "rcept_no": "20260224100015",
+  "corp_name": "이뮨온시아",
+  "corp_code": "01203659",
+  "stock_code": "424870",
+  "market": "KOSDAQ",
+  "status": "상장예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260224100015",
+  "offering_price_low": "nan",
+  "offering_price_high": "nan",
+  "offering_price_final": "nan",
+  "subscription_start_dt": "nan",
+  "subscription_end_dt": "nan",
+  "listing_dt": "nan",
+  "underwriter": "nan",
+  "total_shares": "nan",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "이뮨온시아, 코스닥 상장…\"기술이전·임상 발표로 성장 가속 기대\" - 히트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE44OVF2aTVEeVJjZHRjUGJYYlFjQjNhcUVxRWNDdVRScC1ncG1vWS03eVpZQ1ZRQlI0Q0lmR0VEYW5vMmljd3NOMVVlc2w1TGdLREV6MEZpRTczb1NXWFQySGFUY2p5N09taHBv?oc=5",
+      "pubDate": "Mon, 19 May 2025 07:00:00 GMT"
+    },
+    {
+      "title": "[장외시황] 비상장주식, 상승 마감…이뮨온시아 공모주 청약 시작 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zR2lRRlN1ZE5RR2hlY1ZxMHAwZlJaaUlwaUtUSUNEal9zWW9RYXh0VmxTLU81eWVZN05xdjBmZ3YxVHRUZElHaWtwTlVLcFhZVGI1Vg?oc=5",
+      "pubDate": "Wed, 07 May 2025 07:00:00 GMT"
+    },
+    {
+      "title": "이뮨온시아 공모주 청약 마감일...수요예측 결과와 상장일은? - gukjenews.com",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zM1FpQkl1VHJtV25WZ0YxN2NoZlhtWWtjZWVLX1NkMU1EZ3FNQ1V2TDZOZ3RZNEVqUDhxOXozNEtsWXBnLUh0TV9xM21fZ0dWcnhrcl9fN25BckdWajZnOThfNl9zd3FrLXRKSHFn?oc=5",
+      "pubDate": "Thu, 08 May 2025 07:00:00 GMT"
+    },
+    {
+      "title": "'유한양행 자회사' 이뮨온시아, 상장일은?... 오늘 공모주 청약 마감 - 금강일보",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBnMFJMcW41am5FX01OZGJEYUg2TXJVR0tzbWktclltcmJZUVo5Wk5uRGhyTm44ZDFtWTNpOUdqUm9jem9OR1JheVZJbGdLakd1RHRpZ2E1VXNWQVN5YlU4bGl0akxfUV93bXc?oc=5",
+      "pubDate": "Thu, 08 May 2025 07:00:00 GMT"
+    },
+    {
+      "title": "‘승무원 미스트’ 달바 코스피 입성…키스트론 공모주 청약 [이번주 증시 캘린더] - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1PYk1iVU1jMkNwZ3NHd1NfS2dzMWlvNXFRVVNrbEdRRnRnUmpCeHR5RlBtdWduejFlU09PUEc4bmo5eXBZR2doTzZ5R0dWRU5vNFo40gFTQVVfeXFMTU9iTWJVTWMyQ3Bnc0d3U19LZ3MxaW81cVFVU2tsR1FGdGdSakJ4dHlGUG11Z256MWVTT09QRzhuajl5cFlHZ2hPNnlHR1ZFTm80Wjg?oc=5",
+      "pubDate": "Mon, 19 May 2025 07:00:00 GMT"
+    }
+  ],
+  "updated_at": "2026-04-26 22:13:09"
+}

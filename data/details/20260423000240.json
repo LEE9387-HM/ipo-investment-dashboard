@@ -1,0 +1,51 @@
+{
+  "rcept_no": "20260423000240",
+  "corp_name": "이노스페이스",
+  "corp_code": "01700587",
+  "stock_code": "462350",
+  "market": "KOSDAQ",
+  "status": "상장예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423000240",
+  "offering_price_low": "nan",
+  "offering_price_high": "nan",
+  "offering_price_final": "nan",
+  "subscription_start_dt": "20260604",
+  "subscription_end_dt": "20260605",
+  "listing_dt": "nan",
+  "underwriter": "nan",
+  "total_shares": "nan",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "이노스페이스, 공모가 회복은 언제쯤 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAtRVVTTUlLTEVLOXJ3SXNscW9XcTh6ZVN5cUl1el8wNFd6NmVlVjNwOUtlamQ0eDN1aTdVcndPTTl2ZVNnVlB1UjJweUxiTWQ3NGxPSVNKTjY3ODNDTC1SY0pn?oc=5",
+      "pubDate": "Fri, 04 Jul 2025 07:00:00 GMT"
+    },
+    {
+      "title": "공모주 청약 경쟁률 ‘1150 대 1’ 이노스페이스, 상장 첫날 20% 폭락 - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBhQVFhYlMtN194QVhkR05xb0ZYTXJmRGtfaEtYc21JT2FKSi1qelhBVHFxS29yWnpnSWFTQXVyYko2MGJoTHFfTHN4aWgwNWJpb00zcDlSc2o0Zmt3bkFOVXlRcHJUSnc?oc=5",
+      "pubDate": "Wed, 03 Jul 2024 07:00:00 GMT"
+    },
+    {
+      "title": "'공모주 거품' 빠지나…이노스페이스 첫날 20% 뚝 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBReVk2UVBIV3JEbXJjVGpDbE9wZWNFeVF5RGJUbWNnZnhRZUE3WFZILUQ0Sno4dXNkaGRHRkhiSGdkTzdRZzFCTnN3WkNuUlNRa3ZnbDR6QnYwQdIBVEFVX3lxTE13X0NCaUFnMVJ3NWZENUhWcGFmVUpiVHN2WGV1UFluTXNXNjJ2OUZUVU53MkgxMXY0YWhaVHRfOC1NTFhVS1NRM19KZG95NnNpUmpSZg?oc=5",
+      "pubDate": "Tue, 02 Jul 2024 07:00:00 GMT"
+    },
+    {
+      "title": "'공모주 거품' 알 수 있다고?…의무보유확약률 10% 미만 '주의' - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBYdzF5QkpaX0RyVlY0RjI3OEtVb3JidmZxTll0OHVPQTlPRF96cXFJWGg4SlBHZG96U1N1QXM0X0JIM0RMVGc?oc=5",
+      "pubDate": "Sun, 07 Jul 2024 07:00:00 GMT"
+    },
+    {
+      "title": "'공모주 거품' 의무보유확약률은 알고있다…10% 미만 주의해야 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1laGJ3YWZNUkw2Sm92SXdWejdndGV5Q1JoZ0NwVTJEQzFLcDRpNHl5VldWajl4aTE4cmVxMzZjYVBtWkFDaGhYOEtiTWJtREVHSzJpQmxiMkVlOEHSAWBBVV95cUxObk04aTRLeU9zTWM3ZEd5dEI5N2tySU5ONkRBelVQb1RGMjdsV2Y4NUluRjBsbVRsS3VfNWlwS0hRTVNXaWhxSGtiNHN1bG9ReUxhbV9tWTBkc19fd1RBWEg?oc=5",
+      "pubDate": "Sat, 06 Jul 2024 07:00:00 GMT"
+    }
+  ],
+  "updated_at": "2026-04-26 22:13:31",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}
