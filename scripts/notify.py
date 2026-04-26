@@ -58,11 +58,8 @@ def send_message(text: str, parse_mode: str = "HTML") -> bool:
         성공 여부
     """
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
-        logger.error(
-            "TELEGRAM_BOT_TOKEN 또는 TELEGRAM_CHAT_ID가 설정되지 않았습니다.\n"
-            "  .env.local 에 두 값을 추가하세요."
-        )
-        return False
+        logger.warning("TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID 미설정 - 알림 건너뜀")
+        return True
 
     url = f"{TELEGRAM_API_URL}/sendMessage"
     payload = {
