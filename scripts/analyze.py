@@ -227,6 +227,10 @@ def collect_listing_results(ipo_df: pd.DataFrame) -> pd.DataFrame:
         results_df = pd.DataFrame(columns=RESULTS_COLUMNS)
 
     existing_rcept_nos = set(results_df["rcept_no"].tolist())
+    # stock_code 기준으로도 중복 방지 (동일 종목 여러 공시 차단)
+    existing_stock_codes = set(
+        results_df.loc[results_df["stock_code"].notna() & (results_df["stock_code"] != ""), "stock_code"].tolist()
+    )
     listed = ipo_df[ipo_df["status"] == "상장완료"].copy()
     new_rows: list[dict] = []
 
@@ -240,6 +244,11 @@ def collect_listing_results(ipo_df: pd.DataFrame) -> pd.DataFrame:
 
         if not stock_code or not listing_dt:
             logger.debug(f"{row.get('corp_name')}: 종목코드 또는 상장일 미확인, 건너뜀")
+            continue
+
+        # 이미 같은 종목코드로 수집된 결과가 있으면 건너뜀
+        if stock_code in existing_stock_codes:
+            logger.debug(f"{row.get('corp_name')} ({stock_code}): 결과 이미 존재 (stock_code 기준), 건너뜀")
             continue
 
         logger.info(f"{row.get('corp_name')} ({stock_code}) 상장일 데이터 수집 중...")

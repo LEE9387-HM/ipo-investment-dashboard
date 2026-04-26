@@ -329,7 +329,11 @@ function renderResultTable(rows) {
     return;
   }
 
-  const sorted = [...rows].sort((a, b) =>
+  // stock_code 기준 중복 제거 (같은 회사 여러 공시 → 최신 listing_dt만 표시)
+  const deduped = deduplicateRows(
+    [...rows].sort((a, b) => (b.listing_dt || "").localeCompare(a.listing_dt || ""))
+  );
+  const sorted = deduped.sort((a, b) =>
     (b.listing_dt || "").localeCompare(a.listing_dt || "")
   );
 

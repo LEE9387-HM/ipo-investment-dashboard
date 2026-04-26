@@ -561,6 +561,24 @@ def run() -> int:
 
     # Phase 2: market / 청약일 / 공모가 등 상세 필드 보완
     merged_df = enrich_ipo_items(merged_df)
+
+    # listing_dt 유효성 검사: 청약종료일보다 앞서거나 날짜 형식 불량이면 제거
+    for idx, row in merged_df.iterrows():
+        lt = str(row.get("listing_dt", "") or "").strip()
+        if not lt or len(lt) != 8:
+            continue
+        try:
+            m, d = int(lt[4:6]), int(lt[6:8])
+            if not (1 <= m <= 12 and 1 <= d <= 31):
+                merged_df.at[idx, "listing_dt"] = ""
+                continue
+        except ValueError:
+            merged_df.at[idx, "listing_dt"] = ""
+            continue
+        sub_end = str(row.get("subscription_end_dt", "") or "").strip()
+        if sub_end and lt <= sub_end:
+            merged_df.at[idx, "listing_dt"] = ""
+
     save_ipo_list(merged_df)
 
     logger.info("=" * 50)
