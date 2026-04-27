@@ -96,9 +96,10 @@ def get_verdict(
     """
     has_ai     = bool(upside_pct and str(upside_pct).strip())
     has_demand = bool(competition_ratio and str(competition_ratio).strip())
+    has_lockup = bool(lock_up_ratio and str(lock_up_ratio).strip())
 
-    # 핵심 데이터가 전혀 없으면 판단 불가 — "중립"과 명확히 구분
-    if not has_ai and not has_demand:
+    # AI예측·경쟁률·확약 모두 없을 때만 "데이터 수집 전"
+    if not has_ai and not has_demand and not has_lockup:
         return "⚫ 데이터 수집 전", ["AI예측·수요예측 결과 미수집"]
 
     score = 0

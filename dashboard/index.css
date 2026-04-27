@@ -628,7 +628,86 @@ body {
 }
 .community-section-title:first-child { margin-top: 0; }
 
-/* 클릭 가능한 행 */
+/* ---------------------------------------------------------------------------
+   IPO 단계 타임라인
+   --------------------------------------------------------------------------- */
+
+.ipo-timeline {
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+  margin-bottom: var(--space-6);
+  overflow-x: auto;
+  padding-bottom: var(--space-2);
+  scrollbar-width: none;
+}
+.ipo-timeline::-webkit-scrollbar { display: none; }
+
+.timeline-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  min-width: 72px;
+  position: relative;
+}
+
+/* 선 (step 사이) */
+.timeline-step:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  width: 100%;
+  height: 2px;
+  background: var(--color-border);
+  z-index: 0;
+}
+.timeline-step.done:not(:last-child)::after,
+.timeline-step.active:not(:last-child)::after {
+  background: var(--color-accent);
+}
+
+/* 점 */
+.timeline-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid var(--color-border);
+  background: var(--color-surface-2);
+  z-index: 1;
+  flex-shrink: 0;
+  transition: all var(--transition);
+}
+.timeline-step.done  .timeline-dot { background: var(--color-accent); border-color: var(--color-accent); }
+.timeline-step.active .timeline-dot {
+  background: var(--color-warning);
+  border-color: var(--color-warning);
+  box-shadow: 0 0 0 4px var(--color-warning-dim);
+}
+
+.timeline-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-align: center;
+  margin-top: var(--space-2);
+  white-space: nowrap;
+}
+.timeline-step.done   .timeline-label { color: var(--color-accent-hover); }
+.timeline-step.active .timeline-label { color: var(--color-warning); }
+
+.timeline-date {
+  font-size: 0.65rem;
+  color: var(--color-text-muted);
+  text-align: center;
+  margin-top: 2px;
+  font-family: var(--font-mono);
+  white-space: nowrap;
+}
+
+/* ---------------------------------------------------------------------------
+   클릭 가능한 행 */
 .data-table tbody tr.clickable {
   cursor: pointer;
 }

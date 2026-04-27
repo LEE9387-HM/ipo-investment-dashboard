@@ -221,12 +221,20 @@ function computeStatus(r) {
  * @returns {string}
  */
 function ipoSortKey(r) {
-  const rank = {"청약중": 0, "청약예정": 1, "상장예정": 2, "청약종료": 3, "상장완료": 4}[computeStatus(r)] ?? 5;
-  const lt = r.listing_dt || "99999999";
-  // 상장완료는 내림차순 → 날짜를 반전
-  const dateKey = rank === 4
-    ? String(99999999 - parseInt(lt, 10)).padStart(8, "0")
-    : lt;
+  const status = computeStatus(r);
+  const rank = {"청약중": 0, "청약예정": 1, "상장예정": 2, "청약종료": 3, "상장완료": 4}[status] ?? 5;
+  const subS = r.subscription_start_dt || "99999999";
+  const subE = r.subscription_end_dt   || "99999999";
+  const lt   = r.listing_dt            || "99999999";
+
+  let dateKey;
+  if      (rank === 0) dateKey = subE;  // 청약중: 마감 임박 순
+  else if (rank === 1) dateKey = subS;  // 청약예정: 시작일 빠른 순
+  else if (rank === 2) dateKey = lt;    // 상장예정: 상장일 빠른 순
+  else if (rank === 3) dateKey = String(99999999 - parseInt(subE, 10)).padStart(8, "0"); // 청약종료: 최근 순
+  else if (rank === 4) dateKey = String(99999999 - parseInt(lt,   10)).padStart(8, "0"); // 상장완료: 최근 순
+  else                 dateKey = "99999999";
+
   return `${rank}${dateKey}`;
 }
 
@@ -477,6 +485,77 @@ function dt(label, value, mono = true) {
   return `<dt>${label}</dt><dd class="${mono ? "" : "text-normal"}">${value}</dd>`;
 }
 
+/**
+ * IPO 단계 타임라인 HTML 생성
+ * 단계: 수요예측 → 공모청약 → 배정/환불 → 상장
+ */
+function buildTimeline(row, detail) {
+  const today = new Date().toISOString().slice(0, 10).replace(/-/g, "");
+
+  // 날짜 포맷 (YYYYMMDD → MM/DD)
+  const fmtShort = d => d && d.length === 8 ? `${d.slice(4,6)}/${d.slice(6,8)}` : "";
+
+  // 수요예측 기간
+  const dfp   = detail && detail.demand_forecast_period ? detail.demand_forecast_period.split("~") : [];
+  const dfS   = dfp[0] ? dfp[0].trim() : "";
+  const dfE   = dfp[1] ? dfp[1].trim() : "";
+
+  const subS  = (row.subscription_start_dt || "").trim();
+  const subE  = (row.subscription_end_dt   || "").trim();
+  const lst   = (row.listing_dt            || "").trim();
+
+  // 배정공고일: 통상 청약종료 다음날~2일 후 (표시용 추정, 정확한 데이터 없음)
+  let allocDate = "";
+  if (subE && subE.length === 8) {
+    const d = new Date(subE.slice(0,4), subE.slice(4,6)-1, parseInt(subE.slice(6,8)) + 2);
+    allocDate = d.toISOString().slice(0,10).replace(/-/g,"");
+  }
+
+  /**
+   * 단계 상태 결정
+   * done: 이미 지남 / active: 현재 진행 중 / upcoming: 아직 시작 전
+   */
+  function stepState(start, end) {
+    if (!start) return "upcoming";
+    const s = start, e = end || start;
+    if (today > e)              return "done";
+    if (today >= s && today <= e) return "active";
+    return "upcoming";
+  }
+
+  const steps = [
+    {
+      label: "수요예측",
+      state: stepState(dfS, dfE),
+      date:  dfS ? (dfE && dfS !== dfE ? `${fmtShort(dfS)}~${fmtShort(dfE)}` : fmtShort(dfS)) : "",
+    },
+    {
+      label: "공모청약",
+      state: stepState(subS, subE),
+      date:  subS ? (subE && subS !== subE ? `${fmtShort(subS)}~${fmtShort(subE)}` : fmtShort(subS)) : "",
+    },
+    {
+      label: "배정·환불",
+      state: stepState(allocDate, allocDate),
+      date:  allocDate ? `${fmtShort(allocDate)} 추정` : "",
+    },
+    {
+      label: "상장",
+      state: stepState(lst, lst),
+      date:  lst ? fmtShort(lst) : "",
+    },
+  ];
+
+  const stepsHtml = steps.map(s => `
+    <div class="timeline-step ${s.state}">
+      <div class="timeline-dot"></div>
+      <div class="timeline-label">${s.label}</div>
+      <div class="timeline-date">${s.date || "미정"}</div>
+    </div>`).join("");
+
+  return `<div class="ipo-timeline">${stepsHtml}</div>`;
+}
+
 function formatDateRange(start, end) {
   if (!start) return "—";
   return end ? `${formatDate(start)} ~ ${formatDate(end)}` : formatDate(start);
@@ -495,22 +574,31 @@ async function openDetail(row) {
   ].filter(Boolean);
   document.getElementById("modalMeta").innerHTML = metaParts.join(" · ");
 
-  // 기업 개요 탭
+  // 기업 개요 탭 — 타임라인 + 상세 정보
   const price = row.offering_price_final
     ? `${formatNumber(row.offering_price_final)}원 (확정)`
     : row.offering_price_high
       ? `${formatNumber(row.offering_price_low)}원 ~ ${formatNumber(row.offering_price_high)}원 (희망)`
       : "—";
 
-  document.getElementById("detailOverview").innerHTML = [
-    dt("시장",       row.market),
-    dt("공모가",     price, false),
-    dt("청약기간",   formatDateRange(row.subscription_start_dt, row.subscription_end_dt), false),
-    dt("상장예정일", row.listing_dt ? formatDate(row.listing_dt) : "—", false),
-    dt("주관사",     row.underwriter, false),
-    dt("공모주식수", row.total_shares ? `${Number(row.total_shares).toLocaleString("ko-KR")}주` : "—"),
-    dt("접수번호",   rcept_no),
-  ].filter(Boolean).join("");
+  // 타임라인 먼저 렌더링 (수요예측 기간은 detail 로드 후 업데이트)
+  function renderOverview(d) {
+    const timeline = buildTimeline(row, d || {});
+    const grid = [
+      dt("시장",       row.market),
+      dt("공모가",     price, false),
+      dt("청약기간",   formatDateRange(row.subscription_start_dt, row.subscription_end_dt), false),
+      dt("상장예정일", row.listing_dt ? formatDate(row.listing_dt) : "미정", false),
+      dt("주관사",     row.underwriter || "미정", false),
+      dt("공모주식수", row.total_shares ? `${Number(row.total_shares).toLocaleString("ko-KR")}주` : "—"),
+      d && d.competition_ratio ? dt("수요예측 경쟁률", `${Number(d.competition_ratio).toLocaleString("ko-KR")} : 1`, false) : "",
+      d && d.lock_up_ratio     ? dt("의무보유확약",   `${d.lock_up_ratio}%`, false) : "",
+      dt("접수번호",   rcept_no),
+    ].filter(Boolean).join("");
+    document.getElementById("detailOverview").innerHTML = timeline + `<dl class="detail-grid">${grid}</dl>`;
+  }
+
+  renderOverview(null);
 
   // 초기 상태로 모달 탭 첫 번째 선택
   document.querySelectorAll(".modal-tab").forEach((t, i) => t.classList.toggle("active", i === 0));
@@ -526,6 +614,7 @@ async function openDetail(row) {
     const resp = await fetch(detailUrl, { cache: "no-cache" });
     if (resp.ok) {
       const d = await resp.json();
+      renderOverview(d);           // 수요예측 기간 포함해서 타임라인 재렌더
       fillForecastTab(d);
       fillNewsTab(d.news || [], d.community_news || []);
     } else {
@@ -552,14 +641,16 @@ function fillForecastTab(d, rcept_no = "") {
   }
 
   el.innerHTML = [
-    dt("경쟁률",        d.competition_ratio ? `${Number(d.competition_ratio).toLocaleString("ko-KR")} : 1` : ""),
-    dt("의무보유확약",  d.lock_up_ratio ? `${d.lock_up_ratio}%` : ""),
     dt("수요예측 기간", d.demand_forecast_period
         ? formatDateRange(d.demand_forecast_period.split("~")[0], d.demand_forecast_period.split("~")[1])
         : ""),
+    dt("경쟁률",        d.competition_ratio ? `${Number(d.competition_ratio).toLocaleString("ko-KR")} : 1` : ""),
+    dt("의무보유확약",  d.lock_up_ratio ? `${d.lock_up_ratio}%` : ""),
     dt("공모주식수",    d.total_shares_offered ? `${Number(d.total_shares_offered).toLocaleString("ko-KR")}주` : ""),
+    d.min_bid_price    ? dt("최저입찰공모가", `${Number(d.min_bid_price).toLocaleString("ko-KR")}원`) : "",
     d.business_summary
-      ? `<dt>사업 개요</dt><dd class="text-normal" style="grid-column:1/-1;line-height:1.6;font-size:var(--text-sm);color:var(--color-text-secondary)">${d.business_summary}</dd>`
+      ? `<dt style="grid-column:1/-1;font-size:var(--text-xs);color:var(--color-text-muted);font-weight:600;text-transform:uppercase;letter-spacing:.04em;margin-top:var(--space-4)">사업 개요</dt>
+         <dd class="text-normal" style="grid-column:1/-1;line-height:1.6;font-size:var(--text-sm);color:var(--color-text-secondary)">${d.business_summary}</dd>`
       : "",
   ].filter(Boolean).join("");
 

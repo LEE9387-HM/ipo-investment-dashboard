@@ -61,10 +61,11 @@ UNDERWRITER_STATS_PATH = DATA_DIR / "underwriter_stats.csv"
 GEMINI_API_KEY: str = os.environ.get("GEMINI_API_KEY", "")
 
 # (model_id, rpm_limit, max_per_run)
+# gemini-2.0-flash 을 1순위로 — 무료 티어 1500 RPD로 가장 안정적
 GEMINI_MODELS: list[tuple[str, int, int]] = [
-    ("gemini-2.5-flash-preview-04-17", 10, 20),
+    ("gemini-2.0-flash",               15, 30),
     ("gemini-2.5-flash",               10, 20),
-    ("gemini-2.0-flash",               15, 20),
+    ("gemini-2.5-flash-preview-04-17", 10, 10),
 ]
 
 # ---------------------------------------------------------------------------
@@ -451,8 +452,10 @@ def run_predictions(ipo_df: pd.DataFrame) -> pd.DataFrame:
     logger.info(f"예측 대상(가격 보유·미예측): {len(targets)}건")
 
     new_predictions: list[dict] = []
-    counts    = [0] * len(GEMINI_MODELS)
-    skipped   = 0
+    counts   = [0] * len(GEMINI_MODELS)
+    failures = [0] * len(GEMINI_MODELS)  # 연속 실패 카운트
+    skipped  = 0
+    MAX_CONSECUTIVE_FAILURES = 2
 
     for _, row in targets.iterrows():
         rcept_no = str(row.get("rcept_no", "")).strip()
@@ -463,13 +466,14 @@ def run_predictions(ipo_df: pd.DataFrame) -> pd.DataFrame:
             skipped += 1
             continue
 
-        # 사용 가능한 모델 선택
+        # 사용 가능한 모델 선택 (할당량 미초과 + 연속 오류 미초과)
         model_idx = next(
-            (i for i, (_, _, mx) in enumerate(GEMINI_MODELS) if counts[i] < mx),
+            (i for i, (_, _, mx) in enumerate(GEMINI_MODELS)
+             if counts[i] < mx and failures[i] < MAX_CONSECUTIVE_FAILURES),
             None,
         )
         if model_idx is None:
-            logger.info(f"모든 모델 할당량 소진 - 중단 (완료 {sum(counts)}건, 잔여는 내일 처리)")
+            logger.info(f"모든 모델 사용 불가 - 중단 (완료 {sum(counts)}건, 잔여는 내일 처리)")
             break
 
         model_id, rpm, _ = GEMINI_MODELS[model_idx]
@@ -480,9 +484,17 @@ def run_predictions(ipo_df: pd.DataFrame) -> pd.DataFrame:
             if result:
                 new_predictions.append(result)
                 counts[model_idx] += 1
+                failures[model_idx] = 0  # 성공 시 오류 카운트 초기화
+            else:
+                failures[model_idx] += 1
+                logger.warning(
+                    f"[{model_id}] {row.get('corp_name')} 응답 파싱 실패 "
+                    f"(연속 {failures[model_idx]}회)"
+                )
         except Exception:
             logger.warning(f"[{model_id}] 쿼터 소진 - 다음 모델로 전환")
             counts[model_idx] = GEMINI_MODELS[model_idx][2]
+            failures[model_idx] = MAX_CONSECUTIVE_FAILURES
 
     if skipped:
         logger.info(f"1차 필터 제외: {skipped}건")
