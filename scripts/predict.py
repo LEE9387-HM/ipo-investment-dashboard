@@ -415,7 +415,9 @@ def run_predictions(ipo_df: pd.DataFrame) -> pd.DataFrame:
     else:
         pred_df = pd.DataFrame(columns=PREDICTIONS_COLUMNS)
 
-    existing_rcept_nos = set(pred_df["rcept_no"].tolist())
+    existing_rcept_nos  = set(pred_df["rcept_no"].tolist())
+    # corp_name 기준으로도 중복 방지 (기재정정 문서가 별도 rcept_no를 가질 수 있음)
+    existing_corp_names = set(pred_df["corp_name"].fillna("").str.strip().tolist())
     today_str = date.today().strftime("%Y%m%d")
 
     # 상태 기반 + 날짜 기반 대상 선별
@@ -436,6 +438,7 @@ def run_predictions(ipo_df: pd.DataFrame) -> pd.DataFrame:
     targets = ipo_df[
         has_price
         & (~ipo_df["rcept_no"].isin(existing_rcept_nos))
+        & (~ipo_df["corp_name"].isin(existing_corp_names))
         & ipo_df.apply(_is_active, axis=1)
     ].copy()
 

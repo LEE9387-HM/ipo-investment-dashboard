@@ -396,13 +396,22 @@ def extract_offering_details(xml_text: str) -> dict:
     if amount_matches:
         result["total_amount"] = re.sub(r",", "", amount_matches[0])
 
-    # 대표주관회사 (공동대표주관회사 포함)
-    under_match = re.search(
-        r"(?:공동\s*)?대표\s*주관\s*회사\s+([가-힣A-Za-z][가-힣A-Za-z\s\(\)&㈜]+?)(?:\s+기명식|\s{2,}|[<\n]|$)",
-        plain,
-    )
-    if under_match:
-        result["underwriter"] = under_match.group(1).strip()
+    # 주관사 전체 수집 (공동대표주관회사 + 인수회사)
+    # 룩어헤드로 도시명·기명식·숫자가 나오는 지점까지만 이름으로 인식
+    _uw_pats = [
+        r"(?:공동\s*)?대표\s*주관\s*회사\s+([가-힣A-Za-z][가-힣A-Za-z\s\(\)&㈜]{2,25}?)(?=\s+(?:기명식|서울|부산|대구|인천|보통주|\d))",
+        r"인수\s*회사\s+([가-힣A-Za-z][가-힣A-Za-z\s\(\)&㈜]{2,25}?)(?=\s+(?:기명식|서울|부산|대구|인천|보통주|\d))",
+    ]
+    _seen_uw: set = set()
+    _all_uw: list = []
+    for _pat in _uw_pats:
+        for _name_raw in re.findall(_pat, plain):
+            _name = _name_raw.strip().rstrip("㈜").strip()
+            if _name and _name not in _seen_uw:
+                _seen_uw.add(_name)
+                _all_uw.append(_name)
+    if _all_uw:
+        result["underwriter"] = ", ".join(_all_uw)
 
     return result
 

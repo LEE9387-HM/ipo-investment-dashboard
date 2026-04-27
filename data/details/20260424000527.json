@@ -4,18 +4,18 @@
   "corp_code": "01802928",
   "stock_code": "nan",
   "market": "기타",
-  "status": "상장예정",
+  "status": "청약중",
   "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424000527",
   "offering_price_low": "5300",
   "offering_price_high": "6000",
   "offering_price_final": "6000",
   "subscription_start_dt": "20260427",
   "subscription_end_dt": "20260428",
-  "listing_dt": "nan",
-  "underwriter": "유진투자증권",
+  "listing_dt": "",
+  "underwriter": "유진투자증권, NH투자증권, 유안타증권",
   "total_shares": "4170000",
-  "competition_ratio": "",
-  "lock_up_ratio": "1",
+  "competition_ratio": "1140.11",
+  "lock_up_ratio": "",
   "demand_forecast_period": "",
   "business_summary": "",
   "news": [
@@ -40,12 +40,13 @@
       "pubDate": "Sat, 25 Apr 2026 15:11:00 GMT"
     },
     {
-      "title": "‘전기차 충전 1호’ 채비 상장, 코스모로보틱스 등 공모주 열기 ‘후끈’ - 파이낸셜투데이",
+      "title": "'전기차 충전 1호' 채비 상장, 코스모로보틱스 등 공모주 열기 '후끈' - 파이낸셜투데이",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kYVJNeENBNDZ0QU9rLWl1bXZkZExSdk14Z25oOHQyRmxBZkdtdUd0emtxVUwtV2F2VDA4ZkhwaEdzenpwRkMyNW9waUU1ZjlPUXJsUnhpdHFTYW93NXcyd2V0Q1I4VTd3WEHSAW5BVV95cUxQcTJlM3NiaVJ2dmc5RW96T1Atd3NZM1BoT0g0cHVTVDZRdkRvR2FOX1pZX0pxeFRvd3laWDVnYl9nRXJDTGlBSVotQ2lqRXlmdm5pak1xaTh3S0FSdE5UNGM2elJETlJqMTBILXlEdw?oc=5",
       "pubDate": "Sat, 25 Apr 2026 00:41:22 GMT"
     }
   ],
-  "updated_at": "2026-04-26 22:13:19",
+  "community_news": [],
+  "updated_at": "2026-04-28 00:00:00",
   "total_shares_offered": "4170000",
-  "min_bid_price": ""
+  "min_bid_price": "5300"
 }

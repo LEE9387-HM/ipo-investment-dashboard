@@ -135,17 +135,40 @@ def extract_detail_fields(xml_text: str) -> dict:
 
     DATE_PAT = r"(\d{4}[년.\s]*\d{1,2}[월.\s]*\d{1,2}일?)"
 
-    # 기관투자자 경쟁률 — "X : 1" 또는 "X대 1" 패턴
+    # 기관투자자 경쟁률 — "X : 1" / "X대 1" 형식
     cr = re.search(
-        r"기관\s*(?:투자자\s*)?(?:수요예측\s*)?경쟁률[^\d]*(\d[\d,]*)\s*(?::\s*1|대\s*1)", plain
+        r"기관\s*(?:투자자\s*)?(?:수요예측\s*)?경쟁률[^\d]*(\d[\d,]*\.?\d*)\s*(?::\s*1|대\s*1)", plain
     )
     if not cr:
-        cr = re.search(r"경쟁률[^\d]*(\d[\d,]*)\s*(?::\s*1|대\s*1)", plain)
+        cr = re.search(r"경쟁률[^\d]*(\d[\d,]*\.?\d*)\s*(?::\s*1|대\s*1)", plain)
+    # 수요예측 테이블 형식: "경쟁률주N) [숫자들] 합계" — 주N) 바로 앞 숫자가 합계 경쟁률
+    if not cr:
+        cr = re.search(
+            r"경쟁률[^\n]{5,300}([\d,]+\.\d+)\s+주\d",
+            plain,
+        )
     if cr:
         result["competition_ratio"] = _num(cr.group(1))
 
-    # 의무보유확약 비율
-    lu = re.search(r"의무\s*보유\s*확약[^%]*?(\d+\.?\d*)\s*%", plain)
+    # 의무보유확약 비율 (기관투자자 수요예측 확약비율)
+    # 상장주선인 의무인수 1% 조항("공모주식의 1%에 해당하는 수량")과 반드시 구별
+    lu = re.search(
+        r"의무\s*보유\s*확약\s*(?:신청\s*)?비율[^\d%\n]*(\d+\.?\d*)\s*%", plain
+    )
+    if not lu:
+        # 넓은 패턴으로 재탐색, 단 상장주선인 컨텍스트는 제외
+        for m in re.finditer(r"의무\s*보유\s*확약[^%\n]{0,80}?(\d+\.?\d*)\s*%", plain):
+            ctx = plain[max(0, m.start() - 80) : m.start()]
+            if "상장주선인" in ctx or "금번 공모주식의" in ctx:
+                continue
+            try:
+                val = float(m.group(1))
+            except ValueError:
+                continue
+            if val <= 1.0:  # 규정 최솟값 1% 이하 → 상장주선인 조항일 가능성
+                continue
+            lu = m
+            break
     if lu:
         result["lock_up_ratio"] = lu.group(1)
 
