@@ -61,11 +61,11 @@ UNDERWRITER_STATS_PATH = DATA_DIR / "underwriter_stats.csv"
 GEMINI_API_KEY: str = os.environ.get("GEMINI_API_KEY", "")
 
 # (model_id, rpm_limit, max_per_run)
-# gemini-2.0-flash 을 1순위로 — 무료 티어 1500 RPD로 가장 안정적
 GEMINI_MODELS: list[tuple[str, int, int]] = [
-    ("gemini-2.0-flash",               15, 30),
-    ("gemini-2.5-flash",               10, 20),
-    ("gemini-2.5-flash-preview-04-17", 10, 10),
+    ("gemini-2.0-flash",      15, 30),
+    ("gemini-2.5-flash",      10, 20),
+    ("gemini-2.0-flash-lite", 30, 30),
+    ("gemini-2.5-flash-lite", 30, 30),
 ]
 
 # ---------------------------------------------------------------------------
@@ -370,24 +370,29 @@ def predict_ipo(
     쿼터 초과(429/RESOURCE_EXHAUSTED) 시 re-raise → 호출자가 다음 모델로 전환합니다.
     """
     prompt = build_prediction_prompt(row, detail, uw_stats, market_ctx)
-    try:
-        response = _gemini_client.models.generate_content(model=model_id, contents=prompt)
-        parsed = parse_gemini_response(response.text)
-        parsed["rcept_no"]     = str(row.get("rcept_no", ""))
-        parsed["corp_name"]    = str(row.get("corp_name", ""))
-        parsed["predicted_at"] = date.today().strftime("%Y-%m-%d %H:%M:%S")
-        logger.info(
-            f"[{model_id}] {row.get('corp_name')} 예측 완료: "
-            f"종가 {parsed.get('predicted_first_day_close')}원 "
-            f"(+{parsed.get('upside_pct')}%), 신뢰도 {parsed.get('confidence')}"
-        )
-        return parsed
-    except Exception as exc:
-        err = str(exc)
-        if "429" in err or "RESOURCE_EXHAUSTED" in err or "quota" in err.lower():
-            raise
-        logger.error(f"[{model_id}] {row.get('corp_name')} 예측 실패: {exc}")
-        return None
+    for attempt in range(2):  # 503 일시 오류 시 1회 재시도
+        try:
+            response = _gemini_client.models.generate_content(model=model_id, contents=prompt)
+            parsed = parse_gemini_response(response.text)
+            parsed["rcept_no"]     = str(row.get("rcept_no", ""))
+            parsed["corp_name"]    = str(row.get("corp_name", ""))
+            parsed["predicted_at"] = date.today().strftime("%Y-%m-%d %H:%M:%S")
+            logger.info(
+                f"[{model_id}] {row.get('corp_name')} 예측 완료: "
+                f"종가 {parsed.get('predicted_first_day_close')}원 "
+                f"(+{parsed.get('upside_pct')}%), 신뢰도 {parsed.get('confidence')}"
+            )
+            return parsed
+        except Exception as exc:
+            err = str(exc)
+            if "429" in err or "RESOURCE_EXHAUSTED" in err or "quota" in err.lower():
+                raise
+            if ("503" in err or "UNAVAILABLE" in err) and attempt == 0:
+                logger.warning(f"[{model_id}] 503 일시 오류 - 20초 후 재시도")
+                time.sleep(20)
+                continue
+            logger.error(f"[{model_id}] {row.get('corp_name')} 예측 실패: {exc}")
+            return None
 
 
 # ---------------------------------------------------------------------------
