@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20251105000230",
+  "corp_name": "신테카바이오",
+  "corp_code": "01344336",
+  "stock_code": "226330",
+  "market": "KOSDAQ",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251105000230",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "",
+  "subscription_end_dt": "",
+  "listing_dt": "",
+  "underwriter": "",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "[이번주 증시캘린더] 피피아이·천랩 공모주 청약...신테카바이오 등 코스닥 상장 - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FamZiS2FJZnNXVmswY19ndFQ0ZWtYWVYwdmItdGtNeWdiQVRaVkswdWYyeTFlU1YzZVFpQ1p4RGVVVTZFeG80VndnWnEzYUo3ZXB30gFTQVVfeXFMTkVqZmJLYUlmc1dWazBjX2d0VDRla1hZVjB2Yi10a015Z2JBVFpWSzB1ZjJ5MWVTVjNlUWlDWnhEZVVVNkV4bzRWd2dacTNhSjdlcHc?oc=5",
+      "pubDate": "Sun, 15 Dec 2019 08:00:00 GMT"
+    },
+    {
+      "title": "신테카바이오, 매출 8억7000만원, 영업이익 -21억원 /개별실적 - 데일리인베스트",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1pZThfQnQ3VzJBTUwyTXRmQTRIdU9HZDhhTnp3c0h1Q0V5NDlPa1dyTjFHMDJsbGVjT1FXQzZBYVdzNGU0MFNaR0lWcXUwOHdrVGpjc3RibEliMm5tZjBaX29QbEwwWk4ydlBj0gFvQVVfeXFMTVpXdkNYV0JhcGFpMkw1VlloOVJibThOQ3J6cUk4a2IwTWhmb1ZNRWEzSlFfYnFLdm8zR3h6TG81SE9DTHRiSk5jTHN0ME9ET3NJVmNJdnBKUXhNZGY5bUpRNHJFSGtQdE1KcGNtVWZZ?oc=5",
+      "pubDate": "Tue, 13 May 2025 07:00:00 GMT"
+    },
+    {
+      "title": "엔비디아 열풍에 'AI 신약개발 기업' 후끈…신테카바이오·파로스아이바이오 열기 이을까 - 약업신문",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1aZkItRVpFSTRoRXRBWllnYms4WUxKTTFyQ25iTU80MklsMWR1Tml1QnZFRDhOcmpDM2hzaUU5NFZGb2k5WDNsYW5tSHpSTkl3alVPWmdYZm5MaW9KU0xYY3duM1BGMlFPeGZxV2puRk9FRGtCVnl4amdtd2NRQQ?oc=5",
+      "pubDate": "Mon, 19 Jun 2023 07:00:00 GMT"
+    },
+    {
+      "title": "[특징주] 이노테크, 상장 첫날 공모가 대비 263% 급등 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5kLUkwc3lQSEFPWFFTN3daNnkzVjExVEtwS0wxRnNGTEh2aFRQb1lOQXFMS3FGd0NhZ2JoTU9GdkNuMHFLaU1ZTGt5UURaNG9WQ1FqNg?oc=5",
+      "pubDate": "Fri, 07 Nov 2025 08:00:00 GMT"
+    },
+    {
+      "title": "[이번주 증시캘린더] 줄잇는 바이오기업 공모주 청약...태웅로직스 코스닥 데뷔 - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBRejVweGNZOHgwdEhBcXhsOGpEcVJ0cnpYVEN4aVUwWlpyV0M5R1czSFN6dlN4RC15VmJydWxZMmNfOHdDc2MwYXgtRXd5YkJqOFhj0gFTQVVfeXFMUFF6NXB4Y1k4eDB0SEFxeGw4akRxUnRyelhUQ3hpVTBaWnJXQzlHVzNIU3p2U3hELXlWYnJ1bFkyY184d0NzYzBheC1Fd3liQmo4WGM?oc=5",
+      "pubDate": "Sun, 08 Dec 2019 08:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "[특징주] <b>신테카바이오</b>, 유상증자 권리 매도에 52주 신저가",
+      "link": "https://www.etoday.co.kr/news/view/2542387",
+      "description": "앞서 <b>신테카바이오</b>는 신주 900만 주를 1주당 2700원에 발행하는 243억 원 규모 주주 배정 유상증자를 진행했다. 기존 주주 청약률은 98.87%였고, 남은 실권주는 일반 <b>공모</b> 청약을 통해 소화했다. 유상증자 신주는 오는... ",
+      "pubDate": "Mon, 05 Jan 2026 14:50:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[특징주] <b>신테카바이오</b>, 유상증자 ‘권리 매도일’에 1년 내 최저가",
+      "link": "https://biz.chosun.com/stock/market_trend/2026/01/05/5YUM5BFB3JDIHDM6DWJYMVRTOI/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "description": "기존 주주 청약률은 98.87%였고, 남은 실권주는 일반 <b>공모</b> 청약을 통해 소화했다. 유상증자 신주는 오는 7일 상장된다. 2거래일 전인 이날부터 권리 매도를 할 수 있다. <b>신테카바이오</b>는 유상증자로 조달한 자금을... ",
+      "pubDate": "Mon, 05 Jan 2026 14:16:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[박정식의 국내 주식시황] 오라클-틱톡 합작법인 설립 이슈에 외국인 순...",
+      "link": "https://www.newsquest.co.kr/news/articleView.html?idxno=259016",
+      "description": "반면, 아미코젠은 300억원 규모 일반<b>공모</b> 유상증자 결정 등에 하한가를 보였다. 거래량 상위 종목으로는... 칸젠과 피부·모발 질환 치료제 기술이전 계약 체결에 <b>신테카바이오</b>가 정규장에 이어 상승했다. 제약/<b>바이오</b>... ",
+      "pubDate": "Mon, 22 Dec 2025 08:44:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[N2 모닝 경제 브리핑-12월 19일] 美 증시, 11월 CPI 둔화 속 반등…마이...",
+      "link": "https://www.news2day.co.kr/article/20251218500020",
+      "description": "용역계약 - <b>신테카바이오</b>(226330) : 주주배정 후 실권주 일반<b>공모</b>방식 유증 청약 100% 완료 - 엔에스이엔엠(078860) : 한성구·고병철 각자 대표이사 체제서 고병철 단독 대표이사 체제 변경 - 자연과환경(043910)... ",
+      "pubDate": "Fri, 19 Dec 2025 07:12:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "오늘의 증시 일정 (12월 19일)",
+      "link": "https://www.mk.co.kr/article/11495675",
+      "description": "◇신주배정기준일=이지케어텍(무상) ◇<b>공모주</b>청약=세미파이브(삼성, 2만4000원) ◇유상청약=한온시스템 유일에너테크 ◇유상납입일=<b>신테카바이오</b> ◇추가상장=차<b>바이오</b>텍 엘티씨 더블유에스아이 한울소재과학(CB)... ",
+      "pubDate": "Thu, 18 Dec 2025 18:08:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "20260427",
+      "link": "https://blog.naver.com/cntrans/224266298764",
+      "description": "삼성그룹은 AI·배터리·<b>바이오</b> 등의 성장으로 시총 1800조 시대를 열었으며, 특히 삼성전기, 삼성SDI... 강남권을 중심으로 <b>청약</b> 수요가 집중되는 가운데, 매매 시장에서는 구축 아파트 거래가 활발하며, 15억... ",
+      "pubDate": "20260427",
+      "source": "블로그"
+    },
+    {
+      "title": "4월27일 종목브리핑(이노인스트루먼트,한양증권,노랑풍선)",
+      "link": "https://blog.naver.com/joon854235/224266293928",
+      "description": "코스모로보틱스 <b>공모</b><b>청약</b> ✅영국 국왕 미국 국빈방문 ✅오픈베이스,APS이노베션이 단일가 해제일... 출시 ✅ <b>바이오</b>코리아 2026' 개최:바이젠셀,지구홀딩스,펨트론,선<b>바이오</b>,삼천당제약 ✅ 삼성 SDI, 美)... ",
+      "pubDate": "20260427",
+      "source": "블로그"
+    },
+    {
+      "title": "AI 웹툰, 피할 수 없는 물결!",
+      "link": "https://blog.naver.com/joosiksin/224266289863",
+      "description": "노을, <b>신테카바이오</b>, 퀀타매트릭스, 젠큐릭스 동운아나텍, 디알텍, 진시스템, <b>바이오</b>다인, 한스<b>바이오</b>메드, 메타<b>바이오</b>메드, 오스테오닉, 디오, 덴티움, 덴티스 브릿지<b>바이오</b> HD현대건설기계 KB금융 NAVER... ",
+      "pubDate": "20260427",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-04-27 00:00:07",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}

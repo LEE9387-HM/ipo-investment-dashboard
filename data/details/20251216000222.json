@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20251216000222",
+  "corp_name": "시지트로닉스",
+  "corp_code": "01284751",
+  "stock_code": "429270",
+  "market": "KOSDAQ",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251216000222",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "",
+  "subscription_end_dt": "",
+  "listing_dt": "",
+  "underwriter": "",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "[공모주 탐구] 시지트로닉스, 특화반도체로 주가 고공행진 성공할까 - 데일리인베스트",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5PX29qRzk1UlJRN0NCVEdJWGhEdHNMRW9XRzUySERwQzNmV0VZWmpSUDZwU0hjdXlTaFgzaDYyQ1hXV3Z0dG9nR3BKdFRTUEpOQ0Z4WVd4VTQ4S21XUVk2d0ZYQ1F4ckw4YTRN0gFvQVVfeXFMTVdlVzRnbTFvTERUVmh3clFvLTQ1bHd1OXh4R3NtbmdqRHQxRjN1aUxXMHF1N245T1VuS096M19NWFZOYmExTjNoODZYSjF0Y2pibnV1ZUJkSi1aUzJaRnFET29qZ3M4eGhQSWk0RElN?oc=5",
+      "pubDate": "Wed, 19 Jul 2023 07:00:00 GMT"
+    },
+    {
+      "title": "[시그널] 시지트로닉스 청약 2.6조 '뭉칫돈' - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBpbDZCS0Z2QTVJQU9vcy1zNXJWeE02bzJLLUFZa2ZDUXJISnEyTmlKY0NRWjJ2Q1E5eGNaSFJsWjRReWh0YnlQSjd6X3ZUSnNCTElR0gFTQVVfeXFMUGlsNkJLRnZBNUlBT29zLXM1clZ4TTZvMkstQVlrZkNRckhKcTJOaUpjQ1FaMnZDUTl4Y1pIUmxaNFF5aHRieVBKN3pfdlRKc0JMSVE?oc=5",
+      "pubDate": "Tue, 25 Jul 2023 07:00:00 GMT"
+    },
+    {
+      "title": "“공모주 청약 시작해볼까”...7월에만 14건, 1조원 넘는 대어도 대기 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9KTzhoOGF5d2FoXzdTS1NKQ0xETzF3Vm5hVWZTcWx3NzM3SXFadl9kVXBab2xwZUZQeF9NeGwxSlRPN1prTWc?oc=5",
+      "pubDate": "Tue, 04 Jul 2023 07:00:00 GMT"
+    },
+    {
+      "title": "핫한 7월 공모주 청약, 골든타임은? 기가비스 넘는 ‘대어’ 파두 특히 관심 - 에너지경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEc3lEcmpybDZSdk8tM3pNSHdNd2plcFY0aVl0aUQ1UFU4LW1JWnZuNllvUjdIajFjekxFMzRLVEpCbEtaSlZTdThMWndpUnlfb3dXMjVjQzlQYmM?oc=5",
+      "pubDate": "Tue, 04 Jul 2023 07:00:00 GMT"
+    },
+    {
+      "title": "7월 뜨거워진 공모주 시장···‘돈넣고 돈먹기’ 광풍부나 - 시사저널e",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9UQklDeWdpLTUzdDhKRG9mX29RTENfQ0tEWnNMV3dNam16NTJkeTNpZ0x2dFNzaDYyOU5XOWNINmhnbDNneW9HR05EclN5MFo1Mmt6R1ZLdGRLUFpoVmhJVk1pYXBaTFhUdHpveDdidUd5d9IBdkFVX3lxTE91QjJGX1B0YVFPVklOTnhBRVNNZnRSOWRfTHdJWFlGdkpMbnJrZzE3RTM0TGIzZGR0ZjRjTlFra1RNNDhWeFhSY2JGZmlqcTVSRUJnTDNQWEhLNldLc1lWd1h6SFVyNkRYNjNESkZqclF0Ynh0U0E?oc=5",
+      "pubDate": "Wed, 05 Jul 2023 07:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "[박정식의 국내 주식시황] 글로벌 증시 상승력과 반도체 호황에 증시 상...",
+      "link": "https://www.newsquest.co.kr/news/articleView.html?idxno=265354",
+      "description": "반도체 슈퍼사이클 기대감 지속 속 <b>시지트로닉스</b>, 유니퀘스트, 러셀, 성도이엔지 등 반도체 관련주가 정규장에 이어 상승했다. 반면, 디모아는 186.12억원 규모 주주배정후 실권주 일반<b>공모</b> 유상증자 결정 속 하한가를... ",
+      "pubDate": "Mon, 27 Apr 2026 08:20:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주식마감] 끝나지 않은 중동 리스크... 대한해운 상한가, 세미파이브·...",
+      "link": "https://www.ggilbo.com/news/articleView.html?idxno=1152042",
+      "description": "앱튼, <b>시지트로닉스</b>, 캠시스, 대동금속, 애머릿지가 상한가에 이름을 올리고 장을 마감한 가운데... 캠시스는 이번 실권주를 대상으로 오는 13일부터 14일까지 이틀간 일반<b>공모</b> 청약을 진행한다. 일반<b>공모</b> 후에도... ",
+      "pubDate": "Fri, 10 Apr 2026 19:40:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "오늘의 메모[12월 19일]",
+      "link": "https://www.sedaily.com/NewsView/2H1S1MN4DW",
+      "description": "(주식소각) &lt;코스닥&gt; ▲<b>공모주</b>청약=세미파이브(주관사 삼성) ▲신주배정기준일=이지케어텍(099750)(무상) 코이즈(121850)(유상) ▲구주주유상청약=<b>시지트로닉스</b>(429270) 유일에너테크(340930) ▲실권주청약... ",
+      "pubDate": "Thu, 18 Dec 2025 10:51:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "오늘의 메모[12월 18일]",
+      "link": "https://www.sedaily.com/NewsView/2H1RK9YAJD",
+      "description": "▲보통주추가상장=엘앤에프(066970)(신주인수권행사) ▲주권변경상장=아세아제지(002310)·TYM(002900)(주식소각) &lt;코스닥&gt; ▲<b>공모주</b>청약=세미파이브(주관사 삼성) ▲구주주유상청약=<b>시지트로닉스</b>(429270)... ",
+      "pubDate": "Wed, 17 Dec 2025 11:28:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[오늘의 코스닥 · 11월 20일] 금일 상승주 TOP 10… 1위 씨엠티엑스",
+      "link": "http://www.newsbrite.net/news/articleView.html?idxno=194804",
+      "description": "씨엠티엑스는 <b>공모</b>가 6만500원 대비 117.52% 오른 13만1600원에 거래를 마쳤다. 쓰리에이로직스... <b>시지트로닉스</b>(429270) 역시 29.90%의 등락률을 기록하며 현재가 5,800원을 기록했다. 큐리오시스(494120)는... ",
+      "pubDate": "Fri, 21 Nov 2025 10:18:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "AI 웹툰, 피할 수 없는 물결!",
+      "link": "https://blog.naver.com/joosiksin/224266289863",
+      "description": "결론적으로, “AI는 웹툰 산업의 파괴자가 아니라 촉진자다. 다만, 기술이 아니라 사람의 역량과 신뢰가 성패를 가른다. 결국 독자가 선택하고, 시장이 걸러낸다. 그러니 중요한 건 ‘AI를 쓰느냐 마느냐’가... ",
+      "pubDate": "20260427",
+      "source": "블로그"
+    },
+    {
+      "title": "2026년 4월 27일(월) 주식방송리뷰(미국시장마감시황... ",
+      "link": "https://blog.naver.com/cyclamen64/224266289048",
+      "description": "오늘의 주요일정 ▶코스모로보틱스 <b>공모주 청약</b> 1일차 …주관사: 유진투자, NH투자, 유안타... 반등 #네패스 (→<b>시지트로닉스</b>, KEC, 코스텍시스) …AI 밸류체인 전력반도체 중요성 부각 속 관련주 강세... ",
+      "pubDate": "20260427",
+      "source": "블로그"
+    },
+    {
+      "title": "시간 외 특징주_260424",
+      "link": "https://blog.naver.com/become_buja84/224264000321",
+      "description": "<b>시지트로닉스</b> (429270) ( +6.96% ) 반도체 슈퍼사이클 기대감 지속 속 시간외 일부 반도체 관련주... 일반<b>공모</b> 유상증자 결정(예정발행가:2,585원,1주당 약 0.71주 배정,<b>청약</b>예정:2026년 07월 06일~2026년... ",
+      "pubDate": "20260427",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-04-26 23:59:06",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}

@@ -1,0 +1,107 @@
+{
+  "rcept_no": "20260323000124",
+  "corp_name": "에이텀",
+  "corp_code": "01444380",
+  "stock_code": "355690",
+  "market": "KOSDAQ",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000124",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "",
+  "subscription_end_dt": "",
+  "listing_dt": "",
+  "underwriter": "",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "[공모주 캘린더] 11월 27~12월 1일 에이에스텍, 에이텀 등 상장 - 전국매일신문",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBMQ1pOSzVBSEM1YnVCbmZWU2JtRzhJYlo2YmN3U2IxbnFYSmVFYW9NSW9VMWJ4SlFYZlRtV2ljN3FOcWs2SlQ3cC1jdXphMjZIdENQd0lOUFpXdTZOTGtUM1JVcjdpREhSbFZPMA?oc=5",
+      "pubDate": "Mon, 27 Nov 2023 08:00:00 GMT"
+    },
+    {
+      "title": "청약할까말까 : 에이텀, 투자점수 49점…수익확률 20% - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BM280N1VXaU0zSnI4RkxWVHRnZFBmOFdkcVdSdTR6OXROMUc3RWxoWjdWd1JjNy04VG5vd3NxWHpOc01hazJ6bm5hcUZsVjdSZWtMcl9wSi03UdIBVEFVX3lxTFBtWTZBVGZTMjkwemNPMkJpNk5UZ2REZWNHeDhWaVhIQ052QVJBUUFxdW5EdkFTRFVGNUcyVWd0Q1ZBRDhvRHdXMEhWMVpkeEVfRGU5Yg?oc=5",
+      "pubDate": "Wed, 22 Nov 2023 08:00:00 GMT"
+    },
+    {
+      "title": "에이텀, 수요예측 후 공모가 확정…공모주 청약 진행 - 영남일보",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5EVVY4QUZSZlZuaDAwaGFHejA3TkhpZmIwdUYzTlJCSlJCczNtN2RHUlA3LUNFZEVhdkEzWHo3T1ZpSnMxSXowTjRKOExEYVQ0MzU5bUUyTEpKM3l5eVJTejBjSW0tUUxpVlJz?oc=5",
+      "pubDate": "Wed, 15 Nov 2023 08:00:00 GMT"
+    },
+    {
+      "title": "[IPO] 평판형 트랜스 제조사 에이텀, 청약 경쟁률 1622대 1 기록… 증거금 2.4조 - investnews.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrMmR3YmppY3FsQU1mTHA4dXBfYzI5aFB1eUx5aGUwaDExZ2tEVG1hd1BSZlkwU2owdUR6c09ERVItaDBOc0U1a05DVlZJcjEwb05fX21hUU9Db2lLUjc0OVB5TDh2UnZqLTB5aGZiTlJ5UQ?oc=5",
+      "pubDate": "Wed, 22 Nov 2023 08:00:00 GMT"
+    },
+    {
+      "title": "오늘의 증시 일정 (3월 17일) - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE12eTdES3RmOHBhUUtLRDB1dllNT1ZnSzdNWS1Eb3NUWUk4dHhvcWwzc1RxMXlwUmZ0c214WmJMdE9GN0hoRUpibkdBRGZ6eUhLRWc?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 07:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "[주요공시] SK하이닉스, 진원생명과학, 케이엔에스, 메디톡스, 에스씨엠...",
+      "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=204452",
+      "description": "■ <b>에이텀</b>(KOSDAQ, 355690)은 유상증자 최종 발행가액을 확정했다. 발행 대상은 기명식 보통주... 구주주 청약은 4월 22일부터 23일까지, 실권주 일반<b>공모</b> 청약은 4월 27일부터 28일까지 진행될 예정이다.... ",
+      "pubDate": "Mon, 20 Apr 2026 23:04:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "오늘의 증시 일정 (3월 17일)",
+      "link": "https://www.mk.co.kr/article/11989350",
+      "description": "◇신주배정기준일=<b>에이텀</b>(유상) ◇<b>공모주</b>청약=메쥬(신한, 2만1600원) 한패스(한국, 1만9000원) ◇유상청약=진양폴리우레탄 ◇추가상장=알티캐스트 큐라티스 제테마 알에프시스템즈(CB)",
+      "pubDate": "Mon, 16 Mar 2026 17:39:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "오늘의 메모[3월 17일]",
+      "link": "https://www.sedaily.com/article/20019804?ref=naver",
+      "description": "(주식소각) ▲<b>공모주</b>청약=메쥬(주관사 신한) 한패스(한국) 엔에이치스팩33호(NH) ▲신주배정기준일=<b>에이텀</b>(355690)(유상) ▲실권주청약=한국첨단소재(062970)(주관사 상상인) ▲보통주추가상장=씨엔플러스(유상)... ",
+      "pubDate": "Mon, 16 Mar 2026 11:02:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "증시 호황에…상장사, 앞다퉈 신주 발행",
+      "link": "https://www.hankyung.com/article/2026031272641",
+      "description": "이 밖에 캠시스(277억원), 한국첨단소재(260억원), 레이저옵텍(118억원), <b>에이텀</b>(112억원) 등이 유상증자에... 통상 신규 상장 기업은 <b>공모주</b> 투자자 보호 차원에서 상장 직후 유상증자나 CB 발행을 자제한다. 추가 발행이... ",
+      "pubDate": "Thu, 12 Mar 2026 17:23:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "2월 20일 주식시장 주요공시",
+      "link": "https://www.catchnews.kr/news/articleView.html?idxno=120856",
+      "description": "(해지예정일:2026-02-20) ▶<b>에이텀</b>, 2025년 연결기준 매출액 707.13억원(전년대비 +245.95%), 영업손실 65.... 24억원) 규모 주주배정후 실권주 일반<b>공모</b> 유상증자 결정(예정발행가:3,040원,1주당 약 0.49주 배정... ",
+      "pubDate": "Mon, 23 Feb 2026 08:26:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "AI 웹툰, 피할 수 없는 물결!",
+      "link": "https://blog.naver.com/joosiksin/224266289863",
+      "description": "결론적으로, “AI는 웹툰 산업의 파괴자가 아니라 촉진자다. 다만, 기술이 아니라 사람의 역량과 신뢰가 성패를 가른다. 결국 독자가 선택하고, 시장이 걸러낸다. 그러니 중요한 건 ‘AI를 쓰느냐 마느냐’가... ",
+      "pubDate": "20260427",
+      "source": "블로그"
+    },
+    {
+      "title": "4월 마지막주 금융 재테크 일정(4.27~5.1)",
+      "link": "https://blog.naver.com/xuenxu/224266033989",
+      "description": "내일부터 재활 로봇기업 코스모로보틱스의 <b>공모주 청약</b>이 시작됩니다. *기업분석 및 수요예측 결과... 다음주 실권<b>주 청약</b> 예정되어 있었던 루닛과 <b>에이텀</b>은 남은 실권주 모두 주관사가 인수합니다. 따라서... ",
+      "pubDate": "20260426",
+      "source": "블로그"
+    },
+    {
+      "title": "증시 주요일정 및 관련주 (4월 27일주)",
+      "link": "https://blog.naver.com/crioppstock/224265800239",
+      "description": "코스모로보틱스 <b>공모</b><b>청약</b> ─────────────── 4/28(화) · 단일종목 레버리지 ETF 관련 자본시장법 시행령 개정안 시행 · 현대디에프 인천공항 면세점 DF2 오픈 · 웹젠 신작 '메모리스... ",
+      "pubDate": "20260426",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-04-26 23:57:47"
+}

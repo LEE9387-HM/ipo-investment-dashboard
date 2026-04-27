@@ -1,0 +1,107 @@
+{
+  "rcept_no": "20260417000590",
+  "corp_name": "채비",
+  "corp_code": "01279698",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260417000590",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "",
+  "subscription_end_dt": "",
+  "listing_dt": "",
+  "underwriter": "",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "채비, 공모주 청약 마감일... 균등·비례 증권사별 살펴보니 - 조세일보",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBvRWJkdHF2aG5nSG1xQThXa1haRVUwalQ0OG4yUkpqejBta3MyeXQxMl8xSjB5NDVxaXFqNU5EdnVfZHI2ZTJpQnEwemxWQ1NmTE0tYzduNkhmdUpEVF9R?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 00:50:00 GMT"
+    },
+    {
+      "title": "4주 만에 공모주 시장 재개…채비, 이달 29일 상장 [이번주 증시 캘린더] - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5UYjJ2czNiRjE4TVBiYlE4QXJ6UG9CN21neFI3c0YzbXUwb1pUMS1oTVBqYVVyVmR6WUo5RHgxR285WXFnOHdpNmR2TXF4MDhuY1pN?oc=5",
+      "pubDate": "Sun, 26 Apr 2026 21:01:00 GMT"
+    },
+    {
+      "title": "‘뻥튀기 논란’ 채비 공모청약 ‘강행’···증권사·FI는 ‘어쩔 수 없는 베팅’ - 시사저널e",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1idGRhWktWYjF0ODA0TGtTdG9FQlU4TTA1UnRrczZCWmdKd1V5TGF4d2cwVkgtRHVjZ21XcUdjejRLZ1p2RUg2d1UyRDlpeEE4emFFOU8xSVhTRjhWdTgxRkwxMWF2MExlaTJWUlhYTmhXUdIBdkFVX3lxTE1qalZHX2hvQUZzck1lWUY3QUpKbXdybWNOWFN3NllFWG5ZQ1JKRGgxQ2t4VVNiUVlCZ3YwTU5kTFNsaFNMdUEtY1QtNmhHdVlOT3prNzZQOEItUXp6d3N4M3U5eGc1SHVjZ2RqQ3IwclpKSzI5emc?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 07:54:57 GMT"
+    },
+    {
+      "title": "[주간 IPO]코스모로보틱스 청약·채비 상장…5월 앞둔 공모주 시장 분주 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBoelE1c09qTmZvUVVhTUlhY3NhU1RwdVNHZkxrLURxSnE4ODRKTWlneklJNi0wQU5uQlYtVGNSR1hUakFYbVhOX1d5VXRrVmc?oc=5",
+      "pubDate": "Sat, 25 Apr 2026 00:01:03 GMT"
+    },
+    {
+      "title": "'채비' 수요예측에 걸린 코스닥 IPO 시장 분위기 - 딜사이트",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE02aXo4Vy1fUl9tQjctck05ZHdycVBkYXFEVnBGYjNiSmxRNDdwMlhGdFBQQy1CTnk1WjhqR3lNeHByR1ZRSjRmbmVMWHU4NU0?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 00:00:17 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "<b>채비</b>, 코스닥 상장⋯코스모로보틱스 일반청약",
+      "link": "http://www.inews24.com/view/1963615",
+      "description": "이번 <b>주</b>(4월27일~5월1일) 기업공개(IPO) 시장에서는 <b>채비</b>가 코스닥 시장에 입성한다. 코스모로보틱스는... 27일 금융투자업계에 따르면 <b>채비</b>는 오는 29일 코스닥 시장에 상장한다. <b>공모주</b> 상장 기준으로는 이달 2일... ",
+      "pubDate": "Mon, 27 Apr 2026 08:52:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "4주 만에 <b>공모주</b> 시장 재개…<b>채비</b>, 이달 29일 상장 [이번주 증시 캘린더...",
+      "link": "https://www.sedaily.com/article/20037185?ref=naver",
+      "description": "이번 <b>주</b> 국내 증시는 <b>채비</b>의 코스닥 상장으로 약 4주 만에 기업공개(IPO) 시장이 재개될 것으로 보인다. 코스모로보틱스 역시 일반 투자자 대상 <b>공모</b> 청약에 나서며 증시 입성을 위한 막바지 절차에 돌입한다. 13일... ",
+      "pubDate": "Mon, 27 Apr 2026 06:01:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주간 IPO] <b>채비</b>·신한제18호스팩, 코스닥 상장",
+      "link": "https://www.newspim.com/news/view/20260424000696",
+      "description": "이번 <b>주</b>(4월 27일~5월 1일) 코스닥 시장에 전기차 급속 충전 인프라 운영사 <b>채비</b>가 상장한다. 27일... 다만 <b>채비</b>는 <b>공모</b>가를 희망밴드 하단인 1만2300원으로 확정했다. 상장 초기 주가 안정성을 고려한 결정으로... ",
+      "pubDate": "Mon, 27 Apr 2026 06:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "웨어러블 로봇 개발·제조사, 코스모로보틱스 일반 청약",
+      "link": "https://www.hankyung.com/article/2026042673801",
+      "description": "유럽, 중국 등 주요 5개국에 해외 법인을 운영 중이다. 13개국 내 현지 파트너사와 협력해 글로벌 시장 점유율을 확대하고 있다. 지난주 <b>공모주</b> 청약을 한 전기차 충전업체 <b>채비</b>는 오는 29일 코스닥시장에 상장한다.",
+      "pubDate": "Sun, 26 Apr 2026 17:34:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "우량채 수요예측 이어진다…KIND·키움증권 등 출격",
+      "link": "http://www.edaily.co.kr/news/newspath.asp?newsid=01712166645420056",
+      "description": "이번 발행은 신용등급 상향 이후 첫 <b>공모</b> 회사채라는 점에서 주목된다. 앞서 한국기업평가, 한국신용평가, NICE신용평가는 키움증권의 회사채 신용등급을 ‘AA0(긍정적)’에서 ‘AA(안정적)’으로 상향 조정했다.... ",
+      "pubDate": "Sun, 26 Apr 2026 12:02:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "4월27일 종목브리핑(이노인스트루먼트,한양증권,노랑풍선)",
+      "link": "https://blog.naver.com/joon854235/224266293928",
+      "description": "코스모로보틱스 <b>공모</b><b>청약</b> ✅영국 국왕 미국 국빈방문 ✅오픈베이스,APS이노베션이 단일가 해제일... 수요일 ✅ <b>채비</b> 전기차충전주식,송전주-신규상장: 시가에서 시가이하 -5%선 진입, 손절가 3%잡고... ",
+      "pubDate": "20260427",
+      "source": "블로그"
+    },
+    {
+      "title": "정보, 상장 정보 (<b>공모주</b> 캘린더) 코스모로보틱스 <b>청약</b>, <b>채비</b> 상장",
+      "link": "https://blog.naver.com/kyuing2020/224266293155",
+      "description": "<b>채비</b> 4월 29일 상장 반신반의했던..<b>채비</b>..ㅎㅎ 하나증권으로 <b>청약</b>해서 4주받았었구..!! 부디 상장일 흐름 좋길 바랍니다! ㅎㅎ 이번주 <b>공모주 청약</b>도 잘챙기세용^^ #짠테크 #앱테크 #절약 #무지출 #지출방어... ",
+      "pubDate": "20260427",
+      "source": "블로그"
+    },
+    {
+      "title": "<b>공모주</b> 일정 핵심 정리 2026년... <b>청약</b> + <b>채비</b> 신한제18호스팩... ",
+      "link": "https://blog.naver.com/kastro83/224265934616",
+      "description": "4월 <b>공모주</b> 누적수익은 237,634원입니다. * ✔ 이번 <b>주</b> 핵심 요약 <b>청약</b>: 코스모로보틱스 (1건) 상장: <b>채비</b>, 신한제18호스팩 (2건) 핵심 포인트 - 코스모로보틱스 → 이번 달 최대 기대 <b>공모주</b> - <b>채비</b> → 대형... ",
+      "pubDate": "20260427",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-04-26 23:56:26"
+}

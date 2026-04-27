@@ -1,0 +1,107 @@
+{
+  "rcept_no": "20260220002549",
+  "corp_name": "에스팀",
+  "corp_code": "01379563",
+  "stock_code": "458350",
+  "market": "KOSDAQ",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260220002549",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "",
+  "subscription_end_dt": "",
+  "listing_dt": "",
+  "underwriter": "",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "에스팀 공모주 수요예측 총정리 총정리 - 브런치",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAtTUJHZkI4Sko4aHBncVZNeUFCeVdhRlV5Y05EVXVpTzRhX2JDNVA2Y3R3TVdXaGlQdGI3b0xhTUxiQnJQVWRYbTRYM09rNTl4aVBCUg?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 07:39:10 GMT"
+    },
+    {
+      "title": "액스비스·에스팀 공모주 청약 마감... 균등·비례 살펴보니 - 조세일보",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1yTGZpMF8wcjU1SFBudGgtRzJzYWpxN19yVGo4Z0x4RzNXcmJWTGRqRjF0bmVXS1VVeER0eElzaUZDVFlQYktvSWEtVUltNnhiS1AtVWNUczlza0JWM0Uw?oc=5",
+      "pubDate": "Wed, 25 Feb 2026 08:00:00 GMT"
+    },
+    {
+      "title": "에스팀, 청약 경쟁률 1960.87대1…증거금 3.7조 - 뉴스톱",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54U0ZlSXNld0xsTTlBTkx2QlRZUXZTclJiVDZORkVjWU9FM2hsV0U2Zk9qemRhc2FoeUdfOEpHZG1YdkRqQXY4TExkWHdDTVVCS3A5bEhzV1B4TGU4R2UtcGo0cmFfNXpBYUtkUzJyRQ?oc=5",
+      "pubDate": "Tue, 24 Feb 2026 07:59:46 GMT"
+    },
+    {
+      "title": "케이뱅크부터 에스팀까지… 2월 넷째 주 공모주 청약 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWG1idzdZNEs1QmJxRE9PM1RTdFFQTUNVME5hdFl6TjNTUFhqZVgzb21VbElLcTd5N01VZXkwa1FvdXRsUjA2SklwZGxBTzF5XzF1a3pULU5CcjhQZ3JDeElEWTRPRk14d1NGcnAyUXc1LXFHOXJBWHVqTXZZWDlyamw4eDBIZ3Bh0gGcAUFVX3lxTE1yWkM3NUZaSWxlNVZhbDNuZ1VhYWNENERMSmRBV0JBQnZBUnVOVTJYWjVRaTZiaHNtb2VpTjBSSUtXcmhGaDBGei1laDVLanhyVHFaemptVDJMSHd1aWctM2FDa2RkUVdaal9NZW9PLVVZb0QzZlVSOEN5Ul9nbmJJdmpfVTQ0OG5nbkxPWmRQNFEtakFQYTJvYTVYcg?oc=5",
+      "pubDate": "Sun, 22 Feb 2026 08:00:00 GMT"
+    },
+    {
+      "title": "[장외시황] 액스비스와 에스팀, 공모주 청약 시작 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBONTJsenAwbTB2WkhrQjZTbzE2aGw3X0RCdmxDQS1faWE5NmxDOEN3Ri02cTJXUGVBWjJNMDBuVnRKZUNScHhpcTBHaXl6eHRSUmYtNA?oc=5",
+      "pubDate": "Mon, 23 Feb 2026 08:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "'상장 첫날 폭락'은 이제 그만… <b>공모주</b> 시장에 '코너스톤 투자자' 제도...",
+      "link": "https://www.daily365.news/2026/04/24/%ec%83%81%ec%9e%a5-%ec%b2%ab%eb%82%a0-%ed%8f%ad%eb%9d%bd%ec%9d%80-%ec%9d%b4%ec%a0%9c-%ea%b7%b8%eb%a7%8c-%ea%b3%b5%eb%aa%a8%ec%a3%bc-%ec%8b%9c%ec%9e%a5%ec%97%90-%ec%bd%94%eb%84%88/",
+      "description": "올해 코스닥에 입성한 <b>에스팀</b>(3월 6일), 액스비스(3월 9일), 아이엠바이오로직스(3월 20일)는 모두 상장 첫날 <b>공모</b>가 대비 300% 치솟는 이른바 '따따블(<b>공모</b>가 4배 달성)'을 기록했다. 그러나 세 종목 모두 상장 직후 수일 내... ",
+      "pubDate": "Fri, 24 Apr 2026 09:17:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "&quot;따따블&quot; 중소형주 IPO 활기… 대어는 중복상장 변수에 멈칫",
+      "link": "http://www.fnnews.com/news/202604211823361635",
+      "description": "지난달 상장한 '액스비스' '<b>에스팀</b>' '아이엠바이오로직스' 모두 상장 당일 이른바 '따따블(<b>공모</b>가 대비 300% 상승)'을 달성했다. 하지만 향후 '대어급'은 나오기 힘든 상황이다. 우선 '케이뱅크'가 지난달 상장 이후... ",
+      "pubDate": "Tue, 21 Apr 2026 18:25:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "전쟁에도 증시 잘 가자 'IPO 도전' 증가…&quot;'중복상장 금지' 변수&quot;",
+      "link": "http://www.fnnews.com/news/202604211510005717",
+      "description": "지난달 상장한 '액스비스', '<b>에스팀</b>', '아이엠바이오로직스' 모두 상장 당일 이른바 '따따블(<b>공모</b>가 대비 300% 상승)'을 달성했다. 하지만 향후 '대어급'은 나오기 힘든 상황이다. 우선 '케이뱅크'가 지난달 상장 이후... ",
+      "pubDate": "Tue, 21 Apr 2026 16:08:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "중복상장 가이드라인 ‘지연’…대어급 IPO 공백 가시화",
+      "link": "https://economist.co.kr/article/view/ecn202604130052",
+      "description": "지난 3월 상장한 액스비스·<b>에스팀</b>·아이엠바이오로직스는 상장 첫날 <b>공모</b>가 대비 300% 상승하며 ‘따따블’을 기록했다. ▲카나프테라퓨틱스(153%) ▲메쥬(80.6%) ▲리센스메디컬(67.7%) 등도 두 자릿수 이상의 상승률을... ",
+      "pubDate": "Sat, 18 Apr 2026 09:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "4월 IPO ‘스톱’…상장 공백에 증시 숨고르기",
+      "link": "https://economist.co.kr/article/view/ecn202604100060",
+      "description": "8% 하락했고, <b>에스팀</b> 역시 3만4000원에서 9680원으로 71.5% 급락했다. 상장 직후 형성된 기대감이 빠르게 소멸되며 상장 효과가 대부분 반납된 셈이다. 반면 리센스메디컬(3월 31일 상장)은 <b>공모</b>가 1만1000원 대비 2만2650원으로... ",
+      "pubDate": "Sat, 18 Apr 2026 08:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "4월27일 종목브리핑(이노인스트루먼트,한양증권,노랑풍선)",
+      "link": "https://blog.naver.com/joon854235/224266293928",
+      "description": "코스모로보틱스 <b>공모</b><b>청약</b> ✅영국 국왕 미국 국빈방문 ✅오픈베이스,APS이노베션이 단일가 해제일 4월28일 화요일 ✅ 단일종목 레버리지 ETF 관련 자본시장법 시행령 개정안 시행 ✅ 현대디에프... ",
+      "pubDate": "20260427",
+      "source": "블로그"
+    },
+    {
+      "title": "AI 웹툰, 피할 수 없는 물결!",
+      "link": "https://blog.naver.com/joosiksin/224266289863",
+      "description": "결론적으로, “AI는 웹툰 산업의 파괴자가 아니라 촉진자다. 다만, 기술이 아니라 사람의 역량과 신뢰가 성패를 가른다. 결국 독자가 선택하고, 시장이 걸러낸다. 그러니 중요한 건 ‘AI를 쓰느냐 마느냐’가... ",
+      "pubDate": "20260427",
+      "source": "블로그"
+    },
+    {
+      "title": "2026년 1분기 재테크 모음",
+      "link": "https://blog.naver.com/han_duke/224266109995",
+      "description": "03 <b>에스팀</b> 한국투자증권 ₩21,639 2026.01 덕양에너젠 NH투자증권 ₩29,202 합계 ₩143,253 작년 하반기부터 재미를 보고있는 <b>공모주</b>에요~ 3월 <b>청약</b>된 게 대부분이 150% 이상의 수익률로 수익이... ",
+      "pubDate": "20260427",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-04-26 23:58:31"
+}
