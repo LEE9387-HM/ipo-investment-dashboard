@@ -205,14 +205,15 @@ def ipo_card(row: pd.Series, pred_df: pd.DataFrame) -> str:
 
     # AI 예측
     pred_row = pred_df[pred_df["rcept_no"] == rcept_no]
-    upside_pct = confidence = pred_close = bull_points = bear_points = ""
+    upside_pct = confidence = pred_close = bull_points = bear_points = listing_signal = ""
     if not pred_row.empty:
         p = pred_row.iloc[0]
-        upside_pct   = p.get("upside_pct", "")
-        confidence   = p.get("confidence", "")
-        pred_close   = p.get("predicted_first_day_close", "")
-        bull_points  = p.get("bull_points", "")
-        bear_points  = p.get("bear_points", "")
+        upside_pct      = p.get("upside_pct", "")
+        confidence      = p.get("confidence", "")
+        pred_close      = p.get("predicted_first_day_close", "")
+        bull_points     = p.get("bull_points", "")
+        bear_points     = p.get("bear_points", "")
+        listing_signal  = p.get("listing_signal", "")
 
     conf_label = {"1": "저신뢰", "2": "보통", "3": "고신뢰"}.get(str(confidence), "")
 
@@ -243,7 +244,8 @@ def ipo_card(row: pd.Series, pred_df: pd.DataFrame) -> str:
             pass
     if competition_ratio:
         try:
-            indicators.append(f"📊 경쟁률 {int(competition_ratio):,}:1")
+            cr_disp = f"{float(competition_ratio):,.0f}"
+            indicators.append(f"📊 경쟁률 {cr_disp}:1")
         except (ValueError, TypeError):
             pass
     if lock_up_ratio:
@@ -252,6 +254,10 @@ def ipo_card(row: pd.Series, pred_df: pd.DataFrame) -> str:
         indicators.append("📊 수요예측 데이터 수집 전")
 
     lines.extend(indicators)
+
+    # 상장일 전략 시그널 (경쟁률 기반 규칙)
+    if listing_signal:
+        lines.append(f"⚡ 전략: <b>{listing_signal}</b>")
 
     # Bull/Bear 근거 (AI 예측이 있을 때만 표시, 각 1건)
     if bull_points:

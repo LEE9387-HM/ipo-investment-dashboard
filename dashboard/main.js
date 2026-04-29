@@ -332,9 +332,12 @@ function renderPredTable(rows) {
   tbody.innerHTML = rows.map(r => {
     const upside = r.upside_pct ? `${r.upside_pct}%` : "—";
     const cls = changeCls(r.upside_pct);
+    const signalHtml = r.listing_signal
+      ? `<div style="margin-top:2px;font-size:0.7rem;font-weight:700;color:var(--color-accent)">${r.listing_signal}</div>`
+      : "";
     return `
     <tr>
-      <td><strong>${r.corp_name || "—"}</strong></td>
+      <td><strong>${r.corp_name || "—"}</strong>${signalHtml}</td>
       <td data-label="예측종가" class="text-right text-mono">${formatNumber(r.predicted_first_day_close)}</td>
       <td data-label="예측고가" class="text-right text-mono">${formatNumber(r.predicted_first_day_high)}</td>
       <td data-label="상승률" class="text-right"><span class="${cls}">${upside}</span></td>
@@ -581,9 +584,26 @@ async function openDetail(row) {
       ? `${formatNumber(row.offering_price_low)}원 ~ ${formatNumber(row.offering_price_high)}원 (희망)`
       : "—";
 
+  // 경쟁률 기반 상장일 전략 시그널 (JS 규칙, Python과 동일 기준)
+  function listingSignalFromRatio(cr) {
+    if (!cr) return "";
+    const r = parseFloat(String(cr).replace(/,/g, ""));
+    if (isNaN(r)) return "";
+    if (r >= 1000) return "🚀 상장일 즉시 매도";
+    if (r >= 700)  return "📈 상장일 매도 유리";
+    if (r >= 300)  return "🟢 적극 청약";
+    if (r >= 100)  return "🟡 청약 검토";
+    return "";
+  }
+
   // 타임라인 먼저 렌더링 (수요예측 기간은 detail 로드 후 업데이트)
   function renderOverview(d) {
     const timeline = buildTimeline(row, d || {});
+    const signal = d ? listingSignalFromRatio(d.competition_ratio) : "";
+    const signalDt = signal
+      ? `<dt style="font-weight:700;font-size:var(--text-xs);color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.06em">전략 시그널</dt>
+         <dd style="font-weight:700;color:var(--color-accent);font-size:var(--text-sm)">${signal}</dd>`
+      : "";
     const grid = [
       dt("시장",       row.market),
       dt("공모가",     price, false),
@@ -593,6 +613,7 @@ async function openDetail(row) {
       dt("공모주식수", row.total_shares ? `${Number(row.total_shares).toLocaleString("ko-KR")}주` : "—"),
       d && d.competition_ratio ? dt("수요예측 경쟁률", `${Number(d.competition_ratio).toLocaleString("ko-KR")} : 1`, false) : "",
       d && d.lock_up_ratio     ? dt("의무보유확약",   `${d.lock_up_ratio}%`, false) : "",
+      signalDt,
       dt("접수번호",   rcept_no),
     ].filter(Boolean).join("");
     document.getElementById("detailOverview").innerHTML = timeline + `<dl class="detail-grid">${grid}</dl>`;

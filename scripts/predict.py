@@ -79,11 +79,38 @@ PREDICTIONS_COLUMNS: list[str] = [
     "predicted_first_day_high",  # 예측 상장일 고가 (원)
     "upside_pct",                # 공모가 대비 예측 상승률 (%)
     "confidence",                # 신뢰도 (1: 낮음 / 2: 보통 / 3: 높음)
+    "listing_signal",            # 상장일 전략 시그널 (경쟁률 기반 규칙)
     "bull_points",               # 매수 근거 (|로 구분)
     "bear_points",               # 보류 근거 (|로 구분)
     "reasoning",                 # 종합 판단 요약
     "predicted_at",              # 예측 생성일시
 ]
+
+# 경쟁률 기반 상장일 매도 시그널 (규칙 기반, AI 독립)
+def _listing_signal(competition_ratio_str: str, offering_price_str: str) -> str:
+    """
+    수요예측 경쟁률 기반 상장일 전략 시그널을 반환합니다.
+    한국 공모주 시장 역사적 통계 기반 규칙:
+      1000:1 이상 → 🚀 상장일 즉시 매도 (역대급 수요, +200% 이상 기대)
+       700:1 이상 → 📈 상장일 매도 유리 (+100~200% 기대)
+       300:1 이상 → 🟢 적극 청약 (+30~100% 기대)
+       100:1 이상 → 🟡 청약 검토 (소폭 상승 가능)
+    """
+    if not competition_ratio_str:
+        return ""
+    try:
+        ratio = float(competition_ratio_str.replace(",", ""))
+    except ValueError:
+        return ""
+    if ratio >= 1000:
+        return "🚀 상장일 즉시 매도"
+    if ratio >= 700:
+        return "📈 상장일 매도 유리"
+    if ratio >= 300:
+        return "🟢 적극 청약"
+    if ratio >= 100:
+        return "🟡 청약 검토"
+    return ""
 
 
 # ---------------------------------------------------------------------------
@@ -121,6 +148,33 @@ def load_detail(rcept_no: str) -> dict:
         except Exception:
             pass
     return {}
+
+
+def load_best_detail(rcept_no: str, corp_name: str) -> dict:
+    """
+    해당 rcept_no의 detail을 로드하되,
+    competition_ratio가 비어있으면 같은 기업의 다른 detail 파일에서 보완 검색합니다.
+    기재정정 / 발행조건확정 문서가 별도 rcept_no를 가지는 경우 대응.
+    """
+    base = load_detail(rcept_no)
+    if base.get("competition_ratio"):
+        return base
+    # 동일 corp_name을 가진 다른 detail 파일 중 competition_ratio 있는 것 우선 사용
+    for path in sorted(DETAILS_DIR.glob("*.json"), reverse=True):  # 최신순
+        if path.stem == rcept_no:
+            continue
+        try:
+            d = json.loads(path.read_text(encoding="utf-8"))
+            if d.get("corp_name", "").strip() == corp_name.strip() and d.get("competition_ratio"):
+                # competition_ratio 등 수요예측 필드만 보완
+                merged = {**base}
+                for key in ("competition_ratio", "lock_up_ratio", "demand_forecast_period", "business_summary"):
+                    if not merged.get(key) and d.get(key):
+                        merged[key] = d[key]
+                return merged
+        except Exception:
+            continue
+    return base
 
 
 def load_underwriter_stats() -> dict:
@@ -166,24 +220,37 @@ def fetch_market_context() -> str:
 def should_predict(row: pd.Series, detail: dict) -> bool:
     """
     LLM 호출 가치 여부를 판단합니다.
-      - 청약 종료 후 종목 제외
+      - 청약 종료 후 7일 초과 종목 제외 (상장 완료 추정)
+        ※ 청약 종료 후 2~3 영업일 내 상장하므로 종료 직후도 예측 대상 유지
       - 청약 시작 14일 초과 종목 제외 (정보 부족)
       - 경쟁률 데이터가 있고 100:1 미만이면 제외
     """
-    today_str  = date.today().strftime("%Y%m%d")
-    limit_str  = (date.today() + timedelta(days=14)).strftime("%Y%m%d")
+    today      = date.today()
+    today_str  = today.strftime("%Y%m%d")
+    limit_str  = (today + timedelta(days=14)).strftime("%Y%m%d")
     sub_start  = str(row.get("subscription_start_dt", "") or "").strip()
     sub_end    = str(row.get("subscription_end_dt",   "") or "").strip()
+    listing_dt = str(row.get("listing_dt",            "") or "").strip()
 
-    if sub_end and sub_end < today_str:
+    # 이미 상장 완료된 종목 제외
+    if listing_dt and listing_dt <= today_str:
         return False
+    # 청약 종료 후 7일 초과(상장 완료 추정) — 단 listing_dt가 미래이면 유지
+    if sub_end and sub_end < today_str and not listing_dt:
+        try:
+            sub_end_d = date(int(sub_end[:4]), int(sub_end[4:6]), int(sub_end[6:]))
+            if (today - sub_end_d).days > 7:
+                return False
+        except ValueError:
+            return False
     if sub_start and sub_start > limit_str:
         return False
 
     ratio_str = str(detail.get("competition_ratio", "") or "").strip()
     if ratio_str:
         try:
-            if int(ratio_str.replace(",", "")) < 100:
+            # 소수점 포함 경쟁률 처리 (예: "1140.11")
+            if float(ratio_str.replace(",", "")) < 100:
                 logger.info(f"  경쟁률 {ratio_str}:1 < 100 → 예측 제외")
                 return False
         except ValueError:
@@ -268,6 +335,15 @@ def build_prediction_prompt(
     return f"""당신은 한국 공모주 전문 애널리스트입니다.
 다음 공모주의 상장일(첫 거래일) 주가를 분석하고 예측하세요.
 
+## 한국 공모주 수요예측 경쟁률 해석 기준 (필수 참고)
+한국 코스닥·코스피 공모주 시장에서 기관투자자 수요예측 경쟁률은 상장일 주가의 핵심 선행지표입니다.
+- 100:1 미만 → 수요 부진, 상장일 하락 가능성 높음
+- 100~300:1 → 보통 수준, 상장일 소폭 상승~보합
+- 300~700:1 → 강한 수요, 상장일 +30~100% 기대
+- 700~1000:1 → 매우 강한 수요, 상장일 +100~200% 흔함
+- 1000:1 초과 → 역대급 초강세, 상장일 +200%이상·상한가(+400%) 근접 사례 다수
+경쟁률이 높을수록 기관 배정물량이 제한되어 일반투자자가 시장에서 매수 → 초기 급등 압력이 강합니다.
+
 ## 기업 정보
 - 기업명: {corp_name}
 - 상장 시장: {market}
@@ -285,6 +361,7 @@ def build_prediction_prompt(
 
 {community_section + chr(10) if community_section else ""}## 분석 지시
 Bull Case(청약 근거)와 Bear Case(보류 근거)를 각각 도출한 뒤 종합 판단하세요.
+경쟁률이 700:1 이상이면 상장일 매도 전략(공모가 대비 +100% 이상)을 적극 고려하세요.
 
 반드시 아래 JSON 형식으로만 응답하세요 (코드블록·추가 텍스트 없이):
 {{
@@ -374,9 +451,10 @@ def predict_ipo(
         try:
             response = _gemini_client.models.generate_content(model=model_id, contents=prompt)
             parsed = parse_gemini_response(response.text)
-            parsed["rcept_no"]     = str(row.get("rcept_no", ""))
-            parsed["corp_name"]    = str(row.get("corp_name", ""))
-            parsed["predicted_at"] = date.today().strftime("%Y-%m-%d %H:%M:%S")
+            parsed["rcept_no"]       = str(row.get("rcept_no", ""))
+            parsed["corp_name"]      = str(row.get("corp_name", ""))
+            parsed["listing_signal"] = ""  # 호출자에서 경쟁률 기반으로 채움
+            parsed["predicted_at"]   = date.today().strftime("%Y-%m-%d %H:%M:%S")
             logger.info(
                 f"[{model_id}] {row.get('corp_name')} 예측 완료: "
                 f"종가 {parsed.get('predicted_first_day_close')}원 "
@@ -426,9 +504,15 @@ def run_predictions(ipo_df: pd.DataFrame) -> pd.DataFrame:
         ss  = str(row.get("subscription_start_dt", "") or "").strip()
         se  = str(row.get("subscription_end_dt",   "") or "").strip()
         if lst and lst <= today_str:
-            return False
+            return False  # 상장 완료
+        # 청약 종료 후 7일 이내는 상장 임박으로 간주 (예측 유지)
         if se and se < today_str and not lst:
-            return False
+            try:
+                se_d = date(int(se[:4]), int(se[4:6]), int(se[6:]))
+                if (date.today() - se_d).days > 7:
+                    return False
+            except ValueError:
+                return False
         return True
 
     has_price = (
@@ -466,8 +550,9 @@ def run_predictions(ipo_df: pd.DataFrame) -> pd.DataFrame:
     MAX_CONSECUTIVE_FAILURES = 2
 
     for _, row in targets.iterrows():
-        rcept_no = str(row.get("rcept_no", "")).strip()
-        detail   = load_detail(rcept_no)
+        rcept_no  = str(row.get("rcept_no", "")).strip()
+        corp_name = str(row.get("corp_name", "")).strip()
+        detail    = load_best_detail(rcept_no, corp_name)
 
         # 1차 정량 필터
         if not should_predict(row, detail):
@@ -490,6 +575,10 @@ def run_predictions(ipo_df: pd.DataFrame) -> pd.DataFrame:
         try:
             result = predict_ipo(row, model_id, detail, uw_stats, market_ctx)
             if result:
+                # 경쟁률 기반 상장일 전략 시그널 추가 (AI 독립 규칙)
+                cr_str  = str(detail.get("competition_ratio", "") or "")
+                op_str  = str(row.get("offering_price_final", "") or row.get("offering_price_high", "") or "")
+                result["listing_signal"] = _listing_signal(cr_str, op_str)
                 new_predictions.append(result)
                 counts[model_idx] += 1
                 failures[model_idx] = 0  # 성공 시 오류 카운트 초기화
