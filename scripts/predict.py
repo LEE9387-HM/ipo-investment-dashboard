@@ -9,9 +9,10 @@ Required Environment Variables (.env.local):
     발급: https://aistudio.google.com/apikey
 
 무료 티어 모델 (우선순위 순):
-    1. gemini-2.5-flash-preview-04-17  — 10 RPM / 500 RPD (free)
-    2. gemini-2.5-flash                — 10 RPM / 500 RPD (free)
-    3. gemini-2.0-flash                — 15 RPM / 1500 RPD (free)
+    1. gemini-2.0-flash       — 15 RPM / 1500 RPD (free)
+    2. gemini-2.5-flash       — 10 RPM / 500 RPD (free)
+    3. gemini-2.0-flash-lite  — 30 RPM (free)
+    4. gemini-2.5-flash-lite  — 30 RPM (free)
 
 개선 사항 (TradingAgents 참조):
     - Bull/Bear 양방향 분석 → JSON 구조화 출력

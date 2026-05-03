@@ -74,8 +74,7 @@ def fetch_document_text(rcept_no: str) -> Optional[str]:
         if resp.status_code != 200:
             return None
         # DART가 오류일 때 ZIP 대신 XML 오류 응답을 반환하는 경우 처리
-        content_type = resp.headers.get("Content-Type", "")
-        if "xml" in content_type and not resp.content[:4] == b"PK\x03\x04":
+        if resp.content[:4] != b"PK\x03\x04":
             logger.debug(f"DART 오류 응답 (ZIP 아님): {resp.text[:200]}")
             return None
         with zipfile.ZipFile(io.BytesIO(resp.content)) as zf:

@@ -287,7 +287,7 @@ def fetch_document_text(rcept_no: str) -> str:
     resp = requests.get(url, params=params, timeout=60)
     resp.raise_for_status()
 
-    if resp.content[:2] != b"PK":  # ZIP 시그니처 확인
+    if resp.content[:4] != b"PK\x03\x04":  # ZIP 로컬 파일 헤더 시그니처 확인
         logger.debug(f"document.xml: ZIP 아님 (rcept_no={rcept_no})")
         return ""
 
@@ -571,16 +571,17 @@ def run() -> int:
     # Phase 2: market / 청약일 / 공모가 등 상세 필드 보완
     merged_df = enrich_ipo_items(merged_df)
 
-    # listing_dt 유효성 검사: 청약종료일보다 앞서거나 날짜 형식 불량이면 제거
+    # listing_dt 유효성 검사: 형식 불량·범위 초과·청약종료일 이전이면 제거
     for idx, row in merged_df.iterrows():
         lt = str(row.get("listing_dt", "") or "").strip()
         if not lt or len(lt) != 8:
             continue
         try:
-            m, d = int(lt[4:6]), int(lt[6:8])
-            if not (1 <= m <= 12 and 1 <= d <= 31):
+            y, m, d = int(lt[:4]), int(lt[4:6]), int(lt[6:8])
+            if not (2020 <= y <= 2040):
                 merged_df.at[idx, "listing_dt"] = ""
                 continue
+            datetime(y, m, d)  # 존재하지 않는 날짜(2월 31일 등) 검증
         except ValueError:
             merged_df.at[idx, "listing_dt"] = ""
             continue

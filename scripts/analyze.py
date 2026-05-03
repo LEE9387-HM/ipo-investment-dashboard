@@ -408,11 +408,12 @@ def compute_underwriter_stats(ipo_df: pd.DataFrame, results_df: pd.DataFrame) ->
         .agg(count="count", mean_return_pct="mean", median_return_pct="median")
         .reset_index()
     )
-    stats["positive_pct"] = (
+    positive_pct = (
         valid.groupby("underwriter")["return_pct"]
         .apply(lambda x: round((x > 0).sum() / len(x) * 100, 1))
-        .values
+        .reset_index(name="positive_pct")
     )
+    stats = stats.merge(positive_pct, on="underwriter", how="left")
     stats["mean_return_pct"]   = stats["mean_return_pct"].round(2)
     stats["median_return_pct"] = stats["median_return_pct"].round(2)
     stats.to_csv(UNDERWRITER_STATS_PATH, index=False, encoding="utf-8-sig")

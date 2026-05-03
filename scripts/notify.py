@@ -179,10 +179,17 @@ def ipo_card(row: pd.Series, pred_df: pd.DataFrame) -> str:
     p_final = row.get("offering_price_final", "") or ""
     p_high  = row.get("offering_price_high",  "") or ""
     p_low   = row.get("offering_price_low",   "") or ""
+
+    def _fmt_price(v: str) -> str:
+        try:
+            return f"{int(float(v.replace(',', ''))):,}"
+        except (ValueError, AttributeError):
+            return v
+
     if p_final:
-        price_str = f"{int(p_final):,}원 (확정)"
+        price_str = f"{_fmt_price(p_final)}원 (확정)"
     elif p_high:
-        price_str = f"{int(p_low):,}~{int(p_high):,}원" if p_low else f"~{int(p_high):,}원"
+        price_str = f"{_fmt_price(p_low)}~{_fmt_price(p_high)}원" if p_low else f"~{_fmt_price(p_high)}원"
     else:
         price_str = "미정"
 
