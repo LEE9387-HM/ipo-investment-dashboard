@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260325001178",
+  "corp_name": "이노스페이스",
+  "corp_code": "01700587",
+  "stock_code": "462350",
+  "market": "KOSDAQ",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260325001178",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260604",
+  "subscription_end_dt": "20260605",
+  "listing_dt": "",
+  "underwriter": "키움증권(주)",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "이 될 발사 서비스와 관련하여 원자재, 부품, 구성품 수급을 위하여 약 100 여개의 기업과 협력하고 있으며, 조달방식은 매입처와의 직접거래를 하는 방식을 취하고 있습니다.",
+  "news": [
+    {
+      "title": "이노스페이스, 공모가 회복은 언제쯤 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAtRVVTTUlLTEVLOXJ3SXNscW9XcTh6ZVN5cUl1el8wNFd6NmVlVjNwOUtlamQ0eDN1aTdVcndPTTl2ZVNnVlB1UjJweUxiTWQ3NGxPSVNKTjY3ODNDTC1SY0pn?oc=5",
+      "pubDate": "Fri, 04 Jul 2025 07:00:00 GMT"
+    },
+    {
+      "title": "공모주 청약 경쟁률 ‘1150 대 1’ 이노스페이스, 상장 첫날 20% 폭락 - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBhQVFhYlMtN194QVhkR05xb0ZYTXJmRGtfaEtYc21JT2FKSi1qelhBVHFxS29yWnpnSWFTQXVyYko2MGJoTHFfTHN4aWgwNWJpb00zcDlSc2o0Zmt3bkFOVXlRcHJUSnc?oc=5",
+      "pubDate": "Wed, 03 Jul 2024 07:00:00 GMT"
+    },
+    {
+      "title": "이노스페이스, 공모주 청약 마지막날 증권사별 경쟁률? - 영남일보",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4zN3REcTkzUzU0cm5WdGozWDR4a1hxR2QwOGFRS0RPTHdtTHpYSGpOUW81Y0EtcjM3ZzFpUkFvMWE3RHF0eW9YY2tiQ1BhM3JGdVcyUXNPSGZBODVVdlFMSzVlc002TVcxaFlJ?oc=5",
+      "pubDate": "Fri, 21 Jun 2024 07:00:00 GMT"
+    },
+    {
+      "title": "'공모주 거품' 빠지나…이노스페이스 첫날 20% 뚝 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBReVk2UVBIV3JEbXJjVGpDbE9wZWNFeVF5RGJUbWNnZnhRZUE3WFZILUQ0Sno4dXNkaGRHRkhiSGdkTzdRZzFCTnN3WkNuUlNRa3ZnbDR6QnYwQdIBVEFVX3lxTE13X0NCaUFnMVJ3NWZENUhWcGFmVUpiVHN2WGV1UFluTXNXNjJ2OUZUVU53MkgxMXY0YWhaVHRfOC1NTFhVS1NRM19KZG95NnNpUmpSZg?oc=5",
+      "pubDate": "Tue, 02 Jul 2024 07:00:00 GMT"
+    },
+    {
+      "title": "\"거래 첫날 공모가 추락 첫 사례\"…이노스페이스, 고평가 누구 책임? - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAxZkRaRFJZbHMxbVl6dU1tZW5QNVhDMXIxRmtEekVMZEpETXNQZGl6ejVUQXpIaXN1ZFJBWDRCbGVDaGxDM3NtYlhVM0I3WkdGLU5xSE5qTkpxaXkyUDlNRdIBeEFVX3lxTE1FTWVudWZwMkJxcTdFSVM3OXllN2pfa0Y3QU05YmxHTDhLaHJWdTF4WDVlQkczcmpvUDBqeWJhQzViMkItcDNaQlZJSnl2QTBZMDhBUDhuQ0NiX1U1YWpKT3ZoUHJGUGZsdTAyMmhFQldxdjBXOU4xNA?oc=5",
+      "pubDate": "Wed, 03 Jul 2024 07:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "[부산 전시] 이번주에뭐볼까 [2026년 5월 1일~ ]",
+      "link": "https://www.busan.com/view/busan/view.php?code=2026040823262643286",
+      "description": "소울아트<b>스페이스</b> 제 1·2 전시실(해운대해변로 30). ◆[2026 루프 랩 부산_기관 협력 전시] 이라티 <b>이노</b>리사... 아트로 호흡하다’ 메인 전시와 ‘어린이 해양환경 미술 <b>공모</b>전’, 그리고 어린이와 가족들이 함께... ",
+      "pubDate": "Sun, 03 May 2026 06:04:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "코스닥...LS머트리얼즈 · 성호전자 · 고영 · RFHIC '껑충'",
+      "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=164614",
+      "description": "33%) 등이 급등한 반면 <b>이노</b>인스트루먼트(-6.99%), 한국첨단소재(-4.27%) 등은 급락했다. 대한광통신은 0.13% 내렸다. 엔터테인먼트주 중 JYP Ent(1.57%), 에스엠(1.46%) 등이 상승했다. <b>스페이스</b>X 관련주로 꼽히는... ",
+      "pubDate": "Wed, 29 Apr 2026 16:28:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주요공시] HD현대중공업, 삼천당제약, OCI, 유진로봇, 셀트리온, CJ 외",
+      "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=204568",
+      "description": "보통주 576만7800주를 주주배정 후 실권주 일반<b>공모</b> 방식으로 발행하고, 예정 발행가액은 1만3870원이다.... ■ <b>이노스페이스</b>(KOSDAQ, 462350)는 위성발사서비스 공급계약을 체결했다. 계약금액은 약 4억원대이며, 최근... ",
+      "pubDate": "Wed, 22 Apr 2026 18:22:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[증시 인사이트] 국내증시 혼조 마감…코스피 오르고 코스닥 내리고",
+      "link": "https://biz.sbs.co.kr/article_hub/20000306002?division=NAVER",
+      "description": "가전 명가에서 로봇 밸류체인을 완성한 LG, 특히 그룹주 중 LG<b>이노</b>텍이 오늘 강세를 보였습니다. 기판 가격... 미래에셋證, <b>스페이스</b>X <b>공모주</b> 국내 배정 추진 - 미래에셋證, <b>스페이스</b>X 주식 일정 물량 확보 추진... ",
+      "pubDate": "Wed, 22 Apr 2026 16:34:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[증시 인사이트] 국내증시 혼조 마감…코스피 내리고 코스닥 오르고",
+      "link": "https://biz.sbs.co.kr/article_hub/20000305049?division=NAVER",
+      "description": "삼성전기·LG<b>이노</b>텍, CPO기판 기술 개발 본격 시작 Q. 미국의 '미국산 AI 수출'에 외국기업 참여가... 미래에셋證, <b>스페이스</b>X IPO <b>공모주</b> 국내 배정 추진 - 미래에셋證, <b>스페이스</b>X 주식 일정 물량 확보 추진 중 - <b>스페이스</b>X... ",
+      "pubDate": "Fri, 17 Apr 2026 16:44:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "번역의 시대, 끝이 아닌 새로운 시작!",
+      "link": "https://blog.naver.com/joosiksin/224274841063",
+      "description": "시너지<b>이노</b>베이션, 바이오플러스, 대원제약, 메타바이오메드, 바텍, 오스테오닉, 제노레이, 덴티움... 한화에어로<b>스페이스</b>, 피스피스스튜디오, 한화투자증권 해성디에스 현대건설 현대로템 현대리바트... ",
+      "pubDate": "20260504",
+      "source": "블로그"
+    },
+    {
+      "title": "5/4 월요일 장전뉴스(전력/원전/로봇/철강/신재생/태양광/풍력... ",
+      "link": "https://blog.naver.com/wealthy_2024/224273960669",
+      "description": "롯데칠성,팬오션 - <b>공모</b><b>청약</b> : 폴레드 - 추가상장 : 심플랫폼,브이엠,지아이에스,HLB<b>이노</b>베이션... 나라<b>스페이스</b>테크놀로지,센서뷰,<b>이노스페이스</b>,루미르,제노코,미래에셋증권,성우,그린광학,,한양이엔지,컨텍... ",
+      "pubDate": "20260504",
+      "source": "블로그"
+    },
+    {
+      "title": "[기업 분석] <b>이노스페이스</b> — 첫 발사 실패 후, 변곡점에 선 국내... ",
+      "link": "https://blog.naver.com/deepalpha/224272186973",
+      "description": "우주항공청 1조원 시대·뉴<b>스페이스</b> 펀드 2,000억원·나로우주센터 민간 개방 등 정책 수혜 환경은 형성됐다. 단기 트리거(825억 유증 <b>청약</b>·펀드 운용사 선정·재발사)가 5~9월에 집중. 단계별 통과... ",
+      "pubDate": "20260502",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-05-05 00:08:42",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}
