@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260508000911",
+  "corp_name": "마키나락스",
+  "corp_code": "01709065",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508000911",
+  "offering_price_low": "12500",
+  "offering_price_high": "15000",
+  "offering_price_final": "15000",
+  "subscription_start_dt": "20260511",
+  "subscription_end_dt": "20260512",
+  "listing_dt": "",
+  "underwriter": "미래에셋증권, 및 발행회사가 협의하여 제시한 희망공모가액, 및 발행회사가 협의하여 결정한 확정공모가액, 및 발행회사가 협의하여, 현대차증권",
+  "total_shares": "",
+  "competition_ratio": "6.08",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "[IPO챗] 한산한 5월 둘째주 IPO 시장…청약·수요예측 각 1곳 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5tbUNjc3QtOEpYYk9EWFpOWENUanNrb1BFb29YVGZOVEtxWU8waTI2ZVhGb2Q2emcwaDZiZjlLeVJpUjdGUnJYRTFiaER1ZVh1b2FjakNSOC0wTTJPcUVDddIBYEFVX3lxTE5tbUNjc3QtOEpYYk9EWFpOWENUanNrb1BFb29YVGZOVEtxWU8waTI2ZVhGb2Q2emcwaDZiZjlLeVJpUjdGUnJYRTFiaER1ZVh1b2FjakNSOC0wTTJPcUVDdQ?oc=5",
+      "pubDate": "Sat, 09 May 2026 00:00:02 GMT"
+    },
+    {
+      "title": "현대차증권, 마키나락스로 3년 만에 기업 IPO주관 복귀전 - 시사저널e",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBoUnRBLUxaNHdXQWxUWDcybkF3eEZhQ3FHQjRCZERSM3Rodm5vWENMN3lZYmV6QnRaYjU2Zm40Q21ZWFlQSVRFZGMzWjRleGp1X2RQTC1Zc0lIR2s5UUxfektUX21vMDdxYW9HeTVac2tLd9IBdkFVX3lxTE9qR19DM21FZ2EzQ0hlQzlRcW5fYnVKZXNKd2ZiOG1jOU9uUWxzOHdTVU45V0ZiRXYxcjJ4NW50NjF6VnFOdUtURTMtVWRobUtVNjZKOV9qOEoyOE4xZUlyQ3pUMXNNNTg3TVZwQXBZdUN2cXpZQnc?oc=5",
+      "pubDate": "Fri, 08 May 2026 08:01:30 GMT"
+    },
+    {
+      "title": "[주간IPO] 5월 셋째 주, 마키나락스 공모주 청약...피스피스스튜디오 수요예측 시작 - 소비자가 만드는 신문",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5IcE9nS3dwdFNvdndLN2pSMk90RHRfekFNWnNSeTdXaE5UZ2Q3dzQ5aUlteFZYb2dJOWZvdXllXzd5a0pYOWNWMlE4VzkyM1FTSTVZS0Z0dzdzNlg2cldyNHMtZlpzX3A3SVRvdGRmSDVNLTA?oc=5",
+      "pubDate": "Thu, 07 May 2026 21:10:00 GMT"
+    },
+    {
+      "title": "이번주 공모주 청약, 폴레드 1개사 나선다... 마키나락스 '수요예측' - 조세일보",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zSUxyRTBSS3pQTlNiSWJOM210bm9QeTNBMlpXODJSUjRwSTY5bDdrajROZE5WU0NVQlJER2NUSmkzOEV4M0lFZ0s2aEkzNzQ4cU0yc3dMMHdNX3o1Rk5n?oc=5",
+      "pubDate": "Mon, 04 May 2026 00:10:00 GMT"
+    },
+    {
+      "title": "윤성호 마키나락스 대표 \"기름때 묻은 AI가 진짜\"…제조·국방 AI로 코스닥 도전 - 뉴스톱",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBjU28xSVg1WEw2bGdkRUlhRFpGQ1NGa0NLTE5xaEVsaVBlRmQ3T0FrMktSdXhjV0MyOG5JQ2RjM1VJQnRTODJobkxLUFN0WUI5UU43R0ZQX1dwTE0yUk54ODk5MEFoVG1WVnl3MHg2WQ?oc=5",
+      "pubDate": "Wed, 06 May 2026 05:51:45 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "코스모로보틱스·폴레드 코스닥 신규 상장 [주간 IPO]",
+      "link": "https://www.etoday.co.kr/news/view/2582920",
+      "description": "<b>공모</b>가 기준 시가총액은 약 1259억원이다. 미키나<b>락스</b>는 11~12일 일반투자자를 대상으로 청약에 나선다. <b>마키나락스</b>는 엔터프라이즈 인공지능(AI) 운영체제(OS) '런웨이(Runway)'를 기반으로 피지컬 AI를 구현하는... ",
+      "pubDate": "Sat, 09 May 2026 09:38:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "적자 인공지능 기업 '<b>마키나락스</b>', <b>공모</b>가 확정...패션 소비재 기업과 ...",
+      "link": "https://www.tokenpost.kr/news/market/357855",
+      "description": "5월 둘째 <b>주</b> 기업공개 시장은 지난주와 같은 수준의 일정이 이어지면서, <b>공모주</b> 청약 1곳과 수요예측 1곳이... <b>공모주</b> 청약에 나서는 곳은 산업 특화 인공지능 개발사 <b>마키나락스</b>다. 금융투자업계에 따르면 이 회사는... ",
+      "pubDate": "Sat, 09 May 2026 09:20:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[IPO챗] 한산한 5월 둘째주 IPO 시장…청약·수요예측 각 1곳",
+      "link": "https://www.yna.co.kr/view/AKR20260508133800008?input=1195m",
+      "description": "5월 둘째 <b>주</b> 기업공개(IPO) 시장에서는 전주와 동일하게 1개 기업이 상장을 위한 <b>공모주</b> 청약을, 1개 기업이 수요예측을 진행한다. 9일 금융투자업계에 따르면 산업 특화 인공지능(AI) 개발사 <b>마키나락스</b>가 오는... ",
+      "pubDate": "Sat, 09 May 2026 09:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>마키나락스 공모</b>가 상단 확정…기관 확약 ‘코스닥 역대 최고’ [시그널...",
+      "link": "https://www.sedaily.com/article/20041896?ref=naver",
+      "description": "<b>공모</b>가를 상단에 정하면서 <b>마키나락스</b>가 확보할 <b>공모</b> 자금은 약 395억 원으로 구체화됐다. 회사가 제출한 증권신고서에 따르면 <b>공모</b>자금은 런웨이(Runway) 플랫폼 고도화, 자체 파운데이션 모델 개발 등핵심 연구개발... ",
+      "pubDate": "Fri, 08 May 2026 18:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>마키나락스</b>, <b>공모</b>가 최상단 1만5000원 확정",
+      "link": "http://www.inews24.com/view/1966915",
+      "description": "<b>마키나락스</b>가 <b>공모</b>가를 희망밴드 최상단인 1만 5000원으로 확정했다. 의무보유 확약률은 78.17%로 우선 배정제 기준선(24%)를 크게 웃돌았다. <b>마키나락스</b>는 지난달 28일부터 이달 6일까지 진행한 기관투자가... ",
+      "pubDate": "Fri, 08 May 2026 17:48:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>공모주</b> - <b>마키나락스</b>",
+      "link": "https://blog.naver.com/lovely_cym_/224279742265",
+      "description": "■ <b>마키나락스 공모주</b> - 기업개요 및 사업분야 정체성: 제조 및 산업 현장에 특화된 '피지컬 AI... - <b>청약</b>정보 확정 <b>공모</b>가: 15,000원 (희망 밴드 상단 확정). ●균등<b>청약</b>:10주 75,000원 <b>청약</b>일: 2026년 5월... ",
+      "pubDate": "20260509",
+      "source": "블로그"
+    },
+    {
+      "title": "<b>마키나락스 공모주 청약</b> - 미래에셋증권, 현대차증권",
+      "link": "https://blog.naver.com/dugubi2/224279736627",
+      "description": "<b>마키나락스</b>는 엔터프라이즈 인공지능(AI) 운영체제(OS) '런웨이(Runway)'를 기반으로 피지컬 AI를... <b>청약</b>일 : 5월 11일 ~ 5월 12일 2. <b>공모</b>가 : 15,000원 ( <b>공모</b>가 희망밴드 12,500원 ~15,000원) 3. 수요예측... ",
+      "pubDate": "20260509",
+      "source": "블로그"
+    },
+    {
+      "title": "<b>마키나락스</b> - 산업 현장(제조·국방)에 특화된 '피지컬 AI... ",
+      "link": "https://blog.naver.com/csk3595/224279728645",
+      "description": "<b>공모</b> &amp; <b>청약</b> 정보 영상 | <b>공모주</b>린이 Transforming Industries with Specialized AI | MakinaRocks w4.kirs.or.kr/download/broadcast/<b>마키나락스</b> IR Book.pdf * 모든 이미지 &amp; 글 정보 출처; <b>마키나락스</b> IPO ※ 모든 정보는... ",
+      "pubDate": "20260509",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-05-09 02:14:40",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}
