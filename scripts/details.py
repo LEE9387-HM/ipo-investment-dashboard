@@ -131,6 +131,7 @@ def extract_detail_fields(xml_text: str) -> dict:
         "business_summary": "",
         "total_shares_offered": "",
         "min_bid_price": "",
+        "offering_price_final": "",
     }
 
     DATE_PAT = r"(\d{4}[년.\s]*\d{1,2}[월.\s]*\d{1,2}일?)"
@@ -141,13 +142,20 @@ def extract_detail_fields(xml_text: str) -> dict:
     )
     if not cr:
         cr = re.search(r"경쟁률[^\d]*(\d[\d,]*\.?\d*)\s*(?::\s*1|대\s*1)", plain)
-    # 수요예측 테이블 형식: "경쟁률주N) [숫자들] 합계" — 주N) 바로 앞 숫자가 합계 경쟁률
+    # 수요예측 테이블 형식: "경쟁률(주N) 21.33 497.71 ... 1,196.08 주1)"
+    # — 각 기관 유형별 경쟁률이 공백으로 나열되고 마지막 값이 전체 합계
     if not cr:
-        cr = re.search(
-            r"경쟁률[^\n]{5,300}([\d,]+\.\d+)\s+주\d",
-            plain,
-        )
-    if cr:
+        m_label = re.search(r"경쟁률\s*[\(（]?주\d+[\)）]?", plain)
+        if m_label:
+            snippet = plain[m_label.start(): m_label.start() + 400]
+            # 첫 번째 각주 "주N)" 직전까지만 사용 (헤더 다음 첫 각주)
+            cutoff = re.search(r"\s주\d+\)", snippet[10:])
+            if cutoff:
+                snippet = snippet[: cutoff.start() + 10]
+            nums = re.findall(r"[\d,]+\.\d+", snippet)
+            if nums:
+                result["competition_ratio"] = _num(nums[-1])  # 마지막 = 전체 합계
+    if not result["competition_ratio"] and cr:
         result["competition_ratio"] = _num(cr.group(1))
 
     # 의무보유확약 비율 (기관투자자 수요예측 확약비율)
@@ -199,6 +207,17 @@ def extract_detail_fields(xml_text: str) -> dict:
     mbp = re.search(r"최저\s*(?:입찰\s*)?공모가[^\d]*(\d[\d,]*)\s*원", plain)
     if mbp:
         result["min_bid_price"] = _num(mbp.group(1))
+
+    # 확정 공모가 — 발행조건확정 문서에서 추출
+    for _fp in (
+        r"모집\(매출\)\s*확정\s*가액\s*[:：]\s*([\d,]+)\s*원",
+        r"확정공모가액\s*[:：]?\s*([\d,]+)\s*원",
+        r"확정\s*공모가[액]?\s*[:：]\s*([\d,]+)\s*원",
+    ):
+        _m = re.search(_fp, plain)
+        if _m:
+            result["offering_price_final"] = _num(_m.group(1))
+            break
 
     return result
 

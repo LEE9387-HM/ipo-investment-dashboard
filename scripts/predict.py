@@ -530,6 +530,15 @@ def run_predictions(ipo_df: pd.DataFrame) -> pd.DataFrame:
         logger.info("예측 대상 신규 항목이 없습니다.")
         return pred_df
 
+    # 기업당 1행 선택: 확정공모가(offering_price_final) 있는 최신 rcept_no 우선
+    # (기재정정·발행조건확정이 여러 rcept_no로 존재하는 경우 최선 공시 선택)
+    best_rows: list[pd.Series] = []
+    for _, grp in targets.groupby("corp_name", sort=False):
+        with_final = grp[grp["offering_price_final"].fillna("").str.strip() != ""]
+        subset = with_final if not with_final.empty else grp
+        best_rows.append(subset.sort_values("rcept_no", ascending=False).iloc[0])
+    targets = pd.DataFrame(best_rows).reset_index(drop=True)
+
     # 상장 예정일이 가까운 순 정렬
     targets["_sort_key"] = targets["listing_dt"].apply(
         lambda x: x if x and str(x).strip() >= today_str else "99999999"
