@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260511000575",
+  "corp_name": "이뮨온시아",
+  "corp_code": "01203659",
+  "stock_code": "424870",
+  "market": "KOSDAQ",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511000575",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260518",
+  "subscription_end_dt": "20260519",
+  "listing_dt": "",
+  "underwriter": "",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "이뮨온시아, 코스닥 상장…\"기술이전·임상 발표로 성장 가속 기대\" - 히트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE44OVF2aTVEeVJjZHRjUGJYYlFjQjNhcUVxRWNDdVRScC1ncG1vWS03eVpZQ1ZRQlI0Q0lmR0VEYW5vMmljd3NOMVVlc2w1TGdLREV6MEZpRTczb1NXWFQySGFUY2p5N09taHBv?oc=5",
+      "pubDate": "Mon, 19 May 2025 07:00:00 GMT"
+    },
+    {
+      "title": "[공모주 HOT] 이뮨온시아, 19일 코스닥 상장, 성적표는?…공모가 3,600원·최종 청약경쟁률 913.24대 1 기록 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvZnZPSmtCeFp4NEVJZm9EOHpRQkZGaWxFM1YzNDAzRS12QnR3NzVGMENkcXpOUm5wUU5EVWtlN2NTT1ZBQlVUanJQYmFDQ19VUVZFazRWU01PTlZXYlBDNXQ0eUpUQnBP?oc=5",
+      "pubDate": "Mon, 19 May 2025 07:00:00 GMT"
+    },
+    {
+      "title": "[장외시황] 비상장주식, 상승 마감…이뮨온시아 공모주 청약 시작 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zR2lRRlN1ZE5RR2hlY1ZxMHAwZlJaaUlwaUtUSUNEal9zWW9RYXh0VmxTLU81eWVZN05xdjBmZ3YxVHRUZElHaWtwTlVLcFhZVGI1Vg?oc=5",
+      "pubDate": "Wed, 07 May 2025 07:00:00 GMT"
+    },
+    {
+      "title": "[IPO 워치] 유한양행 자회사 이뮨온시아…'100% 구주매출' 투심 잡을까 - 블로터",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxMnBSQmpVRHAzN3gya0tmMFFLNGJmRk81cFJJeFdzUnhPc3RnXzN3TW04TWI5dnpQM2x2MlNwZzNYV0xMS1RUcGNucVNtdFBmQk1OTkVEbkoxLVFjcklmZlJHNEFqSklM0gFsQVVfeXFMTm51R1pmS2FNdWVERlhsMUVtTTE3aldKYlFRTTlKRWtzRldyLVU2M0dtRkotSTAyWkl4OHQ3R0FXaDdqUl83T1I1aml1a0hTU1JfOFBtZDAzN1k1UWZZMDRqbllHWV9LU01sZ0hr?oc=5",
+      "pubDate": "Thu, 13 Mar 2025 07:00:00 GMT"
+    },
+    {
+      "title": "[IPO] 면역항암제 개발사 이뮨온시아, 유한양행 전폭 지원으로 100% 자사주 매각 IPO 성공... 공모청약 경쟁률 913대 1 '흥행' - investnews.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9lUHJ6T0lrQVBUWkt6WF94dnZqOXl5a043ckNFVGwxLUJWU2gzUzhQY2FyMUpCMzYzekUzZUNXLTNRWW4wRkdnb09oRFgwb3NMcGx1YVpBLXJlU2ExUnNuaXhOOUhYeEZQMldfSVRVTFJGZ9IBdkFVX3lxTFBrbDl5eUYwZW1IdHdJc21HSjF1S2w4NjZXN2dubEJFS3lNaHdHNlRKLTdoM0laWHdZdzdBLWxySi1SVjQ0UjA5dmo1R3lZMGhwSE1HaVpiTFppdFlTRUpBWDFlS0NCeXpIa1BRQ2gyS2hFRmlyZXc?oc=5",
+      "pubDate": "Tue, 13 May 2025 07:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "[주요공시] 삼성전자, 남선알미늄, 화천기계, SK케미칼, 씨젠, 대양전기...",
+      "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=205129",
+      "description": "DART에는 주요사항보고서(유상증자결정)와 소액<b>공모</b>공시서류가 함께 올라왔다. 기존 공시 구조상 신주... ■ <b>이뮨온시아</b>(KOSDAQ, 424870)는 유상증자 최종 발행가액 확정을 공시했다. 이는 기존에 추진 중인... ",
+      "pubDate": "Sat, 09 May 2026 22:32:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "면역항암제 관련주, '웃음꽃' 헬릭스미스·카나프테라퓨틱스·제넥신......",
+      "link": "http://www.finomy.com/news/articleView.html?idxno=252147",
+      "description": "에임드바이오, <b>이뮨온시아</b>, 오스코텍, 지씨셀, 에스티큐브, 압타바이오, CG인바이츠, 안국약품, 유한양행... 카나프테라퓨틱스는 <b>공모</b>를 통해 확보한 자금으로 ▲공동 연구개발 중인 파이프라인 임상 ▲신규... ",
+      "pubDate": "Fri, 27 Mar 2026 00:10:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "면역항암제 관련주, '봄꽃만개' 아이엠바이오로직스·카나프테라퓨틱스...",
+      "link": "http://www.finomy.com/news/articleView.html?idxno=251791",
+      "description": "헬릭스미스, <b>이뮨온시아</b>,에이비엘바이오, 압타머사이언스, 유한양행, 이수앱지스, 압타바이오, 셀리드... 카나프테라퓨틱스는 <b>공모</b>를 통해 확보한 자금으로 ▲공동 연구개발 중인 파이프라인 임상 ▲신규... ",
+      "pubDate": "Fri, 20 Mar 2026 18:20:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "증시 호황에…상장사, 앞다퉈 신주 발행",
+      "link": "https://www.hankyung.com/article/2026031272641",
+      "description": "<b>이뮨온시아</b> 주가도 공시 직전 거래일 9700원으로 <b>공모</b>가(3600원)보다 169.44% 상승했다. 주식교환사채 투자자의 차익 실현 움직임도 빨라지고 있다. 한국예탁결제원에 따르면 올해 들어 지난 11일까지 주식으로 전환된... ",
+      "pubDate": "Thu, 12 Mar 2026 17:23:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[증권소식] 주가조작·회계부정 신고 포상금 상한 없앤다/'RISE 200위클리...",
+      "link": "https://www.asiatime.co.kr/article/20260226500100",
+      "description": "신기술금융팀이 투자한 기업은 퓨리오사AI·세미파이브 등 AI(인공지능) 기업과 <b>이뮨온시아</b>·심텍·네오셈... 그러면서 &quot;<b>공모</b> 액티브펀드, 목표전환형 펀드를 성공적으로 운용한 노하우를 바탕으로 미래 주도 섹터와... ",
+      "pubDate": "Thu, 26 Feb 2026 10:54:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>이뮨온시아</b> 유상증자 구주<b>주 청약</b> 방법 및 일정",
+      "link": "https://blog.naver.com/qrator_bin/224283762119",
+      "description": "8억원 ① <b>이뮨온시아</b>는 어떤 회사? — 유상증자 배경 <b>이뮨온시아</b>(<b>주</b>)는 경기도 용인시 기흥구에... 이후 <b>이뮨온시아</b> 주식을 매수한 자 구주<b>주 청약</b> 불가 ✗ 일반<b>공모</b>(5/18~19) 참여는 가능 공매도 제한기간... ",
+      "pubDate": "20260513",
+      "source": "블로그"
+    },
+    {
+      "title": "5월 증시캘린더",
+      "link": "https://blog.naver.com/ub1128/224281586801",
+      "description": "19 <b>이뮨온시아</b>(실권주) 20 레몬헬스케어(IR) 매드업(예측) 마키나락스(상장) SKC(실권주) 21 22 23 24... (EB):교환사채, (일반):일반<b>공모</b>, (실권주):실권주 ※ <b>공모</b><b>청약</b>은 2일간으로 마지막 날짜를 표시",
+      "pubDate": "20260511",
+      "source": "블로그"
+    },
+    {
+      "title": "증시 주요일정 및 관련주 (5월 11일주)",
+      "link": "https://blog.naver.com/crioppstock/224280956695",
+      "description": "마키나락스 <b>공모</b><b>청약</b> · JYP Ent 엔믹스 컴백 ─────────────── 5/12(화) · 마키나락스 <b>공모</b><b>청약</b> · MSCI 반기 리뷰 발표 · 美) 4월 소비자물가지수 ─────────────── 5/13(수)... ",
+      "pubDate": "20260510",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-05-13 00:16:13",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}
