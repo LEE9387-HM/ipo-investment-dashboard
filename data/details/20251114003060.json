@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20251114003060",
+  "corp_name": "노을",
+  "corp_code": "01494118",
+  "stock_code": "376930",
+  "market": "KOSDAQ",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251114003060",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "",
+  "subscription_end_dt": "",
+  "listing_dt": "",
+  "underwriter": "",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "인 온디바이스 AI 기반 진단 솔루션 매출이 당초 계획에 미치지 못하거나, 신규 출시 예정인 혈구형태 분석 및 자궁경부암 진단 솔루션의 영업성과가 기대에 미달할 경우, 수익성은 추가적으로 악화될 수 있습니다.",
+  "news": [
+    {
+      "title": "소셜벤처 '노을', \"상장은 이정표일 뿐...10억명에 임팩트 미칠 것\" - 이로운넷",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04VXUxUjB4TDBTM0otbzNoME1Pdzhjb2g2dDlGcTVfNDBRVDRTdzEwX0ZMRHFORjFPM3ZBd0pMTEw4eEdpWHZiX2tuRU1DQ3pSa0xxM2djRTZFTlR0ZndLNEhvNmJSQQ?oc=5",
+      "pubDate": "Wed, 30 Mar 2022 07:00:00 GMT"
+    },
+    {
+      "title": "2월에도 공모주 9곳 출격 ...희비 엇갈릴까 - 대한경제",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pTHVDX0F1WEJJZGFISExsWjNzQ3V2aTNFQTFmdDdBOEhYWVlJVHBDSUFDY3hqV2p4dWppR09HOGxkRVR3REpsbEp2a2FIUFh4T3owYmtHblFaOXo3aXNSaUw4c2ZzcXluZERUamJ2RkxCR21G?oc=5",
+      "pubDate": "Wed, 02 Feb 2022 08:00:00 GMT"
+    },
+    {
+      "title": "만만치 않지만…2월 공모주 시장에 도전장 내민 9곳 기업은? - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5BdzlhcVc4NVI4Mlk3VmlLeUZrZVpRLVlJLWkySGgwZWRsMzFRWEE4amtWUmtLeE0xSFRteHNXOUpXTW4tN1hwU3NfWVctTm9kNDVqMw?oc=5",
+      "pubDate": "Mon, 07 Feb 2022 08:00:00 GMT"
+    },
+    {
+      "title": "얼어붙은 투심에 '따상은 옛말'…공모주 투자 성공하려면? - 더팩트",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAtR2F2Wi1qX05IZHFuZnVXOEZnS2sxM01CUkxqSDZfU2FwZy1oVE0wTHRNWFRzRGstR0RDNUdwWDJGNlJzTGxDd2lSb2k5M2ZTdEFoNXloZ3RwUdIBVEFVX3lxTE15Z29rVEhPVzFSa3BsVXp1QzlXbmtkVmhQM2Q1dXV5UjdMZVFmMFVTNi1VTmxqT0tzTTZMdXdLWndEcTFMazNrRVdhZVMwOGUxaWI2eQ?oc=5",
+      "pubDate": "Tue, 22 Mar 2022 07:00:00 GMT"
+    },
+    {
+      "title": "'대형주도 흥행 장담 못한다'...3월 IPO시장 옥석가리기 더 뚜렷 - 데일리한국",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BVkRwd0k0OVdjSGJDVklnU2hhWjNUNEpUV1RVejdYOWRXWko5SmVCa0NSRUFzdFNfdllGcGkwU1AyS3lEMzV1OU1Dc1k5V0hLZGcxWFFvOWZmX3Z0WkVuRGtkbDBBSDVMN1J6dGp30gFyQVVfeXFMUHJXWFVnT01MalQxeFczY0NYVE55dmNpUTBYREhHZlplcG96WlpuVE1RXy1QODhSdXFzTjVOSE5HOXh6VTBMR0NMSXRLZnJyVG9qbFAwaGluTFNJdkRPQ0pPY3lCSmZuMktSRXJKbUFvQWln?oc=5",
+      "pubDate": "Tue, 01 Mar 2022 08:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "&quot;우주가 빚은 황금빛 물결&quot;···천문연, 올해 최고의 '우주 명장면' 발...",
+      "link": "http://www.hellodd.com/news/articleView.html?idxno=111579",
+      "description": "[사진=한국천문연구원] 한국천문연구원이 제34회 천체사진<b>공모</b>전 수상작을 발표했다. 이번 <b>공모</b>전에는 총... <b>노을</b>이 바다에 붉게 물드는 시간에 전경 촬영을 미리 하고, 오후 6시 57분부터 9시 42분까지 타임랩스로 혜성이... ",
+      "pubDate": "Thu, 23 Apr 2026 18:32:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "“도심에 옮겨온 서해 풍경”…'제16회 화성뱃놀이축제' 홍보전 성료",
+      "link": "https://www.kyeonggi.com/article/20260423580177",
+      "description": "‘도심 속에서 즐기는 뱃놀이’를 주제로 열린 이번 전시는 축제의 <b>주</b> 무대인 전곡항 마리나를 중심으로 한 서해안 풍경을 담은 시민 사진 <b>공모</b>전 선정작과 다채로운 영상 콘텐츠를 선보였다. 서해 바다의 풍경과 <b>노을</b>... ",
+      "pubDate": "Thu, 23 Apr 2026 14:02:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[부산소식]27일부터 고유가 피해지원금 지급···취약계층 우선 지원 외",
+      "link": "https://daily.hankooki.com/news/articleView.html?idxno=1360408",
+      "description": "올해 행사는 지난해 높은 호응을 얻은 정규 갈맷길 걷기, 함께 갈맷길 걷기, <b>노을</b> 갈맷길 걷기, 직장인... 22일부터 <b>공모</b>를 진행한다. 부산에 본사를 둔 중소기업 중 사업 3년 이상, 최근 3년 평균 매출 10억 원 이상... ",
+      "pubDate": "Wed, 22 Apr 2026 09:12:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[의료기기업계 소식] 4월 13일",
+      "link": "http://www.doctorstimes.com/news/articleView.html?idxno=237597",
+      "description": "■ <b>노을</b>, 美 줄기세포 치료 전문기관과 MOU 체결 <b>노을</b> 주식회사(대표 임찬양, 이하 '<b>노을</b>')는 최근 미국... 일반 <b>공모</b> 청약 절차 없이 유상증자를 완료하게 됐다. 초과 청약 배정에 따른 단수주 1010주는 대표주관회사인... ",
+      "pubDate": "Mon, 13 Apr 2026 16:02:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[부산 브리핑 모음(4월9일)] 부산 기장군, 올해부터 암환자 가발구입비...",
+      "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202604081824132800542",
+      "description": "◆ 부산남구문화재단, 2026 생활밀착형 문화예술교육 “가가호호(家加好好)” <b>공모</b> 선정 국비 5천만원 확보...... 0’, 시민 참여형 문화·취미 프로그램 ‘BISCO 공원클래스’, <b>노을</b>요가, 힐링·웰니스 프로그램 등 시민... ",
+      "pubDate": "Thu, 09 Apr 2026 08:02:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "3-3",
+      "link": "https://blog.naver.com/jyelicious/224284335376",
+      "description": "노맛데이~ <b>노을</b> 진당 하지만 미세먼지가 있는지 좀 뿌옇다 오늘 저녁은 남은 야채 털어 샤브샤브 먹기... ㅎ 암튼 딸기라떼 맛있었다 리센스메디컬 <b>공모주 청약</b> 또다른 <b>공모주 청약</b> 완료! 출처 : 심평원 &lt;비급여... ",
+      "pubDate": "20260513",
+      "source": "블로그"
+    },
+    {
+      "title": "일본 코로나 5류 3년, 여전한 그림자!",
+      "link": "https://blog.naver.com/joosiksin/224279078224",
+      "description": "셀바스AI, <b>노을</b>, 신테카바이오, 퀀타매트릭스, 젠큐릭스 동운아나텍, 디알텍, 진시스템, 바이오다인, 한스바이오메드, 메타바이오메드, 오스테오닉, 디오, 덴티움, 덴티스 브릿지바이오 HD현대건설기계... ",
+      "pubDate": "20260508",
+      "source": "블로그"
+    },
+    {
+      "title": "홈플러스, 벼랑 끝 구조혁신!",
+      "link": "https://blog.naver.com/joosiksin/224278702009",
+      "description": "셀바스AI, <b>노을</b>, 신테카바이오, 퀀타매트릭스, 젠큐릭스 동운아나텍, 디알텍, 진시스템, 바이오다인, 한스바이오메드, 메타바이오메드, 오스테오닉, 디오, 덴티움, 덴티스 브릿지바이오 HD현대건설기계... ",
+      "pubDate": "20260508",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-05-14 02:06:07",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}
