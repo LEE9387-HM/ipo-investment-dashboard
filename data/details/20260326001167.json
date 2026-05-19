@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260326001167",
+  "corp_name": "에이전트AI",
+  "corp_code": "00367695",
+  "stock_code": "060900",
+  "market": "KOSDAQ",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260326001167",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260618",
+  "subscription_end_dt": "20260619",
+  "listing_dt": "",
+  "underwriter": "",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "영역은 태양광 발전소 EPC(설계ㆍ조달ㆍ시공) 및 기자재 공급, 풍력 발전소 건설 및 기자재 공급, ESS 조립 및 EV 급속충전기 개발ㆍ제조, 발전자회사를 통한 발전사업 등으로 구성되어 있으며, 이들 사업은 전방산업의 설비투자 결정에 의해 수주 여부 및 시기가 결정되는 수주산업의 특성을 보유하고 있습니다.",
+  "news": [
+    {
+      "title": "\"공공·금융도 뚫었다\" NHN 두레이, 에이전트 AI로 '넥스트 레벨' - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5tNy1VMGhtRGdFOE4ycFdubkE3OVJNdEFZUEhidUVDRHBuYUJrVEUyY0NjZHNEWk1KRlhYTkRIS2s1VndNUEJBQ2NVYk5sOHBFbU9PMA?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "“야근하다가 공모주 청약 다 놓쳤네”…AI 금융비서로 판 바꾸겠다는데 - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA4SU9ZenBFRFl4enJKSlpZbm1sc1JqbnA2X0hFazBWdlE4Z0lKUWdUaTFZcUFibGRRWFdxVERHSHI0WTRLVWhIdUwwUk0wMFla?oc=5",
+      "pubDate": "Sun, 07 Dec 2025 08:00:00 GMT"
+    },
+    {
+      "title": "KB “타사 공모주도 한번에… 투자편의 높여 장기고객으로” [증시 MTS 열전 ⑧] - IT조선",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBtZ0lzNEJhZEVwTUUtVUJMQVpzeVotN2hJZlo2NENzVFMxeUNPbXNpRXRDNThEYy1hTDJfVElwd0VlcW5HOUQ4bXBOOGxhSTJ0UEwxWER4TGZ2Zzktb3AyMDQ1MFc2SzF2bGh2eWRSRF_SAXRBVV95cUxQMnVoS0ppVllJT1BzTHhra2J2WTdfZG9pZ0R1MHVHbF96cXlKNzl3N3pvTWQ2ajM5Yi1QOXY3Y29XaHZyUXlnR0tKN2w1TTFLUHJKQlVvN0FWbTE1TFhaLVpTckZxTEIwWGI3b2lFbTFvcTN5Yw?oc=5",
+      "pubDate": "Tue, 21 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "[증권 & Now] NH투자증권, IMA 고객 공모주 청약 한도 상향 등 - ebn.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oN2dZclM5SjVNUTh6bWlYZmZwOVI4UEpBUkNZQWxwSGlTa2lOY1JfWTVoZ19OaHVPZ3V6ckIzV3p0SmNsMmU3TWRURm0xTGZJM3ozQmsxSXdKRGtvX2JCVV9qZnhBNjYw?oc=5",
+      "pubDate": "Thu, 07 May 2026 08:21:00 GMT"
+    },
+    {
+      "title": "세미파이브, 청약 증거금 15조 몰려…올해 코스닥 최대 기록 - 유니콘팩토리",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0yMnptajVMakVob2lTd0NET3FJQXRxempLY2FSc1BmUk1La2k0LWN6UHRBeEFLQ1RoM3VTdFJkSjRRNWRRUmE0X1NDeWFwbEZiZndGZ3E3TUpUWU9jVnQ3Wl8wdjY4eXpxVFdxUQ?oc=5",
+      "pubDate": "Fri, 19 Dec 2025 08:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "[월가 톡톡] 美 중산층, 빚으로 돌리는 '부채의 쳇바퀴'",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4415462",
+      "description": "간밤 상장한 세레브라스 주가는 <b>공모</b>가 185달러 대비 68.15% 급등한 311.07달러로 장을 마쳤다. 세레브라스는... 최근 <b>AI</b> 코딩 도구 확산으로 노트북을 살짝 연 채 이동하며 <b>AI</b> <b>에이전트</b>를 계속 실행시키는 이른바 '오픈... ",
+      "pubDate": "Mon, 18 May 2026 15:36:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "세레브라스가 불붙인 <b>AI</b> IPO 열풍…월가 자금 '스페이스X·오픈<b>AI</b>'에 집중",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=666748",
+      "description": "기업들은 <b>공모</b> 시장 관심을 끌기 어려운 상황이라고 지적했다. 공공시장 투자자들이 기존 소프트웨어 제품 일부가 <b>AI</b> 모델과 <b>AI</b> <b>에이전트</b>로 대체될 수 있다고 보기 시작한 점도 부담 요인으로 꼽힌다. 후기 단계... ",
+      "pubDate": "Mon, 18 May 2026 14:34:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "마키나락스, 코스닥 상장⋯매드업 수요예측",
+      "link": "http://www.inews24.com/view/1969209",
+      "description": "결합한 <b>AI</b> <b>에이전트</b>인 '레버 엑스퍼트'(LEVER Xpert)가 주력 서비스다. 패션 기업 피스피스스튜디오는 지난 14일부터 진행 중인 수요예측을 오는 20일 종료한다. 이후 22일 <b>공모</b>가를 확정할 예정이다. 희망 <b>공모</b>가... ",
+      "pubDate": "Mon, 18 May 2026 09:05:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "엔비디아·중동전쟁·삼성 파업까지…8천 찍고 급락한 증시, 변동성 시...",
+      "link": "https://www.econovill.com/news/articleView.html?idxno=740241",
+      "description": "이번 <b>주</b> IPO 절차에 착수할 전망이다. 시장에서는 기업가치를 최대 2조달러 수준으로 평가하고 있다. <b>공모</b>... 최근 오픈<b>AI</b> GPT 5.5와 앤트로픽 미토스 등 <b>AI</b> <b>에이전트</b> 모델의 고도화로 사이버 보안 우려가 커진 만큼 금융권... ",
+      "pubDate": "Sun, 17 May 2026 10:20:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "마키나락스 상장·매드업 수요예측[증시캘린더]",
+      "link": "http://www.edaily.co.kr/news/newspath.asp?newsid=01184086645449904",
+      "description": "-<b>공모</b>가 희망범위 상단 1만 5000원. -2025년 기준 연결 매출액 약 115억원, 영업손실 약 80억원. ◇5월20~27일 △매드업 수요예측 -<b>AI</b> 기반 광고대행 서비스와 마케팅 <b>AI</b> <b>에이전트</b> 솔루션을 제공하는 회사로... ",
+      "pubDate": "Sun, 17 May 2026 09:01:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "제2의 따따블 주인공? 14조 몰린 마키나락스, 4주 배정",
+      "link": "https://blog.naver.com/pjjyy1010379/224289883665",
+      "description": "요즘 <b>공모주</b> 투자 열기가 다시금 뜨거워지고 있다는 소식, 다들 체감하고 계신가요? 특히 이번 <b>주</b>... 마키나락스<b>청약</b> #<b>공모주</b>투자 #미래에셋증권 #현대차증권 #피지컬<b>AI</b> #<b>AI</b>관주 #코스닥상장 #따따블... ",
+      "pubDate": "20260519",
+      "source": "블로그"
+    },
+    {
+      "title": "<b>공모주</b> 가뭄기 피난처 '대신밸런스제20호스팩' <b>청약</b> 완벽... ",
+      "link": "https://blog.naver.com/berserkoh/224289870299",
+      "description": "<b>공모</b>가 2,000원에 <b>청약</b>해 두면, 만약 3년 내에 합병할 기업을 찾지 못해 해산하더라도 '원금 2,000원 + 은행 이자'를 고스란히 돌려받습니다. 하방은 국채 수준으로 단단하게 막혀 있는데, 만약 <b>AI</b>나 로봇 같은... ",
+      "pubDate": "20260519",
+      "source": "블로그"
+    },
+    {
+      "title": "스페이스X 6월 상장, 지금 살 수 있는 우주항공 ETF 총정리",
+      "link": "https://blog.naver.com/nara212/224289850446",
+      "description": "게다가 매출의 70% 이상을 위성 인터넷 서비스 스타링크가 차지하면서 사실상 글로벌 통신 인프라 기업으로 변모했고, xAI까지 합병하며 우주 기반 <b>AI</b> 플랫폼으로 진화 중이다. 문제는 <b>공모주</b> 직접 <b>청약</b>이... ",
+      "pubDate": "20260519",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-05-19 00:22:00",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}
