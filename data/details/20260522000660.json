@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260522000660",
+  "corp_name": "빅웨이브로보틱스",
+  "corp_code": "01722066",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260522000660",
+  "offering_price_low": "22000",
+  "offering_price_high": "27000",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260618",
+  "subscription_end_dt": "20260619",
+  "listing_dt": "",
+  "underwriter": "유진투자증권, 보유 신주인수권, 대상으로 상장후, 및 인수회사의 이해관계인",
+  "total_shares": "2000000",
+  "competition_ratio": "",
+  "lock_up_ratio": "50",
+  "demand_forecast_period": "",
+  "business_summary": "모델인 온라인 로봇 자동화 플랫폼 마로솔과 클라우드 기반 로봇 통합관제 플랫폼 솔링크에 대해 각각 AA, A 등급을통보 받았습니다.",
+  "news": [
+    {
+      "title": "IPO 시장 대세도 피지컬AI, 코스모로보틱스·마키나락스 이어 스트라드비젼·빅웨이브로보틱스 온다 - 비즈니스포스트",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VWHpkVTd5SUJPWjB5TV9ZakcxRUNMeGdmYWt6YURqZEdjOVJhVDdTeTdWa0dObWhxZlRIQWhTTGpQcHF3Xzg1bFQzTGxOVmcyZXVLeHZ6a0dVclFMTkF2bmYxWDJ6RGlrZXJpVU5tVTRTWkE?oc=5",
+      "pubDate": "Thu, 21 May 2026 07:53:05 GMT"
+    },
+    {
+      "title": "중소 로봇사 코스닥 가는데…대형사 HD현대로보틱스 상장 안갯속 - ebn.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9FNEg4bnVVMFJFcG5raV9jaTRhOWdSdC1OTlNnUjhZbld3ZGhSaVdrSzlKVzBIOVgwWWhlZ3FveHREa3JxN2EtWHFNNWRoSlYyVThZTVhxR0VEOUNxbmtoWWVpVmx4aGI0?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "[장외시황] 빅웨이브로보틱스, 코스닥 상장예비심사 승인 - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mbHRoRzh1VldDbERMRUJFU2g1NDZraVhhTmxQd2dhRzZwV0c5VjcyRWNaWEF0TWRON1VOR0xTZ21XbFNDQkRZZmtaYnAwWlc0QUdz?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "[장외시황] 코스모로보틱스, 공모주 청약 시작 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mNzBmcFVyQ0xiT1lEdG1uQnNqREltZG5WUGVwMUdPeXJCQUcyaUVPbkMyN3pKazNWVmxXUWdaaTlmSDdtaTBHcGZYU2ZHWmx2eHJxNQ?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "2026 증시 달굴 ‘IPO 大魚’ 뜯어보니…케뱅·구다이·무신사 兆 단위 몸값 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE94aE9XaGttWGlraVp6UUo4N2Yyb0NSRHgzN0lvWmZaSEt2empYQnBLeWZ6Mnc0N1pneHU4UGQ4YWRfLUdUUTNvd1RXX2F0WGs?oc=5",
+      "pubDate": "Tue, 24 Feb 2026 08:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "IPO 시장 대세도 피지컬AI, 코스모<b>로보틱스</b>·마키나락스 이어 스트라드...",
+      "link": "https://www.businesspost.co.kr/BP?command=article_view&num=438371",
+      "description": "<b>공모</b>가 산출 과정에서 비교기업으로는 현대오토에버, 슈어소프트테크, 엠디에스테크, 칩스앤미디어 등 모두 4개사를 선정했다. <b>빅웨이브로보틱스</b>는 자체 플랫폼을 통해 산업용·물류·서비스 로봇 등 여러 종류의... ",
+      "pubDate": "Thu, 21 May 2026 17:34:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[<b>빅웨이브로보틱스</b> IPO] 카카오·KB인베스트, 초기 투자금 회수 잭팟 '기...",
+      "link": "https://www.topdaily.kr/articles/110103",
+      "description": "증권신고서에 제시된 <b>공모</b> 희망가액 밴드(2만2000원~2만7000원) 기준 <b>빅웨이브로보틱스</b>의 기업가치는 최대 2900억원에 달한다. 카카오인베스트먼트와 KB인베스트먼트는 <b>공모</b>가 하단 기준으로도 각각 원금 대비 약 10.... ",
+      "pubDate": "Tue, 19 May 2026 11:03:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[<b>빅웨이브로보틱스</b> IPO] 미국 시장 공략 '200억원' 배팅 통할까",
+      "link": "https://www.topdaily.kr/articles/110080",
+      "description": "<b>빅웨이브로보틱스</b>는 <b>공모</b>자금 중 희망 <b>공모</b>밴드(2만2000원~2만7000원) 하단 기준의 절반 수준인 200억원 가량을 해외시장 진출에 사용할 예정이다. 최우선 공략 국가는 미국으로 정하고 있다. 현지 진출을 위한 기반... ",
+      "pubDate": "Mon, 18 May 2026 11:12:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "피지컬 AI 내세운 마키나락스, 청약 흥행 14조 돌풍…상장 후 관건은 '실...",
+      "link": "http://www.newsworker.co.kr/news/articleView.html?idxno=426480",
+      "description": "마키나락스,신규상장,<b>로보틱스</b>,피지컬AI,코스모<b>로보틱스</b>,<b>공모주</b>,<b>공모</b> 청약,IPO,<b>빅웨이브로보틱스</b>,금융위원회,일반 청약,코스닥 상장,코스닥,<b>공모</b>가,런웨이,미래에셋증권,수요예측,기관투자자,의무보유 확약",
+      "pubDate": "Wed, 13 May 2026 15:36:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "피지컬AI IPO 흥행 파도, <b>빅웨이브로보틱스</b> 이어갈까",
+      "link": "https://www.greened.kr/news/articleView.html?idxno=340624",
+      "description": "최근 피지컬AI 기업들이 기관 수요예측 단계에서 잇따라 상단 가격으로 <b>공모</b>가를 확정한 만큼, <b>빅웨이브로보틱스</b> 역시 희망<b>공모</b>가 상단인 2만7000원 수준에서 발행가액이 결정될 가능성이 거론된다. 상단 기준으로... ",
+      "pubDate": "Wed, 13 May 2026 13:43:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "핵심 <b>공모주 청약</b> 일정 및... <b>빅웨이브로보틱스</b>)",
+      "link": "https://blog.naver.com/suneunji/224292267436",
+      "description": "둘째 <b>주 청약</b>을 시작합니다.  기업 소개 레몬헬스케어는 국내 주요 대형병원과 연동된 모바일... #<b>공모주</b> #<b>공모주청약</b> #6월<b>공모주</b> #매드업 #레몬헬스케어 #스트라드비젼 #<b>빅웨이브로보틱스</b> #주식투자... ",
+      "pubDate": "20260523",
+      "source": "블로그"
+    },
+    {
+      "title": "6월 <b>공모주 청약</b> 준비 | 증권사별 우대등급 200% 조건 및... ",
+      "link": "https://blog.naver.com/jomle1105/224293907003",
+      "description": "2026년 6월 <b>공모주 청약</b> 주관사 이번 6월 <b>공모주 청약</b> 시장은 5개 종목, 4개 주관사가 대기하고 있어요. KB증권 : 스트라드비젼, 레몬헬스케어 미래에셋증권 : 매드업, <b>빅웨이브로보틱스</b> 삼성증권 : 져스텍... ",
+      "pubDate": "20260523",
+      "source": "블로그"
+    },
+    {
+      "title": "[일반 <b>공모주 청약</b>] 5/26~6/5 <b>청약</b> 달력, 주관 증권사, <b>공모</b>가",
+      "link": "https://blog.naver.com/sirasoni0830/224294066226",
+      "description": "최근 <b>공모주</b> '3연타 따따상'을 기록하였습니다. 코스모<b>로보틱스</b>(5/11): 300% - 30% - 30% - 30% - 30%(장중)... 26년 6월 26일부터 6월 5일까지 일반<b>공모주 청약</b> 달력입니다. 수요예측: 1건 <b>청약</b>: 1건 상장: 1건 26.5.26 ~ 6.... ",
+      "pubDate": "20260523",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-05-23 00:22:43",
+  "total_shares_offered": "2000000",
+  "min_bid_price": ""
+}

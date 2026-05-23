@@ -1,0 +1,94 @@
+{
+  "rcept_no": "20260522000628",
+  "corp_name": "썸에이지",
+  "corp_code": "01049422",
+  "stock_code": "208640",
+  "market": "KOSDAQ",
+  "status": "상장예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260522000628",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20190703",
+  "subscription_end_dt": "20190704",
+  "listing_dt": "20260824",
+  "underwriter": "SK증권(주)",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "은 없는 상태이며, 향후 사업 필요성 및 운영 효율성 등을 종합적으로 검토하여 지속 운영 여부 및 청산 여부 등을 결정할 계획입니다.",
+  "news": [
+    {
+      "title": "상장 앞둔 '영웅' 개발사 썸에이지 \"2020년 기업가치 1조원 목표\" - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE41RTh3Uk1wNDIta0NqTm1kOGllNGlEV3dZNFBYQ3hUZkkyT3c5Rm51NDY4VzQ3UUpxRkN4cDBFbUluVm9wamdIRHI4R0F1R2pWY0RwZG5VUnRFT0FmY1pidWRpWHdKVDBHb1N6QWc0d1ZpbVJuLVhzOVZpVdIBjwFBVV95cUxOQ3BSQzhVUFFma3hNUTktUUlMTUd2Z29aSnlwQXVFcTdkYVljZjVZMzVyR2lBN0NqRVZpTnlwMGZqZkdMTG92bjdCYmJHOUJFcGJLcGVTb0p6S0VDVzNaRS1IOUtGODVfUm5NZUhsTmN6RWNnOXQxQXl1R1ZkVFFLVFliZlhzZDJza2Jmd1R3SQ?oc=5",
+      "pubDate": "Thu, 03 Mar 2016 08:00:00 GMT"
+    },
+    {
+      "title": "썸에이지, 유상증자 결정 발표…980만주 발행 예정 - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE55QlV5dFkzUGdjeHAtNG9XRlItRy04S1hhRm40MTBzVERQWTZqeGZ1R00tck5YTFY5UEEwNU5RRzg4dGluUUV3SmxsaVVGR0Flb3NJ?oc=5",
+      "pubDate": "Fri, 10 Apr 2026 07:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "[주식마감] '스페이스X' 상장 기대에 미래에셋벤투·아주IB 상한가... '광...",
+      "link": "https://www.ggilbo.com/news/articleView.html?idxno=1152732",
+      "description": "미래에셋증권이 약 50억달러 규모의 <b>공모</b> 물량을 확보해 국내 투자자들에게 직접 투자 길을 열고... <b>썸에이지</b>, 캡스톤파트너스다. 이날 코스피는 전장보다 159.13포인트(2.74%) 상승한 5,967.75에 거래를 마감했다.... ",
+      "pubDate": "Tue, 14 Apr 2026 19:40:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주식마감] '광통신주' 줄줄이 상한가... 광전자, 남선알미늄, 신풍제약...",
+      "link": "https://www.ggilbo.com/news/articleView.html?idxno=1152482",
+      "description": "한솔테크닉스는 지난 10일 이사회 결의를 통해 제3자 배정방식 450억원, 주주배정 후 일반<b>공모</b>방식 450억원... <b>썸에이지</b>, 진영, 알에프텍, 캡스톤파트너스, 파워넷, 우리기술, 피플바이오다. 이날 코스피는 전장보다 50.... ",
+      "pubDate": "Mon, 13 Apr 2026 19:40:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "4월 13일 개장 전 주요 공시",
+      "link": "https://www.seoulfn.com/news/articleView.html?idxno=626268",
+      "description": "<b>썸에이지</b>는 주주 배정 후 실권주 일반 <b>공모</b> 방식으로 신주 980만주를 발행하는 유상증자를 결정했다고 공시했다. 예정 발행가액은 주당 1279원이며, 구주 1주당 신주 0.7038194774주가 배정된다. 조달한 자금... ",
+      "pubDate": "Mon, 13 Apr 2026 07:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주요공시] 광전자, 엘앤에프, <b>썸에이지</b>, 한국첨단소재, 후성 외",
+      "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=204188",
+      "description": "일반<b>공모</b> 유상증자와 100% 무상증자를 동시에 결정했다고 공시했다. 유상증자는 보통주 207만3000주... ■ <b>썸에이지</b>(KOSDAQ, 208640)는 10대 1 무상감자와 125억3420만원 규모 유상증자를 동시에 공시했다. 감자 대상... ",
+      "pubDate": "Sat, 11 Apr 2026 13:06:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "HJ중공업, 대웅제약, 엘앤에프, 대우건설, <b>썸에이지</b> 외",
+      "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=204187",
+      "description": "일반<b>공모</b> 유상증자와 100% 무상증자를 동시에 결정했다고 공시했다. 유상증자는 보통주 207만3000주... ■ <b>썸에이지</b>(KOSDAQ, 208640)는 10대 1 무상감자와 125억3420만원 규모 유상증자를 동시에 공시했다. 감자 대상... ",
+      "pubDate": "Fri, 10 Apr 2026 22:22:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "미국 뉴욕시 20% ‘홍수 블루존’ 충격 보고!",
+      "link": "https://blog.naver.com/joosiksin/224293136949",
+      "description": "이는 교통·물류·경제 전반에 큰 영향을 줄 수 있는 요소입니다. ④ 공공주택 단지의 취약성 뉴욕시 공공주택 단지의 1/3이 블루존에 위치해 있어, 저소득층과 사회적 약자가 홍수 피해에 가장 먼저 노출될... ",
+      "pubDate": "20260522",
+      "source": "블로그"
+    },
+    {
+      "title": "중국 창신메모리 IPO 재개!",
+      "link": "https://blog.naver.com/joosiksin/224291718893",
+      "description": "결론적으로, 창신메모리의 IPO 재개는 단순한 기업 이벤트가 아니라 중국 반도체 자립 전략의 가속 페달입니다. 삼성전자와 SK하이닉스가 독점적 지위를 누려온 D램과 HBM시장에 균열을 낼 수 있는 중대한... ",
+      "pubDate": "20260520",
+      "source": "블로그"
+    },
+    {
+      "title": "증시 주요일정 및 관련주 (5월 18일주)",
+      "link": "https://blog.naver.com/crioppstock/224288164404",
+      "description": "대신밸런스제20호스팩 <b>공모</b><b>청약</b> ─────────────── 5/26(화) · 피스피스스튜디오 <b>공모</b><b>청약</b> · 대신밸런스제20호스팩 <b>공모</b><b>청약</b> ─────────────── 5/27(수) · 삼성전자... ",
+      "pubDate": "20260517",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-05-23 00:22:49",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}

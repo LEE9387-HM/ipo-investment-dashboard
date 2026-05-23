@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260417000538",
+  "corp_name": "한화솔루션",
+  "corp_code": "00162461",
+  "stock_code": "009830",
+  "market": "KOSPI",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260417000538",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260622",
+  "subscription_end_dt": "20260623",
+  "listing_dt": "",
+  "underwriter": "케이비증권(주), NH투자증권(주), 한국투자증권(주), 대신증권(주)",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "부문 분할 등 지배구조개편 관련 위험 예 보완 기재 (주13) 정정 전 (주13) 정정 후 파.",
+  "news": [
+    {
+      "title": "금감원 \"한화솔루션 유증 설명 부족…계속해서 정정요구 가능\" - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBqdEdGQXBZUXY3eXFzM3BTX2NoWUVhYzB6WkdmRlUxd0FEOHNqUmlLNjdXeW1fLVFhZEhveUxxLTdWZmljQkxrSkswcjYxb1pCbTFDVA?oc=5",
+      "pubDate": "Mon, 11 May 2026 06:15:18 GMT"
+    },
+    {
+      "title": "금감원 \"한화솔루션 유증 설명 부족, 계속 정정요구 가능\" - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lXzNaa2ptV0RMSzZ1eHhES25TaHJELU5UY25FVEp1MmU2MFV1YWNkLTRaSzlROC1QeTRmYmluWGVXQmlaOFgybjJvTnJHOVhCamZBNEtTQ0V1a0FZbUxkUExxT1pvSjdW0gFuQVVfeXFMTUxOX2VzaDFXWHhzel82YzNXYWh3cEk0SG5zNXF6TkxwMmQ0V1haR0xLSExHRmVYeTBoNlN6eE5iZXlLZDBDZktSQVpEZFlEMENtVUoySmg2MXVlZEpTcHJ2MVJjeTJ6U0xxMUV6UUE?oc=5",
+      "pubDate": "Mon, 11 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "금감원, 한화솔루션 유증 신고서 보완 압박…“미흡땐 무한 정정요구” - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5YWp6STJxT1lWTDRrQzJHajJ0d1lFazI2YmlyekVfUjhseUQ4MG5WSDNhaHVLOGJhaGM5NVFKMzAxb0NTSy1yMDdZQVlMUFY5MVHSAVNBVV95cUxPaHlxUG8zNDZIVGxqRUE5eFlpLU5fVUNLY2tnVjJMbmVjc3RlSzNCaUlsalhTM2xCeVdnYkZTOS1OLWRCeDZHbXZrSG4tN3hqTW9KUQ?oc=5",
+      "pubDate": "Mon, 11 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "‘뻥튀기 논란’ 채비 공모청약 ‘강행’···증권사·FI는 ‘어쩔 수 없는 베팅’ - 시사저널e",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1idGRhWktWYjF0ODA0TGtTdG9FQlU4TTA1UnRrczZCWmdKd1V5TGF4d2cwVkgtRHVjZ21XcUdjejRLZ1p2RUg2d1UyRDlpeEE4emFFOU8xSVhTRjhWdTgxRkwxMWF2MExlaTJWUlhYTmhXUdIBdkFVX3lxTE1qalZHX2hvQUZzck1lWUY3QUpKbXdybWNOWFN3NllFWG5ZQ1JKRGgxQ2t4VVNiUVlCZ3YwTU5kTFNsaFNMdUEtY1QtNmhHdVlOT3prNzZQOEItUXp6d3N4M3U5eGc1SHVjZ2RqQ3IwclpKSzI5emc?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "이번주 공모주 청약, 티엠씨·쿼드메디슨·이지스 등 5개사 나선다 - 조세일보",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA2YWZzTkFOS0wyZlZWblJuenB5SVFUam5LS0Z4Z0dmYVcwSjZrX2NMVFFXYkN6Y3BkS3lPS2lJWHpELWR6Z3N3bnhEanBEaXFERVdLanpTemU1Y1J5TVdF?oc=5",
+      "pubDate": "Mon, 01 Dec 2025 08:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "[더벨][Korean Paper] <b>한화</b>큐셀, 글로벌본드 흥행…3.5억달러 발행 확정",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605151000193080107024",
+      "description": "<b>한화</b>큐셀이 한국수출입은행 지급보증을 기반으로 한 달러화 <b>공모</b>채 발행을 확정했다. 필요한 자금을... 또한 모회사인 <b>한화솔루션</b>이 수은 측에 다시 지급보증을 제공하고 있는 형태라는 점도 특징이다.... ",
+      "pubDate": "Tue, 19 May 2026 08:02:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "뼈 깎는 자구책 얹은 <b>한화솔루션</b>, 금감원 제동 속 1.8조 유상증자 재시...",
+      "link": "https://www.electimes.com/news/articleView.html?idxno=368149",
+      "description": "<b>한화솔루션</b>이 금융감독원의 잇단 정정 요구 속에서 1조8000억원 규모의 유상증자를 비롯한 재무구조 개선... 구주주 청약은 7월 10일부터 13일까지 진행되고 실권주 일반<b>공모</b>는 7월 15~16일까지 이어진다. 신주 상장... ",
+      "pubDate": "Mon, 18 May 2026 11:36:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>한화솔루션</b>, 1.8조 유상증자 일정 재공시...증권가는 태양광 투자심리 ...",
+      "link": "http://www.consumernews.co.kr/news/articleView.html?idxno=755811",
+      "description": "구주주 청약은 7월 10일부터 13일까지 진행되며 일반<b>공모</b>는 같은 달 15~16일 실시된다. 신주 상장 예정일은 7월 31일이다. <b>한화솔루션</b>은 지난 3월 2조4000억 원 규모 유상증자를 처음 발표했다. 당시 조달 자금의 60% 이상을... ",
+      "pubDate": "Fri, 15 May 2026 11:24:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "&quot;재무건전성 우려 정면 돌파&quot;…<b>한화솔루션</b>, 1.8조 유상증자 일정 확정",
+      "link": "https://www.youthdaily.co.kr/news/article.html?no=219205",
+      "description": "이후 같은 달 15일부터 16일까지 일반<b>공모</b>를 거쳐 31일 신주가 상장될 예정이다. <b>한화솔루션</b>은 정정신고서를 통해 유상증자 추진 배경을 설명했다. <b>한화솔루션</b>은 통해 최근 3년간 비핵심 자산 매각(1조6천167억원) 및... ",
+      "pubDate": "Fri, 15 May 2026 09:16:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>한화솔루션</b>, ‘2번 정정’ 후 유증 재진행…7월 청약",
+      "link": "https://www.sedaily.com/article/20044253?ref=naver",
+      "description": "<b>한화솔루션</b>은 14일 정정 공시를 내고 주주배정 후 실권주 일반<b>공모</b> 방식 유상증자의 신주배정기준일과... <b>한화솔루션</b>의 유상증자에는 최대주주인 (<b>주</b>)<b>한화</b> 역시 참여할 예정이다. (<b>주</b>)<b>한화</b>는 지난달 8일 이사회를 열고... ",
+      "pubDate": "Fri, 15 May 2026 07:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "2026.05.22(금) 주성엔지, 에코프로, SFA반, 삼화콘덴, SK, 쏠리드... ",
+      "link": "https://blog.naver.com/taek1111/224294129894",
+      "description": "<b>한화</b>투자증권은 목표주가를 81만원으로 상향했다. 회사는 ‘하이닉스와 연결된 현금흐름과 에코플랜트의 존재감’이라는 리포트를 통해 SK하이닉스의 압도적인 실적 성장으로 SK(<b>주</b>)가... ",
+      "pubDate": "20260523",
+      "source": "블로그"
+    },
+    {
+      "title": "마키나락스, 따따블 후 급락...새내기주의 화려한 데뷔와 현실",
+      "link": "https://blog.naver.com/mcg1204/224294120798",
+      "description": "마키나락스의 <b>공모</b>가는 1만 5000원이었습니다. 상장 전 <b>청약</b> 단계부터 어마어마한 증거금이 몰렸었죠.... (AI) <b>솔루션</b>을 제공하고 있죠. 마키나락스의 핵심 제품은 ‘런웨이(Runway)’라는 엔터프라이즈 AI... ",
+      "pubDate": "20260523",
+      "source": "블로그"
+    },
+    {
+      "title": "[주간스케줄] 22주차: 5/25 ~ 5/31",
+      "link": "https://blog.naver.com/weightmoney/224294113205",
+      "description": "피스피스스튜디오 <b>공모</b><b>청약</b> 디자이너 브랜드 '마르디 메크르디(Mardi Mercredi)'를 비롯한 다수의... 이번 정기 변경서 신규 편입 종목은 없었으며, 한진칼·HD현대마린<b>솔루션</b>·SK바이오팜이 편출. 미국... ",
+      "pubDate": "20260523",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-05-23 00:23:02",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}

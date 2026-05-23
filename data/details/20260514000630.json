@@ -1,0 +1,83 @@
+{
+  "rcept_no": "20260514000630",
+  "corp_name": "뉴인텍",
+  "corp_code": "00105040",
+  "stock_code": "012340",
+  "market": "KOSDAQ",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514000630",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260622",
+  "subscription_end_dt": "20260623",
+  "listing_dt": "",
+  "underwriter": "",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [],
+  "community_news": [
+    {
+      "title": "태양광에너지 관련주, '미소천사' 에스에너지·신성이엔지,·SK이터닉스...",
+      "link": "http://www.finomy.com/news/articleView.html?idxno=252661",
+      "description": "엘오티베큠, <b>뉴인텍</b>, KCC 등은 상승했다. 하지만 알에스오토메이션, 레이크머티리얼즈, 삼성물산... 에스에너지가 일반<b>공모</b> 청약에서 1600대 1이 넘는 경쟁률을 기록하며 유상증자를 성공적으로 마무리했다. 지난 3월... ",
+      "pubDate": "Sun, 05 Apr 2026 00:10:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "전기차 관련주, '덩실덩실' KEC·엘앤에프·폴라리스세원·씨아이에스.....",
+      "link": "http://www.finomy.com/news/articleView.html?idxno=251982",
+      "description": "현대공업, <b>뉴인텍</b>, 포스코스틸리온, 엠투엔, 아모그린텍, 명신산업, 원익피앤이, 화신, 인팩, KG모빌리티... 한주라이트메탈은 이번 <b>공모</b>를 통해 조달한 자금을 국내 알루미늄 부품 기업 최초로 설립한 슬로바키아... ",
+      "pubDate": "Wed, 25 Mar 2026 00:20:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "태양광에너지 관련주, '어깨츰 으쓱으쓱' 주성엔지니어링·캐리·SK이터...",
+      "link": "http://www.finomy.com/news/articleView.html?idxno=251802",
+      "description": "에스에너지가 일반<b>공모</b> 청약에서 1600대 1이 넘는 경쟁률을 기록하며 유상증자를 성공적으로 마무리했다.... <b>뉴인텍</b>은 5대1 주식병합 방식의 무상감자를 결정했다고 지난 3월 11일 공시했다. 감자 주식수는 보통주... ",
+      "pubDate": "Sun, 22 Mar 2026 00:10:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "수소에너지·수소차·연료전지 관련주, '싱글벙글' 에스에너지·국일제...",
+      "link": "http://www.finomy.com/news/articleView.html?idxno=251790",
+      "description": "에스에너지가 일반<b>공모</b> 청약에서 1600대 1이 넘는 경쟁률을 기록하며 유상증자를 성공적으로 마무리했다.... <b>뉴인텍</b>은 5대1 주식병합 방식의 무상감자를 결정했다고 지난 3월 11일 공시했다. 감자 주식수는 보통주... ",
+      "pubDate": "Fri, 20 Mar 2026 18:16:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "태양광에너지 관련주, '싱글벙글' SK이터닉스·그리드위즈·캐리·에스에...",
+      "link": "http://www.finomy.com/news/articleView.html?idxno=251713",
+      "description": "한화, <b>뉴인텍</b>, 매커스, 나노신소재, KCC, 유니테스트, 알에스오토메이션 등은 하락했다. SK이터닉스는 2024년... 에스에너지가 일반<b>공모</b> 청약에서 1600대 1이 넘는 경쟁률을 기록하며 유상증자를 성공적으로 마무리했다.... ",
+      "pubDate": "Thu, 19 Mar 2026 18:10:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "미국 뉴욕시 20% ‘홍수 블루존’ 충격 보고!",
+      "link": "https://blog.naver.com/joosiksin/224293136949",
+      "description": "이는 교통·물류·경제 전반에 큰 영향을 줄 수 있는 요소입니다. ④ 공공주택 단지의 취약성 뉴욕시 공공주택 단지의 1/3이 블루존에 위치해 있어, 저소득층과 사회적 약자가 홍수 피해에 가장 먼저 노출될... ",
+      "pubDate": "20260522",
+      "source": "블로그"
+    },
+    {
+      "title": "중국 창신메모리 IPO 재개!",
+      "link": "https://blog.naver.com/joosiksin/224291718893",
+      "description": "결론적으로, 창신메모리의 IPO 재개는 단순한 기업 이벤트가 아니라 중국 반도체 자립 전략의 가속 페달입니다. 삼성전자와 SK하이닉스가 독점적 지위를 누려온 D램과 HBM시장에 균열을 낼 수 있는 중대한... ",
+      "pubDate": "20260520",
+      "source": "블로그"
+    },
+    {
+      "title": "<b>뉴인텍</b> - 유상증자 분석",
+      "link": "https://blog.naver.com/economean-/224289480379",
+      "description": "<b>뉴인텍</b> (012340) 유상증자 요약 긍정적 요인 친환경차용 커패시터 매출 확대 수혜 기대 및 전기차... 최대주주는 약 20억원 ~ 25억원 규모로 <b>청약</b>에 참여할 예정이며, 이는 증권신고서 제출일 현재 기준... ",
+      "pubDate": "20260518",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-05-23 00:22:58",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}
