@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260610000563",
+  "corp_name": "레메디",
+  "corp_code": "01501764",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260610000563",
+  "offering_price_low": "17800",
+  "offering_price_high": "20700",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260701",
+  "subscription_end_dt": "20260702",
+  "listing_dt": "",
+  "underwriter": "계약 체결, KB증권, 및 발행회사가 협의하여 제시한 희망공모가액",
+  "total_shares": "1200000",
+  "competition_ratio": "",
+  "lock_up_ratio": "80",
+  "demand_forecast_period": "",
+  "business_summary": "중 사업연도별로 비교표시하는 사항 등(이하 \"재무에 관한 사항 등\")은 제출일이 속하는 사업연도의 최근 사업연도(또는 반기, 분기)말을 공시서류작성기준일로 한다.",
+  "news": [
+    {
+      "title": "[장외시황] 레메디, 4.60% 상승 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9lMEplUHE3WkNRMjg5OGM4Ny16QkxIRUo2bG9uM0x2Vjh1elQ0bE5jaXdnX29tLTVYYkFad1l3a2JsdHM0SE1JbzhQYlBhVkM5LTVxZg?oc=5",
+      "pubDate": "Thu, 21 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "[장외시황] 폴레드, 공모주 청약 시작 - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCX3o4SkFQZEo4M2RFVkR2THdOR0VoYVNvUl84WXYxRlVZN0ZaZWpteUxCYmF1ZGR3Qkcxb2lrT2Z1amxpcDdyLWs2ZWtEMzVVWjhF?oc=5",
+      "pubDate": "Mon, 04 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "[표류하는 공모주] 유명무실해진 예비심사 '45일 규정'…10곳 중 8곳 이상 지연 - 뉴스톱",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9MT1JURlpESldSTW9yQVhIbmRiVkp2SFZKQnh0MjdFTmdiQ1pXaDVNSGJfamx6MEtjN05Ia1M0Z2xBNEZOcmVFYVB4NWJMOWVxbFNEdnJONVRaNzRnYjdmcHdRVm8xWjNMS1U0d2l5cw?oc=5",
+      "pubDate": "Mon, 09 Mar 2026 07:00:00 GMT"
+    },
+    {
+      "title": "[장외시황] 피스피스스튜디오, 공모주 청약 진행 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1WdWFhZDhmNVdIaGRxRV9YZ0c0RkI5dkI5aGh1QU9kVlV4Z2RNYmR4TmhLYS0tTWlJTXM2R1BRTi1NSWROVEJxYnNielg3VWJudGpWdg?oc=5",
+      "pubDate": "Tue, 26 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "[장외시황] 레몬헬스케어, 공모주 일정 변경 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1LbFcwT3JnSEZ3VW9hVkNONllyX3VGUE5TYll5U1RIY3dLWXMwemJTVUktaXp5TWE4ek5YdU1NelJlV3UtLXdCcVd5NTlweXVVWExZZA?oc=5",
+      "pubDate": "Thu, 28 May 2026 07:18:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "인터엑스 싱장 예심…기존 투자자 &quot;<b>공모</b> 분위기 좋아 구주 안판다&quot;",
+      "link": "https://www.mt.co.kr/stock/2026/06/04/2026060415354032078",
+      "description": "구주를 매입하려는 곳은 많지만, 기존 투자자들이 훈훈한 <b>공모</b>시장 분위기를 감안해 엑시트(투자금... 제조업체 <b>레메디</b> 등이 수요예측에 돌입한다. 한편 인터엑스의 역성장에 대해 거래소가 어떤 입장을 보일지는... ",
+      "pubDate": "Thu, 04 Jun 2026 16:02:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>레메디</b> '오버행' 우려⋯상장일 유통물량 최고",
+      "link": "http://www.inews24.com/view/1973810",
+      "description": "4일 금융감독원에 따르면 X레이 의료기기 업체 <b>레메디</b>는 지난달 22일 증권 신고서를 제출하고 본격적인 <b>공모</b> 절차를 밟고 있다. 총 120만주(100% 신주)를 <b>공모</b>한다. <b>공모</b>가 희망범위는 1만7800~2만700원으로 <b>공모</b> 금액은... ",
+      "pubDate": "Thu, 04 Jun 2026 10:46:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[분석] IPO 시장, 여름 블록버스터 개봉박두…하반기엔 美 상장 러시",
+      "link": "https://www.startuptoday.co.kr/news/articleView.html?idxno=802666",
+      "description": "지난달 상장 기업은 줄었지만 <b>공모주</b> 열기는 식지 않은 모습이다. 5월 국내 기업공개(IPO) 시장은 기업 수와... <b>레메디</b>, 레몬헬스케어, 매드업, 빅웨이브로보틱스, 스트라드비전, 져스텍 등이 상장을 준비하고 있으며... ",
+      "pubDate": "Wed, 03 Jun 2026 18:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "6월 <b>공모주</b> 청약 달아오른다…져스텍·스트라드비젼 등 상장 살펴보니",
+      "link": "http://www.joseilbo.com/news/news_read.php?uid=569231&class=53&grp=",
+      "description": "일반 청약은 24~25일 진행될 예정이며 희망 <b>공모</b>가는 7500원에서 1만원 수준이다. 의료용 휴대용 엑스선 영상촬영장치 제조기업 <b>레메디</b>는 세 번째 코스닥 상장 도전에 나선다. <b>레메디</b>는 17일부터 23일까지 기관... ",
+      "pubDate": "Mon, 01 Jun 2026 09:31:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "지방선거에 IPO도 숨고르기…다음주 6곳 수요예측 대기[이번주 증시 캘...",
+      "link": "https://www.sedaily.com/article/20050149?ref=naver",
+      "description": "이번 <b>주</b>(6월 1~5일)에는 지방선거일(3일) 영향으로 기업공개(IPO) 시장도 숨 고르기에 들어간다. 5일 대신밸런스제20호스팩의 코스닥 상장을 제외하면 일반 상장이나 <b>공모주</b> 청약 일정은 없다. 다만 다음 주부터는... ",
+      "pubDate": "Mon, 01 Jun 2026 05:41:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "2026년 7월 <b>공모주</b> 일정 및 상장일 체크",
+      "link": "https://blog.naver.com/slowvanilla/224312116424",
+      "description": "2026년 7월 <b>공모주 청약</b> 정리 <b>레메디</b> 업종 : 저선량 소형 휴대용 x선 의료기기 개발 <b>청약</b>일 : 26.07.01 (수) ~ 07.02 (목) 환불일 : 26.07.06 (월) 상장일 : 증권사 : KB증권 <b>공모</b>가 : 17,800원 ~ 20,700원... ",
+      "pubDate": "20260610",
+      "source": "블로그"
+    },
+    {
+      "title": "<b>공모주 청약</b> 일정(2026.06.11 현재)",
+      "link": "https://blog.naver.com/banjwoo/224311988462",
+      "description": "확정 <b>공모</b>가 : 미정 기관 경쟁률 : 미정 <b>청약</b>일 : 6.24~6.25 <b>청약</b> 경쟁률 : 미정 환불일 : 6.29(월) 상장일 : 7.6(월) ▶<b>레메디</b>(387690) &lt;코스닥, 액면가 500원&gt; 업 종 : 의료용 기기 제조업 주간사 : KB... ",
+      "pubDate": "20260610",
+      "source": "블로그"
+    },
+    {
+      "title": "6월 <b>공모주</b> 일정 또 변경, 오늘 자 최신버전으로 스펙까지 포함... ",
+      "link": "https://blog.naver.com/quasweet/224311215898",
+      "description": "⑦ <b>레메디</b> (희망가 17,800~20,700원) *** 7/1 바로 <b>청약</b>시작이라 같이 정리해봤어요! ▪️수요예측 6/17~6... 책임은 각자에게 있습니다. #<b>공모주</b>일정 #6월<b>공모주</b> #IPO<b>청약</b> #수요예측 #상장일 #26년6월<b>공모주청약</b>",
+      "pubDate": "20260610",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-06-11 02:31:30",
+  "total_shares_offered": "1200000",
+  "min_bid_price": ""
+}
