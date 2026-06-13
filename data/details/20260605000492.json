@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260605000492",
+  "corp_name": "한솔테크닉스",
+  "corp_code": "00157399",
+  "stock_code": "004710",
+  "market": "KOSPI",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605000492",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260713",
+  "subscription_end_dt": "20260714",
+  "listing_dt": "",
+  "underwriter": "한국투자증권(주)",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "부문에서 삼성전자향 매출 비중이 높은 수준을 유지하고 있어 글로벌 스마트폰 시장에서 삼성전자의 안정적인 시장지위는 당사의 사업 안정성에도 상당한 영향 을 미치고 있습니다.",
+  "news": [
+    {
+      "title": "코스닥, 서킷브레이커까지...올해 수익률 마이너스 전환 - 스마트투데이",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Cc0lUcXhwV0kxQkQ3eEh1QVJ2ZnhDd2JwQ045Q0lRaDNlSFlFdlVucW03dzFVTkM4STBsLWxfTVpNZUVPaWtfZ3lJRzBoeU1ZZjZmdnNnclJtd2hURnpR?oc=5",
+      "pubDate": "Mon, 08 Jun 2026 06:03:18 GMT"
+    },
+    {
+      "title": "한국거래소, 긴급 시장점검회의 개최..\"불법 공매도 점검 확대\" - 스마트투데이",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vY25ENjJFRFVGSy1WRmp2Y2x1ZVVackFJWlNucEljQV94dEFubEd6N3ZiQ05EaGtSaHpvclB2OV9Kd2dOWEx1enNFMkxpTEV4UHdiM3hBWmQtZHFhNzZV?oc=5",
+      "pubDate": "Sun, 07 Jun 2026 23:38:00 GMT"
+    },
+    {
+      "title": "ACE SK하이닉스레버리지 49.7% 급등 마감..주문사고 가능성 - 스마트투데이",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Ca3h5N3B5MWt6ZHNsTk1fNTVkaFFHUGxGQVBtT0x5eW5pTTBneXhyV1lhejNwWnRrTnNGNktTVWg3ZnpoSDZ4bTdSMnZNUndtY3l4M2dYb1NNTTZGMjhZ?oc=5",
+      "pubDate": "Mon, 08 Jun 2026 06:43:00 GMT"
+    },
+    {
+      "title": "한투증권, 8일부터 신용거래 중단 - 스마트투데이",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1UUx1dndTNloxVGVkZF9ZdTNrSDZTbzIyUU1XbnAyLU00emtUUU5EQ2swUGsyd25mek01bkFVQmZHTXFOYXRQZzFrOWhzVnAtNDdXc1JIbjRqQ3NoTGE0?oc=5",
+      "pubDate": "Fri, 05 Jun 2026 07:37:51 GMT"
+    },
+    {
+      "title": "우리자산운용, 美 누버거버먼과 국내 최초 ‘미국 공모주 펀드’ 출시 [떴다! 신상품] - 한국금융신문",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1oVGxXaENWZXk2dG5Hd1BicThXTDJMLVlGY3gtZXllY0x5YjIteVA0U2RVWkFYenk3UG9CYmE2M2oycHpKVXpHYmV0Smo5a0pWbEt1VlVpNVoyeDVsaHdyNHNEaXBERklvVVk4Z3ZucGZZSGtHRW42em5EQlo?oc=5",
+      "pubDate": "Thu, 01 Aug 2024 07:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "오늘의 메모[6월 9일]",
+      "link": "https://www.sedaily.com/article/20052934?ref=naver",
+      "description": "▲신주배정기준일=<b>한솔테크닉스</b>(004710)(유상) ▲액면변경=오리엔트바이오(002630)(500원→1,000원) ▲주권변경상장=KB금융(주식소각) ▲<b>공모주</b>청약=메리츠제2호스팩(주관사 메리츠) ▲실권주청약=이노스페이스... ",
+      "pubDate": "Mon, 08 Jun 2026 10:43:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주요공시] 삼성전자, 테스, 유바이오로직스, 고려산업, RF머트리얼즈 외",
+      "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=205925",
+      "description": "자금조달·유상증자 ■ <b>한솔테크닉스</b>(KOSPI, 004710)는 주주배정 후 실권주 일반<b>공모</b> 유상증자의... 본 기사에서 사용된 데이터는 신뢰할만한 기관으로부터 수집, 금융데이터 전문분석기업인 (<b>주</b>)아웃샤인... ",
+      "pubDate": "Sat, 06 Jun 2026 22:12:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주식마감] 반도체株 또 불기둥... 미래반도체·한울반도체 나란히 '上'",
+      "link": "https://www.ggilbo.com/news/articleView.html?idxno=1157393",
+      "description": "주식마감 11일 <b>한솔테크닉스</b>, 선도전기, 경인전자, 계양전기우, 코스모로보틱스, 미래반도체, 티플랙스... 상장 첫날 <b>공모</b>가의 4배인 '따따블'을 기록했다. 지난 2016년 설립된 코스모로보틱스는 의료·재활 웨어러블... ",
+      "pubDate": "Mon, 11 May 2026 19:40:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[급등락주 짚어보기] ‘코스닥 입성’ 코스모로보틱스 '따따블'…코스피...",
+      "link": "https://www.etoday.co.kr/news/view/2583403",
+      "description": "11일 코스피 시장에서 상한가를 기록한 종목은 경인전자, 계양전기우, 선도전기, <b>한솔테크닉스</b>다.... 상장 첫날 수급이 쏠리며 <b>공모</b>가 대비 ‘따따블(4배)’을 기록한 흐름으로 풀이된다. 2016년 설립된... ",
+      "pubDate": "Mon, 11 May 2026 17:16:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[20일 특징주] 코스모로보틱스, 코스닥 데뷔 첫날 '따따블' 달성",
+      "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=840392",
+      "description": "코스모로보틱스가 코스닥 시장 상장 첫날 '따따블(<b>공모</b>가 4배)'을 기록하며 성공적인 데뷔를 마쳤다. 11일... 한편 이날 코스피에서는 ▲<b>한솔테크닉스</b> ▲선도전기 ▲경인전자 ▲계양전기우 등이 상한가를 기록했다.... ",
+      "pubDate": "Mon, 11 May 2026 16:46:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "(6/12) 장전 뉴스 및 관련주 [반도체/LG그룹/로봇/AI/스페이스X... ",
+      "link": "https://blog.naver.com/crioppstock/224313469112",
+      "description": "input=1195m &quot;스페이스X <b>공모</b> <b>청약</b> 흥행…목표의 3.5~4배 도달&quot; https://www.yna.co.kr/view... ELECTRIC, <b>한솔테크닉스</b>, 에스에너지, 에이전트AI, 파워넷 등 #풍력관련주 SK이터닉스, SK오션플랜트... ",
+      "pubDate": "20260612",
+      "source": "블로그"
+    },
+    {
+      "title": "6,10 오늘의증시 주도섹터,주도주",
+      "link": "https://blog.naver.com/cabbagegarden1999/224311350591",
+      "description": "메리츠제2호스팩 <b>공모</b><b>청약</b> ───────────────  재공시 · 종근당, 새 황금알로 뜬... 5%p) ─── # RISE 비메모리반도체액티브(388420 KS, 3,487억 원)/산업_반도체 (-) 편출 <b>한솔테크닉스</b>... ",
+      "pubDate": "20260610",
+      "source": "블로그"
+    },
+    {
+      "title": "<b>한솔테크닉스</b> - 유상증자 분석",
+      "link": "https://blog.naver.com/economean-/224310808224",
+      "description": "<b>한솔테크닉스</b> (004710) 유상증자 요약 긍정적 요인 수익성 회복: 2022년 영업이익 559억원·영업이익률 4.11... 초과 <b>청약</b>을 진행할 계획입니다. <b>한솔</b>홀딩스(<b>주</b>)는 이사회 결의를 통해 주주배정후 실권주 일반<b>공모</b>... ",
+      "pubDate": "20260609",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-06-13 00:36:20",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}
