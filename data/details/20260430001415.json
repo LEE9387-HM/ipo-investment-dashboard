@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260430001415",
+  "corp_name": "페니트리움바이오",
+  "corp_code": "01409022",
+  "stock_code": "187660",
+  "market": "KOSDAQ",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001415",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260714",
+  "subscription_end_dt": "20260715",
+  "listing_dt": "",
+  "underwriter": "유안타증권(주)",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "부문인 바이오 개발 사업부문의 경우 라이선스 아웃 외에는 빠른 시일 내에 제품화가 어려울 것으로 보이며, 매출로 이어지지 않고 비용만 지속적으로 투입될 경우 수익성이 악화될 위험 도 존재합니다.",
+  "news": [
+    {
+      "title": "페니트리움바이오, +9.80% VI 발동 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPYmF3dTlRbWhxQkJFRC1PM1A5dVN4THNzUVo0LV8wTG4zelVlVlBhZkp2S1FWN0QxU0U0WmlldUotSWZyN1otWHZKZGpOdU0zV3lRbi1ZWnZJeC1JTlpYTUxNWDNLNTV3ODAwWE5CRjM0SGlHbHl1QUhtN0JmSXVZR1paSdIBlwFBVV95cUxOTXRtRWk2Umk3bFdWb2hsSGtud2FRR0FmQ2RZQU1wWmxncUVWZ2ZIczFzbFZjT0FOZHNuUlc0SmZ3WFVZcU9YTDhJWnM3Tmt2Z3NsR3FTVE55a0xtbFB1SUo0WFR2QlpvZVFsM2pyV3R6ME9DRmdJcWh0WmpVSWNiUDIyWm1ZVng0aHhQR09VNVFobkl3al9F?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "현대ADM, '페니트리움바이오사이언스'로 사명 변경 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pTXVueDdtMERINTItQkxTaloyRWt3QXhCWmtDUHZnWkctN1ZUbVc4TTFBcFVjOUxtZkxJMzZhd3VJVGFTenhFcHUycVVtYnZGUmlDaDlpMzNWbk9md1daMGxZck9TNkxU0gFuQVVfeXFMTlR5WGZFX2FqYkh6eTJ3LTV1Zksxb2x5XzBCVWVHVVlGbkRDV2daTWpkcnFXMVpWLUVYdXNqcWdDZnRFMk14eWRCWWtvRlI5UUxnbVBfbDUtbU9BTk11ZDZhaUE5cHVUU0owTEl2bnc?oc=5",
+      "pubDate": "Fri, 20 Feb 2026 08:00:00 GMT"
+    },
+    {
+      "title": "[핀포인트] [페니트리움바이오] 사명 변경·신약 기대감에 주가 5배 - DealSite경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wSmJDa3JUQ3dfb3pqZE5NQVhNRTVIWkVzT2pHOWNIUDN2WTdTYm1VQVhFUllLY2c3cXZSRnBkUS1ac0UzLWllNV9Fc2FTN3c5UVVuZ2x3?oc=5",
+      "pubDate": "Thu, 12 Mar 2026 07:00:00 GMT"
+    },
+    {
+      "title": "[속보] 페니트리움바이오, 고형암 병용요법 1상 변경 승인 신청 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6OVNFUUNRWWdtekNmU2tpSEcyOXU5WnpjX1hmLWJYbjA3bnZTVFpTbnRYZWNVZjg1UVJPMERHbDVUV1NBejNNME15d25jMVE5R2xYLS1JSFBqU2pNR3VtQWIwY2xwdjN5?oc=5",
+      "pubDate": "Wed, 13 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "페니트리움바이오, 16일 '범용적 통합치료 기전' 연구결과 발표 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBpRjNLd2N3SVRaNUQtOVM3cV8ySzJOS3FkWTRuOHlQUUFlTzIyLUVDX3JqZ1liWHEtYXFzLWhyOWlFSkNXUWwySzJDY3BFLXA1VG5iT0RRQkF1N19qWjJISFBHa3dVYjRX0gFuQVVfeXFMTWJIbHRaaGNoY3h0NktFcDB0TXlWX3RNSHYzaExJb0xoUVdOX1ZndFhYOXRfa2VuQ3FSeXFfTXVVaHZTWXpMVzdwYnluMlVtbVRKVkkyQ3hyVDZpV2x6eHl1bFp2SGtCSWpZSnlpaXc?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 07:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "[주요공시] 삼성중공업, 앤로보틱스, 우리기술, SKC, 싸이토젠, HDC, 케이...",
+      "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=205375",
+      "description": "지정예고, <b>페니트리움바이오</b> 정정신고서 제출요구 등 시장조치성 공시가 확인됐다. 다섯째, 디바이스... 자금조달·유상증자·전환사채·증권발행 ■ SKC(KOSPI, 011790)는 주주배정 후 실권주 일반<b>공모</b> 방식... ",
+      "pubDate": "Mon, 18 May 2026 23:04:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>페니트리움바이오</b>, ‘신약개발 전환’ 1년만에 주주에 손벌려… ‘생존...",
+      "link": "https://www.ekn.kr/web/view.php?key=20260515022455113",
+      "description": "15일 금융투자업계에 따르면 <b>페니트리움바이오</b>사이언스는 지난달 30일 이사회 결의를 통해 주주배정 후 실권주 일반<b>공모</b> 방식의 유상증자를 결정했다. 신주 발행 규모는 850만주, 예정 발행가는 8690원이다. 총 조달... ",
+      "pubDate": "Sat, 16 May 2026 12:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[HIT알공] 휴온스글로벌, 조회공시 요구에 &quot;계열사 합병 검토&quot;",
+      "link": "https://www.hitnews.co.kr/news/articleView.html?idxno=76106",
+      "description": "④ <b>페니트리움바이오</b>, 펨브롤리주맙 병용 1상 변경승인 신청 = 불응성·재발성 고형암 대상 PenetriumTM과... ⑧ HLB제약, 1200억원 유상증자 결정 = 주주배정 후 실권주 일반<b>공모</b> 방식으로 보통주 1076만2332주 발행.... ",
+      "pubDate": "Wed, 13 May 2026 18:10:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[박정식의 국내 주식시황] 美 빅테크 호실적 및 국제 유가 하락에 상승...",
+      "link": "https://www.newsquest.co.kr/news/articleView.html?idxno=265703",
+      "description": "매그니피센트7(M7)에서 알파벳, 마이크로소프트, 아마존, 메타, 애플 등 5개 종목이 이번 <b>주</b> 호실적을... 반면, <b>페니트리움바이오</b>는 738.65억원 규모 주주배정후 실권주 일반<b>공모</b> 유상증자 결정에 하한가. 자비스는... ",
+      "pubDate": "Mon, 04 May 2026 08:58:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>페니트리움바이오</b>, 유상증자 결정…보통주 850만주 발행",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=661921",
+      "description": "현재 <b>페니트리움바이오</b>사이언스(<b>주</b>)의 주식을 예탁하고 있는 당해 증권회사 본ㆍ지점2) 유안타증권(<b>주</b>) 본ㆍ지점일반<b>공모</b>청약(고위험고수익투자신탁, 벤처기업투자신탁 청약 포함)유안타증권(<b>주</b>) 본ㆍ지점2026년... ",
+      "pubDate": "Thu, 30 Apr 2026 17:26:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "오늘의 공시(코스닥.2026.6.11)",
+      "link": "https://blog.naver.com/jinygoon/224313484649",
+      "description": "일반<b>공모</b>) <b>페니트리움바이오</b>사이언스 99 15:47 오에스피 368970 추가상장(유상증자(제3자배정... ((<b>주</b>)버킷스튜디오 최대주주 변경 재추진) 버킷스튜디오 81 15:31 신영스팩10호 472220 주식등 ",
+      "pubDate": "20260612",
+      "source": "블로그"
+    },
+    {
+      "title": "<b>페니트리움바이오</b> 유상증자 권리락일 총정리!",
+      "link": "https://blog.naver.com/qrator_bin/224311387642",
+      "description": "10 <b>페니트리움바이오</b> 유상증자, 주주라면 꼭 알아야 할 5가지 신주배정기준일 · <b>청약</b>일정 · 발행가액 · 신주인수권증서 · 주가 희석 · 초보투자자 완전정리 [ 핵심 요약 ] ✔ 신규 발행 주식 850만 <b>주</b>... ",
+      "pubDate": "20260610",
+      "source": "블로그"
+    },
+    {
+      "title": "2025년 8월 19일 시황 정리 - 잭슨홀 경계 속 한한령 해제... ",
+      "link": "https://blog.naver.com/biloan/224311076076",
+      "description": "성장 <b>페니트리움바이오</b>, 토모큐브 AI 팩토리·스마트제조 AI팩토리 전문기업 선정 모멘텀 아이비젼웍스 앞으로 볼 포인트 첫째, 이번 <b>주</b> 금요일(22일 현지시간) 파월 연준 의장의 잭슨홀 연설이 최대... ",
+      "pubDate": "20260609",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-06-14 02:10:21",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}
