@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260615000049",
+  "corp_name": "한울반도체",
+  "corp_code": "01359815",
+  "stock_code": "320000",
+  "market": "KOSDAQ",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615000049",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260709",
+  "subscription_end_dt": "20260710",
+  "listing_dt": "20260731",
+  "underwriter": "및 인수회사의 실권주 매입단가는 일반청약자들보다, SK증권(주)",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "부문인 마이크로칩 검사장비의 매출이 2023년도 대비 50%수준으로 감소하였으며, 디스플레이 검사장비의 매출도 축소되어 2024년도 약 95억원의 매출을 기록하였습니다.",
+  "news": [
+    {
+      "title": "한울반도체 \"김기원 부회장, 자사주 매입…주주가치 제고·책임경영\" - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83cm9uUG5ucDM5MmFucGNNQmZxX05SM0tNWUFURmtSLURDd0NiTlpZeWhBM3laelhDV051eFFVSkRpNzN2N3A3N1NVWXUyWE5HZ1VzV2tXWUJZZURQN3BnSmtvUVFvanB00gFuQVVfeXFMTk4yOWhBSEhFdGFJcnAwOUdQVXdZUHJQQUotRUl2cXlsYTBteFJ2UTRCZ3BIRU1lU0NXRl9NV18ta21nc3ZITWdTNE40bHBiellNRUVSZV9yc0FDWWctbkoxcDlPVG9JQUp5RV9iS3c?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "세미파이브 \"상장 청약 증거금 15조원...올해 코스닥 최대\" - 디일렉",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE15TF9LYVZ4NlV0M25BdmVnZDBUUkYteHlKbVJ1U1VZVWRrMWJ4aEVXSUZFZ3E3a1kyNUlmZXNFbFYtMV9QQURtX3R2cDhfNEhnR3BRX0ZlUzlvSE9nUHZxSWRmNkxjUQ?oc=5",
+      "pubDate": "Fri, 19 Dec 2025 08:00:00 GMT"
+    },
+    {
+      "title": "한울반도체, MLCC 경쟁력·계열사 성장으로 기업가치 제고 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HQ2tSMGZqQktmZkd2LXVpTWZhMjBaTHduZEdRdEtQWlJhWWR3c3NCYXJrQTFVZVNRdFFrT0xBUnhua2lBa3RKSkFCT2dUcGV6S0J4bEN4RUpSeW9fQ1FiNA?oc=5",
+      "pubDate": "Fri, 29 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "[주식마감] 반도체株 또 불기둥... 미래반도체·한울반도체 나란히 '上' - 금강일보",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBCY1JDMS1PM3hXTm5vUVJXNERSeExXcG5vYUdraWs3T3NpMnFDRFFUV2t1ZXZvQ1RkWHhZVmxGNi1VVV81V3dnZE1pWENzUFgwZmZ6VXpnWmd3a2kwMGxHcGlWVVhRUTNEM2c?oc=5",
+      "pubDate": "Mon, 11 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "[더벨]한울앤제주, 돌고 돌아 한울반도체 품으로 복귀 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZRTIyN1p5VlhTOGpnMDM1RV9iOUt1bTN0M3JlLTdkc2tYN2ZHazNsU1Mxa21PMWhnX0oyekRSYVZzZkwxRThkcFAzUFJFVDFpTWl0d0lJTFgzZVI4ZFJtTjBBQkhHc2Iw0gFuQVVfeXFMTTJXd054ckVaMGZ0dDNCSjdJNzliNEEwZkpyVUdEY2s2ZGdtZUVBMW9RYlNjcXJudHRSZk9acUQwV2FrTFRxSGtpODhyaGVmVVVNenk0WGtfSVdOQTFab2NXZDViQXdRbjVEclpVaGc?oc=5",
+      "pubDate": "Mon, 12 Jan 2026 08:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "[주식마감] '피지컬 AI' 마키나락스 따따블 직행… 광전자·코칩 등 상한...",
+      "link": "https://www.ggilbo.com/news/articleView.html?idxno=1159485",
+      "description": "광전자는 디스크리트(Discrete) <b>반도체</b>, 광센서, LED 등을 생산하는 전자부품 전문 기업이다. 고성능... 마키나락스는 <b>공모</b>가(1만5000원) 대비 300.00%(4만5000원) 오른 6만원에 장을 마감했다. 이날 코스닥 시장에 상장한... ",
+      "pubDate": "Wed, 20 May 2026 19:40:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주요공시] 삼성중공업, 앤로보틱스, 우리기술, SKC, 싸이토젠, HDC, 케이...",
+      "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=205375",
+      "description": "금일 시장은 장중 변동성이 매우 컸으며, 대형 <b>반도체</b>주와 일부 조선·방산·인프라 관련주가 지수... ■ 우리기술(KOSDAQ, 032820)은 한국수력원자력과 <b>한울</b>1발 자료취득장치(DAS) 전자카드 설비 개선용 자재... ",
+      "pubDate": "Mon, 18 May 2026 23:04:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주식마감] <b>반도체</b>株 또 불기둥... 미래<b>반도체</b>·<b>한울반도체</b> 나란히 '上'",
+      "link": "https://www.ggilbo.com/news/articleView.html?idxno=1157393",
+      "description": "민테크, <b>한울반도체</b>, 이노인스트루먼트, 피델릭스, 큐로홀딩스가 상한가에 이름을 올렸다. 코스모로보틱스는 전 거래일 대비 300.00%(1만8000원) 오른 2만4000원에 거래를 마쳤다. 상장 첫날 <b>공모</b>가의 4배인 '따따블'을... ",
+      "pubDate": "Mon, 11 May 2026 19:40:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[급등락주 짚어보기] ‘코스닥 입성’ 코스모로보틱스 '따따블'…코스피...",
+      "link": "https://www.etoday.co.kr/news/view/2583403",
+      "description": "피델릭스, <b>한울반도체</b>가 상한가를 기록했다. 가장 두드러진 흐름은 <b>반도체</b> 밸류체인이다. 미래<b>반도체</b>는... 상장 첫날 수급이 쏠리며 <b>공모</b>가 대비 ‘따따블(4배)’을 기록한 흐름으로 풀이된다. 2016년 설립된... ",
+      "pubDate": "Mon, 11 May 2026 17:16:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[20일 특징주] 코스모로보틱스, 코스닥 데뷔 첫날 '따따블' 달성",
+      "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=840392",
+      "description": "코스모로보틱스가 코스닥 시장 상장 첫날 '따따블(<b>공모</b>가 4배)'을 기록하며 성공적인 데뷔를 마쳤다. 11일... 코스닥에서는 ▲미래<b>반도체</b> ▲티플랙스 ▲민테크 ▲<b>한울반도체</b> ▲이노인스트루먼트 ▲피델릭스... ",
+      "pubDate": "Mon, 11 May 2026 16:46:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "오늘 주식시장, 7 만 엔 돌파 시도 전개…일본은행 금리 인상... ",
+      "link": "https://blog.naver.com/urgiung/224317441412",
+      "description": "인공지능(AI)·<b>반도체</b> 관련주에 대한 매수세가 더욱 가속화될 가능성이 크다. 반면 닛케이평균은... 주식 <b>공모</b>에는 전 세계에서 모집 금액의 3 배가 넘는 <b>청약</b>이 몰린 것으로 보인다. 머스크의 거대한... ",
+      "pubDate": "20260616",
+      "source": "블로그"
+    },
+    {
+      "title": "인생 준비 연구소 한 페이지로 보는 오늘의 뉴스 (2026.06.16)",
+      "link": "https://blog.naver.com/alscks4585/224317432348",
+      "description": "✔ 미래에셋 배정 물량 부족 논란 ✔ 미국 <b>공모</b>시장 구조 차이 ✔ 한국 투자자 접근성 한계 ✔ IPO 열기 지속 우주 산업 투자에 대한 관심은 여전히 뜨겁습니다. 《기업》 삼성전기, AI <b>반도체</b> 핵심 부품 강화... ",
+      "pubDate": "20260616",
+      "source": "블로그"
+    },
+    {
+      "title": "져스텍 <b>공모주</b> 일정 수요예측 결과 <b>청약</b> 상장일 핵심 요약",
+      "link": "https://blog.naver.com/bestpickinfo/224317428466",
+      "description": "최근 <b>반도체</b> 장비 관련 기업들의 상장 소식이 이어지며 투자자들의 관심이 집중되고 있습니다. 그중에서도 초정밀 모션제어 시스템 전문 기업인 져스텍의 코스닥 상장 <b>공모주 청약</b> 일정을 정리해... ",
+      "pubDate": "20260616",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-06-16 02:49:44",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}
