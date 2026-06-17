@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260616000058",
+  "corp_name": "RF머트리얼즈",
+  "corp_code": "01343665",
+  "stock_code": "327260",
+  "market": "KOSDAQ",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260616000058",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260623",
+  "subscription_end_dt": "20260624",
+  "listing_dt": "",
+  "underwriter": "및 인수회사에 인수수수료(모집총액의, 및 인수회사가 인수하는 잔여주식 인수금액의",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "[공모주 탐구] 메쥬, 원격 환자 모니터링 시장 개화 수혜로 주가 고공행진할까 - 데일리인베스트",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBVODBvV08xRzQ1QUVDVm9OTFgtY3kzZm1xNHY5Y1lzeHM5Tlhoc1ZnMm5BZm5DXzJWdzFFdXFJeGVwRTNPZnM4dmZHTFBqWXdPOFZXRnFGRXFXWHE0NzdfeFhmZnBjemgxLVNR0gFvQVVfeXFMTy05Nzk1Ulo5M09tRmFtUnB6NmxWR0hiNnhvY0VvZmUtMlRycVR1RjR1aVE3ZE5GeUtTOUxQR2lDY2tidmNlMmRPTGRXRko0Zi1LX0RCd1VUNmpEeWRCejNxQUZONU9FUFlIdWI4aDJF?oc=5",
+      "pubDate": "Fri, 06 Mar 2026 08:00:00 GMT"
+    },
+    {
+      "title": "[공모주 현미경 분석] 유전체 혁신신약기업 카나프테라퓨틱스, 16일 코스닥 상장 - 데일리인베스트",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBtZ3h0TlllMnpteVRFLW83MENFdW9SeVpOMF9scEpYeFVVNVdJZVZaa09aSkVYUHNZVTV5cENhNTI5My1XY2thejhZWmFFR2ptT21URmFKS21qbUtwc19hRVVQaGdHd0YzaDZR0gFvQVVfeXFMTzNwWDFGelRHQ3JBdWpkd3NMSmVWb2hwWFFxcVpKTE9zRWlmajJPdmV2MmRzb0RIVi1QQ0tLbnE0ZTRzQlZEMjY5MHhkNlJnUHlmdzMtem0tRFY1akZGTHZYZms3a2VKMXl4bGN3Q2dv?oc=5",
+      "pubDate": "Fri, 06 Mar 2026 08:00:00 GMT"
+    },
+    {
+      "title": "[공모주 탐구] 대한조선, 글로벌 노후선대 교체 수요 확대로 주가 고공행진? - 데일리인베스트",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5iRGhCT3NoUTBFWWUxSnM0Vm1PeUNxZmhUOWtZNGNtQlNoY0lORTV0TFktcGliVkEtYy1ZcXRQRnNQUFJsZGFNQm1hSWRPQ1RtdjVzVkxuODlQd0VuaFozUV9URkxNZF9YemJv0gFvQVVfeXFMTk01VHItUWMtUkZrcVEzZWtxZ2h2UGRNOFFWVGFNM2FCUjl4QWlBRGxiUUZPNzJfZHgweFFTOV84M0lRZUNiWGJxTWdJTUxLS3ZNZVZ1bDBiM3V1eENHSTVvUkxuT3hqc0UxdEhVM3hZ?oc=5",
+      "pubDate": "Fri, 25 Jul 2025 07:00:00 GMT"
+    },
+    {
+      "title": "토스 등 연내 IPO 대어들…금리 인하 기대감 속 흥행 기대 - 파이낸셜투데이",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qUFVQU3k0T1NtWDFlV0d4Z3NyVEtoZWV4WjlhejlITnVuU09xZjBLdmh2THJjX2VBNm1ST2tnWXlxVUJub0RRcWlYNENPc3M4RGZGV1Y1dGYwX0NHUWZ5QktISUh2RVJpdFHSAW5BVV95cUxPd3BSOUF2NXN5RDZvVWpYSGlhVWVtSGVWbnNsZVlWTXpXMmFGSXRrOUZkSEtMVEtHUThyM2VpYW4zY3RqaFVxNmVNaWk1Y2syWGhEQkxucjFWTE1FcExyQUh5VUZCajJfd0dLZmt1UQ?oc=5",
+      "pubDate": "Sat, 10 Feb 2024 08:00:00 GMT"
+    },
+    {
+      "title": "[공모주 탐구] 시지트로닉스, 특화반도체로 주가 고공행진 성공할까 - 데일리인베스트",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5PX29qRzk1UlJRN0NCVEdJWGhEdHNMRW9XRzUySERwQzNmV0VZWmpSUDZwU0hjdXlTaFgzaDYyQ1hXV3Z0dG9nR3BKdFRTUEpOQ0Z4WVd4VTQ4S21XUVk2d0ZYQ1F4ckw4YTRN0gFvQVVfeXFMTVdlVzRnbTFvTERUVmh3clFvLTQ1bHd1OXh4R3NtbmdqRHQxRjN1aUxXMHF1N245T1VuS096M19NWFZOYmExTjNoODZYSjF0Y2pibnV1ZUJkSi1aUzJaRnFET29qZ3M4eGhQSWk0RElN?oc=5",
+      "pubDate": "Wed, 19 Jul 2023 07:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "[주요공시] 삼성전자, 테스, 유바이오로직스, 고려산업, <b>RF머트리얼즈</b> 외",
+      "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=205925",
+      "description": "앞서 <b>RF머트리얼즈</b>는 주주배정 후 실권주 일반<b>공모</b> 방식 유상증자를 추진하면서 보통주 50만주 발행과... 본 기사에서 사용된 데이터는 신뢰할만한 기관으로부터 수집, 금융데이터 전문분석기업인 (<b>주</b>)... ",
+      "pubDate": "Sat, 06 Jun 2026 22:12:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주요공시] 삼성전자, 효성중공업, 롯데케미칼, CJ제일제당, 대덕전자, ...",
+      "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=205164",
+      "description": "신주인수권부사채 ■ <b>RF머트리얼즈</b>(KOSDAQ, 327260)는 주주배정 후 실권주 일반<b>공모</b> 유상증자의... 본 기사에서 사용된 데이터는 신뢰할만한 기관으로부터 수집, 금융데이터 전문분석기업인 (<b>주</b>)아웃샤인... ",
+      "pubDate": "Tue, 12 May 2026 09:48:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주요공시] 삼성전자, 환인제약, SK텔레콤, 롯데케미칼, 대주전자재료,...",
+      "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=204715",
+      "description": "■ 환인제약(KOSPI, 016580)·안랩(KOSDAQ, 053800)·RFHIC(KOSDAQ, 218410)·<b>RF머트리얼즈</b>(KOSDAQ, 327260)는 이날 1분기... 동시에 주주배정 후 실권주 일반<b>공모</b> 방식으로 715만주의 유상증자도 결정했으며, 예정 발행가액은... ",
+      "pubDate": "Mon, 27 Apr 2026 22:26:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "&quot;작은 종목이 맵다&quot;…잘 버틴 코스닥 소형株",
+      "link": "https://news.mtn.co.kr/news-detail/2026042015473526108",
+      "description": "에코프로부터 프로티나까지가 대형주, 비츠로셀부터 중앙첨단소재는 중형주, <b>RF머트리얼즈</b>부터는... 김영훈 삼성증권 연구원은 &quot;코스닥 시장에서 다양한 업종의 중소형주 기업들이 모두 <b>공모</b>가 상단을 확정하고... ",
+      "pubDate": "Tue, 21 Apr 2026 06:08:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주요공시] 광전자, 엘앤에프, 썸에이지, 한국첨단소재, 후성 외",
+      "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=204188",
+      "description": "■ <b>RF머트리얼즈</b>(KOSDAQ, 327260)는 72억원 규모 단일판매·공급계약을 체결했다고 공시했다. 계약금액은... 일반<b>공모</b> 유상증자와 100% 무상증자를 동시에 결정했다고 공시했다. 유상증자는 보통주 207만3000주... ",
+      "pubDate": "Sat, 11 Apr 2026 13:06:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "오늘의 공시(코스닥.2026.6.16)",
+      "link": "https://blog.naver.com/jinygoon/224318340447",
+      "description": "번호 시간 회사명 종목코드 공시제목 제출인 접수일자 243 20:01 CSA 코스믹 083660 공매도 과열종목 연장(공매도 거래 금지 연장) 코스닥시장본부 2026-06-16 242 20:01 비엠티 086670... ",
+      "pubDate": "20260617",
+      "source": "블로그"
+    },
+    {
+      "title": "260616 시장정리",
+      "link": "https://blog.naver.com/jh_4867/224318006201",
+      "description": "미국 17개 <b>주</b> 정부는 풍력발전 인허가 중단 조치를 상대로 소송을 제기했고, 법원은 해당 조치가... 81% / 거래대금 1,053억 원 <b>RF</b>시스템즈 / +15.59% / 거래대금 171억 원 핵심 재료 ✅ (06.16) LIG D&amp;A, 독일... ",
+      "pubDate": "20260616",
+      "source": "블로그"
+    },
+    {
+      "title": "2026년 6월 16일 코스피 코스닥 마감 시황 | 코스피 8700 돌파... ",
+      "link": "https://blog.naver.com/choipro789/224317840905",
+      "description": "30%, 16,550원) [뉴스1] 美 풍력 규제 해소 <b>RF</b>시스템즈 (+15.59%, 9,640원) — 큐리오시스 (+15.19%, 29... 이번 <b>주</b> 후반 스트라드비젼·져스텍·빅웨이브로보틱스의 <b>공모</b><b>청약</b>이 몰려 있어, <b>청약</b> 일정과... ",
+      "pubDate": "20260616",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-06-17 00:35:14",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}

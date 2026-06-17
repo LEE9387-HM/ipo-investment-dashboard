@@ -1,0 +1,94 @@
+{
+  "rcept_no": "20260616000156",
+  "corp_name": "에이치엘지노믹스",
+  "corp_code": "00624244",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260616000156",
+  "offering_price_low": "18500",
+  "offering_price_high": "21500",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260713",
+  "subscription_end_dt": "20260714",
+  "listing_dt": "",
+  "underwriter": "케이비증권, KB증권, 및 공동주관회사와 발행회사가 제시한 희망공모가액, 보통주, 계약 체결",
+  "total_shares": "2565000",
+  "competition_ratio": "",
+  "lock_up_ratio": "80",
+  "demand_forecast_period": "",
+  "business_summary": "중 사업연도별로 비교표시하는 사항 등(이하 \"재무에 관한 사항 등\")은 제출일이 속하는 사업연도의 최근 사업연도(또는 반기, 분기)말을 공시서류작성기준일로 한다.",
+  "news": [
+    {
+      "title": "12월 공모주 '3개월 락업' 해제 본격화… 3월 '오버행' 주의보 - 뉴스톱",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHZ21PMzMxLUJ2U29YR2lEZkdqTVZJd1hzekVWNV81NFJPWjlRNHBTSkJfM1E2UF9UdjJYR1lzMmU4dl9KUXVLbXFJRU5LQTQxdTE4ZFZabkhxV1JnbHh3TlA3SXNXaE15a0FfcUJOWQ?oc=5",
+      "pubDate": "Wed, 18 Mar 2026 07:00:00 GMT"
+    },
+    {
+      "title": "이달에만 5곳 수요예측…공모주 시장 ‘꿈틀’ [시그널] - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5oV2FudWZGNXNNNklPN3NsUU5rV3FlbUVPMnI5WFN3WFVKQllhZmtka2V5UUNIakNGQVdMaURUd1RENGJzWGNUOFFma3dZUXY5YnfSAVNBVV95cUxNR3RWcGYyVkFwaHVmS1Y2bExZME5ST01LdXpXWlUya3c4YlEyRVEydkVTSnoydnFUVXlKT2QtbGhER2VONm45ZE5uNkhSeS1XSDFMOA?oc=5",
+      "pubDate": "Sun, 12 Apr 2026 07:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "<b>에이치엘지노믹스</b>, 코스닥 입성 시동…<b>공모</b> 절차 돌입",
+      "link": "https://www.newspim.com/news/view/20260616001061",
+      "description": "<b>에이치엘지노믹스</b>의 총 <b>공모주</b>식 수는 256만5000주다. 희망 <b>공모</b>가 범위는 1만8500~2만1500원이며, 이에 따른 총 <b>공모</b> 예정 금액은 475억~551억원이다. 기관투자자 대상 수요예측은 7월 2일부터 8일까지 진행된다. 일반... ",
+      "pubDate": "Tue, 16 Jun 2026 16:56:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "'원료의약품 전문기업' <b>에이치엘지노믹스</b>, 코스닥 상장 본격화",
+      "link": "https://www.hankyung.com/article/202606169899r",
+      "description": "원료의약품(API) 전문기업 <b>에이치엘지노믹스</b>가 증권신고서를 제출하고 코스닥 시장 상장을 위한 본격적인 <b>공모</b> 절차에 돌입한다. <b>에이치엘지노믹스</b>는 16일 코스닥 상장을 위한 증권신고서를 금융위원회에... ",
+      "pubDate": "Tue, 16 Jun 2026 16:48:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>에이치엘지노믹스</b>, 증권신고서 제출",
+      "link": "https://www.cstimes.com/news/articleView.html?idxno=709961",
+      "description": "<b>에이치엘지노믹스</b>의 총 <b>공모주</b>식수는 256만5000주이며 희망 <b>공모</b>가 밴드는 1만8500원~2만1500원이다. 이에 따른 총 <b>공모</b> 예정 금액은 475억 원~551억 원이다. 기관투자자 대상 수요예측은 7월 2일부터 8일까지 진행되며... ",
+      "pubDate": "Tue, 16 Jun 2026 16:24:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>에이치엘지노믹스</b>, 코스닥 상장 절차 돌입…내달 수요예측",
+      "link": "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1169285&ref=naverpc",
+      "description": "원료의약품(API) 전문기업 <b>에이치엘지노믹스</b>(대표이사 김호진)가 금융위원회에 증권신고서를 제출하고 코스닥 상장을 위한 본격적인 <b>공모</b> 절차에 돌입했다고 16일 밝혔다.<b>에이치엘지노믹스</b>의 총 <b>공모주</b>식수는 2,565... ",
+      "pubDate": "Tue, 16 Jun 2026 15:56:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "코스닥 첫 관문 뚫은 패션·제약주 '딜리셔스·<b>에이치엘지노믹스</b>' 상장...",
+      "link": "http://www.newswell.co.kr/news/articleView.html?idxno=19485",
+      "description": "따르면, ▲딜리셔스 ▲<b>에이치엘지노믹스</b> 등 2개사가 코스닥시장 상장 예비심사를 통과했다. 예비심사 승인이 떨어지면 기관투자자 수요예측과 <b>공모</b>가 확정, 일반투자자 청약을 거쳐 상장하게 된다. 2011년... ",
+      "pubDate": "Tue, 16 Jun 2026 11:04:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "간추린 경제뉴스 제목모음 2026.0617.수",
+      "link": "https://blog.naver.com/gusteam/224318390304",
+      "description": "미래에셋 대표, '스페이스X 0주 배정' 공식 사과...<b>청약</b> 투자자에 &quot;금전...  반도체 수요 증가에 5월... 원료의약품 전문기업' <b>에이치엘지노믹스</b>, 코스닥 상장 본격화...  유가 5% 급락, 80달러 하회...호르무즈... ",
+      "pubDate": "20260617",
+      "source": "블로그"
+    },
+    {
+      "title": "<b>에이치엘지노믹스</b>, 예심 통과에 증권신고서까지",
+      "link": "https://blog.naver.com/economy_it/224317938299",
+      "description": "청구한 <b>에이치엘지노믹스</b>가 6월 15일 한국거래소 코스닥시장 상장위원회의 심의를 통과했습니다. 그리고 하루도 채 지나지 않은 오늘(16일), 금융위원회에 증권신고서를 제출하며 <b>공모</b> 절차에 바로... ",
+      "pubDate": "20260617",
+      "source": "블로그"
+    },
+    {
+      "title": "【<b>에이치엘지노믹스</b>】주식... 증권신고서 제출/<b>공모주 청약</b>일정",
+      "link": "https://blog.naver.com/algml-qkqh/224318138637",
+      "description": "본격적인 <b>공모</b> 절차에 돌입합니다. <b>에이치엘지노믹스</b>는 6월 16일 코스닥 상장을 위한 증권신고서를... 기관투자가 대상 수요예측은 7월 2일부터 8일까지 진행되며, 일반 <b>청약</b>은 7월 13일부터 14일까지... ",
+      "pubDate": "20260616",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-06-17 00:35:09",
+  "total_shares_offered": "2565000",
+  "min_bid_price": ""
+}
