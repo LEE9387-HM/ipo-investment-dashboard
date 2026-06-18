@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260617000168",
+  "corp_name": "스트라드비젼",
+  "corp_code": "01370517",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약중",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617000168",
+  "offering_price_low": "12000",
+  "offering_price_high": "14000",
+  "offering_price_final": "12000",
+  "subscription_start_dt": "20260618",
+  "subscription_end_dt": "20260619",
+  "listing_dt": "",
+  "underwriter": "KB증권, 및 발행회사가 협의하여",
+  "total_shares": "7000000",
+  "competition_ratio": "",
+  "lock_up_ratio": "70",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "‘져스텍 vs 스트라드비젼’ 청약 재개···공모주 투심 다시 살아날까 - 시사저널e",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBlYm5CSGlMZV9pYjZjMWhOSTV6TzhfVzhfSEJSRWExSUxseDBmbEFNMzVHcHdQYTE3TlVwOVVSVDdlN29kb2pGQnBLeGhHRjVvbFV4VkFCN0pKRTN5bFRqMWtpX2F4M2pfaEVGX1JsX29vd9IBdkFVX3lxTE5xcGwxTWN5ZkpMaUlUVzNjb2tUNmxxeFVtUVdZMUVWeXdFaHlBYXRoY0drRTJpRHZKN3lQcktVZmZsU2RTa1ZRV1BoWnktSGRKV0JWMzdtYWdLbUFSNHZGeTBmX3cxNm52ZlBtMzlSQ1Z5OHFXdkE?oc=5",
+      "pubDate": "Wed, 17 Jun 2026 07:44:56 GMT"
+    },
+    {
+      "title": "'스트라드비젼 공모주' 청약일정 시작...공모가와 상장일 확인 - gukjenews.com",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51ODhHd1RzRFltd0dXTGxJMThKd01IaFNMTVo4d09NVTFyM0JEM1hsVDIyR1JLb1V4NHI1amxjRHUyN0VLazJLRE1ISEUwbnMxWHR2NHRHZUUtUEZkYmlrUnRDRlVxSlc0UmQzY3l3?oc=5",
+      "pubDate": "Wed, 17 Jun 2026 15:07:00 GMT"
+    },
+    {
+      "title": "[공모주 현미경 분석] ADAS용 소프트웨어 스트라드비젼, 30일 코스닥 상장 - 데일리인베스트",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLMElGY2M2RVlFdXR6NW0yYzhaWURjRU00RjFxWWQ1R2hoRXlmYU5kTWkyUHg5Vm13eDEySzF5empqbVk4M19TYm9zekdMMzVBZkJrUHBnRjE5VWtFNjhUVC05NUN1QTVxeTVB0gFvQVVfeXFMTlI1Z3QzcmtZWmdLSFRZRmhodjBINExDamNSaHJXZUtScFY5cUZrRW5HTWF4UkVwandJVklHQlJnRkRJVzVkTTlBck1iNGtQc0lwdkZjT0ppanp4bGp0NHR5UGg1Y3Y5b0NFZHJieEJr?oc=5",
+      "pubDate": "Tue, 16 Jun 2026 23:45:00 GMT"
+    },
+    {
+      "title": "‘기관 29조 몰렸지만 시장과 상생’⋯ 스트라드비젼 공모가 최하단, 흥행 청신호 - 브릿지경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53VFEtc2tFb3lyOEpRQldmVzFKbDN1X18wRmlRNl9Gb1JMX2dpZGFMemwxMzJsYTJTVTc1aVlvOWROa1k1aU43Sm1yQzJjeDFEaU5ONW9NN1podw?oc=5",
+      "pubDate": "Wed, 17 Jun 2026 04:43:00 GMT"
+    },
+    {
+      "title": "'엔비디아 협력사' 스트라드비젼, 내일(18일)부터 일반 청약... 공모가 1만2000원 확정 - 금강일보",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RUjZvY19fOVQwdWgtWm1sRndtSlpZSE9WM3B1MmEtcXpjN1JhQUNOVHpzRFFEZldndGYwTjZwMFFKSjhySkc5MU80akozTVZYdVpJREFYSVlZaWFqbm9FZHhZNDdyeVJyY3c?oc=5",
+      "pubDate": "Wed, 17 Jun 2026 11:34:58 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "'<b>스트라드비젼 공모주</b>' 청약일정 시작...공모가와 상장일 확인",
+      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3610926",
+      "description": "'<b>스트라드비젼 공모주</b>' 로고 자율주행 비전 소프트웨어 기업 스트라드비젼이 8~19일 이틀간 일반 투자자 청약을 진행한다. 앞서 9~15일 국내외 기관투자자를 대상으로 수요예측을 진행했으며, 총 1604개 기관이 참여해... ",
+      "pubDate": "Thu, 18 Jun 2026 00:10:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "'엔비디아 협력사' <b>스트라드비젼</b>, 내일(18일)부터 일반 청약... <b>공모</b>가 ...",
+      "link": "https://www.ggilbo.com/news/articleView.html?idxno=1164305",
+      "description": "상장 주관사인 KB증권 관계자는 &quot;<b>스트라드비젼</b>은 <b>공모</b> 규모가 840억원대이고 시가총액이 6390억원대에 달하는 규모임에도 경쟁률 381.30대 1을 기록하며 약 29조원에 달하는 수요를 확보했다&quot;며 &quot;최근 제도 개편으로 허수... ",
+      "pubDate": "Wed, 17 Jun 2026 20:36:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>스트라드비젼</b>, <b>공모</b>가 1만2000원 확정… &quot;기관 경쟁률 381대 1&quot;",
+      "link": "http://digitalchosun.dizzo.com/site/data/html_dir/2026/06/17/2026061780190.html",
+      "description": "상장을 주관한 KB증권 관계자는 &quot;<b>스트라드비젼</b>은 <b>공모</b> 규모가 840억원대이고 시가총액이 6390억원대에 달하는 규모임에도 불구하고 경쟁률 381.30대 1을 기록하며 약 29조원에 달하는 수요를 확보할 수 있었다&quot;며, &quot;최근... ",
+      "pubDate": "Wed, 17 Jun 2026 20:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "&quot;일반 청약 문턱 낮췄다&quot;... <b>스트라드비젼</b>, <b>공모</b>가 1만 2천 원 확정 &quot;상...",
+      "link": "https://kr.aving.net/news/articleView.html?idxno=1811803",
+      "description": "상장 주관사인 KB증권 관계자는 &quot;<b>스트라드비젼</b>은 총 <b>공모</b> 규모가 840억 원대, 상장 후 시가총액이 6,390억 원대에 달하는 대형 <b>공모주</b>임에도 381.30대 1의 경쟁률을 기록하며 약 29조 원에 육박하는 자금을 모았다&quot;라며 &quot;최근... ",
+      "pubDate": "Wed, 17 Jun 2026 19:16:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>스트라드비젼</b>, <b>공모</b>가 1만2000원 확정... 기관 경쟁률 381대 1",
+      "link": "https://www.mt.co.kr/future/2026/06/17/2026061714384234442",
+      "description": "<b>스트라드비젼</b>은 <b>공모</b> 자금을 △차세대 첨단운전자보조시스템(ADAS) 및 자율주행 기술 고도화를 위한 연구·개발 인력 확보 △글로벌 고객사 확대를 위한 영업 네트워크 강화 △비전 AI 기술 경쟁력 확보를 위한 데이터... ",
+      "pubDate": "Wed, 17 Jun 2026 18:03:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>스트라드 비젼 공모</b>가 확정 수요예측 결과",
+      "link": "https://blog.naver.com/kkundun777/224319540859",
+      "description": "항목 주요 내용 확정 <b>공모</b>가 12,000원 (밴드 하단) 총 <b>공모 주</b>식수 7,000,000 <b>주</b> 총 <b>공모</b> 규모 약 840억 원... ^^ #<b>스트라드비젼</b> #<b>스트라드비젼공모</b>가 #<b>스트라드비젼</b>수요예측 #<b>공모주청약</b> #KB증권<b>공모주</b>... ",
+      "pubDate": "20260618",
+      "source": "블로그"
+    },
+    {
+      "title": "6월 18일 <b>공모주 청약</b> 일정 져스텍과 <b>스트라드비젼</b> 마감 전... ",
+      "link": "https://blog.naver.com/ddolddolyang/224319538028",
+      "description": "2026년 6월 18일, 오늘은 져스텍과 <b>스트라드비젼</b>의 <b>공모주 청약</b>이 시작되는 날입니다. 양사 모두 6월 18일부터 19일까지 이틀간 <b>청약</b>이 진행되며, 마감 시간은 오후 4시이므로 자금 계획과 계좌 준비를 오늘... ",
+      "pubDate": "20260618",
+      "source": "블로그"
+    },
+    {
+      "title": "2026.06.18(목) 경제 뉴스 모음",
+      "link": "https://blog.naver.com/timulys/224319537387",
+      "description": "(한국, 달곰한 우리말) 2026년 6월 18일 목요일 아침뉴스 (주요신문 헤드라인) &lt;경 제&gt; • 미래에셋증권이 스페이스X IPO에서 <b>공모주</b>를 단 한 주도 배정받지 못한 사태를 계기로 해외 <b>공모주 청약</b> 관련... ",
+      "pubDate": "20260618",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-06-18 00:32:53",
+  "total_shares_offered": "7000000",
+  "min_bid_price": ""
+}

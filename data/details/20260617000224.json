@@ -1,0 +1,83 @@
+{
+  "rcept_no": "20260617000224",
+  "corp_name": "피엠티",
+  "corp_code": "00654175",
+  "stock_code": "147760",
+  "market": "KOSDAQ",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617000224",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260619",
+  "subscription_end_dt": "20260622",
+  "listing_dt": "",
+  "underwriter": "",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [],
+  "community_news": [
+    {
+      "title": "[베스트&amp;워스트] 반도체 장비로 쏠린 코스닥…<b>피엠티</b> 60%대 급등",
+      "link": "https://www.etoday.co.kr/news/view/2587331",
+      "description": "<b>주</b>(18~22일) 코스닥 지수는 전주 대비 31.31포인트(2.77%) 오른 1161.13으로 마감했다. 이 기간 외국인이 1조2930억원 순매수했고 개인은 1조930억원 순매도했다. 기관은 170억원 순매도했다. 주간 상승률 1위는 <b>피엠티</b>... ",
+      "pubDate": "Sat, 23 May 2026 08:02:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주식마감] '엔비디아' 기반 디지털트윈 계약에 유디엠텍 상한가... 한화...",
+      "link": "https://www.ggilbo.com/news/articleView.html?idxno=1157975",
+      "description": "알엔티엑스, <b>피엠티</b>, 그린생명과학, 유디엠텍, 앱튼, 판타지오, 형지I&amp;C가 상한가에 이름을 올리고 장을... 일반<b>공모</b> 방식의 유상증자를 결정했다고 공시했다. 이번 유상증자를 통해 주당 4985원에 보통주 신주 820만... ",
+      "pubDate": "Wed, 13 May 2026 19:40:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[특징주]<b>피엠티</b>, 유상증자 소식에 14% 급락",
+      "link": "https://view.asiae.co.kr/article/2026041009354877242",
+      "description": "<b>피엠티</b>는 전날 시설자금 조달을 위해 약 185억원 규모의 유상증자를 결정했다고 공시했다. 증자방식은 주주배정 후 실권주 일반<b>공모</b>다. 발행 예정 주식 수는 보통주 918만134주다. 1주당 액면가액은 500원이다.",
+      "pubDate": "Fri, 10 Apr 2026 09:35:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "185억 규모 유상증자 나서는 <b>피엠티</b>, 14%↓[특징주]",
+      "link": "http://www.edaily.co.kr/news/newspath.asp?newsid=02791286645414808",
+      "description": "<b>피엠티</b>(147760)가 장 초반 급락하고 있다. 유상증자에 나선다는 소식에 매도세가 몰리는 것으로 보인다.... 증자방식은 주주배정후 실권주 일반<b>공모</b>이며 발행예정 주식 수는 보통주 918만 134주다. 유상증자는 기업이... ",
+      "pubDate": "Fri, 10 Apr 2026 09:28:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주요공시] 애경산업, 풍산, 세보엠이씨, 인디에프, 모아텍 외",
+      "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=204157",
+      "description": "■ <b>피엠티</b>(KOSDAQ, 147760)는 증권신고서(지분증권)를 제출하고 주주배정 후 실권주 일반<b>공모</b> 방식... 본 기사에서 사용된 데이터는 신뢰할만한 기관으로부터 수집, 금융데이터 전문분석기업인 (<b>주</b>)아웃샤인... ",
+      "pubDate": "Thu, 09 Apr 2026 23:08:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>공모주 청약</b> 일정 (6/4 ~ 6/18)",
+      "link": "https://blog.naver.com/kilsblog/224319524656",
+      "description": "<b>공모주 청약</b> 일정 (6/4 ~ 6/18) 최근 2주간 DART에 증권신고서를 제출한 <b>공모주</b> 기업... <b>청약</b> 임박 — 발행조건 확정 기업명 업종 시장 공시일 <b>청약</b> 일정 DART <b>피엠티</b> 확정 의료기기 코스닥... ",
+      "pubDate": "20260618",
+      "source": "블로그"
+    },
+    {
+      "title": "콩고 에볼라 확산, 뒤처진 대응 속도 !",
+      "link": "https://blog.naver.com/joosiksin/224317754234",
+      "description": "결론적으로, 이 상황은 단순히 보건 위기만이 아니라 분쟁, 난민 이동, 의료 공백, 국제 협력 부족이 맞물린 복합적 위기입니다. 대응의 핵심은 속도와 신뢰인데, 지금은 두 가지 모두 부족한 상태입니다.... ",
+      "pubDate": "20260616",
+      "source": "블로그"
+    },
+    {
+      "title": "피스피스스튜디오 상장 결과 공개 — 6월 2주차 <b>공모주</b> 수익... ",
+      "link": "https://blog.naver.com/minto_ipo/224316626139",
+      "description": "다음 <b>주</b> <b>공모주 청약</b>·상장 일정 미리보기 6월 3주차(6/16~6/22)는 <b>청약</b> 물량이 제법 많아요. 미리... 유진·미래에셋 <b>피엠티</b> 6/19~ 미정 미정 그리고 메리츠제2호기업인수목적 스팩이 6월 19일(목) 코스닥에... ",
+      "pubDate": "20260615",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-06-18 00:32:50",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}
