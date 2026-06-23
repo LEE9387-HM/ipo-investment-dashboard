@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260622000382",
+  "corp_name": "매드업",
+  "corp_code": "01379129",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약중",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260622000382",
+  "offering_price_low": "7000",
+  "offering_price_high": "8000",
+  "offering_price_final": "8000",
+  "subscription_start_dt": "20260623",
+  "subscription_end_dt": "20260624",
+  "listing_dt": "",
+  "underwriter": "미래에셋증권, 및 발행회사가 협의하여",
+  "total_shares": "2000000",
+  "competition_ratio": "1396.29",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "중 사업연도별로 비교표시하는 사항 등(이하 \"재무에 관한 사항 등\")은 제출일이 속하는 사업연도의 최근 사업연도(또는 반기, 분기)말을 공시서류작성기준일로 한다.",
+  "news": [
+    {
+      "title": "[공모주 현미경 분석] AI 기반 마케팅 전문기업 매드업, 7월1일 코스닥 상장 - 데일리인베스트",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TRHVjOHhIcDVPbFNmdHBnZlBvZjhnNVZKWUFMdHJjMVdJUHh6bTJwVlBpVy0tdkg4OG9tWHNoWXhueG5oZmdmUEtPcVJ5VWZ5SFJqZTNSYmFQekdwWGJMdDZ0M1BrU0xJbWNJUNIBb0FVX3lxTE91UWRUeUl3dVRpWDNWZjhwM0o5bmdmN2NKeTNLbzZvSUNENGEzTG5acHhpQlQ2MC1qd1lWbFl5OFVPYWE4NDdWNHhPNHkwZC1lWFpLVjFaRWtEQ29ONVE4Nmd6T1VFVGQ0c0RMeVBaYw?oc=5",
+      "pubDate": "Mon, 22 Jun 2026 23:30:00 GMT"
+    },
+    {
+      "title": "[공모주 청약] 매드업, 일반청약 첫날 흥행 조짐…수요예측 1396대 1 기록 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9PV0YxaG5iRkdSekJjNkt0ZkctalVEU1JHWlRSMFZwdjJMOFhCa1hweWhTOWFnVDNUZm5ERzRvQW40MjBVVl95Qm1BZmtzVHBCNjNBNW9kTExjUXhYOXBxSm5oX0RKeXJy?oc=5",
+      "pubDate": "Tue, 23 Jun 2026 00:48:09 GMT"
+    },
+    {
+      "title": "[공모주달력]매드업·레몬헬스케어 청약…빅웨이브 또 정정요구 - 비즈워치",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaa2ZyQU9uRElkSHFFUk94cU9KU1JiQzlYRW5hYUlhYlZjVXRkb0tlU09INTN2MF9oWDk5OEw1elJsQmNNYXBlUUpmN0t0ZXdKRXVlaXdUUzU5MklpM01wbXFzZEhsR2JJNGc?oc=5",
+      "pubDate": "Sun, 21 Jun 2026 00:00:02 GMT"
+    },
+    {
+      "title": "매드업, 공모가 8000원 확정…수요예측 경쟁률 1396대 1 - 월요신문",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4tSkNuV1ppVl9tR3dOVFV3TFdpSEduOXVFenM2cGxxcG5ieHlvTGkzdUZtVmFkLWNtbDVSQlk1LWlINTI4b0ZXMDYxZkg0Smx1bHdVenNlMHc1Mng3bTFIeWNHUmFzaTRvX3c?oc=5",
+      "pubDate": "Mon, 22 Jun 2026 23:57:25 GMT"
+    },
+    {
+      "title": "이번주 공모주 청약, 매드업·레몬헬스케어 2개사 - 데일리안",
+      "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNSE1xVUoxR2JIcDJndk5BV0JLRHZIOWxiOHRwNVhtM2lsSjA2OWowU2UyWFFSZGtSOGI0OUlkeXFuS1VMQWtsT2l0MXQxeWdRR19MTXpMMUFiekR6d29oNWZDNU5uMk80LURPY0l2ZVYzNFl3bU5OaXJGQXlrWFQyVlZXWWgzc3ZZeFVKd05YS0J0ODgxclNLNFJET3E0d0JnOFNkSGdRUHhOUHBrSFozczNqY0VNby1BZnkxVjUxbklpaUVvVzF0MFdZSEtLLWQzaHhaQ3UxU2RBN2xyOFV0MjdxSFdXYVBtbVUtSFFXaTFKWFgwRk91UHU1WjhEckRieFF3TExUOGYyZnVfdXlCWVZ0RFhScGtOcGJsN1I1ZlpfM3hWd2x0bkh2YjhCd9IBsAJBVV95cUxQRG9jTHd1LXlEZmZnTGE2dmUxWHRKVEFQQnRBaWJ4WXlsTHhQX1VEMGZnUi1yektqLWFjRl9VejM3bzJBMFZRbEtTdDJCbFR5TE1aRVZuLXdYeThJUWxHb19Fc3l0c3R2cE5XTnNDOUZ2S28yVmlwaHN1WkxCUjlGdHJYRUg3SUhqaV9EZUoxV28wYzlmQUU5cGFEemtoQkp3MkhtWlBOOFlVWnFGa21SVHV1cG4tZEMwLW9ROWktRGFGX29wcUpPTXZWdEJ6U2R5OHBzS0dadDd4SjU5V21SODQwZmhwLU5ULXlxb0pQUUU3Yk81WV9BMEo3a1V1ekp3Um1yUk9hUkJMRC1OTXc2WlZuUUtPd3JReTNRdDh1dWFvNmJlRWJabmdfV2c3LVJ1?oc=5",
+      "pubDate": "Sat, 20 Jun 2026 15:10:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "AI 스타트업 흥행…1396대 1 몰렸다",
+      "link": "https://www.sedaily.com/article/20058921?ref=naver",
+      "description": "▲ AI 프리즘* 맞춤형 경제 브리핑 * 편집자 <b>주</b>: ‘AI PRISM’(Personalized Report &amp; Insight Summarizing Media)은... <b>매드업</b>, <b>공모</b>가 8000원 확정…내달 1일 코스닥 입성 시동 - 핵심 요약: AI 마케팅 기업 <b>매드업</b>이 국내외... ",
+      "pubDate": "Tue, 23 Jun 2026 10:08:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[<b>공모주</b> 청약] <b>매드업</b>, 일반청약 첫날 흥행 조짐…수요예측 1396대 1 기록",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=583901",
+      "description": "<b>매드업</b>의 <b>공모</b>가는 희망<b>공모</b>가 밴드 상단인 8,000원으로 확정됐다. 앞서 진행된 기관투자자 대상 수요예측에서는 1,396.29대 1의 경쟁률을 기록하며 높은 관심을 확인했다. 회사는 오는 7월 1일 코스닥 시장 상장을... ",
+      "pubDate": "Tue, 23 Jun 2026 09:50:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "멜트업 장세엔 이 포지션 구축해야 [한경 프리미엄9 TODAY]",
+      "link": "https://www.hankyung.com/article/2026062211381",
+      "description": "자동화 솔루션 기업 <b>매드업</b>과 스마트 병원 플랫폼 기업 레몬헬스케어가 각각 독자적인 기술 고도화, 재무구조 개선을 앞세워 코스닥시장 입성에 도전한다. 두 기업의 <b>공모주</b> 투자 전망을 한경 프리미엄9이 분석했다.",
+      "pubDate": "Mon, 22 Jun 2026 17:51:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "오늘의 메모[6월 23일]",
+      "link": "https://www.sedaily.com/article/20058569?ref=naver",
+      "description": "▲<b>공모주</b>청약=<b>매드업</b>(주관사 미래에셋) 한국제16호스팩(한국) ▲구주주유상청약=뉴인텍(012340) ▲실권주청약=RF머트리얼즈(327260)(주관사 교보) ▲보통주추가상장=큐리언트(115180)(주식매수선택권행사)... ",
+      "pubDate": "Mon, 22 Jun 2026 13:55:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "이번주 <b>공모주</b> 청약, <b>매드업</b>·레몬헬스케어 2개사 나선다",
+      "link": "http://www.joseilbo.com/news/news_read.php?uid=570451&class=53&grp=",
+      "description": "이번 <b>주</b> 기업공개(IPO) 시장에서는 신규 상장 기업 없이 인공지능(AI) 기술을 사업 전면에 내세운 <b>매드업</b>과 레몬헬스케어가 일반 투자자를 대상으로 <b>공모주</b> 청약에 나선다. <b>매드업</b>은 축적된 광고 집행 데이터와 AI... ",
+      "pubDate": "Mon, 22 Jun 2026 09:31:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>매드업 공모주 청약</b> 넣을까 말까? 미래에셋 균등 최소 증거금... ",
+      "link": "https://blog.naver.com/economydev/224324342976",
+      "description": "매드업 청약 8천 원, 넣을까 말까 60초 정리 코스닥 상장을 앞둔 <b>매드업 공모주 청약</b> 매드업 일반청약은 6월 23일부터 24일까지, 미래에셋증권 한 곳에서만 받는다. 공모가는 희망밴드 상단인 8,000원에... ",
+      "pubDate": "20260623",
+      "source": "블로그"
+    },
+    {
+      "title": "<b>매드업 공모주</b>, 메타가 투자한 AI 마케팅 솔루션 기업",
+      "link": "https://blog.naver.com/wonderfulwitch/224324338373",
+      "description": "최소 <b>청약</b> 증거금: 80,000원 수수료: 2,000원 주관사: 미래에셋증권 (단독 주관) <b>매드업 공모</b>는 전량 신주모집 방식으로 진행되며 기존 주주가 지분을 매각하는 구주매출에 따른 출회 부담이 전혀 없는... ",
+      "pubDate": "20260623",
+      "source": "블로그"
+    },
+    {
+      "title": "<b>매드업</b> 수요예측 결과는 흥행일까? 경쟁률 1396대 1과 확약률... ",
+      "link": "https://blog.naver.com/ych6922/224324337393",
+      "description": "청약 판단은 확약률과 상장일 유통가능물량까지 같이 봐야 합니다. 출처 파이낸셜포스트, 「매드업, 공모가 상단 8000원 확정…수요예측 1396대 1 ‘흥행 성공’」 38커뮤니케이션, 「<b>매드업 공모주청약</b>... ",
+      "pubDate": "20260623",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-06-23 02:12:55",
+  "total_shares_offered": "2000000",
+  "min_bid_price": ""
+}
