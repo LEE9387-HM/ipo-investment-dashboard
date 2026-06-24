@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260623000235",
+  "corp_name": "레몬헬스케어",
+  "corp_code": "01424261",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약중",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623000235",
+  "offering_price_low": "7500",
+  "offering_price_high": "10000",
+  "offering_price_final": "10000",
+  "subscription_start_dt": "20260624",
+  "subscription_end_dt": "20260625",
+  "listing_dt": "",
+  "underwriter": "KB증권, 및 발행회사가 협의하여 제시한 희망공모가액, 및 발행회사가 협의하여 결정한 확정공모가액",
+  "total_shares": "",
+  "competition_ratio": "1238.00",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "중 사업연도별로 비교표시하는 사항 등(이하 \"재무에 관한 사항 등\")은 제출일이 속하는 사업연도의 최근 사업연도(또는 반기, 분기)말을 공시서류작성기준일로 한다.",
+  "news": [
+    {
+      "title": "[공모주 속보] 레몬헬스케어, 일반청약 돌입…공모가 상단 확정에 시장 관심 집중 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKNEs0THVhTmRTZ0pjRVdjdFR1bGRHcGxJMUhfUUhaOUQzZzRlV3oybEJQYTUwRlAxUllzRW5TemRfQkwtQXJRMVRJT0hTZkIzdmVfTmktbmFHQzdSNDJjY3VqVmRxckVQ?oc=5",
+      "pubDate": "Wed, 24 Jun 2026 01:23:09 GMT"
+    },
+    {
+      "title": "레몬헬스케어, 공모가 상단 1만원 확정…상장 후 시총 약 1335억 - 뉴스톱",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1NMWxIVDZRR2VxaFlFa3VrWjVTMTBKUzB0czFVVFBHQkJseWpMVmhCTWNwQkFSdmdwUUdfNS13SWxNUWZyRU9VRVR4TGtzLTdkeC14MHpPZmI4eGV4VDJoMWRJak1OOHlCU19QSnRlQQ?oc=5",
+      "pubDate": "Tue, 23 Jun 2026 08:31:33 GMT"
+    },
+    {
+      "title": "'레몬헬스케어 공모주' 청약 접수...공모가와 상장일 확정 - gukjenews.com",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TangzNTJMVlgwVFdGRDdOXy1OUGRQV3lGRWROamN3LXBiMUJJVVRuR2k3TFkzWGNyZ3VmZGpwWmlGdzV6ZEtyY2I4SU5uVS1FNV9vTFBDUkJCR1FESTZrblZDOXlmQjU0cGZVMlB3?oc=5",
+      "pubDate": "Tue, 23 Jun 2026 15:04:00 GMT"
+    },
+    {
+      "title": "[공모주달력]매드업·레몬헬스케어 청약…빅웨이브 또 정정요구 - 비즈워치",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaa2ZyQU9uRElkSHFFUk94cU9KU1JiQzlYRW5hYUlhYlZjVXRkb0tlU09INTN2MF9oWDk5OEw1elJsQmNNYXBlUUpmN0t0ZXdKRXVlaXdUUzU5MklpM01wbXFzZEhsR2JJNGc?oc=5",
+      "pubDate": "Sun, 21 Jun 2026 00:00:02 GMT"
+    },
+    {
+      "title": "이번주 공모주 청약, 매드업·레몬헬스케어 2개사 - 데일리안",
+      "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNSE1xVUoxR2JIcDJndk5BV0JLRHZIOWxiOHRwNVhtM2lsSjA2OWowU2UyWFFSZGtSOGI0OUlkeXFuS1VMQWtsT2l0MXQxeWdRR19MTXpMMUFiekR6d29oNWZDNU5uMk80LURPY0l2ZVYzNFl3bU5OaXJGQXlrWFQyVlZXWWgzc3ZZeFVKd05YS0J0ODgxclNLNFJET3E0d0JnOFNkSGdRUHhOUHBrSFozczNqY0VNby1BZnkxVjUxbklpaUVvVzF0MFdZSEtLLWQzaHhaQ3UxU2RBN2xyOFV0MjdxSFdXYVBtbVUtSFFXaTFKWFgwRk91UHU1WjhEckRieFF3TExUOGYyZnVfdXlCWVZ0RFhScGtOcGJsN1I1ZlpfM3hWd2x0bkh2YjhCd9IBsAJBVV95cUxQRG9jTHd1LXlEZmZnTGE2dmUxWHRKVEFQQnRBaWJ4WXlsTHhQX1VEMGZnUi1yektqLWFjRl9VejM3bzJBMFZRbEtTdDJCbFR5TE1aRVZuLXdYeThJUWxHb19Fc3l0c3R2cE5XTnNDOUZ2S28yVmlwaHN1WkxCUjlGdHJYRUg3SUhqaV9EZUoxV28wYzlmQUU5cGFEemtoQkp3MkhtWlBOOFlVWnFGa21SVHV1cG4tZEMwLW9ROWktRGFGX29wcUpPTXZWdEJ6U2R5OHBzS0dadDd4SjU5V21SODQwZmhwLU5ULXlxb0pQUUU3Yk81WV9BMEo3a1V1ekp3Um1yUk9hUkJMRC1OTXc2WlZuUUtPd3JReTNRdDh1dWFvNmJlRWJabmdfV2c3LVJ1?oc=5",
+      "pubDate": "Sat, 20 Jun 2026 15:10:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "[<b>공모주</b> 속보] <b>레몬헬스케어</b>, 일반청약 돌입…<b>공모</b>가 상단 확정에 시장...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=584213",
+      "description": "<b>레몬헬스케어 공모</b>가는 1만원이다. 대표 주관사는 KB증권이며, 상장 예정일은 7월 6일이다. <b>레몬헬스케어</b>는 스마트병원 및 의료데이터 플랫폼 사업을 영위하는 기업으로 코스닥 시장 상장을 추진하고 있다. 주요... ",
+      "pubDate": "Wed, 24 Jun 2026 10:24:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>공모</b> 흥행에도 주가는 '딴판'…IPO 수요예측과 상장 후 엇박자",
+      "link": "https://www.newstopkorea.com/news/articleView.html?idxno=45751",
+      "description": "◆ 매드업·<b>레몬헬스케어 공모</b>가 상단…스트라드비젼은 하단 AI 마케팅 기업 매드업과 의료데이터 중계 플랫폼 <b>레몬헬스케어</b>가 이번 <b>주</b> 나란히 <b>공모</b>가를 희망 밴드 상단에서 확정했다. 매드업은 지난 12~18일... ",
+      "pubDate": "Wed, 24 Jun 2026 06:46:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "'<b>레몬헬스케어 공모주</b>' 청약 접수...공모가와 상장일 확정",
+      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3615894",
+      "description": "<b>레몬헬스케어 공모주</b> 로고 의료 데이터 중계 플랫폼 전문기업 레몬헬스케어가 24일~25일 양일간 일반 투자자 대상 청약을 진행한다. 레몬헬스케어가 국내외 기관투자가를 대상으로 진행한 수요예측 결과를 토대로... ",
+      "pubDate": "Wed, 24 Jun 2026 00:06:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "5년 만의 권토중래...<b>레몬헬스케어</b>, <b>공모</b>가 상단 1만원 확정 '7월 코스닥...",
+      "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=263687",
+      "description": "가격 미제시 수량(0.71%)을 포함해 100%가 확정 <b>공모</b>가 이상 가격을 제시했다고 <b>레몬헬스케어</b> 관계자는 설명했다. 확약 기간별 수요예측 참여를 보면 전체 참여 수량 18억5700만4000주 중 93.08%에 해당하는... ",
+      "pubDate": "Tue, 23 Jun 2026 17:30:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>레몬헬스케어 공모</b>가 상단 확정…7월 코스닥 상장 [시그널]",
+      "link": "https://www.sedaily.com/article/20059146?ref=naver",
+      "description": "코스닥 기업공개(IPO)를 추진 중인 <b>레몬헬스케어</b>가 <b>공모</b>가를 밴드 상단인 1만 원에서 확정했다. 회사의 주력 아이템인 의료 마이데이터 중개 플랫폼 경쟁력과 향후 성장성이 높은 관심을 받은 결과로, 이번 <b>주</b> 일반... ",
+      "pubDate": "Tue, 23 Jun 2026 16:45:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "6월 <b>공모주</b> 매드업 <b>레몬헬스케어</b>, 어디에 <b>청약</b>할까?",
+      "link": "https://blog.naver.com/hi0203_/224325504976",
+      "description": "6월 <b>공모주 청약</b> 일정 중 매드업과 <b>레몬헬스케어</b>의 <b>청약</b>일이 겹쳤습니다. 주관사도 다르고, 상장 일정도 달라서 어느 종목에 더 비중을 둘지 고민하는 분들이 많을 것 같은데요! 저도 <b>청약</b> 전략을... ",
+      "pubDate": "20260624",
+      "source": "블로그"
+    },
+    {
+      "title": "6월 <b>공모주 청약</b> 마지막 <b>레몬헬스케어</b>, 상장하면 수익 날까?",
+      "link": "https://blog.naver.com/tkos3333/224325502469",
+      "description": "9% <b>레몬헬스케어</b>, <b>공모</b>가 상단 1만원 확정…24~25일 일반<b>청약</b> 한국경제 <b>레몬헬스케어</b> □ 의료 마이데이터 병원마다 흩어져 있는 진료기록 처방내역 검사결과 등을 환자가 편하게 활용할 수 있게 만들어 줌... ",
+      "pubDate": "20260624",
+      "source": "블로그"
+    },
+    {
+      "title": "<b>레몬헬스케어 공모주 청약</b>!... (ft.레몬헬스케어 수요예측... ",
+      "link": "https://blog.naver.com/gogoaza7577/224325496687",
+      "description": "<b>레몬헬스케어 공모주 청약</b> 매드업에 이어 오늘부터 <b>레몬헬스케어 공모주 청약</b>이 시작됐습니다. 방금전 저도 레몬헬스케어 공모주 신청을 하고 왔는데요^^;; 레몬헬스케어 공모주 이번 주 공모주 일정이... ",
+      "pubDate": "20260624",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-06-24 02:02:48",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}
