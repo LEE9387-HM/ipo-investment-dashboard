@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260515003045",
+  "corp_name": "툴젠",
+  "corp_code": "00547510",
+  "stock_code": "199800",
+  "market": "KOSDAQ",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515003045",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260803",
+  "subscription_end_dt": "20260804",
+  "listing_dt": "",
+  "underwriter": "대신증권(주), 키움증권(주)",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "모델인 기술이전은 원천기술 보유자의 기술 특허 등을 사용할수 있는 권리를 이전하는 것으로서, 당사와 같이 기술력과 이를 반영한 지식재산권이 회사의 사업을 영위하는 데 있어 큰 비중을 차지하고 있는 상황에서 지식재산권 관리는 기업가치 제고의 핵심사안 중 하나입니다.",
+  "news": [
+    {
+      "title": "툴젠, 코스닥 이전 상장…내달 2~3일 공모주 청약 - 약업신문",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9JaS1Kc1I5MjVwVmFQbmFqcTFCNGdibFJLSmI2NzQ4dHJrVm55RW16VzRSMWJoZFdTR1Nkb0VNWHhUZzZ1Y3E4bjNkUjJfQjB6eVVSOHhrSnc1WmpHdDFTT1VUWjU1aTJXUWwxN3YzbV9BUVlqT2N6TVJxQ3FhUQ?oc=5",
+      "pubDate": "Fri, 04 Nov 2022 23:48:08 GMT"
+    },
+    {
+      "title": "툴젠, 증권신고서 제출…연내 코스닥 이전상장 추진 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DcTBPa1c3Mm5KODBfZjlKZ0J4TEJKZ3NFUEFOemlrdkZFMHM4WnViSjItejk5WFZRVWVHNVZNWTJZa0c2MzRQa3pZTTk5NklSeERHTHU1THdiRjDSAWBBVV95cUxNREpMN19pV19VRXBCZlo2NVhwWW51WGFzTTNhMUpINHl4VEg3ZzI4eWNaTmYwcEp3b1hqUldubUFFZUFYdDg1Zzg0M010MzhvNHgyUVZfcjJqY0xPcl9FeXc?oc=5",
+      "pubDate": "Wed, 10 Nov 2021 08:00:00 GMT"
+    },
+    {
+      "title": "'유전자 가위' 툴젠, 코스닥 예비심사 청구…연내 상장 - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE16TkdRcGZ2LW9RQ1g2UDdGMXlCVDdWZFdzeDBKWVRCc09WcGZUbDdZTXp1eTVYNVVQVng0T1dPQWoyRGd5U1dFa1hncExRc2JtSXlXNEFlQmxBaFdhQWlkTHBLbzZ4dw?oc=5",
+      "pubDate": "Wed, 15 Sep 2021 07:00:00 GMT"
+    },
+    {
+      "title": "툴젠, 공모가 하단 30% 밑돈 7만원 확정...환매청구권 부여 - 데일리안",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96bVgzVkdjMmZkWFFsaTlWb2Z4bXVFMVpXcGFEb2s5VHhXSWNPelNDNE43MUFfSDROMEZONnpDQjRVQ0JOTlhFZVJqOU1aVHFST05DaC130gHwAUFVX3lxTE4taS15QnZXWnpRMHdzcWduWVFoT3JjRUdva25nTlVhUnVKUndLaUdEQVE1Q3hfMGJZOTZQNnNFblk4RnlXbm1PRjVaTlVLV1daWDRIVFJaTGNOQVdPd2FWSENYMTNmQWlFSTQwSy1DUjVfaGc3ZUotTVNRV3hLTmx6UGw2amNqM25pRmhlNGZGRGFTQXllTGs3UGVlQ2lFdlhZVFRvWFh0VEZyYVdMYl9MaTVtTjV0R0g4eUd5LVZkTXNFWU85bV9qaDBTRWwtSzBiMWhkbTlIc3MyS2VJQzF4VW9XN3lFaV9IeVlyUGJHXw?oc=5",
+      "pubDate": "Tue, 30 Nov 2021 08:00:00 GMT"
+    },
+    {
+      "title": "툴젠, 공모가 7만 원 확정…내달 2~3일 일반 청약 - 더팩트",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95c0xlbTNuYVIxajhBeFhLUlp0QnAtZ2JsQmNqSUE1X1FnWXN3UHVrMnpyMzR2UU1yREhYYTdiRnYycnlGTEo2TDFUQTNkbkMxQjJONER2TkFUZ9IBVEFVX3lxTE0yM1BxZWowT2E4TEpUbDJ1RDdRUVZ6b3IyVmJxSjJpbjhpMkNUZlVpOTF6VFY1STBXMnNveHRvMFc5YXYtNURMUzdVNWk3SVlIZTJWeQ?oc=5",
+      "pubDate": "Tue, 30 Nov 2021 08:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "오늘의 메모[5월 27일]",
+      "link": "https://www.sedaily.com/article/20048134?ref=naver",
+      "description": "(주식소각) ▲<b>공모주</b>청약=피스피스스튜디오(주관사 NH) ▲신주배정기준일=코미코(183300)(무상) ▲보통주추가상장=HEM파마·<b>툴젠</b>(주식매수선택권행사) 해성옵틱스·엑스큐어·엑스플러스(국내CB)... ",
+      "pubDate": "Tue, 26 May 2026 10:37:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[베스트&amp;워스트] 반도체 장비로 쏠린 코스닥…피엠티 60%대 급등",
+      "link": "https://www.etoday.co.kr/news/view/2587331",
+      "description": "폴레드는 14일 코스피 시장 상장 첫날 ‘따따블’(<b>공모</b>가의 4배)을 기록하며 성공적으로 데뷔했으나... <b>툴젠</b>은 9만6600원에서 6만4700원으로 33.02% 하락했다. 포니링크는 3995원에서 2805원으로 29.79% 내렸고... ",
+      "pubDate": "Sat, 23 May 2026 08:02:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[N2 모닝 경제 브리핑-5월 18일] 美 증시, AI 차익실현에 일제히 하락…...",
+      "link": "https://www.news2day.co.kr/article/20260516500004",
+      "description": "자기자본 대비 17.36% - <b>툴젠</b> : 약 701억원 규모 주주배정후 실권주 일반<b>공모</b> 방식 유상증자 결정 ■ 주요 경제부처 일정(18일) [재정경제부] - 부총리 한국경제 설명회 및 G7 재무장관회의(~20일) - 2026년 생활비... ",
+      "pubDate": "Mon, 18 May 2026 05:56:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주요공시] 삼성전자, 알테오젠, 이수화학, 다우데이타, 삼천당제약, 대...",
+      "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=205317",
+      "description": "■ <b>툴젠</b>(KOSDAQ, 199800)은 증권신고서(지분증권)를 제출했다. DART <b>공모</b>게시판상 지분증권 청약 예정일은... 본 기사에서 사용된 데이터는 신뢰할만한 기관으로부터 수집, 금융데이터 전문분석기업인 (<b>주</b>)아웃샤인... ",
+      "pubDate": "Fri, 15 May 2026 23:54:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "오늘의 증시 일정 (1월 20일)",
+      "link": "https://www.mk.co.kr/article/11937127",
+      "description": "◇<b>공모주</b>청약=덕양에너젠(첫날, NH, 미래, 미정) ◇추가상장=퀀타매트릭스 압타바이오 <b>툴젠</b> 에이치엘비이노베이션 아이엘 오킨스전자 제이에스링크(CB) 코츠테크놀로지 한스바이오메드 에이치엘비 레뷰코퍼레이션... ",
+      "pubDate": "Mon, 19 Jan 2026 17:29:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "반도체 빚투, 무엇이 문제인가?",
+      "link": "https://blog.naver.com/joosiksin/224334946622",
+      "description": "최근 삼성전자와 SK하이닉스를 둘러싼 이른바 '빚투 신용융자 열풍과 그 이면에 숨은 위험성을 짚어보겠습니다. 시장의 욕망이 어떻게 개인을 막다른 골목으로 몰고 가는지, 그 구조를 일목요연하게 정리해... ",
+      "pubDate": "20260703",
+      "source": "블로그"
+    },
+    {
+      "title": "삼전닉스 시장의 이성을 흔드는 5가지 징후!",
+      "link": "https://blog.naver.com/joosiksin/224333816897",
+      "description": "삼성전자와 SK하이닉스, 우리 경제의 두 기둥이 오늘 왜 이렇게 곤두박질쳤을까. 많은 분이 가슴을 졸이며 지켜보셨을 겁니다. 주식시장이라는 게 본래 온갖 욕망과 공포가 뒤섞이는 복잡계이긴 합니다만... ",
+      "pubDate": "20260702",
+      "source": "블로그"
+    },
+    {
+      "title": "민주콩고 에볼라 창궐, 그리고 확산세!",
+      "link": "https://blog.naver.com/joosiksin/224332726840",
+      "description": "이 사안은 단순히 먼 나라의 전염병 뉴스로 치부할 일이 아닙니다. 보건 위기가 어떻게 정치적 억압과 경제적 파국으로 연결되는지 보여주는 아주 전형적이고도 위험한 사례거든요. 보내주신 소식을, 현재... ",
+      "pubDate": "20260701",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-07-04 02:35:10",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}
