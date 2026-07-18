@@ -1,0 +1,83 @@
+{
+  "rcept_no": "20260624000482",
+  "corp_name": "아모텍",
+  "corp_code": "00298447",
+  "stock_code": "052710",
+  "market": "KOSDAQ",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624000482",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260806",
+  "subscription_end_dt": "20260807",
+  "listing_dt": "",
+  "underwriter": "",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "으로 영위하고 있으며, 스마트폰, 자동차 전장, 가전 및 산업용 전자기기 등을 주요 전방산업으로 두고 있습니다.",
+  "news": [],
+  "community_news": [
+    {
+      "title": "[자금조달 프리뷰] 세아제강 <b>공모</b>채·매드업 IPO '출격'",
+      "link": "https://www.bloter.net/news/articleView.html?idxno=666028",
+      "description": "유상증자 시장에서는 뉴로메카·에이전트AI·경남제약·<b>아모텍</b>·썸에이지 등의 신주배정기준일이 예정돼 있다. 세아제강, 1150억 규모 <b>공모</b>채 청약 21일 금융감독원 전자공시시스템에 따르면 세아제강은 25일... ",
+      "pubDate": "Sun, 21 Jun 2026 09:30:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "'AI 부품 초호황' MLCC 관련주 뜨자 상한가 직행한 '이 종목'",
+      "link": "https://www.mt.co.kr/stock/2026/05/31/2026053115082744704",
+      "description": "머니투데이 증권부가 선정한 5월 넷째주(25~29일) 베스트리포트는 △고의영 iM증권 연구원이 <b>아모텍</b>을... 회사는 지난 22일 주주배정 후 실권주 일반<b>공모</b> 방식의 유상증자를 결정했다. 최대주주는 유상증자에 70% 참여할... ",
+      "pubDate": "Sun, 31 May 2026 16:24:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "&quot;AI향 부품 초호황&quot;…MLCC 관련주 동반 상승",
+      "link": "https://www.mt.co.kr/stock/2026/05/26/2026052609291832798",
+      "description": "<b>아모텍</b>은 지난 22일 350억5230만원 규모의 유상증자를 결정했다고 공시했다. 조달한 자금은 시설자금(300억원)과 운영자금(50억원)으로 사용할 예정이다. 증자 방식은 주주배정후 실권주 일반<b>공모</b> 방식이다.... ",
+      "pubDate": "Tue, 26 May 2026 09:30:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[특징주] <b>아모텍</b>, 350억 유증·10% 무증에 강세…설비투자 기대 부각",
+      "link": "https://www.tokenpost.kr/news/economy/363048",
+      "description": "<b>아모텍</b>은 앞서 이사회에서 약 350억원 규모의 주주배정 후 실권주 일반<b>공모</b> 방식 유상증자를 결정했다고 공시했다. 보통주 237만주를 주당 1만4790원에 발행할 예정이며, 조달 자금은 시설자금 300억원, 운영자금... ",
+      "pubDate": "Tue, 26 May 2026 09:26:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[특징주] <b>아모텍</b>, 대규모 시설 투자 기대감에 장초반 급등",
+      "link": "https://www.etoday.co.kr/news/view/2587619",
+      "description": "앞서 22일 <b>아모텍</b>은 시설자금 등 약 350억원을 조달하고자 주주배정후 실권주 일반<b>공모</b> 유상증자를 결정했다고 공시했다. 주당 1만4790원에 신주 237만주(보통주)가 발행된다. <b>아모텍</b>은 무상증자도 결정해 보통주... ",
+      "pubDate": "Tue, 26 May 2026 09:12:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "서울 집값, ‘20억 성북’의 명암!",
+      "link": "https://blog.naver.com/joosiksin/224349734573",
+      "description": "① 지표로 보는 서울 아파트 시장의 현재 한국부동산원의 자료에 따르면, 7월 둘째 <b>주</b> 서울 아파트 매매가격은 전주와 동일하게 0.3% 상승했습니다. 언론이나 시장 일각에서는 ‘관망세’라는 단어를 입에... ",
+      "pubDate": "20260717",
+      "source": "블로그"
+    },
+    {
+      "title": "콩고 에볼라 위기, 국제사회의 각성이 필요하다.",
+      "link": "https://blog.naver.com/joosiksin/224349713984",
+      "description": "상황을 한번 정리해 봅시다. 지금 콩고민주공화국에서 벌어지고 있는 에볼라 사태, 이건 단순히 어느 한 나라의 불행으로 치부할 문제가 아닙니다. 우리가 이 문제를 어떻게 바라보고 대응해야 하는지... ",
+      "pubDate": "20260717",
+      "source": "블로그"
+    },
+    {
+      "title": "캐나다발 산불, 대기질 대혼란의 전말!",
+      "link": "https://blog.naver.com/joosiksin/224348965337",
+      "description": "① 재앙적인 산불 상황의 현주소 현재 캐나다 전역에서 동시다발적으로 발생한 산불이 850여 건에 달합니다. 소실된 면적만 해도 240만 헥타르, 이는 서울과 경기도를 합친 면적의 두 배가 넘는 규모입니다.... ",
+      "pubDate": "20260717",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-07-18 02:16:47",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}

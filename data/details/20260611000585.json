@@ -1,0 +1,94 @@
+{
+  "rcept_no": "20260611000585",
+  "corp_name": "페니트리움바이오",
+  "corp_code": "01409022",
+  "stock_code": "187660",
+  "market": "KOSDAQ",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260611000585",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260810",
+  "subscription_end_dt": "20260811",
+  "listing_dt": "",
+  "underwriter": "유안타증권(주)",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "부문인 바이오 개발 사업부문의 경우 라이선스 아웃 외에는 빠른 시일 내에 제품화가 어려울 것으로 보이며, 매출로 이어지지 않고 비용만 지속적으로 투입될 경우 수익성이 악화될 위험 도 존재합니다.",
+  "news": [
+    {
+      "title": "결제주기 'T+1' 내년 하반기 시행…공모주 청약증거금 이자 지급 - 경제투데이",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE93VWVHU0VFTTlGUVFkN2dqbzZocGZ4b3huYlZIamNBQzF5NHhqQS03VHJzak1ZNTcyQTdUdFM5RWZfQWtma0djSkhLVHRRZGE4Q1hZN20tTWlyUzZ0OXFpd0ZVeHRSUGPSAWtBVV95cUxQc0hIMVVCVFgxa21QSXBDZG9XVDIwZmpDZTZIaE5nVUZMZkwtQ0dFaTFMcE9wd0RQM0Y2dHZFSFcyMkZ3aEpSVmNCOXBCN0tHQTc4Y0w0Ukp0Vm5HT2dmR0dkMVB3RThQQTBROA?oc=5",
+      "pubDate": "Wed, 15 Jul 2026 12:24:00 GMT"
+    },
+    {
+      "title": "페니트리움바이오, 세계 최초 표적항암제 '내성 극복' 기전 공개…\"원인은 환경\" - 데일리인베스트",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1BeFJoMEMwcVJmZGhLWWRua0RkeS1BQURaSGpCeFdZVXBLYU5wMTUwUkhZOElUUnFvZUJXNENoTmwzbHNDOERNYXJDaVZBSHhNRUZOYS1vUDhEN3l5V202d0JKNF9YbmJyVVpB?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 07:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "[개장시황] 美, 이란 추가 공습…코스피 혼조세 출발",
+      "link": "https://www.joongangenews.com/news/articleView.html?idxno=532296",
+      "description": "34%) △<b>페니트리움바이오</b>(+23.05%) △기가레인(+21.94%) △한울소재과학(+201.6%) 등이 급등세를 탔다. 이날... 레메디는 지난달 17일부터 23일까지 진행된 수요예측에서 총 1146대 1의 경쟁률을 보이며 최종 <b>공모</b>가는... ",
+      "pubDate": "Mon, 13 Jul 2026 09:26:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[특징주] <b>페니트리움바이오</b>, 29일 권리락…850만 <b>주</b> 유상증자 본격화",
+      "link": "https://www.newstnt.com/news/articleView.html?idxno=708020",
+      "description": "이번 권리락은 <b>페니트리움바이오</b>가 추진 중인 주주배정후 실권주 일반<b>공모</b> 방식의 유상증자에 따른 것이다. 앞서 회사는 보통주식 850만 주를 발행하는 유상증자를 결정한 바 있으며, 지난 26일 1차 발행가액을... ",
+      "pubDate": "Sun, 28 Jun 2026 11:18:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "현대<b>바이오</b>, 100억 CB로 자회사 유증 참여...불거지는 반대매매 리스크",
+      "link": "https://www.greened.kr/news/articleView.html?idxno=342800",
+      "description": "현대<b>바이오</b>사이언스, <b>페니트리움바이오</b>사이언스의 연중수익률. [출처=구글 금융]  현대<b>바이오</b>사이언스... 자회사 <b>페니트리움</b>의 유상증자 청약 대금으로 투입된다. 현재 주주배정 후 실권주 일반<b>공모</b>가 진행... ",
+      "pubDate": "Thu, 18 Jun 2026 12:21:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주요공시] 삼성중공업, 앤로보틱스, 우리기술, SKC, 싸이토젠, HDC, 케이...",
+      "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=205375",
+      "description": "지정예고, <b>페니트리움바이오</b> 정정신고서 제출요구 등 시장조치성 공시가 확인됐다. 다섯째, 디바이스... 자금조달·유상증자·전환사채·증권발행 ■ SKC(KOSPI, 011790)는 주주배정 후 실권주 일반<b>공모</b> 방식... ",
+      "pubDate": "Mon, 18 May 2026 23:04:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>페니트리움바이오</b>, ‘신약개발 전환’ 1년만에 주주에 손벌려… ‘생존...",
+      "link": "https://www.ekn.kr/web/view.php?key=20260515022455113",
+      "description": "15일 금융투자업계에 따르면 <b>페니트리움바이오</b>사이언스는 지난달 30일 이사회 결의를 통해 주주배정 후 실권주 일반<b>공모</b> 방식의 유상증자를 결정했다. 신주 발행 규모는 850만주, 예정 발행가는 8690원이다. 총 조달... ",
+      "pubDate": "Sat, 16 May 2026 12:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "(현금파이프라인)7월 3,4주차 <b>공모주</b>일정!!",
+      "link": "https://blog.naver.com/eunddang2/224350037247",
+      "description": "이번 주는 일반 투자자가 참여할 수 있는 일반 <b>공모</b> <b>청약</b> 일정은 없으며, 대형 <b>바이오</b> 우량주인... 투자자 <b>청약</b>은 다음 <b>주</b> 마감일인 7월 30일~31일로 예정되어 있습니다. 이번 <b>주</b> 중반 이후 발표될 두... ",
+      "pubDate": "20260718",
+      "source": "블로그"
+    },
+    {
+      "title": "[경제주간지] 매경ECONOMY 2026년 7월 3주차 「 노동 블랙홀... ",
+      "link": "https://blog.naver.com/tofindpeace/224350022643",
+      "description": "* 47년간 한국 경제의 나침반 역할을 수행해 온 저널리즘의 지속가능성 약속: 긴 시간 동안 자본시장과 산업 트렌드를 동행해 준 독자들에게 감사를 전하며, AX와 RX 시대에도 신뢰할 수 있는 인사이트... ",
+      "pubDate": "20260718",
+      "source": "블로그"
+    },
+    {
+      "title": "7월 넷째주(7.20~7.24) <b>공모주 청약</b> 일정",
+      "link": "https://blog.naver.com/time20018/224349999536",
+      "description": "회복시키는 <b>바이오</b> 신약 개발 기업이다. 기존 약과 달리 세포 단위에서 혈관을... com/essen20018/224314810594 &quot; &quot; #<b>공모주</b> #7월 #<b>공모주청약</b> #<b>공모주청약</b> #인제니아테라퓨틱스... ",
+      "pubDate": "20260718",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-07-18 02:18:15",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}

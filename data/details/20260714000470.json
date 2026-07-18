@@ -1,0 +1,89 @@
+{
+  "rcept_no": "20260714000470",
+  "corp_name": "딜리셔스",
+  "corp_code": "01461730",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714000470",
+  "offering_price_low": "5000",
+  "offering_price_high": "7000",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260803",
+  "subscription_end_dt": "20260804",
+  "listing_dt": "",
+  "underwriter": "의무인수분, 계약 체결, 한국투자증권, 및 발행회사가 협의하여 제시한 희망공모가액, 및 발행회사가 협의하여 제시한 희망공모가액인",
+  "total_shares": "2200000",
+  "competition_ratio": "",
+  "lock_up_ratio": "70",
+  "demand_forecast_period": "",
+  "business_summary": "중 사업연도별로 비교표시하는 사항 등(이하 \"재무에 관한 사항 등\")은 제출일이 속하는 사업연도의 최근 사업연도(또는 반기, 분기)말을 공시서류작성기준일로 한다.",
+  "news": [
+    {
+      "title": "중복상장 가이드라인에 IPO ‘개점휴업’…3월 케이뱅크로 분위기 반전 시험대[월간IPO] - 에너지경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rdjluM2x5X1BtaVVSY1FoajVtUGNBLUJTR01EWGVHSEpKNUl5ZjFaWnFPMm5zYWRvMjJodEh1VmdYYnBLejZjN2s5Vl8tb0FxWVppV1JWb2ZnTzg?oc=5",
+      "pubDate": "Tue, 03 Mar 2026 08:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "에이치엘지노믹스, 코스닥 상장 앞두고 경쟁률 대박…바이오·플랫폼주...",
+      "link": "https://www.tokenpost.kr/news/market/378976",
+      "description": "7월 넷째 <b>주</b> 기업공개 시장에서는 원료의약품 전문기업 에이치엘지노믹스가 코스닥에 상장하고... 운영하는 <b>딜리셔스</b>는 23일부터 29일까지 수요예측을 진행한다. 총 220만주를 <b>공모</b>하며 희망 <b>공모</b>가는 5천원∼7천원... ",
+      "pubDate": "Sat, 18 Jul 2026 09:46:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주간 IPO] 에이치엘지노믹스 코스닥 입성…인제니아·<b>딜리셔스</b> 수요 예...",
+      "link": "https://www.etoday.co.kr/news/view/2604553",
+      "description": "이투데이=박정호 기자 | 에이치엘지노믹스 24일 상장⋯<b>공모</b>가 2만1500원 인제니아테라퓨틱스, 20~24일 수요예측⋯최대 725억원 <b>공모</b> <b>딜리셔스</b>, 23~29일 수요예측⋯신상마켓 기반 사업 확장 다음 <b>주</b> 기업공개(IPO)... ",
+      "pubDate": "Sat, 18 Jul 2026 09:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "IPO 시장, 하반기 반전 카드는 소노인터·구다이?",
+      "link": "https://www.mk.co.kr/article/12089803",
+      "description": "<b>딜리셔스</b>) 등이 뒤를 이었다. 이외엔 봉제의복 제조 업체 기도산업과 반도체 팹리스 해치텍이 이름을 올렸다. 예비심사 승인 기업 중에선 헬스케어 기업들이 기대를 모은다. 밴드 상단인 2만700원에 <b>공모</b>가를 확정한... ",
+      "pubDate": "Fri, 03 Jul 2026 14:16:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "7월 <b>공모주</b> 일정은?… 에이치엘지노믹스·레메디 등 '바이오·의료기기...",
+      "link": "https://www.ggilbo.com/news/articleView.html?idxno=1166434",
+      "description": "사진= AI제작 7월 <b>공모주</b> 청약 일정에 대한 투자자들의 관심이 커지고 있다. ■ 이번 <b>주</b> 주요 상장 일정... 이후 일정별로는 ▲인제니아테라퓨틱스(10~16일) ▲케이앤에스아이앤씨(15~22일) ▲<b>딜리셔스</b>(23~29일)... ",
+      "pubDate": "Mon, 29 Jun 2026 20:50:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "7월에도 쉬어가는 IPO 시장…얼어붙은 투심, 언제 녹을까",
+      "link": "https://www.imaeil.com/page/view/2026062910113981353",
+      "description": "기관투자자 대상 수요예측과 일반투자자 대상 <b>공모주</b> 청약 일정은 각각 5건, 4건이다. 일정별로는 ▲에이치엘지노믹스(2~8일) ▲인제니아테라퓨틱스(10~16일) ▲케이앤에스아이앤씨(15~22일) ▲<b>딜리셔스</b>(23~29일)... ",
+      "pubDate": "Mon, 29 Jun 2026 10:15:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "(현금파이프라인)7월 3,4주차 <b>공모주</b>일정!!",
+      "link": "https://blog.naver.com/eunddang2/224350037247",
+      "description": "삼성증권 <b>딜리셔스</b> 수요예측일: 7월 22일(수) ~ 7월 23일(목)  투자 팁 인제니아테라퓨틱스의 일반 투자자 <b>청약</b>은 다음 <b>주</b> 마감일인 7월 30일~31일로 예정되어 있습니다. 이번 <b>주</b> 중반 이후 발표될 두... ",
+      "pubDate": "20260718",
+      "source": "블로그"
+    },
+    {
+      "title": "[<b>딜리셔스</b>] <b>공모주 청약</b>, B2B 패션 플랫폼의 증시 도전... 청약... ",
+      "link": "https://blog.naver.com/mymoney114/224327804454",
+      "description": "제목 <b>딜리셔스 공모주 청약</b> 일정 및 기업 분석 총정리 한국투자증권 딜리셔스 IPO 수요예측 결과와... 태그/키워드 #딜리셔스 #공모주 #IPO #신상마켓 #한국투자증권 #코스닥상장 #주식투자 #재테크 #공모주청약... ",
+      "pubDate": "20260718",
+      "source": "블로그"
+    },
+    {
+      "title": "<b>공모주</b> 7월 3~4주차 일정, 인제니아테라퓨틱스 7천억 몸값... ",
+      "link": "https://blog.naver.com/next200208/224349498331",
+      "description": "● 수요예측결과 (2건) - 7.28(화) : 인제니아테라퓨틱스 - 7.31(금) : <b>딜리셔스</b> ● 일반<b>청약</b> (1건) - 7.30(목)~7.31(금) : 인제니아테라퓨틱스 <b>공모주</b> 분석: 인제니아테라퓨틱스 인제니아테라퓨틱스는 '18.3월... ",
+      "pubDate": "20260718",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-07-18 02:09:02",
+  "total_shares_offered": "2200000",
+  "min_bid_price": ""
+}

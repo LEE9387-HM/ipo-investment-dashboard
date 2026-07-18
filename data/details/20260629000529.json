@@ -1,0 +1,99 @@
+{
+  "rcept_no": "20260629000529",
+  "corp_name": "썸에이지",
+  "corp_code": "01049422",
+  "stock_code": "208640",
+  "market": "KOSDAQ",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629000529",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260806",
+  "subscription_end_dt": "20260807",
+  "listing_dt": "",
+  "underwriter": "",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "상장 앞둔 '영웅' 개발사 썸에이지 \"2020년 기업가치 1조원 목표\" - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE41RTh3Uk1wNDIta0NqTm1kOGllNGlEV3dZNFBYQ3hUZkkyT3c5Rm51NDY4VzQ3UUpxRkN4cDBFbUluVm9wamdIRHI4R0F1R2pWY0RwZG5VUnRFT0FmY1pidWRpWHdKVDBHb1N6QWc0d1ZpbVJuLVhzOVZpVdIBjwFBVV95cUxOQ3BSQzhVUFFma3hNUTktUUlMTUd2Z29aSnlwQXVFcTdkYVljZjVZMzVyR2lBN0NqRVZpTnlwMGZqZkdMTG92bjdCYmJHOUJFcGJLcGVTb0p6S0VDVzNaRS1IOUtGODVfUm5NZUhsTmN6RWNnOXQxQXl1R1ZkVFFLVFliZlhzZDJza2Jmd1R3SQ?oc=5",
+      "pubDate": "Thu, 03 Mar 2016 08:00:00 GMT"
+    },
+    {
+      "title": "썸에이지, 모바일 MMORPG '데카론M' 월드 던전 ‘콜로세움’ 추가 - 경향게임스",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fZHdGZnFCWUc3ZThscmRLb2JHM1ZDYndGeTk1NVdqSWdYSEMyWnRzUVpSeHB4WHk2YUNFYVdDWDZXTnVySElQN1NsQ1F1emJmbERYMEZTd0ZQck9YT0J3ZmhJUm5faW5HekhqMg?oc=5",
+      "pubDate": "Thu, 23 Feb 2023 08:00:00 GMT"
+    },
+    {
+      "title": "썸에이지 '데스티니 차일드: 디펜스 워' 글로벌 사전등록 - 테크M",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JNnBsYjNIZkZobjlMOEF0TVRhMDRQX3ZqcjhCX1Y0R08zWDA2Q21rOVk3a2hCbmFzRDNRNkR6STRVcVZsUDM1cUFUQTNzVkhCaEhxVDlWWWJjTUNXdk5Nb2VHV3HSAWhBVV95cUxPTzMxZTNtN3V5ZGs0YTZDeFQySDNBUWVXZGVjX2V3N0ZkbWlwVk80Y2phRC1jS0EzX2w1ZmlxZnpoVGM4WU1CaktQeGdocGdUNVQ4UkV5YVNrLW1OOFQ3aHRpUlExVFM4TA?oc=5",
+      "pubDate": "Fri, 23 Oct 2020 07:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "오늘의 메모[7월 1일]",
+      "link": "https://www.sedaily.com/article/20061771?ref=naver",
+      "description": "▲신주배정기준일=가온전선(000500)(무상) ▲<b>공모주</b>청약=레메디(주관사 KB) ▲신주배정기준일=<b>썸에이지</b>(208640)(유상) ▲보통주추가상장=유바이오로직스·지아이이노베이션(주식매수선택권행사) 네오오토(212560)... ",
+      "pubDate": "Tue, 30 Jun 2026 10:52:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "오늘의 메모[6월 25일]",
+      "link": "https://www.sedaily.com/article/20059632?ref=naver",
+      "description": "▲보통주추가상장=크래프톤(259960)(주식매수선택권행사) ▲<b>공모주</b>청약=레몬헬스케어(주관사 KB)... (유상) ▲상호변경=씨아이에스(222080)→SFA넥셀 ▲주권변경상장=펄어비스(주식소각) <b>썸에이지</b>(208640)(감자)",
+      "pubDate": "Wed, 24 Jun 2026 16:12:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[자금조달 프리뷰] 세아제강 <b>공모</b>채·매드업 IPO '출격'",
+      "link": "https://www.bloter.net/news/articleView.html?idxno=666028",
+      "description": "유상증자 시장에서는 뉴로메카·에이전트AI·경남제약·아모텍·<b>썸에이지</b> 등의 신주배정기준일이 예정돼 있다. 세아제강, 1150억 규모 <b>공모</b>채 청약 21일 금융감독원 전자공시시스템에 따르면 세아제강은 25일... ",
+      "pubDate": "Sun, 21 Jun 2026 09:30:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주식마감] '스페이스X' 상장 기대에 미래에셋벤투·아주IB 상한가... '광...",
+      "link": "https://www.ggilbo.com/news/articleView.html?idxno=1152732",
+      "description": "미래에셋증권이 약 50억달러 규모의 <b>공모</b> 물량을 확보해 국내 투자자들에게 직접 투자 길을 열고... <b>썸에이지</b>, 캡스톤파트너스다. 이날 코스피는 전장보다 159.13포인트(2.74%) 상승한 5,967.75에 거래를 마감했다.... ",
+      "pubDate": "Tue, 14 Apr 2026 19:40:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주식마감] '광통신주' 줄줄이 상한가... 광전자, 남선알미늄, 신풍제약...",
+      "link": "https://www.ggilbo.com/news/articleView.html?idxno=1152482",
+      "description": "한솔테크닉스는 지난 10일 이사회 결의를 통해 제3자 배정방식 450억원, 주주배정 후 일반<b>공모</b>방식 450억원... <b>썸에이지</b>, 진영, 알에프텍, 캡스톤파트너스, 파워넷, 우리기술, 피플바이오다. 이날 코스피는 전장보다 50.... ",
+      "pubDate": "Mon, 13 Apr 2026 19:40:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "서울 집값, ‘20억 성북’의 명암!",
+      "link": "https://blog.naver.com/joosiksin/224349734573",
+      "description": "① 지표로 보는 서울 아파트 시장의 현재 한국부동산원의 자료에 따르면, 7월 둘째 <b>주</b> 서울 아파트 매매가격은 전주와 동일하게 0.3% 상승했습니다. 언론이나 시장 일각에서는 ‘관망세’라는 단어를 입에... ",
+      "pubDate": "20260717",
+      "source": "블로그"
+    },
+    {
+      "title": "콩고 에볼라 위기, 국제사회의 각성이 필요하다.",
+      "link": "https://blog.naver.com/joosiksin/224349713984",
+      "description": "상황을 한번 정리해 봅시다. 지금 콩고민주공화국에서 벌어지고 있는 에볼라 사태, 이건 단순히 어느 한 나라의 불행으로 치부할 문제가 아닙니다. 우리가 이 문제를 어떻게 바라보고 대응해야 하는지... ",
+      "pubDate": "20260717",
+      "source": "블로그"
+    },
+    {
+      "title": "캐나다발 산불, 대기질 대혼란의 전말!",
+      "link": "https://blog.naver.com/joosiksin/224348965337",
+      "description": "① 재앙적인 산불 상황의 현주소 현재 캐나다 전역에서 동시다발적으로 발생한 산불이 850여 건에 달합니다. 소실된 면적만 해도 240만 헥타르, 이는 서울과 경기도를 합친 면적의 두 배가 넘는 규모입니다.... ",
+      "pubDate": "20260717",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-07-18 02:14:53",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}
