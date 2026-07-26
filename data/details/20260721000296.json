@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260721000296",
+  "corp_name": "니어스랩",
+  "corp_code": "01588897",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260721000296",
+  "offering_price_low": "30000",
+  "offering_price_high": "41200",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260812",
+  "subscription_end_dt": "20260813",
+  "listing_dt": "",
+  "underwriter": "삼성증권, 및 발행회사가 협의하여 제시한 공모희망가, 신주인수권 (공모주식의, 계약 체결",
+  "total_shares": "910000",
+  "competition_ratio": "",
+  "lock_up_ratio": "74.43",
+  "demand_forecast_period": "",
+  "business_summary": "부문은 핵심 역량인 Aerial Intelligence 기술의 적용 분야에 따라 크게 디펜스(Defense) 부문과 엔터프라이즈(Enterprise) 부문으로 구분됩 니다.",
+  "news": [
+    {
+      "title": "니어스랩, 코스닥 기술특례상장 예비심사 승인 - 지디넷코리아",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1acEplRWE4aWNEZlFiOVEyeGxaQXRsXzNKc0prdEZYdlJhX3BQc1BUUnBnVDFxaXJZWW5JbEdoVF9YX1ozVW9UNEtvUFF4dm9HeGJ0dFBn?oc=5",
+      "pubDate": "Wed, 24 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "니어스랩, 증권신고서 제출…‘드론 1호 상장’ 향해 코스닥 레이스 돌입 - 스타트업엔(StartupN)",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1jUDVlQWZuVEt1UHh1NE90YVFIdXNHRGVTUjc4WENxOVVrbTJRZEY4R0dSeU04cEZUd3Q2R2k0azZTWk52WlotTnREZDQtZmg1TW1ZQ3hrZlZuUWx3X09CQXZReEgwTEtM0gFsQVVfeXFMUDEwSU9JM2dSQWN3cW9iNU51QmVqTFUzcHlXcDRzdFZLU05xVV9vOERFSWhTMEdQVVdScmg5My1DSmRscXpoV3N5S2hrLWRLNHZOTWZIOGxtbTZRaVk5d2phTzlSM3RjRGE2dlZf?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "니어스랩, 코스닥 상장예비심사 승인…’피지컬 AI 드론 1호’로 연내 상장 박차 - 로봇신문",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zZzc0eWJ3dUd5SGZCdGRDaWhmX2VZV3JhV25Wb293U28xWlNKLXV2cXBxSDZUYkF0ZDBnZ2ZjNEY3X1l3T01yVS1PT0w1N1VyOG8yTnprYlhRTVJPejRoS2d6OVlkekF4T0E1Sg?oc=5",
+      "pubDate": "Thu, 25 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "니어스랩, 코스닥 상장예심 통과… 연내 상장 추진 - 플래텀(Platum)",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9uUE9HQlBtVWFnX2VZUGFaOXZkUXhTS3dTWXRLVGNwSUZWencyTkQyMmlyb1BsZUJCYmw2bGU4d3FUbVJrSlZKMQ?oc=5",
+      "pubDate": "Wed, 24 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "‘자율비행 드론’ 니어스랩, 코스닥 상장 절차 착수 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96bjhSbk5DcjFJSXJ1dVhDa29yVUJOVkk4VzNHc1plMlVhNmN0T3EzZzJaRHZhTkdfNnAwMFRGSTVGZ2o1bUt2OEQzZ0M0NFU?oc=5",
+      "pubDate": "Fri, 26 Jun 2026 07:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "상반기 얼어붙었던 IPO 시장, 하반기 반등 시동 … 연간 <b>공모</b> 4조 전망 ...",
+      "link": "https://biz.newdaily.co.kr/site/data/html/2026/07/23/2026072300074.html",
+      "description": "인제니아테라퓨틱스(<b>공모</b>금액 600억원), 에이치엘지노믹스(551억원), 기도산업(421억원), 빅웨이브로보틱스(400억원), <b>니어스랩</b>(273억원), 스카이랩스(260억원), 해치텍(230억원) 등이다. 연간 <b>공모</b>금액 전망치인 3조4000억... ",
+      "pubDate": "Thu, 23 Jul 2026 09:58:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "'개점휴업' 끝낼까…하반기 IPO시장, 대어 복귀에 달렸다",
+      "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=847987",
+      "description": "23일 신영증권은 올해 연간 IPO 종목 수를 64~68개, <b>공모</b>금액은 3조4000억~3조9000억원으로 전망했다. 상반기... 이달 하순부터 딜리셔스와 빅웨이브로보틱스, 해치텍, 기도산업, 스카이랩스, <b>니어스랩</b>, 브릴스 등 다수 기업이... ",
+      "pubDate": "Thu, 23 Jul 2026 08:50:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[더벨]K2인베, 선구안 통했다…투자사 3곳 IPO 예심 통과",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607131156343440104238",
+      "description": "상장 예정 주식은 577만1485주이며 이 가운데 91만주를 <b>공모</b>할 예정이다. 상장주관사는 삼성증권이다. K2인베스트먼트는 2022년 진행된 투자 라운드를 주도하며 <b>니어스랩</b>에 40억원을 투자했다. 스카이랩스는 반지형... ",
+      "pubDate": "Wed, 15 Jul 2026 07:02:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "IPO 시장, 하반기 반전 카드는 소노인터·구다이?",
+      "link": "https://www.mk.co.kr/article/12089803",
+      "description": "상반기 <b>공모</b> 금액, 전년 대비 ‘절반’ 코스피 ‘케이뱅크’ 나 홀로 IPO IPO 시장 분위기는 ① 대어의... 그 다음 로봇(브릴스·빅웨이브로보틱스)과 드론, 방산(<b>니어스랩</b>·케이앤에스아이앤씨), 커머스... ",
+      "pubDate": "Fri, 03 Jul 2026 14:16:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "7월 <b>공모주</b> 일정은?… 에이치엘지노믹스·레메디 등 '바이오·의료기기...",
+      "link": "https://www.ggilbo.com/news/articleView.html?idxno=1166434",
+      "description": "사진= AI제작 7월 <b>공모주</b> 청약 일정에 대한 투자자들의 관심이 커지고 있다. ■ 이번 <b>주</b> 주요 상장 일정... (23~29일) ▲<b>니어스랩</b>(27~31일) 등이 차례로 수요예측을 마무리하고 <b>공모</b>가를 확정 지을 계획이다.",
+      "pubDate": "Mon, 29 Jun 2026 20:50:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "8월 <b>공모주</b> 8종목 쏟아진다 <b>니어스랩</b>부터 로봇<b>주 청약</b> 전략까지",
+      "link": "https://blog.naver.com/tjdtn6035/224357523051",
+      "description": "<b>니어스랩</b>과 해치텍뿐 아니라 로봇 관련 <b>공모주</b>도 겹치기 때문에 <b>청약</b>일과 증거금 환불일 을 함께... 때는 <b>공모</b>가보다 증거금 환불 일정 이 훨씬 중요하게 느껴졌습니다. 이번 2026년 8월 <b>공모주</b>는 둘째 <b>주</b>... ",
+      "pubDate": "20260726",
+      "source": "블로그"
+    },
+    {
+      "title": "2026년 8월 <b>공모주</b> 일정｜관심기업 6곳 한눈에 보기",
+      "link": "https://blog.naver.com/kalron84/224357386548",
+      "description": "한 줄 정리 일정이 가장 빠른 딜리셔스와 빅웨이브로보틱스는 확정 <b>공모</b>가와 기관 가격 분포가 곧... #2026<b>공모주</b> #8월<b>공모주</b> #IPO일정 #<b>공모주청약</b> #딜리셔스 #빅웨이브로보틱스 #<b>니어스랩</b> #해치텍... ",
+      "pubDate": "20260726",
+      "source": "블로그"
+    },
+    {
+      "title": "2026년 8월 <b>공모주 청약</b>일정 초보자도 쉽게 보는 <b>청약</b> 달력",
+      "link": "https://blog.naver.com/art3651004/224357806816",
+      "description": "기도산업, <b>니어스랩</b>, 해치텍, 스카이랩스, 빅웨이브로보틱스, 브릴스의 일반<b>청약</b>이 예정돼 있습니다. 금융감독원 DART <b>공모</b>게시판에서도 딜리셔스와 케이앤에스아이앤씨를 비롯한 주요 종목의 <b>청약</b>... ",
+      "pubDate": "20260726",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-07-26 00:16:34",
+  "total_shares_offered": "910000",
+  "min_bid_price": ""
+}
