@@ -1,0 +1,32 @@
+{
+  "rcept_no": "20260729000264",
+  "corp_name": "엔에이치기업인수목적34호",
+  "corp_code": "02030166",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000264",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260901",
+  "subscription_end_dt": "20260902",
+  "listing_dt": "",
+  "underwriter": "NH투자증권, NH투자증권㈜에게 인수대가로, 및 인수회사의 이해관계인으로 보지 아니한다",
+  "total_shares": "8500000",
+  "competition_ratio": "",
+  "lock_up_ratio": "80",
+  "demand_forecast_period": "",
+  "business_summary": "의 내용 및 향후 추진하려는 신규사업 (1) 주요사업의 내용당사는 한국거래소의 코스닥시장에 상장한 후 다른 회사와 합병하는 것을 유일한 사업목적으로 합니다.",
+  "news": [
+    {
+      "title": "\"공모주 막차타자\" 동면 앞둔 IPO시장 '과열'[시그널] - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5iaEdOUzF5bnJ0czYwdlk5V3BTTWVKNzEwVEVfNThLR25FWFJQU1N4VmtZMTNSTG1sVTBza2oyRF9Xamg3NlEyWnlrVkNBY2ViUlHSAVNBVV95cUxPU2dhRjdrclFWUTNLT1hxTlcxcEIzN3FkdWhXSjNqcDRRb093RG1zeXAxbEQzSUt1a0pqbFdtLWMwOFBuWHhnbEZxNmVueE9jdTJXaw?oc=5",
+      "pubDate": "Fri, 08 Dec 2023 08:00:00 GMT"
+    }
+  ],
+  "community_news": [],
+  "updated_at": "2026-08-15 01:22:57",
+  "total_shares_offered": "8500000",
+  "min_bid_price": ""
+}

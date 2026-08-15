@@ -1,0 +1,32 @@
+{
+  "rcept_no": "20260813001779",
+  "corp_name": "케이비제34호기업인수목적",
+  "corp_code": "02032155",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001779",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260910",
+  "subscription_end_dt": "20260911",
+  "listing_dt": "",
+  "underwriter": "또는 인수회사가 필요하다고 인정하는 사항, KB증권, KB증권㈜에게 인수대가로",
+  "total_shares": "7000000",
+  "competition_ratio": "",
+  "lock_up_ratio": "80",
+  "demand_forecast_period": "",
+  "business_summary": "직위 직무 재직기간 보유 주식수 지분율 비고 전성훈 앤디스파트너스㈜ 벤처투자업 사내이사 대표이사 23.",
+  "news": [
+    {
+      "title": "공모주 ‘따따블’ 기대감 줄었나…스팩주 급등세 진정 - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9KbjUyZ3FzN2YtbG5mX1VVMzZ5cVhqWnp4Q2ZtTmp1akdXbkpqWVRXUEF3eWRXekp3VDdzTllYYlY5M2t6aXY1WGtBNVRRU0l2QWhnbW5KS1I0MlN3dkVhZWk4YkNsMXM?oc=5",
+      "pubDate": "Fri, 11 Aug 2023 07:00:00 GMT"
+    }
+  ],
+  "community_news": [],
+  "updated_at": "2026-08-15 01:18:00",
+  "total_shares_offered": "7000000",
+  "min_bid_price": ""
+}

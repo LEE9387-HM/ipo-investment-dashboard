@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260811000565",
+  "corp_name": "클로봇",
+  "corp_code": "01784914",
+  "stock_code": "466100",
+  "market": "KOSDAQ",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000565",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "",
+  "subscription_end_dt": "",
+  "listing_dt": "",
+  "underwriter": "",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "클로봇, 16~17일 공모주 청약...공모가 1만 3000원 확정 - 로봇신문",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EbHV0a1NBLVA5ZHcxZzBjVlA0WDFZVVp3Z0otOUNVME1FazQ4dDRZSENJS2lwelFNdWx3YmJ5dE1raUhuOXlrbUI3TGFvRDVLUXlERDI5T3c1R0wxNmVDOVI2UUFocjR0ZGktbg?oc=5",
+      "pubDate": "Tue, 15 Oct 2024 07:00:00 GMT"
+    },
+    {
+      "title": "공모주 청약 5조 몰린 클로봇, 침몰 이유 있나 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1rc1QxRzloWjBtWWlSVV9CYy1EM3lnQlR6cVFYRTBIU0FydVBIVTlLcUhzMnlFSUlQdmJmSkhXVjBoMUc1TFBZdGhPX3UtdkhpRC1pSkdubWdZMmw3NW95Zg?oc=5",
+      "pubDate": "Tue, 29 Oct 2024 07:00:00 GMT"
+    },
+    {
+      "title": "지난해 증시, 공모주도 힘 못 썼다…22곳 상장 첫날 10% 넘게 하락 - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1GYklkaFpKN0FBODJ6c0ZzQXhxOWswRnBveWVLZ1RObmJPY1VYY3Z2OG1vT0JmOTdsLWpKaktnbFlnT1dzcUllNlZuc0lzUERkZ09NYWc1ZnpCcGFGRHg4cFJmbGpjSXlwLWxUTHl3dWYxdw?oc=5",
+      "pubDate": "Sat, 16 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "클로봇, 공모주 마지막날 증권사별 청약경쟁률 - 영남일보",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9iT19fSmxIZVJ6S0N1US1HbjRBNnVFUUdoVUtkNUF5d25JMWY4UHJVc0FMVUdlMHBjeUhmR2YtMUxxcnRMRDNfVjhiY3lmMmVhOXhYTUtUSWhNVGt5RF95V3M4Sm1OalUxLUZF?oc=5",
+      "pubDate": "Thu, 17 Oct 2024 07:00:00 GMT"
+    },
+    {
+      "title": "[Hot 종목 체크] 클로봇, 정부 R&D 지원 확대로 자회사 수혜 전망…주가 재상승? - 데일리인베스트",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5MSWJpYWdXdS1MbFpIUWkxcU55TVpsREtKMS1MSmdWYkNhWnFOX0JfMVlwSXFaNDFrNFd5NEVlYUNjWVlXdV9DMW1WeUJuMjNDU0ZkRHBMYlNNUVlNLTgweUtsYUc1c2tjMGxr0gFvQVVfeXFMUDBYYXFWSUU5MXZQQmtJUTlkbFk5U2ZtcE00TmI1dEZDNTBGZmFlcnhNUnVKRjJydWhNeDhiVEMyUmE5UEJNS0kxTzJUTG1uUTd3dzhUeFpBQW5HSVoxd1BBVElaVjRyQmdrZEt5MFVz?oc=5",
+      "pubDate": "Fri, 29 Aug 2025 07:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "오늘의 메모[8월 13일]",
+      "link": "https://www.sedaily.com/article/20078560?ref=naver",
+      "description": "주권변경상장=솔루스첨단소재(336370)(주식소각) ▲<b>공모주</b>청약=니어스랩(주관사 삼성) 해치텍(DB) ▲구주주유상청약=센서뷰(321370) <b>클로봇</b>(466100) ▲신규상장=케이앤에스아이앤씨(487400)",
+      "pubDate": "Wed, 12 Aug 2026 14:23:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주요공시] HD현대중공업, 테크윙, 유니슨, LG씨엔에스, 교촌에프앤비,...",
+      "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=207670",
+      "description": "■ <b>클로봇</b>(KOSDAQ, 466100)은 삼성자산운용의 약식 대량보유상황보고가 제출됐다. 보고자는... 보고사유는 유상증자 청약에 따른 신주인수권증서 소멸, 구주주 청약, 일반<b>공모</b> 청약, 특별관계자의... ",
+      "pubDate": "Mon, 10 Aug 2026 23:56:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주식마감] '제2우주센터' 기대감에 우주항공주 강세... 비츠로넥스텍,...",
+      "link": "https://www.ggilbo.com/news/articleView.html?idxno=1174546",
+      "description": "우주항공청에 따르면 지난 6일까지 진행된 건립지 <b>공모</b>에는 전남광주통합특별시와 제주특별자치도가... 이날 코스닥 시장 거래 상위종목 30위는 동화기업, 솔트룩스, 셀바스AI, 대화제약, 비츠로넥스텍, <b>클로봇</b>... ",
+      "pubDate": "Mon, 10 Aug 2026 19:40:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "딜리셔스·케이앤에스아이앤씨 상장… 기도산업 등 3곳 <b>공모</b> 청약 [이번...",
+      "link": "https://www.sedaily.com/article/20077438?ref=naver",
+      "description": "이번 <b>주</b> 기업공개(IPO) 시장에서는 딜리셔스와 케이앤에스아이앤씨가 코스닥에 상장한다. 기도산업과 니어스랩, 해치텍 등 3개 기업은 일반 투자자를 대상으로 <b>공모주</b> 청약을 진행하며 디지털 헬스케어 기업... ",
+      "pubDate": "Mon, 10 Aug 2026 06:01:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "원자력환경공단, 방폐물 관리에 로봇·AI 도입 추진",
+      "link": "https://www.dkilbo.com/news/articleView.html?idxno=550446",
+      "description": "주식회사 <b>클로봇</b> 강석태 상무이사, (<b>주</b>)티로보틱스 박현섭 부사장). 공단 제공 한국원자력환경공단(이하... 이 사업은 한국로봇산업진흥원이 주관하는 2026년 대규모 융합 로봇 실증사업 <b>공모</b>에서 '고위험 방사성폐기물... ",
+      "pubDate": "Tue, 04 Aug 2026 16:02:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "2026년 8월 셋째 <b>주</b> <b>공모주</b>·실권주 일정<b>청약</b>: <b>공모주</b>는 없고, <b>클로봇</b> ....",
+      "link": "https://blog.naver.com/endless_shinka/224378670803",
+      "description": "이탈한다면 시장의 낮은 평가가 그대로 상장일에 반영되는 흐름일 수 있습니다. 다음 <b>주</b> 대응 다음 주에는 <b>공모주 청약</b>이 없어서 자금이 묶일 일정은 없습니다. 저는 아래와 같이 대응해볼 생각입니다. <b>클로봇</b>:",
+      "pubDate": "20260814",
+      "source": "블로그"
+    },
+    {
+      "title": "나우로보틱스 상한가, 조금씩 <b>공모주청약</b>은 과열중",
+      "link": "https://blog.naver.com/change-change/223863895344",
+      "description": "상대적으로 <b>클로봇</b>은 <b>공모</b>가 보다 많이 올라가지 않았습니다. <b>공모주 청약</b>도 테마가 중요합니다. 2025년 상장된 종목중에서 오늘 많이 올라오는 종목은 최근에 상장한 종목들이 차지 하고 있습니다. 이런 테마를... ",
+      "pubDate": "20250513",
+      "source": "블로그"
+    },
+    {
+      "title": "보스턴다이내믹스, <b>클로봇</b> 4.3배상승",
+      "link": "https://blog.naver.com/change-change/223793058125",
+      "description": "<b>클로봇 공모주</b> 상장 이후 최고가 <b>공모주 청약</b> 종목만 공부 잘해도 초보는 큰 수익이 납니다. <b>클로봇</b> 업무 지능형 로봇 서비스 전문업체, 자율주행 물류 로봇 자동화 현대자동차그룹 산하 로봇제조 계열사... ",
+      "pubDate": "20250312",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-08-15 01:20:13",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}

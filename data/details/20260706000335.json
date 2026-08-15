@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260706000335",
+  "corp_name": "툴젠",
+  "corp_code": "00547510",
+  "stock_code": "199800",
+  "market": "KOSDAQ",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000335",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260907",
+  "subscription_end_dt": "20260908",
+  "listing_dt": "",
+  "underwriter": "대신증권(주), 키움증권(주)",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "진행 경과를 정기적으로 공시함으로써, 주주분들이 금번 자금조달의 성과를 지속적으로 확인할 수 있도록 할 계획입니다.",
+  "news": [
+    {
+      "title": "툴젠, 증권신고서 제출…연내 코스닥 이전상장 추진 - yna.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DcTBPa1c3Mm5KODBfZjlKZ0J4TEJKZ3NFUEFOemlrdkZFMHM4WnViSjItejk5WFZRVWVHNVZNWTJZa0c2MzRQa3pZTTk5NklSeERHTHU1THdiRjDSAWBBVV95cUxNREpMN19pV19VRXBCZlo2NVhwWW51WGFzTTNhMUpINHl4VEg3ZzI4eWNaTmYwcEp3b1hqUldubUFFZUFYdDg1Zzg0M010MzhvNHgyUVZfcjJqY0xPcl9FeXc?oc=5",
+      "pubDate": "Wed, 10 Nov 2021 08:00:00 GMT"
+    },
+    {
+      "title": "코스닥 이전상장 툴젠, 청약 경쟁률 164대 1 기록 - 청년의사",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Ud3ZLOF9ERjI3ak1fczg0TlhocGd0OVBkYnB5WHRQcUlocnQ4djVFRHQzNTVTeU4tdnRsODJ3STlDTkVVZzROQUFMNUh5c1QzTEdWbDVJaTN4UDc4Q3hXR1VDcFlmcmZ0Yy1IcHZTNNIBc0FVX3lxTE1xTXVYazNERVFhSW5hVWpjU3EzeE5kVEQ1ZTFGQVhvaVpsdFUwaGhuaWVlVGFuR01lMWx3ZGp4dzdoSWVpZ25WZmtObm1SRXZiaVJET20tQWJZRS1pUF9UTVVnelRGVmNidm0wNDBpS0tyVDQ?oc=5",
+      "pubDate": "Sat, 04 Dec 2021 08:00:00 GMT"
+    },
+    {
+      "title": "툴젠, 공모가 하단 30% 밑돈 7만원 확정...환매청구권 부여 - 데일리안",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOejdFR3l6ZThOejVaQnFsSzRFTUZFelRtS2NZdjVVY2VXakliS2dna0RuSWg1cml2c3FWTGdiVGlqSzRsN2FUNVpUeG8zMzFwSjdsZ3pGSXpWMGhfcVlyU2VwTF9EcFpYN1hEMHZ4MGtUeGlaV2FTektTQzUzdjZWeGxMUkVWUTBnVFowdzAxaWpCbmNpN1ZWTmlUQlNJQTd0dzRsUWRJTnZTZEJPTGZfY3FfSkRBbnBkaTZKQ3pQZk5Mc2dQM1dNaVRnYTh6eno0cjRwRWpwRmJZR21LazZJWnNEWUJadUFvc2FiZG9n?oc=5",
+      "pubDate": "Tue, 30 Nov 2021 08:00:00 GMT"
+    },
+    {
+      "title": "한투, 툴젠 IPO에 자발적 풋백옵션 제시···독될까 득될까 - 시사저널e",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9oYW11T0R3dWctZF9VTEZyOGJsYUNtQkpYdEdraVUtUVVvM2RxRWdTcm1HUUR6eVplc0dndjJwX3VYNFBRc1VOXzBPTVpKMGhhUEJyRUVNaFlKc0I2end5dGpJVmpUTmFWZkJNbFVQaldfQdIBdkFVX3lxTFBqWUZaRk1VeFhHejdjX0RwcVA3NHJ3a3Nqc0s1TDR3ZlpTRWxUeDJQZHV4eGZQb2Q1bXhtaEtWaGpRRWtPZmh4eXRWclpWTHNJR2NZYlVuYjFiVzU1cU1lR1hkUEViQlVqQnF5TC1FTHRBZjRfX3c?oc=5",
+      "pubDate": "Thu, 11 Nov 2021 08:00:00 GMT"
+    },
+    {
+      "title": "툴젠, 코스닥 상장 위한 증권신고서 제출…연내 이전상장 추진 - MEDI:GATE NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBHVVQ5cnlIMGNnWDhKLTZzNnNXeVN2M0ZLVEx4LVA1SUVVMm9rQ252SHpUUnk4Zmhza2k2aUxtX3E5alpBZFg5SjVOeHJINmJqTXVRVmx4QQ?oc=5",
+      "pubDate": "Wed, 10 Nov 2021 08:32:44 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "주가 급락에 유상증자 반토막…바이오, 시설투자·R&amp;D '비상'",
+      "link": "https://www.dailypharm.com/user/news/341341?REFERER=NP",
+      "description": "유상증자 발표 후 주가 66.0% 급락…조달액도 65.7% 줄어 11일 금융감독원에 따르면 <b>툴젠</b>은 최근 주주배정 후 실권주 일반<b>공모</b> 유상증자 1차 발행가액을 주당 3만950원으로 확정했다. 지난 5월 유상증자 결정 당시... ",
+      "pubDate": "Thu, 13 Aug 2026 06:02:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "딜리셔스·케이앤에스아이앤씨 상장… 기도산업 등 3곳 <b>공모</b> 청약 [이번...",
+      "link": "https://www.sedaily.com/article/20077438?ref=naver",
+      "description": "이번 <b>주</b> 기업공개(IPO) 시장에서는 딜리셔스와 케이앤에스아이앤씨가 코스닥에 상장한다. 기도산업과... 코스닥 시장에서는 <b>툴젠</b>(유상), 이렘(유상) 등이 신주배정기준일을 맞이한다. 유티아이의 일반<b>공모</b>유상청약과... ",
+      "pubDate": "Mon, 10 Aug 2026 06:01:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[자금조달 프리뷰] 우리금융지주 영구채…스카이랩스 IPO '본궤도'",
+      "link": "https://www.bloter.net/news/articleView.html?idxno=670407",
+      "description": "<b>툴젠</b>은 주주배정 후 실권주 일반<b>공모</b> 방식으로 보통주 77만7000주를 발행할 계획이다. 공동대표주관사는 대신증권과 키움증권으로 두 증권사는 각각 38만8500주를 인수할 예정이다. 1차 발행가 기준 인수금액은 각각... ",
+      "pubDate": "Sun, 09 Aug 2026 15:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[HIT알공] <b>툴젠</b>, 유상증자 예정가액 9만원→3만원 바꿔",
+      "link": "https://www.hitnews.co.kr/news/articleView.html?idxno=78230",
+      "description": "① <b>툴젠</b>, 유상증자 예정가액 3만원대로 변동 = 주주배정후 실권주 일반<b>공모</b> 유상증자의 1차 발행가액이 기존 예정가액 90200원에서 30950원으로 확정. 모집총액은 700억 8540만원에서 240억 4815만원으로 변경.... ",
+      "pubDate": "Thu, 06 Aug 2026 18:02:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[더벨][매니저 퍼포먼스] 르네상스 정규봉 대표, 피렌체 펀드 성공적 엑...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607131400179000106661",
+      "description": "2023년 8월 130억원 규모로 설정된 이 펀드는 <b>툴젠</b>, 비피도 등 코스닥 상장사가 발행한 전환사채(CB)를... 하우스는 지난해 2월 '르네상스<b>공모주</b>플러스2호일반사모투자신탁'을 시작으로 4월... ",
+      "pubDate": "Wed, 15 Jul 2026 15:22:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>툴젠 공모주 청약</b>일정, 상장예정일, <b>공모</b>가 희망범위 지금 바로 확....",
+      "link": "https://blog.naver.com/fastcontents/223725218498",
+      "description": "구분 일정 <b>공모주 청약</b>일정 2024년 11월 20일 ~ 21일 상장 예정일 2024년 11월 28일 <b>공모</b>가 희망범위 28,000원 ~ 32,000원 <b>공모주</b> 수 약 300만 <b>주</b> 위 일정은 <b>툴젠</b>이 발표한 공식 <b>공모주 청약</b>일정입니다. <b>청약</b>을... ",
+      "pubDate": "20250114",
+      "source": "블로그"
+    },
+    {
+      "title": "<b>공모주</b> 환매청구권 풋백옵션 신청 후기(한국투자증권 <b>툴젠</b> 환불 방....",
+      "link": "https://blog.naver.com/linaegedhfps/222648561553",
+      "description": "하지만 환매청구 행사기간이 아직 한달정도 남았고, 당일 입금된다는 장점을 활용해 손실을 조금이라도 줄이거나 추가매수로 평균단가를 낮출 수 있기에(물론 매매수수료 등은 고려 필요) <b>툴젠 공모</b> <b>청약</b>에... ",
+      "pubDate": "20220215",
+      "source": "블로그"
+    },
+    {
+      "title": "바이오에프디엔씨 <b>공모주 청약</b> 결과: 경쟁률, 수요예측, 주가 전망 f....",
+      "link": "https://blog.naver.com/hoosigidane/222644323640",
+      "description": "2월 9~10일 진행된 바이오에프디엔씨 <b>공모주 청약</b>이 마무리됐다.... 상장일 바이오에프디엔씨는 2월 넷째 <b>주</b> 월요일(21일) 상장한다.... 차백신연구소와 <b>툴젠</b>을 떠올리면 바이오주에 또 기대를 걸 만큼 긍정적인... ",
+      "pubDate": "20220210",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-08-15 01:25:40",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}
