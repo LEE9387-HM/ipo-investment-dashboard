@@ -1,0 +1,88 @@
+{
+  "rcept_no": "20260702000355",
+  "corp_name": "HLB제약",
+  "corp_code": "00336817",
+  "stock_code": "047920",
+  "market": "KOSDAQ",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702000355",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260915",
+  "subscription_end_dt": "20260916",
+  "listing_dt": "",
+  "underwriter": "한국투자증권 주식회사, 및 공동주관회사와 함께, 한국투자증권(주), 한양증권 주식회사",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "은 바이오·의약품 연구개발, 의료기기 제조, 의약품 유통, 에너지·환경, 금융투자, 부동산 개발 등 다양한 분야에 걸쳐 있으며, 당사 그룹은 의료·바이오 분야를 핵심 사업으로 하는 복합 사업군을 형성하고 있습니다.",
+  "news": [
+    {
+      "title": "[공모주달력]청약 결과 달랐던 인제니아·기도산업 코스닥 입성 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE52OVAtMWZlUWFvaEVwNHVXS2ZqdnNCaFhJa0I3NlRickxpdU51bDdUc3JlcGo2ZEk1MUYxTk50eHRyWUswdDRRcjJQSnFrMXhCd19Ccw?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 23:01:28 GMT"
+    },
+    {
+      "title": "[공모주달력]이가탄·메이킨, '명인제약' 수요예측 - 비즈워치",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2Mll2UVRFOWhScVg2Y2tpRkx4bVRXNnVNUF8wVjNWWFpmZXNLMmFOZkFmbHNmNXlIdVBQWGlXUURTMjVtSHgxQlhGSHhtTkRJZFR3RktweHRCYkhtQVNrUVRURWljc3pmSnc?oc=5",
+      "pubDate": "Sun, 07 Sep 2025 07:00:00 GMT"
+    },
+    {
+      "title": "[공모주 HOT] 명인제약, 10월 1일 코스피 입성…따따블이면 얼마? - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE45eDVCX3VXRTJ6bEVKOGZHV1lyM3J0SnZRZmhXNk1tZmpMTnVqdWRvMk5JRmxKT2pTYjdkQTZUZWNRQlBDb09UY3RIRGlmMHZpQVZnSWJkWTdRZW5qdUhzZjRjYzUxR0Jn?oc=5",
+      "pubDate": "Wed, 01 Oct 2025 07:00:00 GMT"
+    },
+    {
+      "title": "불나방도 투자자 보호가 필요하다? - 톱데일리",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9sYmVKczhYY0NsaHRZZ2FtQURWVUdBdkFjaV8yVWVWcEhzWnhNR3JzSFE1UHhqVXVLMld4aHdYMnplSjNiQkJhZGFBNjhaS28?oc=5",
+      "pubDate": "Thu, 23 May 2024 07:00:00 GMT"
+    },
+    {
+      "title": "셀트리온 40만, SK바이오 33만 ... 제약·바이오株 움직이는 개미들 - 헬스코리아뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBReEV5aVJ0cnVraWo2UjR5SzdhbnJXT2dMdVVfeUxfOUtGMTNZWXNyMk94Qk5qd3ZaRGxnbGZOSy1BN0tpM2kwRVhSWUsySG9jd0JDUHFuVVFrMDVpYTlGWDhR?oc=5",
+      "pubDate": "Wed, 08 Dec 2021 08:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "주가 급락에 유상증자 반토막…바이오, 시설투자·R&amp;D '비상'",
+      "link": "https://www.dailypharm.com/user/news/341341?REFERER=NP",
+      "description": "<b>HLB제약</b>도 상황이 비슷하다. 이 회사는 지난 5월 13일 보통주 1076만2332주를 발행하는 주주배정 후 실권주 일반<b>공모</b> 유상증자를 결정했다. 회사는 예정 발행가액 1만1150원 기준 1200억원을 조달할 계획이었다. 그러나... ",
+      "pubDate": "Thu, 13 Aug 2026 06:02:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "반도체 쌍끌이에 코스피 3.68% 급등…외국인 3.4조 순매수",
+      "link": "https://www.goodkyung.com/news/articleView.html?idxno=290220",
+      "description": "알테오젠(-3.05%), <b>HLB</b>(-0.83%), 삼천당<b>제약</b>(-2.87%) 등 바이오주는 약세를 보인 반면 에코프로비엠(4.19... 딜리셔스는 <b>공모</b>가 7000원보다 26.57% 낮은 5140원에 거래를 마쳤다. 딜리셔스는 무점포 소매 업체로 K-패션 기업 간... ",
+      "pubDate": "Wed, 12 Aug 2026 18:16:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[애프터마켓 리뷰] 스페이스X 기술적 반등 소식에 관련주 '쑥'",
+      "link": "https://biz.sbs.co.kr/article_hub/20000327830?division=NAVER",
+      "description": "삼천당<b>제약</b>도 그 흐름 속에서 강한 상승세 보였는데, 특히 메인마켓보다도 상승 탄력을 더 키우면서 20%대 급등 마감했습니다. 코스닥 시총 1위 알테오젠, <b>HLB</b>, 에이비엘바이오 등 주요 바이오주들 전반적으로 오르면서... ",
+      "pubDate": "Tue, 11 Aug 2026 07:53:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[주식마감] '제2우주센터' 기대감에 우주항공주 강세... 비츠로넥스텍,...",
+      "link": "https://www.ggilbo.com/news/articleView.html?idxno=1174546",
+      "description": "우주항공청에 따르면 지난 6일까지 진행된 건립지 <b>공모</b>에는 전남광주통합특별시와 제주특별자치도가... 대화<b>제약</b>, 비츠로넥스텍, 클로봇, 현대힘스, 온코닉테라퓨틱스, 에코프로, 강원에너지, <b>HLB</b>, 위메이드맥스... ",
+      "pubDate": "Mon, 10 Aug 2026 19:40:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[어제장 오늘장] 유가·금리 악화에 투심 위축…코스피 7주 연속 하락장",
+      "link": "https://biz.sbs.co.kr/article_hub/20000327570?division=NAVER",
+      "description": "중에선 <b>제약</b>바이오 대표주, 2차전지 대표주가 상승했습니다. 알테오젠 3.9% , <b>HLB</b> 6%, 에이비엘바이오 4... 중국에선 로봇 기업 유니트리 <b>공모</b> 청약이 시작됩니다. 국내 로봇주까지 주목도가 높아질지 관심이 모아집니다.... ",
+      "pubDate": "Mon, 10 Aug 2026 08:31:00 +0900",
+      "source": "뉴스"
+    }
+  ],
+  "updated_at": "2026-08-17 02:00:09",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}

@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260814004199",
+  "corp_name": "덕산넵코어스",
+  "corp_code": "00960623",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814004199",
+  "offering_price_low": "12400",
+  "offering_price_high": "14600",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260916",
+  "subscription_end_dt": "20260917",
+  "listing_dt": "",
+  "underwriter": "계약 체결, 대신증권, 및 발행회사가 협의하여 제시한 희망공모가액",
+  "total_shares": "3000000",
+  "competition_ratio": "",
+  "lock_up_ratio": "10",
+  "demand_forecast_period": "",
+  "business_summary": "화 제품은 위성항법, 항재밍, 통합항법, 기타(데이터링크, 탐색기, 전자전 등)로 구분할 수 있음.",
+  "news": [
+    {
+      "title": "골든타임 놓칠라…공모 속전속결 - 더스탁(The Stock)",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5XckxTTnZReHRucmJFbG5USHZPdTQ4TWZwNnRESkpsekVNSVI2bG5qVGZ2R3A1UFFTSnluOW9vTVlTTmFQZXZGYkZfWDBDQWdEZlZrSkFEaGVEaFdQSzhwdzFWTzdseHc2ZVE?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 00:36:21 GMT"
+    },
+    {
+      "title": "덕산넵코어스, 증권신고서 제출…코스닥 상장 절차 본격화 - 뉴스톱",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAxd0RIcFNnSE1WQXg2WV9mT3JleERfOEtOYXFFNlZkcF9hVkZIaC1qc2hsVTVqa3FzeGVBMXhrZjFKS0xSNUNyNS1oVlFlYWtrdXd4V1VGbGpXaXE0b2ZyQWl6WEFVRm9oNnZnTkdFVQ?oc=5",
+      "pubDate": "Fri, 24 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "현물 배당에 주총 특별결의…덕산넵코어스 상장 ‘승부수’ [시그널] - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RS1dZWkMxOWgzRUFWd2NaekpsbkNZNXZrRmJMTlF3YjdRTU1rTnZES2NxSDJCX1lYYzZOZnFZckw2ckVzV1cyQnYwQ2MzUl9OS0E?oc=5",
+      "pubDate": "Fri, 15 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "주주환원 꺼낸 덕산하이메탈, 실효성은 과제 - 더스탁(The Stock)",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pMFRNZ0d5c2xLcFRfRXRlaUsyQ09EVlNMS3hPVnB0TkxIVERTMlZ5ZkE2QVpyT2VfcmlZVmM0a1dDR3AyQ2tRTVlaUE9tOE15QVZ5SjBmSmxKN1FPVFI1b1RHMHktUFkxLVE?oc=5",
+      "pubDate": "Tue, 19 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "[장외시황] 레몬헬스케어, 공모주 청약 시작 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5KQnRwMEJSV0dRS3REcUk0QTVSZnJNcjhqS21zdFptTzZnaTZNeHV5VE90V1hEZU9fSUVTUEg1bVVmTzIxTmY3RVcwbVg1d3pGMFJ6OQ?oc=5",
+      "pubDate": "Wed, 24 Jun 2026 07:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "[마감시황]코스닥, 장중 839.86까지 밀렸다 반등…858.91로 강보합 마감",
+      "link": "https://www.seoul.co.kr/news/economy/securities/2026/08/12/20260812500175?wlog_tag3=naver",
+      "description": "진행하며 <b>공모</b>가는 2만3000원, 수요예측 경쟁률은 101.91대 1로 집계됐다. 장외시장에서는 특수 목적용 항법 및 항재밍 토탈 솔루션 전문기업 <b>덕산넵코어스</b>가 코스닥 상장 예비심사 청구 관련 종목으로... ",
+      "pubDate": "Wed, 12 Aug 2026 16:15:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[장외시황] 니어스랩ㆍ해치텍, <b>공모주</b> 청약시작",
+      "link": "https://www.etoday.co.kr/news/view/2613788",
+      "description": "<b>공모</b>가는 2만3000원이며 수요예측 갱쟁률은 101.91:1을 기록했다. IPO(기업공개)관련 상장 예비심사 청구종목으로 특수 목적용 항법 및 항재밍 토탈 솔루션 전문기업 <b>덕산넵코어스</b>(구.<b>넵코어스</b>)가 전날과 동일한... ",
+      "pubDate": "Wed, 12 Aug 2026 15:42:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "상반기 가뭄 끝낸 IPO, 하반기 기지개… 공급 회복에도 ‘옥석 가리기’...",
+      "link": "https://biz.chosun.com/stock/stock_general/2026/08/12/T7N6YUOVVJAE5OGL6TY44Q7ROI/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "description": "상반기 신규상장 17곳…지난해 절반 못미쳐 일반청약 1000대1 이상 82%…<b>공모주</b> 투자 수요는 견조 하반기 IPO... 디티에스와 <b>덕산넵코어스</b> 등의 심사가 지연됐다. 최종경 흥국증권 연구원은 “올해 상반기 코스피가... ",
+      "pubDate": "Wed, 12 Aug 2026 06:01:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "쪼그라든 IPO 시장, 하반기 반등할까…'중복상장·코너스톤·<b>공모주</b>' 변...",
+      "link": "https://news.tf.co.kr/read/economy/2352774.htm",
+      "description": "연구원은 &quot;만약 <b>덕산넵코어스</b>와 디티에스가 성공적으로 상장해 시장에 입성한다면 상장을 고민 중인 일부 대어급 종목들도 언제든지 다시 상장 절차에 돌입할 가능성이 높다&quot;며 &quot;따라서 전망치를 훨씬 뛰어넘는 <b>공모</b>... ",
+      "pubDate": "Wed, 12 Aug 2026 00:01:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[장외시황] 기도산업, <b>공모주</b> 청약 시작",
+      "link": "https://www.etoday.co.kr/news/view/2613372",
+      "description": "대상 <b>공모주</b> 청약을 시작했다. <b>공모</b>가는 희망<b>공모</b>범위 상단인 2만8400원으로 확정됐고, 수요예측... 목적용 항법 및 항재밍 토탈 솔루션 전문기업 <b>덕산넵코어스</b>가 호가 2만250원(2.53%)으로 상승하며 장을 마감했다.",
+      "pubDate": "Tue, 11 Aug 2026 16:44:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "2026년 9월 <b>공모주</b> 일정 총정리｜네오사피엔스·브릴스·<b>덕산</b>넵코어....",
+      "link": "https://blog.naver.com/sunshine88_/224377653187",
+      "description": "기관 수요예측은 9월 8일~14일, 일반<b>청약</b>은 9월 16일~17일 예정이고 대신증권이 대표주관사입니다. <b>공모</b>가 기준 예상 시가총액은 약 2,340억~2,760억원 수준입니다. <b>덕산넵코어스</b>의 장점은 방산·우주항공이라는... ",
+      "pubDate": "20260813",
+      "source": "블로그"
+    },
+    {
+      "title": "2026년 8월 9월 <b>공모주 청약</b> 일정 총정리｜기업별 분석과 추석 전 청....",
+      "link": "https://blog.naver.com/kkkihos/224377639471",
+      "description": "⬇⬇ 클릭! 상세 정보 확인! ⬇⬇ 같이 보면 좋을 글들 BEST &quot; &quot; &quot; &quot; &quot; &quot; &quot; &quot; #<b>공모주청약</b> #<b>공모주</b>일정 #2026<b>공모주</b> #니어스랩 #<b>덕산넵코어스</b> #빅웨이브로보틱스 #글로벌테크놀로지 #<b>공모주</b>균등배정 #비례배정 #주식투자",
+      "pubDate": "20260813",
+      "source": "블로그"
+    },
+    {
+      "title": "<b>덕산넵코어스 공모주 청약</b> 일정과 <b>공모</b>가 총정리",
+      "link": "https://blog.naver.com/cso3020/224374196126",
+      "description": "리스크: <b>덕산</b>하이메탈 주가·경영 이슈가 간접적으로 영향을 줄 가능성 업종 밸류에이션: 기존 상장... #<b>덕산넵코어스</b> #코스닥IPO #<b>공모주청약</b> #방산주 #항재밍 #<b>덕산</b>하이메탈 #중복상장 #대신증권 #방산기업... ",
+      "pubDate": "20260810",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-08-17 01:55:16",
+  "total_shares_offered": "3000000",
+  "min_bid_price": ""
+}
