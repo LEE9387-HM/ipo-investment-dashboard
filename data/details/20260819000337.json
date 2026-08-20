@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260819000337",
+  "corp_name": "글로벌테크놀로지",
+  "corp_code": "01564514",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819000337",
+  "offering_price_low": "13000",
+  "offering_price_high": "15000",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260916",
+  "subscription_end_dt": "20260917",
+  "listing_dt": "",
+  "underwriter": "계약 체결, 한국투자증권, 및 발행회사가 협의하여 제시한 희망공모가액, 및 인수회사의 이해관계인",
+  "total_shares": "4000000",
+  "competition_ratio": "",
+  "lock_up_ratio": "10",
+  "demand_forecast_period": "",
+  "business_summary": "중 사업연도별로 비교표시하는 사항 등(이하 \"재무에 관한 사항 등\")은 제출일이 속하는 사업연도의 최근 사업연도(또는 반기, 분기)말을 공시서류작성기준일로 한다.",
+  "news": [
+    {
+      "title": "[장외시황] 인제니아테라퓨틱스, 공모주 청약 시작 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1rNVFkTHFhUUpCTjFoVFROcFBtZDV6dEt6VkgxODU5UVV1U1lhSWktZ0x1WkFrdjZuc21xaU91d3RwQkhteUhiQjFhS2kxa0NmZTd6cg?oc=5",
+      "pubDate": "Thu, 30 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "스페이스X 공모주 물량 미배정에 ETF 편입 차질…운용사들 \"송구\" - JTBC",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9meXozZ1FPM0lkNEp1ZG0zT2N6b2FvWjBzcTRHTzlOSkZTMnZnYXVyT1pncXMxLVNpWmhMMVBxMl80TGVsRjRGa3F5QXNiLTgtbjNqeg?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "우주 관련 ETF 어쩌나…미래에셋증권, 스페이스X 공모주 무산 - MBN 홈페이지",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrYURqMVU2VkN1aExmR1pFdENCQUEwOGc0a3JHd0dUaWtnTDVCSG9tQ0w4cXZKcHNLYk9tN1BQMmsxU2RiOGdaY0RkNlRMaGptS2JFMtIBTEFVX3lxTE5fUF9qNHQwTnlFcnlqMThLZ1hTVXVKZWhVRW9mdHB0YkNuOHVLa1NVYnlBSDBjRG9DUDFWRWVVemdsTmhUaGptenE3b2g?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "'스페이스X' 공모주 무산되자 운용사도 타격…장중매매로 확보도 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9MQldsY083S0VMbnhqTnJwNTNGZ2o5TFRNOTlPYWFZRUxzUjJFdm51MTZTNnVKX3VlSlg2MW9samtKbktmTk92dXZLbWNBZ011X2J6dXctVlNLT0doMnhTbA?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "[공모주 SWOT] 메쥬, 사업·재무 유사성 높은 '씨어스테크놀로지' 피어그룹서 제외...왜? - 녹색경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wRmNnTFY5VDE1NUtIa0tZYlU2TnAyR2FuektDdXhZdWl1dXlCU19qNU9KVzFFSG9pUDFQU19XNXZIOVJ5T1FjTElxQVpPTlhBb1B3VUVvOHNaMGNOVmw2eDRIVXlPR28y?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 07:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "[증권톡톡] 한투운용 '고배당커버드콜 ETF' 개인순매수 1000억 돌파·KB운...",
+      "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=850907",
+      "description": "<b>테크놀로지</b>(6.55%) ▲코리안리(5.83%) 등이다. 월 분배 재원은 편입 종목에서 발생하는 배당금과 콜옵션 매도를 통해 확보한 옵션 프리미엄으로 마련한다. 코스피200 등가격(ATM) 콜옵션 매도 전략을 활용해 <b>주</b> 2회... ",
+      "pubDate": "Thu, 20 Aug 2026 09:50:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[<b>글로벌</b> 비즈 브리핑] 모더나 주가 폭등...맞춤형 mRNA 암 치료제 3상 성...",
+      "link": "https://biz.sbs.co.kr/article_hub/20000329587?division=NAVER",
+      "description": "마벨 <b>테크놀로지</b>와 파트너십을 맺고 대규모 지분 인수권도 획득했습니다. 마벨은 구글과 맞춤형 반도체... 양사는 인공지능(AI) 수요발 <b>글로벌</b> 메모리 공급난과 업계 전반의 수익 급증 속에 중국 당국의 전략적... ",
+      "pubDate": "Thu, 20 Aug 2026 04:41:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "머스크도 “인상적”이라 한 중국 휴머노이드 로봇 1호주 ‘유니트리’...",
+      "link": "https://www.chosun.com/economy/stock-finance/2026/08/19/CS3MCQPKDNAYHKGXEHYG6PWDWU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "description": "창신메모리<b>테크놀로지</b>(CXMT) 상장이 삼성전자, SK하이닉스 등 국내 메모리 업체 주가 하락으로 연결된... 스마트애널리틱스<b>글로벌</b>은 중국 기업들이 로봇 구동에 쓰는 엔비디아 플랫폼을 쓰지 못하게 될 위험을... ",
+      "pubDate": "Wed, 19 Aug 2026 08:53:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[부산 전시] 이번주에뭐볼까 [2026년 8월 15일~ ]",
+      "link": "https://www.busan.com/view/busan/view.php?code=2026080302062641040",
+      "description": "이와 함께 △<b>글로벌</b> 아트 프로젝트 ‘월드 시퀀스’ △국제청년작가전 ‘시대공감: 친애하는 친구여’(사상인디스테이션) △국제사진<b>공모</b>전 ‘헬로 휴먼’ △특별전: 캐논 미래 작가전, 그해 겨울은 따뜻했네... ",
+      "pubDate": "Mon, 17 Aug 2026 04:08:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[마켓인사이드] 애플의 중국산 칩 탑재 좌절이 삼성전자·SK하이닉스에 ...",
+      "link": "https://www.news2day.co.kr/article/20260816500068",
+      "description": "[연합뉴스] 애플이 <b>글로벌</b> 메모리 공급난을 돌파하기 위해 꺼내 들었던 ‘중국산 메모리’ 카드가 미국 정부의 강한 압박에 막혀 좌절 위기에 빠졌다. 중국 메모리업체 창신메모리<b>테크놀로지</b>(CXMT)와... ",
+      "pubDate": "Sun, 16 Aug 2026 23:54:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>글로벌테크놀로지</b> 9월 <b>공모주 청약</b> 일정,<b>공모</b>가,주가 전망",
+      "link": "https://blog.naver.com/wooden_plank/224380539532",
+      "description": "이미지 출처 - n pay 증권 같이 보면 좋은 글 &quot; #<b>글로벌테크놀로지</b> #<b>글로벌테크놀로지공모주</b> #<b>글로벌테크놀로지</b>상장 #<b>글로벌테크놀로지</b>주가전망 #<b>글로벌테크놀로지</b><b>청약</b> #<b>글로벌테크놀로지공모</b>가 #9월<b>공모주</b>... ",
+      "pubDate": "20260816",
+      "source": "블로그"
+    },
+    {
+      "title": "<b>글로벌테크놀로지</b> 상장 주가 전망 9월 <b>공모주 청약</b> 일정 및 삼성 CXMT....",
+      "link": "https://blog.naver.com/youthful282/224370399497",
+      "description": "수익 창출 능력을 증명하는 것이 향후 주가 관리의 핵심 과제가 될 전망입니다. #<b>글로벌테크놀로지</b> #<b>공모주청약</b> #주가전망 #삼성전자 #SK하이닉스 #CXMT #창신메모리 #디스플레이반도체 #9월<b>공모주</b> #시스템반도체",
+      "pubDate": "20260810",
+      "source": "블로그"
+    },
+    {
+      "title": "8월~9월 <b>공모주 청약</b> 일정표.1탄",
+      "link": "https://blog.naver.com/change-change/224370367968",
+      "description": "등 <b>글로벌</b> 브랜드를 고객사로 두고 있습니다. 2026년 8월 현재 코스닥 상장을 추진 중이며, <b>공모주</b>식 170만주, 희망 <b>공모</b>가 2만4800원~2만8400원, 일반 <b>청약</b>은 8월 11~12일 예정입니다. 기도산업의... ",
+      "pubDate": "20260806",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-08-20 02:02:56",
+  "total_shares_offered": "4000000",
+  "min_bid_price": ""
+}
