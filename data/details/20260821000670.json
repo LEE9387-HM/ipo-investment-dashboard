@@ -1,0 +1,95 @@
+{
+  "rcept_no": "20260821000670",
+  "corp_name": "엘리스그룹",
+  "corp_code": "01754737",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000670",
+  "offering_price_low": "70400",
+  "offering_price_high": "90500",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260918",
+  "subscription_end_dt": "20260921",
+  "listing_dt": "",
+  "underwriter": "미래에셋증권, 증권신고서 제출일로부터 최근",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "80",
+  "demand_forecast_period": "",
+  "business_summary": "영역은 기업, 공공기관, 연구기관, 교육기관 등이 실제 업무와 산업현장에 적용 가능한 AI 활용 역량을 갖출 수 있도록 교육 서비스를 제공하는 AX 사업과 AI 모델을 개발, 학습, 배포, 운영하는 데 필요한 고성능 인프라와 플랫폼을 통합 제공하는 AI 클라우드 사업으로 구분됩니다.",
+  "news": [
+    {
+      "title": "엘리스그룹, '돈 버는 AI'로 코스닥 상장 '출사표' - 더스탁(The Stock)",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5HZVNoejN5cFZBU2xPZlNMbU1taWdmZ0p1MUw0SFFIM2dUa0c0NEtIQ0dhNndrb0t4T2l4NzlFS0VKb2czYVZ5VmxYUjZyYmdZdFZWQWFnMW9hSWMxdlh5VjZOQnZWQXNOc3c?oc=5",
+      "pubDate": "Wed, 20 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "“상장 5거래일간 75% 추락”…입성만 하면 추락하는 공모주, 이유는 - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBBR3lSVkl6aDg0TzU2OEhac2J4eVl3MExhcWZ1UmdSNk9JdUpKWFdHRWprcW1BRzVBd0FaRk1tQWkzU1FncHRzU3JnSjhJQzdwQXc?oc=5",
+      "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "상반기 얼어붙었던 IPO 시장, 하반기 반등 시동 … 연간 공모 4조 전망 - 뉴데일리",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42Q085U1kwb29fTlNQTWJsT0R3eVhPeTRmXzN5TDZtQTdXUDJncW15bXZvV0Q4bjNwSW10eWRuLTVCVzJKd3Jma1lPcVpiTmpUU0dEWTVNQ09FdHdHeXIwYXNXYWFNNVo0SURMR2V1ZG52X25YbkZyc0RXRdIBgAFBVV95cUxOckZ3STdMZTFpekpmLW5NeG9Od0hLb0JtMmVjdldiNUVpZEtuYjlHbEZqM1pCeHdGZ3lDQUl6RTZwcGFGN0VBeHJEakNLTzFKM1dLNTQ0SFVkX1BRS1NUc1J4Skc0Uk00MzUxUzZrS2tIanJudkhBcGlGdFZHZWUteA?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "바이오가 키운 코스닥 '1조 클럽'…올해는 AI 인프라로 무게 이동 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5vWlhQNjdCR011SGxKR3ZVQUUxMXZSYlo3bklUOC1ISGhLVlc3MS05TkJ2X3NuTHNrM1c4Y3BRRVh4bElEV0tlSk9wSHFTLUdvbzJ1Mw?oc=5",
+      "pubDate": "Wed, 20 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "일반청약 마친 마키나락스…'AI IPO' 흥행 시대 열까 - 지디넷코리아",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Eb3BQVkRwTGZNZUwyaDZyTm1zU2JBWFNIQ0IwM3VVbTRvOWNkWEhsVDFrODJWeVZ2clNhUVluT0VtU1EyQlZFdEppYmpZWHpkNWFlSjJn?oc=5",
+      "pubDate": "Tue, 12 May 2026 07:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "<b>엘리스그룹</b>, 코스닥 상장 시동…희망 <b>공모</b>가 최고 9만원대",
+      "link": "https://www.etnews.com/20260821000292",
+      "description": "<b>엘리스그룹</b>은 상장 <b>공모</b> 자금을 활용해 AI 인프라·클라우드 기술 초격차를 확보할 방침이다. 수도권과 권역별 지역 거점에 대한 신규 인프라 투자를 늘리고, 미국·싱가포르·일본법인 기반 해외 AI PMDC 수출과 AX... ",
+      "pubDate": "Fri, 21 Aug 2026 23:59:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>엘리스그룹</b>, 코스닥 상장 첫발…증권신고서 제출",
+      "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=271512",
+      "description": "<b>엘리스그룹</b>은 <b>공모</b>자금을 AI 인프라·클라우드 기술 격차를 벌리는 데 쓸 계획이다. 수도권과 지역 거점에 신규 인프라 투자를 늘리고 차세대 GPU 전용 인프라를 구축하는 한편, 미국·싱가포르·일본 법인을... ",
+      "pubDate": "Fri, 21 Aug 2026 18:28:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>엘리스그룹</b>, 코스닥 상장 본격화",
+      "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=858630",
+      "description": "<b>엘리스그룹</b>은 IPO <b>공모</b>자금으로 AI 인프라와 클라우드 기술 투자를 확대할 계획이다. 수도권과 지역 거점에 신규 인프라를 늘리고, 차세대 GPU 전용 인프라를 구축한다. 미국, 싱가포르, 일본 법인을 기반으로... ",
+      "pubDate": "Fri, 21 Aug 2026 18:12:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>엘리스그룹</b>, 코스닥 상장 착수…<b>공모</b> 최대 2011억",
+      "link": "https://www.newspim.com/news/view/20260821000911",
+      "description": "<b>엘리스그룹</b>은 이번 상장에서 222만2000주를 <b>공모</b>한다. 희망 <b>공모</b>가는 7만400원~9만500원으로, 총 <b>공모</b>금액은 1564억원~2011억원 수준이다. 수요예측은 9월 9일부터 15일까지 진행되며, 일반청약은 9월 18일부터 21일까지... ",
+      "pubDate": "Fri, 21 Aug 2026 18:02:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[위클리 시그널] SKT·KT, '모두의 AI' 사업 출사표…위성통신 재난 대응...",
+      "link": "https://www.itdaily.kr/news/articleView.html?idxno=241133",
+      "description": "사업 <b>공모</b>에 지원했다. 모두의 AI 사업은 국산 AI 서비스를 무료로 제공하는 대국민 프로젝트다. 이번... 에임인텔리전스, <b>엘리스그룹</b>, 채널코퍼레이션, 티맵모빌리티, 페르소나AI, 한국세무사회전산법인... ",
+      "pubDate": "Fri, 21 Aug 2026 14:54:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>엘리스그룹 공모주 청약</b>, 할까 말까?｜애널리스트 관점에서 본 AI 풀....",
+      "link": "https://blog.naver.com/zeroreapairsingal/224384945619",
+      "description": "“<b>엘리스그룹 공모주</b>, <b>청약</b>해도 될까?” 결론부터 말하면, 기업 자체는 상당히 흥미롭지만, <b>공모</b>가격이 핵심입니다. 좋은 기업이라고 해서 좋은 <b>공모주</b>가 되는 것은 아닙니다. 이번 글에서는 단순히... ",
+      "pubDate": "20260820",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-08-22 01:51:21",
+  "total_shares_offered": "",
+  "min_bid_price": ""
+}
