@@ -1,0 +1,50 @@
+{
+  "rcept_no": "20260824000116",
+  "corp_name": "케이비제34호기업인수목적",
+  "corp_code": "02032155",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824000116",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260910",
+  "subscription_end_dt": "20260911",
+  "listing_dt": "",
+  "underwriter": "또는 인수회사가 필요하다고 인정하는 사항, KB증권, KB증권㈜에게 인수대가로",
+  "total_shares": "7000000",
+  "competition_ratio": "",
+  "lock_up_ratio": "80",
+  "demand_forecast_period": "",
+  "business_summary": "직위 직무 재직기간 보유 주식수 지분율 비고 전성훈 앤디스파트너스㈜ 벤처투자업 사내이사 대표이사 23.",
+  "news": [
+    {
+      "title": "성수기 맞은 IPO 시장…공모주 `슈퍼 먼스` 온다 - 매일신문",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5OVHB2NnJZbTVrelE2OUppeTRRcGN3ZzZGdUpGRS1oWHNYV2RxV2J6R0xBdXdPTGk4MXNsZW1SUldSX2FCaElJcTB0dF93SjQxcDZ0SWgtR0lTWWp3bG5Uc2dR?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 01:02:06 GMT"
+    },
+    {
+      "title": "[공모주달력]빅웨이브로보틱스 몸값 낮춰 재도전…공모주 '슈퍼위크' - 비즈워치",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE40dmdfQzkzLUhiNDZoNFkyc3hqa2l1bDMwNVpBUlJNYUpFRnRnZ0ZaY1BUbkhHcWdQZFBSMUdCUGJpUGtFSVZkTC1BMDlpZXRqVG5laV92NGZTZzktNEpWM00waXN0dlEtd1E?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 23:00:02 GMT"
+    },
+    {
+      "title": "[공모주달력]수요예측·청약 흥행 실패한 스카이랩스, 상장후 반전할까 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9mNXJIZm9ReE9CQlVnRG1yRjZxOWdCMlJscWlGcHlUR3ozYnRlZXNRN25kUTAxb2NTUjNMTkxlY2JWdU4zdnZWbE5Bcw?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 23:01:08 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "성수기 맞은 IPO 시장…<b>공모주</b> '슈퍼 먼스' 온다",
+      "link": "https://www.imaeil.com/page/view/2026090109440437909",
+      "description": "<b>기업</b>은 <b>기업인수목적</b>회사(SPAC·스팩)를 포함해 총 11곳이다. 지난달 5곳과 비교하면 두 배 이상으로 늘어난 규모다. 일반투자자를 대상으로 <b>공모</b>청약을 진행하는 <b>기업</b> 역시 8월 6곳에서 이달 10곳으로 4곳 증가한다.... ",
+      "pubDate": "Tue, 01 Sep 2026 10:03:00 +0900",
+      "source": "뉴스"
+    }
+  ],
+  "updated_at": "2026-09-06 00:52:44",
+  "total_shares_offered": "7000000",
+  "min_bid_price": ""
+}

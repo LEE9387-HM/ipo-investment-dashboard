@@ -1,0 +1,87 @@
+{
+  "rcept_no": "20260827001060",
+  "corp_name": "진코스텍",
+  "corp_code": "01158632",
+  "stock_code": "250030",
+  "market": "KONEX",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260827001060",
+  "offering_price_low": "19500",
+  "offering_price_high": "23500",
+  "offering_price_final": "",
+  "subscription_start_dt": "20261002",
+  "subscription_end_dt": "20261006",
+  "listing_dt": "",
+  "underwriter": "하나증권",
+  "total_shares": "852000",
+  "competition_ratio": "",
+  "lock_up_ratio": "80",
+  "demand_forecast_period": "",
+  "business_summary": "으로 영위하고 있으며, 재고자산은 제조에 필요한 원재료(글리세린, 카라기난, LBG 등 겔화제·보습제 원료) 및 부재료(용기·캡·리드 등 포장재)가 주를 이루고 있습니다.",
+  "news": [
+    {
+      "title": "‘진코스텍·씨아이에스케미칼·엔키화이트햇’ 코스닥 상장 - 뉴스웰",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12dFdxOHRoUzhFazEwZmZkd3d3ZUlJQWoycWVnbDlNVU9xWTFfSkxjaTlIaEV6ZlZmbFFoRUlfWDZVS3BNNm5TV0dyMmJELTVnM1Z6dmZGcnpxeGhZY1JCcWV2cjBDSlRmcXpTdw?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "진코스텍·씨아이에스케미칼·엔키화이트햇, 코스닥 상장예비심사 신청 - 글로벌E",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE83YS1JTGpHQmNOU1IxYmFSSG1MUUNNWF9zVVBubTM2NnpVOTJuRnZ0RU1FcXJmVUw1cm9EQmdVaXZ0akdXVUI4QkhGQ3lOOFZjc1VzaDMzb0pta1l5UFZKTi14cVdFdVZPMWEw0gFvQVVfeXFMTjhUcFlmbTZuNFc4Uk1oOEpnMDlrZ21hVGhLUGxWamlEZ0NLQWZaSHRMbmZNMnlWVURlM0doRHhtWjJSbkU4MkRYd3gyMWxYeUNUaTVUX012MmlhOFRISW9CNjhUbE1QRlhMR1BrTGVj?oc=5",
+      "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "[N2 포커스] 9월 12개社 코스닥 상장 채비…IPO 시장 반등 시험대",
+      "link": "https://www.news2day.co.kr/article/20260901500283",
+      "description": "멜콘과 <b>진코스텍</b>, 엠비디와 래블업은 이달 기관 수요예측, 내달 <b>공모</b>청약을 실시한다. 멜콘과 <b>진코스텍</b>은 오는 16일, 엠디비는 21일, 래블업은 28일 수요예측 일정을 각각 개시한다. 기업 수뿐 아니라 <b>공모</b> 규모도... ",
+      "pubDate": "Wed, 02 Sep 2026 04:54:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>진코스텍</b>, 코스닥 이전상장 시동…성장재원 확보",
+      "link": "https://news.dealsitetv.com/articles/175328",
+      "description": "김임준 <b>진코스텍</b> 대표이사는 &quot;증권신고서 제출을 시작으로 코스닥 이전상장을 위한 본격적인 <b>공모</b> 절차에 돌입하게 됐다&quot;며 &quot;이번 IPO를 통해 확보한 자금을 생산 기반 확충과 차세대 하이드로겔 기술 개발 등 회사의... ",
+      "pubDate": "Sun, 30 Aug 2026 10:08:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>진코스텍</b>, 코스닥 이전상장 본격화…'3공장·차세대 하이드로겔' 승부수",
+      "link": "https://news.tf.co.kr/read/economy/2359120.htm",
+      "description": "<b>진코스텍</b>은 이번 <b>공모</b>에서 총 85만2000주를 모집한다. 희망 <b>공모</b>가 범위는 1만9500원~2만3500원으로, <b>공모</b> 예정금액은 약 166억원~200억원 규모다. 수요예측은 오는 9월 16일부터 22일까지 5영업일간 진행하며, 10월 2일과 6일... ",
+      "pubDate": "Fri, 28 Aug 2026 11:34:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>진코스텍</b>, 코스닥 이전상장 추진…<b>공모</b>자금 3공장·신제품 개발 투입",
+      "link": "https://www.edaily.co.kr/News/Read?newsId=03063526645551912&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "description": "<b>진코스텍</b> CI.(사진=<b>진코스텍</b>) <b>진코스텍</b>은 이번 상장을 통해 총 85만 2000주를 <b>공모</b>한다. 희망 <b>공모</b>가는 1만 9500~2만 3500원이며 <b>공모</b> 예정금액은 약 166억~200억원이다. 수요예측은 9월16~22일 진행하고 10월2일과 6일 일반청약을... ",
+      "pubDate": "Fri, 28 Aug 2026 10:05:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>진코스텍</b>, 증권신고서 제출…코스닥 이전상장 절차 돌입",
+      "link": "https://www.newspim.com/news/view/20260828000311",
+      "description": "<b>진코스텍</b>은 <b>공모</b>자금을 ▲제3공장 생산시설 구축 ▲원·부재료 확보 ▲하이드로겔 신제품 연구개발 ▲사업 확대를 위한 운영자금 등에 사용할 예정이다. <b>진코스텍</b> 로고. [사진=<b>진코스텍</b>] 회사는 약 2000평 규모의... ",
+      "pubDate": "Fri, 28 Aug 2026 10:03:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "10월 <b>공모주 청약</b> 일정 총정리! 멜콘·<b>진코스텍</b>·엠비디·래블업 주목....",
+      "link": "https://blog.naver.com/gov15/224399700546",
+      "description": "종목 <b>청약</b> 일정 희망<b>공모</b>가 주관사 주요 사업 멜콘 10/1~ 10/2 10,700~12,300원 대신증권 반도체 장비 <b>진코스텍</b> 10/2 10/6 19,500~23,500원 하나증권 화장품 ODM/OEM 엠비디 10/6~ 10/7 9,400~11,500원 하나증권 3D 세포배양... ",
+      "pubDate": "20260905",
+      "source": "블로그"
+    },
+    {
+      "title": "<b>진코스텍</b> 코스닥 이전상장 예비심사 승인! 하이드로겔 화장품 관련....",
+      "link": "https://blog.naver.com/economy_it/224381439927",
+      "description": "<b>진코스텍 공모주 청약</b> 개요 및 상장 정보 요약 이번 코스닥 이전상장 <b>공모</b>로 조달된 자금은 신규 3공장 신축을 통한 생산 캐파(CAPA) 확대와 차세대 하이드로겔 제형 R&amp;D(연구개발)에 전액 재투자될... ",
+      "pubDate": "20260821",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-09-06 00:52:13",
+  "total_shares_offered": "852000",
+  "min_bid_price": ""
+}

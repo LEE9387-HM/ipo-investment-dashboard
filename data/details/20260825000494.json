@@ -1,0 +1,107 @@
+{
+  "rcept_no": "20260825000494",
+  "corp_name": "브릴스",
+  "corp_code": "01801026",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825000494",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "",
+  "subscription_end_dt": "",
+  "listing_dt": "",
+  "underwriter": "",
+  "total_shares": "",
+  "competition_ratio": "",
+  "lock_up_ratio": "",
+  "demand_forecast_period": "",
+  "business_summary": "",
+  "news": [
+    {
+      "title": "[IPO챗] 다음주 신규상장 공백속 7곳 수요예측 - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5GcnJLZHlGLS14dHlELVVRTmdCY1EwejctX0JQWDQ2ZlRZajdPVzJUOVRaOEZNRHZ0ZkdWalhmZW9ENGFvbEVHWV9IWDVDWVh4N1E?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 00:00:07 GMT"
+    },
+    {
+      "title": "공모주 '품귀 프리미엄' 끝났다…IPO 옥석 가리기 본격화 [fn마켓워치] - 파이낸셜뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1vVU9BSzRRZjlkeHlMUkF2ZjJCMnpqTC1fME0zMHpzZ1U2WVJZdmhsdzBGNGlUa2xrNzExR1QwanFsTExPdnNDMWlqSDFEaXJNWDI5ZDcxdHJ3UQ?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 10:36:55 GMT"
+    },
+    {
+      "title": "[장외시황] 에스텍시스템, 코스피 상장예비심사 청구⋯브릴스ㆍ빅웨이브로보틱스 청약 일정 변경 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE45b1hJQ1ByZ0xyaXJ1aU9HRlB4MC1UU0YzdXpTTzg1all2T2NlUEhXNFlUay1oOTJBeXRZQzZacTVhN2MwcUpXOGtYOHZVbDJkeFVBZA?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "성수기 맞은 IPO 시장…공모주 `슈퍼 먼스` 온다 - 매일신문",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5OVHB2NnJZbTVrelE2OUppeTRRcGN3ZzZGdUpGRS1oWHNYV2RxV2J6R0xBdXdPTGk4MXNsZW1SUldSX2FCaElJcTB0dF93SjQxcDZ0SWgtR0lTWWp3bG5Uc2dR?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 01:02:06 GMT"
+    },
+    {
+      "title": "수요 주는데 공급 늘어난 공모주 시장...'옥석가리기 심화' - 데일리한국",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE10TlZtdDFtUE1PRkpOZWZnVTdEM2VwNXg4SEQzZ2Uwak5hZnZoVC1pT0FlbXFOMzJ4RVhLeUxiOTAtNnhqNWtfQUl3NVpaSmlMb2NQQ2NRWklrZFdxQnFmRXp0RHdqWlh2cnp6RkQ1RdIBc0FVX3lxTE1wQ0tkb1B3WXdicXU3dUl1dkNfb0NPQy01Y1huN21GTjBYcFZSMzR5YVd3M0NEd0JMeWVWTzhDdU95VVRHa0ZJcTJRalQ4OEZ2MEtLSU14dGtNTjYyV3ViR3ZkMDFXWEQtNmoyZjI0Uk5DYUE?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 07:11:55 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "[자금조달 프리뷰] 하나·대신·DB證 <b>공모</b>채…IPO 5곳 '러시'",
+      "link": "https://www.bloter.net/news/articleView.html?idxno=672796",
+      "description": "<b>브릴스</b> 역시 이달 9일부터 15일까지 수요예측을 진행한다. <b>공모 주</b>식은 120만주이며 희망 <b>공모</b>가는 1만6500~1만9500원이다. <b>공모</b> 예정금액은 198억~234억원으로, 대표주관사는 IBK투자증권이 맡았다.",
+      "pubDate": "Sun, 06 Sep 2026 09:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[이번주 IPO]9월 둘째 <b>주</b> 수요예측·청약 일정",
+      "link": "https://view.asiae.co.kr/article/2026090522541113845",
+      "description": "총 <b>공모</b> 금액은 1564억~2011억원으로 예상된다. 수요예측은 오는 9~15일 진행되며 일반 청약은 18~21일 양일간 진행될 예정이다. 상장 대표 주관사는 미래에셋증권이며 공동주관사는 삼성증권이다. ◆<b>브릴스</b>... ",
+      "pubDate": "Sun, 06 Sep 2026 08:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[<b>공모주</b>달력]빅웨이브로보틱스 몸값 낮춰 재도전…<b>공모주</b> '슈퍼위크'",
+      "link": "https://news.bizwatch.co.kr/article/market/2026/09/04/0029",
+      "description": "이번 <b>주</b> <b>공모주</b> 시장은 수요예측 일정이 빽빽해요. 상장 절차가 수차례 미뤄졌던 빅웨이브로보틱스가... <b>브릴스</b>·한국스팩17호도 수요예측…<b>공모</b> 일정 줄줄이 <b>브릴스</b>도 같은 기간 기관투자자를 대상으로... ",
+      "pubDate": "Sun, 06 Sep 2026 08:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "신규 상장 공백기 틈탄 테크 기업들의 각축전… AI·로봇·소부장 중심의...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=604155",
+      "description": "AI 음성·로봇 플랫폼·방산 줄줄이 대기… 9월 둘째 <b>주</b> <b>공모주</b> 시장 달군다  다음 <b>주</b> IPO 시장에서 7개... 희망 <b>공모</b>가는 1만2천400∼1만4천600원이며 대표주관사는 대신증권이다. 엘리스그룹과 <b>브릴스</b>도 9일부터... ",
+      "pubDate": "Sun, 06 Sep 2026 00:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "기대감과 거품론 사이… 로봇주 '빅웨이브로보틱스'에 쏠린 눈",
+      "link": "http://weekly.chosun.com/news/articleView.html?idxno=54951",
+      "description": "이 중 빅웨이브로보틱스는 글로벌테크놀로지, 덕산넵코어스, 네오사피엔스, <b>브릴스</b>, 와이즈플래닛컴퍼니 등 AI·로봇·기술 분야 성장 기업들과 함께 중견급 <b>공모주</b>에 포진했다. 이달 최대어는 AI 인프라 기업인... ",
+      "pubDate": "Sat, 05 Sep 2026 16:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "2026년 9월 2주차 <b>공모주 청약</b>(음성AI 관련주 네오사피엔스) 수요예측(....",
+      "link": "https://blog.naver.com/leegg209/224402421639",
+      "description": "2025년 매출 485억 원, 영업이익 41억 원을 기록 2026년 9월 9일 <b>공모주 청약</b> 일정 IPO 수요예측일정, 신규상장 일정 <b>브릴스</b> 수요예측 산업용 로봇 협동용 로봇 모듈 AMR 관련주 수요예측일정 : 2026.09.09... ",
+      "pubDate": "20260906",
+      "source": "블로그"
+    },
+    {
+      "title": "&quot;<b>공모</b>가 1만 6,500원부터&quot; <b>브릴스 공모주</b> 밸류에이션 분석 총정리",
+      "link": "https://blog.naver.com/mindteens/224402230933",
+      "description": "이러한 유통 비중은 상장 초기 주가 흐름에 영향을 줄 가능성이... 2026년 9월 코스닥 상장을 준비 중인 <b>브릴스</b>의 희망 <b>공모</b>가 밴드와 배정비율, 약 26%에 달하는 유통 가능 물량 등 주요 <b>청약</b> 조건들을... ",
+      "pubDate": "20260906",
+      "source": "블로그"
+    },
+    {
+      "title": "9월 <b>공모주 청약</b> 일정, 네오사피엔스, 빅웨이브로보틱스, <b>브릴스</b>, 엘....",
+      "link": "https://blog.naver.com/jajaja106/224402109782",
+      "description": "9월 <b>공모주 청약</b> 일정｜네오사피엔스·빅웨이브로보틱스·<b>브릴스</b>·엘리스그룹 총정리 안녕하세요. 맛있게 재테크입니다. 9월 <b>공모주 청약</b> 일정이 본격적으로 시작됩니다. 9월에는 AI, 로봇, 반도체... ",
+      "pubDate": "20260905",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-09-06 00:52:27"
+}

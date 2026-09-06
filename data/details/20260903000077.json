@@ -1,0 +1,109 @@
+{
+  "rcept_no": "20260903000077",
+  "corp_name": "빅웨이브로보틱스",
+  "corp_code": "01722066",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903000077",
+  "offering_price_low": "15000",
+  "offering_price_high": "18000",
+  "offering_price_final": "",
+  "subscription_start_dt": "20260915",
+  "subscription_end_dt": "20260916",
+  "listing_dt": "",
+  "underwriter": "유진투자증권, 보유신주인수권, 보유 신주인수권, 및 공동주관회사는, 등은 연도별 매출액의 성장 여부와, 등은 상기 전망치가, 대상으로 상장후, 및 인수회사의 이해관계인",
+  "total_shares": "1600000",
+  "competition_ratio": "",
+  "lock_up_ratio": "80",
+  "demand_forecast_period": "20260907~20260911",
+  "business_summary": "중 사업연도별로 비교표시하는 사항 등(이하 \"재무에 관한 사항 등\")은 제출일이 속하는 사업연도의 최근 사업연도(또는 반기, 분기)말을 공시서류작성기준일로 한다.",
+  "news": [
+    {
+      "title": "기대감과 거품론 사이… 로봇주 ‘빅웨이브로보틱스’에 쏠린 눈 - 주간조선",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ha2JSbC1UVzVCblBVRzNJVGFkU1p4ZThuM1dlV3ZhczVCb1ZjNG1QY0Q5VnNxMUNPeHM5bU9BdENWNkVIYTJIMkptbTJ4VS01dFNhemd1YUZERDY5dEp0YXZ6VzJkQlk0U3fSAW5BVV95cUxOeXlENGhBQnBwbl9xUXNmYzdjejd6bzhGN3FjSGdkTVVmdGx4LXlqa2E0SGZBclZoV3M3THkxV0cyekV4eWQ1YlVrN1lxMUZTRDMxR3BhSWRyanBCUHMwSEdlSW1HNkhqUzB4YmlzZw?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "title": "[공모주달력]증권신고서 4번 고친 빅웨이브로보틱스, 수요예측 - 비즈워치",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVTlM0MU1seGdHR3hiamdtSVI4XzFSU1U4aVV1WEdsNTZrZElvS2w2Q09udVRDUzJkM21SV3A1VWxUQ2hSTDQweUt5dE9xaGN4dUdCS1NqS015RWpyUmhBUklpUkVfVVFHdEE?oc=5",
+      "pubDate": "Sun, 02 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "[주간IPO] 6월 넷째 주, 공모주 청약 빅웨이브로보틱스·매드업·레몬헬스케어 - 소비자가 만드는 신문",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ncVlqY2NESl9fV0tqTXFjNXFoUGpZR3E2T1BxeEh0UHR5NDNYU0NwYUxKc2prZmYxZnpkTzg5ZDRIZk9FaUswY1FVU0g3LU1jU0pGdDljby1jRkpUclNmMzFNeWJqbGt2NzdZa2Qwd3B0YkU?oc=5",
+      "pubDate": "Fri, 19 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "이번주 공모주 청약, 빅웨이브로보틱스 등 3개사 - 데일리안",
+      "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOWnJDVUJfSWJYdVpGOFpFZU5pMURqUW42d2VsYl9ESDRlM0FjZ2RjbGVrQ0MxQXNpWENQMW56eV9IMDlWeWg3UkJJSTZzS19BVXhsb1hGN2ZhdWw2cGhWbjRYRG9fTXJmRGNCdTdzVmdGLVlWQVMtTHcwOUJlVFdKekZHdm9uM1BRckRiY29oWWZiUHhjVnpIb29uT1FCY1V4NFlSRDNXS3ZHMWNqbERKU25jR3N3Wkw2SWxSVjdlOWs4Y3R1ZU9sLXp4SXRPWEVXeHdIVk9MNnhhS09SVVdLWXRMWGVtVnZJbmc0cGoyRU8zMWJqVU9XUTFJQ1BzSWdYcHRWWi02Rk1NUHFaRG1vSWJ5V1ZqSU9GOWVGUC1KMUZKZw?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "매드업·레몬헬스케어, 코스닥 공모주 2종목 일반 청약 진행 [이번주 증시 캘린더] - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAzaXMzdWlUUThUTTJyUEF6SzNqMDJuU0EwLVQ3NjlVcFpaUThXbVdhUDlzQlB5RG4yTS15Q2swR25zYnJjN3RPM0ZtRTFfN0V1Q2fSAVNBVV95cUxPS19rVEY4b1dPbVE0dERydHFmd3FoeUpuSUg3bFdKeHd4TXczNEd6aDNINFB5Z3RRVUtMSjNlYzV5aS1CQl94djdxRlhLMWJXblRTdw?oc=5",
+      "pubDate": "Mon, 22 Jun 2026 07:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "와이즈플래닛 수요예측·네오사피엔스 청약[증시캘린더]",
+      "link": "https://www.edaily.co.kr/News/Read?newsId=01233286645577496&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "description": "-<b>공모</b>가 희망 범위 1만~1만2000원, <b>공모</b>금액 상단 기준 192억원. -2025년 연결기준 매출액 648억원, 영업이익 63억원. 9월 7~11일 △<b>빅웨이브로보틱스</b> 수요예측 -로봇 자동화 플랫폼 ‘마로솔’을 운영하는 로봇 솔루션... ",
+      "pubDate": "Sun, 06 Sep 2026 09:02:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[자금조달 프리뷰] 하나·대신·DB證 <b>공모</b>채…IPO 5곳 '러시'",
+      "link": "https://www.bloter.net/news/articleView.html?idxno=672796",
+      "description": "희망 <b>공모</b>가는 1만3000~1만5000원으로 이에 따른 <b>공모</b> 예정금액은 520억~600억원이다. 대표주관사는 한국투자증권이다. <b>빅웨이브로보틱스</b>도 7일부터 11일까지 수요예측을 받는다. 온라인 로봇 자동화 플랫폼... ",
+      "pubDate": "Sun, 06 Sep 2026 09:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[<b>공모주</b>달력]<b>빅웨이브로보틱스</b> 몸값 낮춰 재도전…<b>공모주</b> '슈퍼위크'",
+      "link": "https://news.bizwatch.co.kr/article/market/2026/09/04/0029",
+      "description": "몸값 낮춘 <b>빅웨이브로보틱스</b> 재도전…글로벌테크놀로지도 출격 이번 <b>주</b> <b>공모주</b> 시장에서 가장 눈여겨볼 기업 중 하나는 로봇 자동화 플랫폼 기업인 <b>빅웨이브로보틱스</b>예요. <b>빅웨이브로보틱스</b>는 7일부터 11일까지... ",
+      "pubDate": "Sun, 06 Sep 2026 08:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[이번주 IPO]9월 둘째 <b>주</b> 수요예측·청약 일정",
+      "link": "https://view.asiae.co.kr/article/2026090522541113845",
+      "description": "희망 <b>공모</b>가 밴드는 1만3000~1만5000원이며 총 <b>공모</b> 예정 금액은 520억~600억원 규모다. 밴드 기준 예상 시가총액은 약 2546억~2937억원이다. 상장 주관사는 한국투자증권이다. ◆<b>빅웨이브로보틱스</b>... ",
+      "pubDate": "Sun, 06 Sep 2026 08:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "신규 상장 공백기 틈탄 테크 기업들의 각축전… AI·로봇·소부장 중심의...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=604155",
+      "description": "AI 음성·로봇 플랫폼·방산 줄줄이 대기… 9월 둘째 <b>주</b> <b>공모주</b> 시장 달군다  다음 <b>주</b> IPO 시장에서 7개... <b>빅웨이브로보틱스</b>는 로봇 자동화 플랫폼 '마로솔'을 운영하며, <b>공모</b> 희망가는 1만5천∼1만8천원으로 정정된 바... ",
+      "pubDate": "Sun, 06 Sep 2026 00:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "2026년 9월 2주차 <b>공모주 청약</b>(음성AI 관련주 네오사피엔스) 수요예측(....",
+      "link": "https://blog.naver.com/leegg209/224402421639",
+      "description": "7일 <b>공모주 청약</b> 일정 IPO 수요예측일정, 신규상장 일정 <b>빅웨이브로보틱스</b> 수요예측 로봇 자동화 플랫폼 로봇 관련주 수요예측일정 : 2026.09.07 ~ 2026.09.11 <b>공모주청약</b>일 : 2026.09.15 ~ 2026.09.16 희망<b>공모</b>가... ",
+      "pubDate": "20260906",
+      "source": "블로그"
+    },
+    {
+      "title": "이번 <b>주</b> 놓치면 후회?” 9월 둘째 <b>주</b> <b>공모주 청약</b>·상장 일정 한눈에",
+      "link": "https://blog.naver.com/wlsdud067/224402414235",
+      "description": "9월 둘째 <b>주</b> <b>공모주</b> 일정 총정리…네오사피엔스 <b>청약</b>부터 <b>빅웨이브로보틱스</b> 수요예측까지 9월 둘째 <b>주</b> IPO 시장이 다시 바빠집니다. 이번 주에는 네오사피엔스 일반<b>청약</b>을 비롯해 와이즈플래닛컴퍼니... ",
+      "pubDate": "20260906",
+      "source": "블로그"
+    },
+    {
+      "title": "AI·로봇·반도체 총출동…9월 <b>공모주</b> 슈퍼위크, 어디에 <b>청약</b>할까?",
+      "link": "https://blog.naver.com/sromis00/224402381378",
+      "description": "<b>공모주</b> 슈퍼위크 시작…<b>빅웨이브로보틱스</b>·엘리스그룹·글로벌테크놀로지 주목 9월 둘째 <b>주</b> <b>공모주</b> 시장이 상당히 바빠졌습니다. 이번 주에는 기관투자자들의 수요예측이 줄줄이 예정돼 있습니다. 특히... ",
+      "pubDate": "20260906",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-09-06 00:51:32",
+  "total_shares_offered": "1600000",
+  "min_bid_price": ""
+}

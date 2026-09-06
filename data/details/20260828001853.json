@@ -1,0 +1,80 @@
+{
+  "rcept_no": "20260828001853",
+  "corp_name": "엠비디",
+  "corp_code": "01705740",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828001853",
+  "offering_price_low": "9400",
+  "offering_price_high": "11500",
+  "offering_price_final": "",
+  "subscription_start_dt": "20261006",
+  "subscription_end_dt": "20261007",
+  "listing_dt": "",
+  "underwriter": "하나증권, 및 발행회사가 협의하여 제시한 희망공모가액, 취득 합계",
+  "total_shares": "2000000",
+  "competition_ratio": "",
+  "lock_up_ratio": "80",
+  "demand_forecast_period": "",
+  "business_summary": "중 사업연도별로 비교표시하는 사항 등(이하 \"재무에 관한 사항 등\")은 제출일이 속하는 사업연도의 최근 사업연도(또는 반기, 분기)말을 공시서류작성기준일로 한다.",
+  "news": [
+    {
+      "title": "엠비디, 증권신고서 제출…코스닥 상장 절차 본격화 - 뉴스톱",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE43MVFvZFdxajBpTlM5cjZwanJsRWVlNEZvdlVCTFJQOTRtWEw0UHhpR2Y4UE5GeU5QdDhTRmV4aUFoUTBFenU5ZXZDQzV3V3N0eDdLWVk0VGZNbmFvdGd5N3FlQlAwQ2VWY2VuN0FTdw?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 01:59:54 GMT"
+    },
+    {
+      "title": "3년 내 순이익 180억 자신…시장 설득 ‘과제’ - 더스탁(The Stock)",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2ME5UWFFVb3lsbjlRdmV0SzkyQWhlaHdMZGRsYlBveXdJeEJhVzcyTHVVUDhnSGMwRU5ETnFqQXREVHdSODFRZXpOSmZsYXVLTnAxc0RDTmg3Z1Y0ajlzdHFvdzdXTHNRR0E?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 02:44:37 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "[<b>엠비디</b> IPO] 3년 내 순이익 180억 자신…시장 설득 '과제'",
+      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33311",
+      "description": "부담을 줄 수 있어서다. 무엇보다도 예상 실적으로 몸값을 구한 만큼 합리적인 추정 근거를 제시할 필요가... 이후 할인율 39.06~26.09%를 적용해 <b>공모</b>가 밴드(9400~1만1500원)를 제시했다. <b>엠비디</b>의 올해 예상 순손실은... ",
+      "pubDate": "Fri, 04 Sep 2026 11:46:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[더벨][<b>엠비디</b> IPO] 2029년 순이익 180억 전제, 상장 밸류 1600억 제시",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609011456352040106938",
+      "description": "<b>엠비디</b>는 8월 28일 증권신고서를 제출하고 <b>공모</b> 절차에 들어갔다. 희망<b>공모</b>가는 9400~1만1500원, <b>공모주</b>식은 200만주 전량 신주다. 이번 <b>공모</b>를 통해 조달하는 자금은 하단 기준 188억원, 상단 기준 230억원이다. <b>공모</b>... ",
+      "pubDate": "Wed, 02 Sep 2026 07:02:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[N2 포커스] 9월 12개社 코스닥 상장 채비…IPO 시장 반등 시험대",
+      "link": "https://www.news2day.co.kr/article/20260901500283",
+      "description": "멜콘과 진코스텍, <b>엠비디</b>와 래블업은 이달 기관 수요예측, 내달 <b>공모</b>청약을 실시한다. 멜콘과 진코스텍은 오는 16일, 엠디비는 21일, 래블업은 28일 수요예측 일정을 각각 개시한다. 기업 수뿐 아니라 <b>공모</b> 규모도... ",
+      "pubDate": "Wed, 02 Sep 2026 04:54:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "청약은 흥행, 주가는 뒷걸음…올해 상장 바이오텍들 반쪽짜리 ‘실탄 확...",
+      "link": "https://www.dt.co.kr/article/12079302?ref=naver",
+      "description": "이들 기업들은 화려하게 증시에 입성했지만 현재 주가가 <b>공모</b>가보다 낮은 곳이 대부분이다. 이런 주가로는... 악영향을 줄 수 있다고 보고 있다. 카이랩스, 엠에스바이오, <b>엠비디</b> 등이 상장을 준비하는 등 바이오... ",
+      "pubDate": "Thu, 20 Aug 2026 16:55:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "올해 상장 제약·바이오 8곳 전부 <b>공모</b>가 밑…하반기 IPO도 몸 낮추나",
+      "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02643686645544368",
+      "description": "올해 코스닥에 입성한 제약·바이오·헬스케어 기업 8곳의 주가가 모두 <b>공모</b>가를 밑돌고 있다.... 기업 <b>엠비디</b>도 상장 예비심사를 통과하고 본격적인 상장 절차에 진입했다. 현재 코스닥 상장예비심사 결과를... ",
+      "pubDate": "Wed, 05 Aug 2026 07:32:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "10월 <b>공모주 청약</b> 일정 총정리! 멜콘·진코스텍·<b>엠비디</b>·래블업 주목....",
+      "link": "https://blog.naver.com/gov15/224399700546",
+      "description": "특히 멜콘, 진코스텍, <b>엠비디</b>, 래블업은 일반기업 <b>공모주</b>라는 점에서 관심을 가져볼 만합니다. 여기에 SK증권제14호스팩 <b>청약</b>도 예정되어 있습니다. 다만 중요한 점이 있습니다. 아직 10월 <b>공모주</b>... ",
+      "pubDate": "20260905",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-09-06 00:52:04",
+  "total_shares_offered": "2000000",
+  "min_bid_price": ""
+}
