@@ -1,0 +1,88 @@
+{
+  "rcept_no": "20260826000506",
+  "corp_name": "에스케이증권제14호기업인수목적",
+  "corp_code": "02032951",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000506",
+  "offering_price_low": "",
+  "offering_price_high": "",
+  "offering_price_final": "",
+  "subscription_start_dt": "20261015",
+  "subscription_end_dt": "20261016",
+  "listing_dt": "",
+  "underwriter": "SK증권, 종합의견 작성 및 검토 상장예비심사신청서 제출, SK증권㈜에게 인수대가로",
+  "total_shares": "6500000",
+  "competition_ratio": "",
+  "lock_up_ratio": "70",
+  "demand_forecast_period": "",
+  "business_summary": "의 내용 및 향후 추진하려는 신규사업 (1) 주요사업의 내용 당사는 한국거래소의 코스닥시장에 상장한 후 다른 회사와 합병하는 것을 유일한 사업목적으로 합니다.",
+  "news": [
+    {
+      "title": "[스팩 시장 점검①] 3년 뒤 돌아온 청구서…청산 러시 본격화 - 녹색경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBiNnY2QnpySjJiU3FMYlpsbDRqU1FTaFFVUExjLU9DNFF0aldwb3NvZmRSSmpDZ0dXUG1BeUpKeGhmLVFkWDJ5TkJmY2R4bXZzbzMtZnhPN0FubV9iZ25pSWZraDdKNnB5?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "“뜨거웠던 공모주, 이젠 재미없네”…손실 걱정 덜한 ‘이것’ 뜬다 - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE55QTBEdFVVQzdYVEJDX0cxcGIwYUFxQUJxTTVSNUhmU3l4VDBMZjVhWjdqa0llVVBNYTlQMENWTy1Weks3UXFOeUJuU0ZQZlEz?oc=5",
+      "pubDate": "Mon, 22 Jul 2024 07:00:00 GMT"
+    },
+    {
+      "title": "이번에는 스팩 공모청약 대란···20조 청약증거금 낙수효과 나타날까 - 시사저널e",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqUjhNM1RxTmhFOUZvUTU0cTJFeUNTNENqWFFXTFZpb1J0cnU3MnJYTTRFY1h3MWM4ZUdKVWJidXh5TElqZGlMMTFzb3hLcEVzUFExWUtub2p3MndjWnV3LUFjcENieEd5RkRFV3UyV2FVd9IBdkFVX3lxTE80WFZSanhBeXNJUDR5TU9QMTNXOWpQM1pKTmF3amNSOWRTNGNRSEdHaDlEU2ZSX01QcElrT2dNNGliRzRfWUgydmhIcW1keHIyeEpYYURlY2VJUndoZk8zRjlWb0hDNDBmR3piVUd1Y1RhdHllUVE?oc=5",
+      "pubDate": "Mon, 19 Feb 2024 08:00:00 GMT"
+    },
+    {
+      "title": "공모주 ‘따따블’ 기대감 줄었나…스팩주 급등세 진정 - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9KbjUyZ3FzN2YtbG5mX1VVMzZ5cVhqWnp4Q2ZtTmp1akdXbkpqWVRXUEF3eWRXekp3VDdzTllYYlY5M2t6aXY1WGtBNVRRU0l2QWhnbW5KS1I0MlN3dkVhZWk4YkNsMXM?oc=5",
+      "pubDate": "Fri, 11 Aug 2023 07:00:00 GMT"
+    },
+    {
+      "title": "'1388대 1' 신한제18호스팩 수요예측 흥행, 100억 공모 본궤도 - 데이터투자",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5hQWZNVmlDX05BTDR0RXZVdEcyaGtnQ1AyczJHRjktV0RlQWJ5bkJNSzN5c2RCS1FSRVk2c2FDcjhWc2xGU2gzMXItMXRJRzgzTG5RcHZmM1d5ZGNNeUtyWDVfdlNkV2tiMXpyQ2oyUF9oX3c?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 07:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "실체도 없는데 날뛰다가 결국…한풀 꺾인 '스팩' 열기",
+      "link": "https://www.hankyung.com/finance/article/2023083138286",
+      "description": "신규 상장 종목의 주가가 상장 첫날 <b>공모</b>가의 최대 4배까지 오를 수 있도록 제도가 시행된 지 두 달이 지난 현재, 상장일 주가 급등 현상을 보였던 스팩(<b>기업인수목적</b>회사·SPAC)<b>주</b> 열기가 한풀 꺾인 것으로 나타났다.... ",
+      "pubDate": "Fri, 01 Sep 2023 07:27:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "제자리 찾아가는 스팩주…&quot;<b>공모</b>가 수준이 적정&quot;",
+      "link": "https://www.etoday.co.kr/news/view/2280122",
+      "description": "(SPAC·<b>기업인수목적</b>회사)주들이 대부분 <b>공모</b>가 수준으로 상승분을 반납했다. 31일 거래소에 따르면 7~8월... 25%, <b>에스케이증권</b>제9호스팩 2.75%, 유안타<b>제14호</b>스팩 2.25%, KB제26호스팩 0.75%, 하나28호스팩 0.25... ",
+      "pubDate": "Thu, 31 Aug 2023 16:46:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "한탕 노리고 다닥다닥, 스팩개미의 과열투자 언제까지 이어지나",
+      "link": "http://news.mt.co.kr/mtview.php?no=2023081814374745282",
+      "description": "스팩(<b>기업인수목적</b>회사, SPAC) 종목의 널뛰기가 이어지고 있다. 스팩 특성상 주가 폭등세가 이어지기 어려운데도 상장일 <b>공모</b>가 변동 폭이 확대된 틈을 타 투자자들은 '한방'을 노린다. 20일 금융투자업계에 따르면... ",
+      "pubDate": "Mon, 21 Aug 2023 06:05:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "'단타 놀이터'된 스팩…당국 경고에도 ‘이상과열’ 여전",
+      "link": "http://www.edaily.co.kr/news/newspath.asp?newsid=01207046635707320",
+      "description": "불었던 <b>공모주</b> 시장은 어느 정도 이성을 되찾았지만, 스팩(SPAC·<b>기업인수목적</b>회사)은 여전히 이상 과열... 마찬가지로 같은 달 21일, 27일 각각 상장한 <b>에스케이증권</b>제9호스팩(455910)과 유안타<b>제14호</b>스팩(450940)은 고가... ",
+      "pubDate": "Mon, 14 Aug 2023 06:52:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "스팩 이상급등에... 금융당국 일각선 400% 가격제한폭 미적용 검토",
+      "link": "https://biz.chosun.com/stock/market_trend/2023/08/01/GBDNQYJSFNEHJHP2POXDUCJU4A/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "description": "그러나 신규 상장 <b>공모주</b> 중에서도 스팩(SPAC·<b>기업인수목적</b>회사)은 상장 당일 주가가 <b>공모</b>가 대비 크게... DB금융스팩11호, <b>에스케이증권</b>제9호스팩)의 상장일 주가는 <b>공모</b>가 대비 평균 151.8% 상승했다. 상장 이후 주가... ",
+      "pubDate": "Tue, 01 Aug 2023 10:34:00 +0900",
+      "source": "뉴스"
+    }
+  ],
+  "updated_at": "2026-09-21 03:21:44",
+  "total_shares_offered": "6500000",
+  "min_bid_price": ""
+}
