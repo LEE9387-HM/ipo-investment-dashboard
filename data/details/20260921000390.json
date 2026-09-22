@@ -1,0 +1,94 @@
+{
+  "rcept_no": "20260921000390",
+  "corp_name": "래블업",
+  "corp_code": "01956751",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000390",
+  "offering_price_low": "19000",
+  "offering_price_high": "22000",
+  "offering_price_final": "",
+  "subscription_start_dt": "20261022",
+  "subscription_end_dt": "20261023",
+  "listing_dt": "",
+  "underwriter": "NH투자증권, 및 발행회사가 협의하여 제시한 희망공모가액, 신주인수권 상장주선인 의무인수분, 계약 체결",
+  "total_shares": "2180000",
+  "competition_ratio": "",
+  "lock_up_ratio": "80",
+  "demand_forecast_period": "",
+  "business_summary": "자군 중 일부가 동 영역에서는 경쟁 대상에서 제외되는 측면이 있으며 당사가 직면하는 경쟁 강도 또한 전체 시장 대비 다소 낮은 수준으로 추정됩니다.",
+  "news": [
+    {
+      "title": "[애널리스트의 마켓뷰]2026년 남은 한해, 공모주 시장 주목해야 - 동아일보",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1OTFpVY051ZG1SVnZjeXRnSmk0aWg0QWplSi05dG9CazB6cDdJUjRRS0hjSl9lcExZQ2hKaDB2T1ZIMzBKSk1PQ0FKSFZxUFpRdS1Od3htZnRmc2RIT2JJRktwQlU1QdIBZkFVX3lxTE1OTFpVY051ZG1SVnZjeXRnSmk0aWg0QWplSi05dG9CazB6cDdJUjRRS0hjSl9lcExZQ2hKaDB2T1ZIMzBKSk1PQ0FKSFZxUFpRdS1Od3htZnRmc2RIT2JJRktwQlU1QQ?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 15:30:00 GMT"
+    },
+    {
+      "title": "규제에 눈치보는 예비 상장사들, IPO 도전 '반토막' - 뉴스톱",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9SQjRmTThGLVZOcWNMY2YzbFJLYTZRbzVyUHVwOE1rYjhqM1RwdGhJVGRMeHhHM3d6bWwxMFlLV0UzLXpSMElPMlZZQjF3ejBPM1dzaVZCSk9sXzlkVlo0ZEx4bmNMaGFSUXJxdDc0SQ?oc=5",
+      "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "[애널리스트의 마켓뷰]2026년 남은 한해, <b>공모주</b> 시장 주목해야",
+      "link": "https://www.donga.com/news/Economy/article/all/20260921/134712516/2",
+      "description": "다음 달에는 AI 인프라 소프트웨어 기업 <b>래블업</b>, 안전 딥테크 업체 인텔리빅스 등이 <b>공모</b>가 산정을 위한 기관투자가 수요예측에 나선다. 엘리스그룹뿐 아니라 여러 기업이 조 단위 시가총액에 도전 중이다. 패션... ",
+      "pubDate": "Tue, 22 Sep 2026 00:32:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "AI 기업 줄줄이 증시로…하반기 IPO '실적 검증대'",
+      "link": "https://news.mtn.co.kr/news-detail/2026091814183622624",
+      "description": "일반청약에는 약 2조6000억원의 증거금이 몰렸고 경쟁률은 1048대 1을 기록했다.AI 클라우드 기업 엘리스그룹과 AI 인프라 소프트웨어 기업 <b>래블업</b>도 하반기 <b>공모</b>에 나선다. 엘리스그룹은 다음달 7~8일 일반청약을... ",
+      "pubDate": "Fri, 18 Sep 2026 15:44:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "8월 한파 딛고 IPO 시장 '꿈틀'…무신사 등 대어 출격에 흥행 기대",
+      "link": "https://news.tf.co.kr/read/economy/2365474.htm",
+      "description": "14일 금융투자업계에 따르면 이번 <b>주</b> IPO 시장에서는 멜콘과 진코스텍이 기관투자자 대상 수요예측에... 네오사피엔스가 <b>공모</b> 절차를 밟고 있으며 AI 인프라 소프트웨어 기업 <b>래블업</b>도 이달 말부터 기관 수요예측을... ",
+      "pubDate": "Mon, 14 Sep 2026 11:20:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "AI·로봇 이어 '조 단위 대어'까지…IPO시장 기지개",
+      "link": "https://news.mtn.co.kr/news-detail/2026091116255245139",
+      "description": "AI 분야에선 네오사피엔스, 엘리스그룹, <b>래블업</b> 등이 대기 중이고,로봇 분야에선 빅웨이브로보틱스와 브릴스 등이 <b>공모</b> 일정에 들어갔습니다. 여기에 '조 단위 대어'들도 줄줄이 출격을 준비하고 있습니다.패션 플랫폼... ",
+      "pubDate": "Fri, 11 Sep 2026 17:38:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "이달 AI·로봇社 최대 11곳 <b>공모</b>… IPO시장 달아오른다",
+      "link": "https://www.chosun.com/economy/money/2026/09/11/LNW5H3OX2FGRRF4FCSL7JYA7EA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "description": "진행해 <b>공모</b>가를 확정하고 상장 절차에 들어간다. AI 음성·콘텐츠 생성 기술을 보유한 네오사피엔스는 지난주 기관 수요 예측을 마치고 10~11일 일반 투자자 청약을 진행한다. AI 인프라 소프트웨어 기업 <b>래블업</b>도 뒤를... ",
+      "pubDate": "Fri, 11 Sep 2026 00:36:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "<b>래블업 공모주 청약</b>｜10월 12~13일·<b>공모</b>가·NH투자증권 정리",
+      "link": "https://blog.naver.com/norboa/224419125199",
+      "description": "일반<b>청약</b>은 현재 10월 12~13일로 예정돼 있습니다. <b>래블업 공모</b> 일정 <b>래블업</b>은 총 218만주를 <b>공모</b>합니다. 희망<b>공모</b>가 밴드는 2만원~2만3천원, 예상 <b>공모</b>금액은 약 436억~501억원입니다. 기관투자자 대상... ",
+      "pubDate": "20260922",
+      "source": "블로그"
+    },
+    {
+      "title": "10월 AI <b>공모주</b> 총정리｜엘리스그룹·<b>래블업</b>·인텔리빅스·디티에스",
+      "link": "https://blog.naver.com/smart_2030/224418542853",
+      "description": "<b>공모</b> 규모는 436억501억원이며 일반<b>청약</b>은 **10월 1213일** 예정이다. 대표 주관사는 NH투자증권이다. <b>래블업</b>이 주목받는 이유는 AI 산업의 방향이 바뀌고 있기 때문이다. 과거에는 “GPU를 얼마나 많이... ",
+      "pubDate": "20260921",
+      "source": "블로그"
+    },
+    {
+      "title": "“<b>래블업 공모주</b> 10월 <b>청약</b> 시작”… 비싼 GPU 아껴주는 회사라고?",
+      "link": "https://blog.naver.com/sada9_/224417608630",
+      "description": "10월 <b>공모주 청약</b>을 앞둔 <b>래블업</b>은 바로 이 문제를 해결하는 회사입니다. 그렇다면 GPU를 아껴준다는 것은 도대체 무슨 뜻일까요? 요약 <b>래블업</b>은 GPU 등 AI 컴퓨팅 자원을 관리하는 소프트웨어... ",
+      "pubDate": "20260920",
+      "source": "블로그"
+    }
+  ],
+  "updated_at": "2026-09-22 03:48:57",
+  "total_shares_offered": "2180000",
+  "min_bid_price": ""
+}

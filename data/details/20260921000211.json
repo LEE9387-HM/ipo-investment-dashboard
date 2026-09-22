@@ -1,0 +1,88 @@
+{
+  "rcept_no": "20260921000211",
+  "corp_name": "이에스티",
+  "corp_code": "01378005",
+  "stock_code": "",
+  "market": "기타",
+  "status": "청약예정",
+  "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000211",
+  "offering_price_low": "10600",
+  "offering_price_high": "12400",
+  "offering_price_final": "",
+  "subscription_start_dt": "20261022",
+  "subscription_end_dt": "20261023",
+  "listing_dt": "",
+  "underwriter": "대신증권, 및 발행회사가 협의하여 제시한 희망공모가액, 계약 체결",
+  "total_shares": "2200000",
+  "competition_ratio": "",
+  "lock_up_ratio": "10",
+  "demand_forecast_period": "",
+  "business_summary": "매출 및 수주상황」의 품목 구분에 맞추어 디스플레이 제조장비(대형·중대형·중소형·기타부품)와 반도체 제조장비(성숙공정·공정개선·첨단공정·기타)로 통합하여 기재하였습니다.",
+  "news": [
+    {
+      "title": "이에스티, 코스닥 상장 증권신고서 제출 - 뉴스톱",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBncTdLa042WXd6MnZqT1MyZ3lEbXgwMVhQOUFlOWo1TnNhTFEyb2VsUzBWbVpvYWpvR18xRmJjSjlzZlhCSllVM3dKVktlU3IxSUdQbG10X3lxcTNxbExGZUw0RmhsWVZFdTJrOGUzVQ?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 07:59:20 GMT"
+    },
+    {
+      "title": "이에스티, 코스닥 상장 예심 통과 - 뉴스톱",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE03TDNoOWtRaG9udDJWbzBOdXZCYUN0aWlmajRTX1pJR1FyeUFyMU51RTJEOWlnNXI0RlM2ZnlmTlowNUNfSWRXbHV1TkV6RkhjQTRQYlRHcF9lQVFDWG9oM0FfMm5QTTJGTVNQQWZENA?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 01:56:35 GMT"
+    },
+    {
+      "title": "[장외시황] 와이즈플래닛컴퍼니, 공모주 청약 시작 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ISXNmYTl3b0tBQXVtNWRFMk9ZZi1LeUZPNXUwa0djbzE1VFliVUY1aTFISXo3TktiYm9FR2YyM1ctdG9jbnhTLWFXRHBmeVdaaEVfWQ?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 07:08:00 GMT"
+    },
+    {
+      "title": "[장외시황] 와이즈플래닛컴퍼니, 공모주 청약 시작 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBnWTNaRFBpNWc2M255bWRuWllDWXFVNVhtU0UwY1RoTXlvbVBPUWRGbWpTWW4yOEttQkRxQ1dlNXVkdzVnQkRsaUhBbw?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 07:09:05 GMT"
+    },
+    {
+      "title": "[장외시황] 와이즈플래닛컴퍼니, 공모주 청약 시작 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5UeTZoSEJIS0RtbGdOZ2MtTXFmd2ZkaHdpZFVGdmdBNTE0S1FqRnZWUERDV0pRZ05PVVBRVjV4cHBacG5yYXhzMXZYTFpPQTA?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 07:09:00 GMT"
+    }
+  ],
+  "community_news": [
+    {
+      "title": "반도체 주도 시대, '관련주' 예약...<b>이에스티</b>, 증권신고서 제출",
+      "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=276914",
+      "description": "<b>이에스티</b>는 소재·부품·장비 전문기업 기술특례로 상장을 추진한다. 총 <b>공모주</b>식수는 220만주로 전량 신주를 발행한다. 희망 <b>공모</b>가 범위는 1만600~1만2400원, 이에 따라 총 <b>공모</b>예정금액은 233억~273억원이 된다. 다음 달... ",
+      "pubDate": "Tue, 22 Sep 2026 08:12:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "대신증권, IPO 파이프라인 결실…9월 예심 승인 절반 주관",
+      "link": "http://www.press9.kr/news/articleView.html?idxno=82924",
+      "description": "올해 IPO 시장의 심사 문턱이 높아진 상황에서도 대신증권의 파이프라인은 본격적인 <b>공모</b> 단계로 이동하는... 이 가운데 대신증권이 상장 주관을 맡은 기업은 <b>이에스티</b>와 에이엘로봇, 명광화이어이엠씨 등 3곳으로 승인... ",
+      "pubDate": "Thu, 17 Sep 2026 16:00:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "중복상장 규제에도…대신증권, IPO 주관 ‘두각’",
+      "link": "https://www.sentv.co.kr/article/view/sentv202609140130",
+      "description": "지난 11일 한국거래소가 승인한 코스닥 상장예비심사 통과기업 <b>이에스티</b>와 에이엘로봇 2곳의 상장주선도 대신증권이 단독으로 맡았습니다. 이번 주에는 <b>공모</b>청약도 이어집니다. 미디어커머스 기업... ",
+      "pubDate": "Mon, 14 Sep 2026 17:54:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "[장외시황] 와이즈플래닛컴퍼니, <b>공모주</b> 청약 시작",
+      "link": "https://www.etoday.co.kr/news/view/2625315",
+      "description": "총 <b>공모주</b>식수는 222만8917주이며, 희망 <b>공모</b>가 밴드는 1만7000~1만8500원이다. 반도체·디스플레이 제조공정용 정전척 생산업체 <b>이에스티</b>와 로봇용 센서기업 에이엘로봇이 한국거래소로부터 코스닥 상장 예비심사... ",
+      "pubDate": "Mon, 14 Sep 2026 16:10:00 +0900",
+      "source": "뉴스"
+    },
+    {
+      "title": "기업과 예술의 만남, 충북 메세나 문화 확산 다짐",
+      "link": "http://www.dynews.co.kr/news/articleView.html?idxno=682652",
+      "description": "충북문화재단은 그간 <b>공모</b>사업과 후원금을 지원했던 한국도자기, 벽산파워, 벽산문화재단, 셀트리온제약, KT... 토석연화‧(<b>주</b>)파인테크닉스, SK하이닉스, 에코프로, 지현기공, 한길 <b>이에스티</b>, 첼로병원 등 문화예술에... ",
+      "pubDate": "Tue, 29 Nov 2022 18:14:00 +0900",
+      "source": "뉴스"
+    }
+  ],
+  "updated_at": "2026-09-22 03:50:51",
+  "total_shares_offered": "2200000",
+  "min_bid_price": ""
+}
